@@ -70,7 +70,3 @@ docs/_build/
 
 # Pyenv
 .python-version
-
-# default filename for specmonkey simple-list
-output.txt
-config.json

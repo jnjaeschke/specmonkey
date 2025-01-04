@@ -1,9 +1,25 @@
 // content.js
+initializeSpecMonkey();
 
-// Ensure the script runs after the DOM is fully loaded
-document.addEventListener("DOMContentLoaded", () => {
-  initializeSpecMonkey();
-});
+/**
+ * Checks if the current domain matches any domain in the config.
+ * It returns the matched domain or null if no match is found.
+ *
+ * @param {string} currentDomain - The hostname of the current page.
+ * @param {Array<string>} configDomains - The list of domains from config.json.
+ * @returns {string|null} - The matched domain or null if no match is found.
+ */
+function getDomainMatch(currentDomain, configDomains) {
+  for (const domain of configDomains) {
+    if (currentDomain === domain) {
+      return domain; // Exact match
+    }
+    if (currentDomain.endsWith(`.${domain}`)) {
+      return domain; // Subdomain match
+    }
+  }
+  return null; // No match found
+}
 
 async function initializeSpecMonkey() {
   try {
@@ -14,13 +30,14 @@ async function initializeSpecMonkey() {
     const currentDomain = window.location.hostname;
 
     // Step 3: Check if the domain is in the config
-    if (config.domains.includes(currentDomain)) {
+    const matchingDomain = getDomainMatch(currentDomain, config.domains);
+    if (matchingDomain) {
       console.log(
         `SpecMonkey: Domain ${currentDomain} is in the config. Proceeding...`
       );
 
       // Step 4: Fetch the corresponding JSON file from GitHub
-      const indexData = await fetchIndexData(currentDomain);
+      const indexData = await fetchIndexData(matchingDomain);
 
       // Step 5: Process the index data and display boxes
       processIndexData(indexData);
@@ -84,25 +101,31 @@ async function fetchIndexData(domain) {
 function processIndexData(indexData) {
   for (const [fragment, elements] of Object.entries(indexData)) {
     if (Array.isArray(elements)) {
-      elements.forEach((element) => {
-        if (element.filepath && element.line_number) {
-          const anchor =
-            document.querySelector(`a[name="${fragment}"], a#${fragment}`) ||
-            findAnchorByIdOrName(fragment);
-
-          if (anchor) {
-            displayHelloBox(anchor, element);
-          } else {
-            console.warn(
-              `SpecMonkey: Fragment '${fragment}' not found on the page.`
-            );
-          }
-        } else {
-          console.warn(
-            `SpecMonkey: Element is missing 'filepath' or 'line_number' fields.`
-          );
+      try {
+        const anchor =
+          //   document.querySelector(`a[name="${fragment}"], a#${fragment}`) ||
+          findAnchorByIdOrName(fragment);
+        if (anchor) {
+          displayHelloBox(anchor, elements);
         }
-      });
+      } catch (e) {
+        console.warn(e);
+      }
+      //   elements.forEach((element) => {
+      //     if (element.url && element.filepath && element.line_number) {
+      //       const elementhostname = URL.parse(element.url).hostname;
+      //       if (window.location.hostname !== elementhostname) {
+      //         console.log(
+      //           `Hostname not identical for ${element.url}: ${document.hostname} != ${elementhostname}`
+      //         );
+      //         return;
+      //       }
+      //     } else {
+      //       console.warn(
+      //         `SpecMonkey: Element is missing 'filepath' or 'line_number' fields.`
+      //       );
+      //     }
+      //   });
     } else {
       console.warn(
         `SpecMonkey: Expected an array for fragment '${fragment}', but got ${typeof elements}.`
@@ -123,9 +146,11 @@ function findAnchorByIdOrName(fragment) {
   return null;
 }
 
-function displayHelloBox(anchor, element) {
+function displayHelloBox(anchor, elements) {
+  console.log("Building a box");
   // Create the box container
   const box = document.createElement("div");
+  box.classList.add("specmonkey-box");
   box.style.border = "2px solid red";
   box.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
   box.style.padding = "10px";
@@ -137,52 +162,48 @@ function displayHelloBox(anchor, element) {
   box.style.fontFamily = "Arial, sans-serif";
   box.style.fontSize = "14px";
 
-  // Create the content (list of links)
-  const content = document.createElement("div");
-  content.style.display = "flex";
-  content.style.flexDirection = "column";
+  elements.forEach((element) => {
+    // Create the content (list of links)
+    const content = document.createElement("div");
+    content.style.display = "flex";
+    content.style.flexDirection = "column";
 
-  // Construct the Searchfox URL
-  const searchfoxURL = constructSearchfoxURL(
-    element.filepath,
-    element.line_number
-  );
+    // Construct the Searchfox URL
+    const searchfoxURL = constructSearchfoxURL(
+      element.filepath,
+      element.line_number
+    );
 
-  // Create the link element
-  const link = document.createElement("a");
-  link.href = searchfoxURL;
-  link.textContent = `View in Searchfox: ${element.filepath}#L${element.line_number}`;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  link.style.color = "#0078D7"; // Searchfox blue color
-  link.style.textDecoration = "none";
-  link.style.marginBottom = "5px";
+    // Create the link element
+    const link = document.createElement("a");
+    link.href = searchfoxURL;
+    link.textContent = `${element.filepath}#${element.line_number}`;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.style.color = "#0078D7"; // Searchfox blue color
+    link.style.textDecoration = "none";
+    link.style.marginBottom = "5px";
 
-  // Append the link to the content
-  content.appendChild(link);
+    // Append the link to the content
+    content.appendChild(link);
 
-  // Optionally, include the "url" field as additional information
-  if (element.url) {
-    const urlInfo = document.createElement("span");
-    urlInfo.textContent = `URL: ${element.url}`;
-    urlInfo.style.fontSize = "12px";
-    urlInfo.style.color = "#555";
-    content.appendChild(urlInfo);
-  }
+    // // Optionally, include the "url" field as additional information
+    // if (element.url) {
+    //   const urlInfo = document.createElement("span");
+    //   urlInfo.textContent = `URL: ${element.url}`;
+    //   urlInfo.style.fontSize = "12px";
+    //   urlInfo.style.color = "#555";
+    //   content.appendChild(urlInfo);
+    // }
 
-  // Append the content to the box
-  box.appendChild(content);
-
+    // Append the content to the box
+    box.appendChild(content);
+  });
   // Append the box to the body
   document.body.appendChild(box);
 
   // Position the box near the anchor
   positionBox(box, anchor);
-
-  // Optionally, remove the box after a certain time or add a close button
-  setTimeout(() => {
-    box.remove();
-  }, 10000); // Removes after 10 seconds
 }
 
 function constructSearchfoxURL(filepath, lineNumber) {
@@ -190,28 +211,26 @@ function constructSearchfoxURL(filepath, lineNumber) {
 
   const baseURL = "https://searchfox.org/"; // Replace with your Searchfox base URL if different
   const repository = "mozilla-central"; // Replace with your repository name
-  const filePath = encodeURIComponent(filepath);
-  const searchfoxURL = `${baseURL}${repository}/source/${filePath}#L${lineNumber}`;
+  //   const filePath = encodeURIComponent(filepath);
+  const searchfoxURL = `${baseURL}${repository}/source/${filepath}#${lineNumber}`;
   return searchfoxURL;
 }
 
 function positionBox(box, anchor) {
+  const viewportWidth = window.innerWidth;
+  const boxWidth = box.offsetWidth;
+
+  // Calculate left position: 90% of viewport width minus box width and some padding
+  const leftPosition = viewportWidth * 0.9 - boxWidth - 10; // 10px padding from the right edge
+
+  // Calculate top position based on anchor's position
   const rect = anchor.getBoundingClientRect();
   const scrollY = window.scrollY || window.pageYOffset;
-  const scrollX = window.scrollX || window.pageXOffset;
 
-  // Position the box above the anchor element
-  box.style.top = `${rect.top + scrollY - box.offsetHeight - 10}px`;
-  box.style.left = `${rect.left + scrollX}px`;
+  // Set the top position aligned with the anchor's top
+  const topPosition = rect.top + scrollY;
 
-  // Ensure the box stays within the viewport
-  if (rect.top + scrollY - box.offsetHeight - 10 < scrollY) {
-    // Position below if not enough space above
-    box.style.top = `${rect.bottom + scrollY + 10}px`;
-  }
-
-  if (rect.left + scrollX + box.offsetWidth > scrollX + window.innerWidth) {
-    // Adjust left position if box overflows to the right
-    box.style.left = `${window.innerWidth - box.offsetWidth - 20}px`;
-  }
+  // Apply the calculated positions to the box
+  box.style.top = `${topPosition}px`;
+  box.style.left = `${leftPosition}px`;
 }
