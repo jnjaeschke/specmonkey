@@ -1,12 +1,15 @@
 use linkify::{LinkFinder, LinkKind};
 use rayon::prelude::*;
+use serde::Serialize;
 use std::{
     fs::File,
     io::{self, BufRead},
+    path::{Path, PathBuf},
     sync::Arc,
 };
 use url::Url;
 
+#[derive(Serialize)]
 pub struct Link {
     pub(super) url: String,
     pub(super) domain: String,
@@ -27,12 +30,13 @@ impl Link {
 }
 
 pub struct URLCrawler {
-    filepaths: Vec<String>,
+    filepaths: Vec<PathBuf>,
+    root_dir: PathBuf,
     whitelist_domains: Arc<Vec<String>>,
 }
 
 impl URLCrawler {
-    fn new(filepaths: Vec<String>, whitelist_domains: Vec<String>) -> Self {
+    fn new(filepaths: Vec<PathBuf>, root_dir: PathBuf, whitelist_domains: Vec<String>) -> Self {
         let whitelist_lowercase: Arc<Vec<_>> = Arc::new(
             whitelist_domains
                 .into_iter()
@@ -42,12 +46,22 @@ impl URLCrawler {
 
         Self {
             filepaths,
+            root_dir,
             whitelist_domains: whitelist_lowercase,
         }
     }
 
-    pub fn find_urls(filepaths: Vec<String>, whitelist_domains: Vec<String>) -> Vec<Link> {
-        Self::new(filepaths, whitelist_domains).find()
+    pub fn find_urls<P: AsRef<Path>>(
+        filepaths: Vec<PathBuf>,
+        root_dir: P,
+        whitelist_domains: Vec<String>,
+    ) -> Vec<Link> {
+        Self::new(
+            filepaths,
+            root_dir.as_ref().to_path_buf(),
+            whitelist_domains,
+        )
+        .find()
     }
 
     fn find(&self) -> Vec<Link> {
@@ -63,17 +77,26 @@ impl URLCrawler {
             .collect()
     }
 
-    fn find_urls_in_file(&self, filepath: &String, file_pointer: File) -> Vec<Link> {
+    fn find_urls_in_file(&self, filepath: &PathBuf, file_pointer: File) -> Vec<Link> {
         let reader = io::BufReader::new(file_pointer);
         Self::find_urls_in_stream(reader)
             .into_iter()
             .filter_map(|(url_string, line_number)| self.filter_domains(url_string, line_number))
             .map(Link::new)
             .map(|mut link| {
-                link.filepath = filepath.clone();
+                link.filepath = self.make_relative_to_root(filepath);
                 link
             })
             .collect()
+    }
+
+    fn make_relative_to_root(&self, absolute_path: &PathBuf) -> String {
+        absolute_path
+            .strip_prefix(&self.root_dir)
+            .unwrap_or(absolute_path)
+            .to_str()
+            .unwrap_or_default()
+            .to_string()
     }
 
     fn find_urls_in_stream<R: BufRead>(stream: R) -> Vec<(String, usize)> {
@@ -202,7 +225,7 @@ mod tests {
             .into_iter()
             .map(String::from)
             .collect::<Vec<_>>();
-        let crawler = URLCrawler::new(vec![], domains);
+        let crawler = URLCrawler::new(vec![], PathBuf::default(), domains);
         assert_eq!(
             crawler.filter_domains(String::from(url), 0).is_some(),
             should_match

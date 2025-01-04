@@ -11,11 +11,12 @@ rayon = "1.10.0"
 url = "2.5.4"
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.9"
-tempfile = "3.3" # Only needed for tests
-clap = {version = "4.5.23", features=["derive"]}
+clap = { version = "4.5.23", features = ["derive"] }
 env_logger = "0.11.6"
 log = "0.4.22"
+serde_json = "1.0.134"
 
 
 [dev-dependencies]
 rstest = "0.24.0"
+tempfile = "3.3"  # Only needed for tests

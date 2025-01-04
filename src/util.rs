@@ -1,12 +1,12 @@
 use crate::SMResult;
 use jwalk::WalkDir;
-use std::path::Path;
+use std::path::{Path, PathBuf};
 use std::sync::Arc;
 
 pub(crate) fn gather_files<P: AsRef<Path>>(
     directory: P,
     extensions: Arc<Vec<String>>,
-) -> SMResult<Vec<String>> {
+) -> SMResult<Vec<PathBuf>> {
     let files = WalkDir::new(directory)
         .try_into_iter()
         .map_err(|e| e.into_io_error().unwrap())?
@@ -22,7 +22,7 @@ pub(crate) fn gather_files<P: AsRef<Path>>(
                         .eq_ignore_ascii_case(e)
                 })
         })
-        .map(|p| String::from(p.path().to_str().unwrap_or_default()))
+        .map(|p| p.path())
         .collect::<Vec<_>>();
     Ok(files)
 }
