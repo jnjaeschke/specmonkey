@@ -12,6 +12,7 @@ use url::Url;
 #[derive(Serialize)]
 pub struct Link {
     pub(super) url: String,
+    #[serde(skip_serializing)]
     pub(super) domain: String,
     pub(super) filepath: String,
     pub(super) line_number: usize,
