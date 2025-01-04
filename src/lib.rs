@@ -1,12 +1,16 @@
-use std::io;
 use std::sync::Arc;
 
 use jwalk::WalkDir;
 use pyo3::types::PyModule;
 use pyo3::{exceptions::PyIOError, prelude::*};
 
+mod error;
 mod url_crawler;
+use error::SpecMonkeyError;
 use url_crawler::{Link, URLCrawler};
+
+pub type SMResult<T> = Result<T, SpecMonkeyError>;
+
 /// A Python class representing a URL, its corresponding line number, and the file it was found in.
 #[pyclass(name = "Link")]
 struct PyLink {
@@ -45,9 +49,10 @@ impl From<Link> for PyLink {
     }
 }
 
-fn gather_files(directory: &str, extensions: Arc<Vec<String>>) -> Result<Vec<String>, io::Error> {
+fn gather_files(directory: &str, extensions: Arc<Vec<String>>) -> SMResult<Vec<String>> {
     let files = WalkDir::new(directory)
-        .try_into_iter()?
+        .try_into_iter()
+        .map_err(|e| e.into_io_error().unwrap())?
         .filter_map(|p| p.ok())
         .filter(|p| p.path().is_file())
         .filter(|p| {
