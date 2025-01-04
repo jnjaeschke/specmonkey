@@ -9,6 +9,7 @@ name = "specmonkey_native"
 crate-type = ["cdylib"]
 
 [dependencies]
+jwalk = "0.8.1"
 linkify = "0.10.0"
 rayon = "1.10.0"
 url = "2.5.4"

@@ -1,5 +1,9 @@
-use pyo3::prelude::*;
+use std::io;
+use std::sync::Arc;
+
+use jwalk::WalkDir;
 use pyo3::types::PyModule;
+use pyo3::{exceptions::PyIOError, prelude::*};
 
 mod url_crawler;
 use url_crawler::{Link, URLCrawler};
@@ -41,12 +45,40 @@ impl From<Link> for PyLink {
     }
 }
 
+fn gather_files(directory: &str, extensions: Arc<Vec<String>>) -> Result<Vec<String>, io::Error> {
+    let files = WalkDir::new(directory)
+        .try_into_iter()?
+        .filter_map(|p| p.ok())
+        .filter(|p| p.path().is_file())
+        .filter(|p| {
+            let ext = extensions.clone();
+            ext.is_empty()
+                || ext.iter().any(|e| {
+                    p.path()
+                        .extension()
+                        .unwrap_or_default()
+                        .eq_ignore_ascii_case(e)
+                })
+        })
+        .map(|p| String::from(p.path().to_str().unwrap_or_default()))
+        .collect::<Vec<_>>();
+    Ok(files)
+}
+
 #[pyfunction]
-fn extract_links(filepaths: Vec<String>, whitelist_domains: Vec<String>) -> PyResult<Vec<PyLink>> {
-    Ok(URLCrawler::find_urls(filepaths, whitelist_domains)
-        .into_iter()
-        .map(PyLink::from)
-        .collect())
+fn extract_links(
+    directory: String,
+    extensions: Vec<String>,
+    whitelist_domains: Vec<String>,
+) -> PyResult<Vec<PyLink>> {
+    gather_files(&directory, Arc::new(extensions))
+        .and_then(|filepaths| {
+            Ok(URLCrawler::find_urls(filepaths, whitelist_domains)
+                .into_iter()
+                .map(PyLink::from)
+                .collect())
+        })
+        .map_err(|err| PyIOError::new_err(err.to_string()))
 }
 
 /// A Python module implemented in Rust.

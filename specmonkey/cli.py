@@ -138,19 +138,8 @@ def simple_list(
         click.echo("Verbose mode enabled.")
 
     time = cur_time()
-    # Gather all relevant code files
-    code_files = gather_code_files(directory_path, set(extensions), verbose=verbose)
-    if not code_files:
-        click.echo("No code files found with supported extensions.")
-        sys.exit(0)
-
-    click.echo(
-        f"Found {len(code_files)} code file(s) to process "
-        f"(elapsed time: {cur_time() - time} s)."
-    )
-    time = cur_time()
     # Extract links using the Rust-native function
-    links = extract_links([str(file) for file in code_files], [])
+    links = extract_links(directory, [], [])
     if not links:
         click.echo("No links found in the scanned files.")
     else:
