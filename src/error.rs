@@ -1,5 +1,3 @@
-use pyo3::exceptions::{PyIOError, PyValueError};
-use pyo3::prelude::*;
 use std::fmt;
 use std::io;
 
@@ -42,16 +40,5 @@ impl From<io::Error> for SpecMonkeyError {
 impl From<serde_yaml::Error> for SpecMonkeyError {
     fn from(error: serde_yaml::Error) -> Self {
         SpecMonkeyError::SerdeError(error)
-    }
-}
-
-// Implement conversion from SpecMonkeyError to PyErr.
-impl From<SpecMonkeyError> for PyErr {
-    fn from(error: SpecMonkeyError) -> PyErr {
-        match error {
-            SpecMonkeyError::IoError(e) => PyIOError::new_err(e.to_string()),
-            SpecMonkeyError::SerdeError(e) => PyValueError::new_err(e.to_string()),
-            // Handle additional variants here, mapping to appropriate PyErr types.
-        }
     }
 }
