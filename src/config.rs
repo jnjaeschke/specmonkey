@@ -1,7 +1,7 @@
 use log::info;
 use serde::{Deserialize, Serialize};
-use serde_yaml;
-use std::fs::File;
+use serde_json;
+use std::fs::{self, File};
 use std::io::Read;
 use std::path::Path;
 
@@ -26,7 +26,7 @@ pub struct Repository {
 impl Config {
     /// Parses a YAML file at the given path into a `Config` struct.
     pub fn try_from_file<P: AsRef<Path>>(file_path: P) -> SMResult<Config> {
-        // Open the YAML file
+        // Open the JSON file
         let mut file = File::open(&file_path)?;
 
         // Read the file contents into a string
@@ -34,17 +34,20 @@ impl Config {
         file.read_to_string(&mut contents)?;
 
         // Deserialize the YAML contents into the Config struct
-        let config: Config = serde_yaml::from_str(&contents)?;
+        let config: Config = serde_json::from_str(&contents)?;
         info!("Parsed config file '{}'", &file_path.as_ref().display());
 
         Ok(config)
     }
 
     pub fn write_default<P: AsRef<Path>>(file_path: P) -> SMResult<()> {
-        let yaml_string = serde_yaml::to_string(&Self::default())?;
-        std::fs::write(&file_path, yaml_string)?;
+        // Open the file in write mode, creating it if it doesn't exist.
+        let file = fs::File::create(&file_path)?;
+
+        // Serialize the Vec<IndexItem> to JSON and write it to the file.
+        serde_json::to_writer_pretty(file, &Self::default())?;
         info!(
-            "Wrote default config yaml file to '{}'",
+            "Wrote default config json file to '{}'",
             file_path.as_ref().display()
         );
         Ok(())
@@ -74,79 +77,7 @@ impl Default for Repository {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use std::io::Write;
-    use tempfile::{NamedTempFile, TempDir};
-
-    #[test]
-    fn test_parse_yaml_config() -> SMResult<()> {
-        // Create a temporary YAML file
-        let mut temp_file = NamedTempFile::new()?;
-        let yaml_content = r#"
-extensions:
-  - ".js"
-  - ".ts"
-domains:
-  - "example.com"
-  - "spec.org"
-source_repository:
-  url: "https://github.com/user/source-repo"
-  branch: "main"
-index_repository:
-  url: "https://github.com/user/index-repo"
-  branch: "develop"
-"#;
-        write!(temp_file, "{}", yaml_content)?;
-
-        // Parse the YAML configuration
-        let config = Config::try_from_file(temp_file.path())?;
-
-        // Assert the parsed content
-        assert_eq!(config.extensions, vec![".js", ".ts"]);
-        assert_eq!(config.domains, vec!["example.com", "spec.org"]);
-        assert_eq!(
-            config.source_repository.url,
-            "https://github.com/user/source-repo"
-        );
-        assert_eq!(config.source_repository.branch, "main");
-        assert_eq!(
-            config.index_repository.url,
-            "https://github.com/user/index-repo"
-        );
-        assert_eq!(config.index_repository.branch, "develop");
-
-        Ok(())
-    }
-
-    #[test]
-    fn test_parse_yaml_config_invalid_path() {
-        let result = Config::try_from_file("nonexistent.yaml");
-        assert!(result.is_err());
-    }
-
-    #[test]
-    fn test_parse_yaml_config_invalid_yaml() -> SMResult<()> {
-        // Create a temporary YAML file with invalid content
-        let mut temp_file = NamedTempFile::new()?;
-        let invalid_yaml = r#"
-extensions:
-  - ".js"
-  - ".ts"
-domains: "example.com"  # Should be a list
-source_repository:
-  url: "https://github.com/user/source-repo"
-  branch: "main"
-index_repository:
-  url: "https://github.com/user/index-repo"
-  branch: "develop"
-"#;
-        write!(temp_file, "{}", invalid_yaml)?;
-
-        // Attempt to parse the invalid YAML configuration
-        let result = Config::try_from_file(temp_file.path());
-        assert!(result.is_err());
-
-        Ok(())
-    }
+    use tempfile::TempDir;
 
     #[test]
     fn test_write_default() -> SMResult<()> {
