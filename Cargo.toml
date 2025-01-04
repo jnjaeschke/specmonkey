@@ -11,7 +11,11 @@ crate-type = ["cdylib"]
 [dependencies]
 linkify = "0.10.0"
 rayon = "1.10.0"
+url = "2.5.4"
 
 [dependencies.pyo3]
 version = "0.23.3"
 features = ["extension-module"]
+
+[dev-dependencies]
+rstest = "0.24.0"

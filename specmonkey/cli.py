@@ -150,7 +150,7 @@ def simple_list(
     )
     time = cur_time()
     # Extract links using the Rust-native function
-    links = extract_links([str(file) for file in code_files])
+    links = extract_links([str(file) for file in code_files], [])
     if not links:
         click.echo("No links found in the scanned files.")
     else:
@@ -159,7 +159,7 @@ def simple_list(
         )
         # Convert extracted links to the Link dataclass
         link_objects = [
-            Link(link.url, link.line_number, link.file_name) for link in links
+            Link(link.url, link.line_number, link.filepath) for link in links
         ]
         # Write the links to the output file
         time = cur_time()
