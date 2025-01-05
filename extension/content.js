@@ -1,5 +1,6 @@
 // content.js
 initializeSpecMonkey();
+let currentOpenBox = null;
 
 /**
  * Checks if the current domain matches any domain in the config.
@@ -135,8 +136,9 @@ function processIndexData(indexData) {
 }
 
 function findAnchorByIdOrName(fragment) {
-  // Fallback function to locate anchor elements more reliably
-  // This can be expanded based on specific requirements
+  if (!fragment) {
+    return null;
+  }
   const elementById = document.getElementById(fragment);
   if (elementById) return elementById;
 
@@ -146,64 +148,182 @@ function findAnchorByIdOrName(fragment) {
   return null;
 }
 
+/**
+ * Displays the SpecMonkey information box with organized links and a rocket button.
+ *
+ * @param {HTMLElement} anchor - The anchor element near which the box will be displayed.
+ * @param {Array<Object>} elements - An array of data elements associated with the anchor.
+ */
 function displayHelloBox(anchor, elements) {
-  console.log("Building a box");
+  // Check if a box already exists for this anchor to prevent duplicates
+  if (
+    anchor.nextSibling &&
+    anchor.nextSibling.classList &&
+    anchor.nextSibling.classList.contains("specmonkey-box-button")
+  ) {
+    return;
+  }
+
+  // Create the rocket button
+  const rocketButton = document.createElement("button");
+  rocketButton.classList.add("specmonkey-box-button");
+
+  // Create an img element to hold the SVG icon
+  const rocketIconURL = browser.runtime.getURL("searchfox.png"); // Ensure specmonkey.svg is in your extension's directory
+  const rocketImage = document.createElement("img");
+  rocketImage.src = rocketIconURL;
+  rocketImage.alt = "SpecMonkey"; // Provides accessibility
+  rocketImage.classList.add("specmonkey-box-icon"); // For CSS styling
+
+  // Append the SVG icon to the rocket button
+  rocketButton.appendChild(rocketImage);
+  // Append the rocket button after the anchor
+  anchor.parentNode.insertBefore(rocketButton, anchor.nextSibling);
+
   // Create the box container
   const box = document.createElement("div");
   box.classList.add("specmonkey-box");
-  box.style.border = "2px solid red";
-  box.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
-  box.style.padding = "10px";
-  box.style.position = "absolute";
-  box.style.zIndex = "1000";
-  box.style.borderRadius = "4px";
-  box.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
-  box.style.maxWidth = "300px";
-  box.style.fontFamily = "Arial, sans-serif";
-  box.style.fontSize = "14px";
+  box.style.display = "none"; // Hidden by default
 
-  elements.forEach((element) => {
-    // Create the content (list of links)
-    const content = document.createElement("div");
-    content.style.display = "flex";
-    content.style.flexDirection = "column";
+  // Organize links into categories based on the specified criteria
+  const categorizedLinks = categorizeLinks(elements);
 
-    // Construct the Searchfox URL
-    const searchfoxURL = constructSearchfoxURL(
-      element.filepath,
-      element.line_number
-    );
+  // Populate the box with categorized links
+  for (const [category, links] of Object.entries(categorizedLinks)) {
+    if (links.length === 0) continue; // Skip empty categories
 
-    // Create the link element
-    const link = document.createElement("a");
-    link.href = searchfoxURL;
-    link.textContent = `${element.filepath}#${element.line_number}`;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.style.color = "#0078D7"; // Searchfox blue color
-    link.style.textDecoration = "none";
-    link.style.marginBottom = "5px";
+    // Create and append the headline
+    const headline = document.createElement("h3");
+    headline.textContent = category;
+    box.appendChild(headline);
 
-    // Append the link to the content
-    content.appendChild(link);
+    // Create and append the links
+    links.forEach((linkData) => {
+      const link = document.createElement("a");
+      link.href = constructSearchfoxURL(
+        linkData.filepath,
+        linkData.line_number
+      );
+      link.textContent = `View: ${linkData.filepath}#L${linkData.line_number}`;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
 
-    // // Optionally, include the "url" field as additional information
-    // if (element.url) {
-    //   const urlInfo = document.createElement("span");
-    //   urlInfo.textContent = `URL: ${element.url}`;
-    //   urlInfo.style.fontSize = "12px";
-    //   urlInfo.style.color = "#555";
-    //   content.appendChild(urlInfo);
-    // }
+      box.appendChild(link);
+    });
+  }
 
-    // Append the content to the box
-    box.appendChild(content);
-  });
+  // Optional: Add a close button
+  const closeButton = document.createElement("span");
+  closeButton.textContent = "×";
+  closeButton.classList.add("specmonkey-close-button");
+
+  // Append the close button to the box
+  box.appendChild(closeButton);
+
   // Append the box to the body
   document.body.appendChild(box);
 
-  // Position the box near the anchor
-  positionBox(box, anchor);
+  /**
+   * Positions the SpecMonkey box immediately adjacent to the rocket button.
+   */
+  function positionBox() {
+    // Get the bounding rectangle of the rocket button
+    const buttonRect = rocketButton.getBoundingClientRect();
+
+    // Calculate the position for the box
+    const boxTop = buttonRect.bottom + window.scrollY + 5; // 5px below the button
+    const boxLeft = buttonRect.left + window.scrollX; // Align with the button's left edge
+
+    // Apply the calculated positions to the box
+    box.style.position = "absolute";
+    box.style.top = `${boxTop}px`;
+    box.style.left = `${boxLeft}px`;
+
+    // Optional: Adjust the box's width based on available space
+    const viewportWidth = window.innerWidth;
+    const availableWidth = viewportWidth - boxLeft - 20; // 20px padding from the right edge
+    if (box.offsetWidth > availableWidth) {
+      box.style.width = `${availableWidth}px`;
+    }
+  }
+
+  // Event listener for clicking the rocket button
+  rocketButton.addEventListener("click", (event) => {
+    event.stopPropagation(); // Prevent the event from bubbling up
+    const isVisible = box.style.display === "block";
+    if (!isVisible) {
+      if (currentOpenBox && currentOpenBox !== box) {
+        currentOpenBox.style.display = "none";
+      }
+      box.style.display = "block";
+      positionBox();
+      currentOpenBox = box;
+      // Add event listener to the document to handle clicks outside
+      document.addEventListener("click", handleClickOutsideBox);
+    } else {
+      box.style.display = "none";
+      currentOpenBox = null;
+      document.removeEventListener("click", handleClickOutsideBox);
+    }
+  });
+
+  // Event listener for the close button
+  closeButton.addEventListener("click", (event) => {
+    event.stopPropagation(); // Prevent triggering other click events
+    box.style.display = "none";
+    currentOpenBox = null;
+    document.removeEventListener("click", handleClickOutsideBox);
+  });
+
+  /**
+   * Handles clicks outside the SpecMonkey box to close it.
+   *
+   * @param {MouseEvent} event - The mouse event triggered by the click.
+   */
+  function handleClickOutsideBox(event) {
+    if (!box.contains(event.target) && !rocketButton.contains(event.target)) {
+      box.style.display = "none";
+      currentOpenBox = null;
+      document.removeEventListener("click", handleClickOutsideBox);
+    }
+  }
+}
+
+/**
+ * Categorizes links based on specified criteria.
+ *
+ * @param {Array<Object>} elements - An array of data elements containing filepath and line_number.
+ * @returns {Object} - An object containing categorized links.
+ */
+function categorizeLinks(elements) {
+  const categories = {
+    "Web-Platform Test": [],
+    Mochitest: [],
+    Code: [],
+  };
+
+  // Define the file extensions for Mochitest
+  const mochitestExtensions = [".html", ".xhtml", ".js"];
+
+  // Iterate through each element and categorize it
+  elements.forEach((element) => {
+    const filepath = element.filepath;
+    const lowerPath = filepath.toLowerCase();
+    const extension = `.${lowerPath.split(".").pop()}`;
+
+    if (lowerPath.startsWith("testing/web-platform")) {
+      categories["Web-Platform Test"].push(element);
+    } else if (
+      lowerPath.includes("test") &&
+      mochitestExtensions.includes(extension)
+    ) {
+      categories["Mochitest"].push(element);
+    } else {
+      categories["Code"].push(element);
+    }
+  });
+
+  return categories;
 }
 
 function constructSearchfoxURL(filepath, lineNumber) {
@@ -214,23 +334,4 @@ function constructSearchfoxURL(filepath, lineNumber) {
   //   const filePath = encodeURIComponent(filepath);
   const searchfoxURL = `${baseURL}${repository}/source/${filepath}#${lineNumber}`;
   return searchfoxURL;
-}
-
-function positionBox(box, anchor) {
-  const viewportWidth = window.innerWidth;
-  const boxWidth = box.offsetWidth;
-
-  // Calculate left position: 90% of viewport width minus box width and some padding
-  const leftPosition = viewportWidth * 0.9 - boxWidth - 10; // 10px padding from the right edge
-
-  // Calculate top position based on anchor's position
-  const rect = anchor.getBoundingClientRect();
-  const scrollY = window.scrollY || window.pageYOffset;
-
-  // Set the top position aligned with the anchor's top
-  const topPosition = rect.top + scrollY;
-
-  // Apply the calculated positions to the box
-  box.style.top = `${topPosition}px`;
-  box.style.left = `${leftPosition}px`;
 }

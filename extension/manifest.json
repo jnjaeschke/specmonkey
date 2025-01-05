@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "SpecMonkey",
     "version": "0.1.0",
-    "description": "Checks the domain of a page against a set of domains and displays related information.",
+    "description": "Finds references to specification sections in the Gecko codebase.",
     "icons": {
 
     },
@@ -13,10 +13,12 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js"]
+        "js": ["content.js"],
+        "css": ["styles.css"]
       }
     ],
     "web_accessible_resources": [
-      "config.json"
+      "config.json",
+      "searchfox.png"
     ]
   }
