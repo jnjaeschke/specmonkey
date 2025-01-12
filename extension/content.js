@@ -107,26 +107,11 @@ function processIndexData(indexData) {
           //   document.querySelector(`a[name="${fragment}"], a#${fragment}`) ||
           findAnchorByIdOrName(fragment);
         if (anchor) {
-          displayHelloBox(anchor, elements);
+          displaySpecmonkeyButton(anchor, elements);
         }
       } catch (e) {
         console.warn(e);
       }
-      //   elements.forEach((element) => {
-      //     if (element.url && element.filepath && element.line_number) {
-      //       const elementhostname = URL.parse(element.url).hostname;
-      //       if (window.location.hostname !== elementhostname) {
-      //         console.log(
-      //           `Hostname not identical for ${element.url}: ${document.hostname} != ${elementhostname}`
-      //         );
-      //         return;
-      //       }
-      //     } else {
-      //       console.warn(
-      //         `SpecMonkey: Element is missing 'filepath' or 'line_number' fields.`
-      //       );
-      //     }
-      //   });
     } else {
       console.warn(
         `SpecMonkey: Expected an array for fragment '${fragment}', but got ${typeof elements}.`
@@ -149,12 +134,12 @@ function findAnchorByIdOrName(fragment) {
 }
 
 /**
- * Displays the SpecMonkey information box with organized links and a rocket button.
+ * Displays the SpecMonkey information box with organized links and a specmonkey button.
  *
  * @param {HTMLElement} anchor - The anchor element near which the box will be displayed.
  * @param {Array<Object>} elements - An array of data elements associated with the anchor.
  */
-function displayHelloBox(anchor, elements) {
+function displaySpecmonkeyButton(anchor, elements) {
   // Check if a box already exists for this anchor to prevent duplicates
   if (
     anchor.nextSibling &&
@@ -164,21 +149,24 @@ function displayHelloBox(anchor, elements) {
     return;
   }
 
-  // Create the rocket button
-  const rocketButton = document.createElement("button");
-  rocketButton.classList.add("specmonkey-box-button");
+  // Create the specmonkey button
+  const specMonkeyButton = document.createElement("button");
+  specMonkeyButton.classList.add("specmonkey-box-button");
 
   // Create an img element to hold the SVG icon
-  const rocketIconURL = browser.runtime.getURL("searchfox.png"); // Ensure specmonkey.svg is in your extension's directory
-  const rocketImage = document.createElement("img");
-  rocketImage.src = rocketIconURL;
-  rocketImage.alt = "SpecMonkey"; // Provides accessibility
-  rocketImage.classList.add("specmonkey-box-icon"); // For CSS styling
+  const specMonkeyIconFilename = browser.runtime.getURL("searchfox.png"); // Ensure specmonkey.svg is in your extension's directory
+  const specMonkeyIcon = document.createElement("img");
+  specMonkeyIcon.src = specMonkeyIconFilename;
+  specMonkeyIcon.alt = "SpecMonkey"; // Provides accessibility
+  specMonkeyIcon.classList.add("specmonkey-box-icon"); // For CSS styling
 
-  // Append the SVG icon to the rocket button
-  rocketButton.appendChild(rocketImage);
-  // Append the rocket button after the anchor
-  anchor.parentNode.insertBefore(rocketButton, anchor.nextSibling);
+  // Append the SVG icon to the specmonkey button
+  specMonkeyButton.appendChild(specMonkeyIcon);
+  // Append the specmonkey button after the anchor
+  anchor.insertAdjacentElement(
+    anchor.nodeType == "a" ? "afterend" : "beforeend",
+    specMonkeyButton
+  );
 
   // Create the box container
   const box = document.createElement("div");
@@ -224,11 +212,11 @@ function displayHelloBox(anchor, elements) {
   document.body.appendChild(box);
 
   /**
-   * Positions the SpecMonkey box immediately adjacent to the rocket button.
+   * Positions the SpecMonkey box immediately adjacent to the specmonkey button.
    */
   function positionBox() {
-    // Get the bounding rectangle of the rocket button
-    const buttonRect = rocketButton.getBoundingClientRect();
+    // Get the bounding rectangle of the specmonkey button
+    const buttonRect = specMonkeyButton.getBoundingClientRect();
 
     // Calculate the position for the box
     const boxTop = buttonRect.bottom + window.scrollY + 5; // 5px below the button
@@ -247,8 +235,8 @@ function displayHelloBox(anchor, elements) {
     }
   }
 
-  // Event listener for clicking the rocket button
-  rocketButton.addEventListener("click", (event) => {
+  // Event listener for clicking the specmonkey button
+  specMonkeyButton.addEventListener("click", (event) => {
     event.stopPropagation(); // Prevent the event from bubbling up
     const isVisible = box.style.display === "block";
     if (!isVisible) {
@@ -281,7 +269,10 @@ function displayHelloBox(anchor, elements) {
    * @param {MouseEvent} event - The mouse event triggered by the click.
    */
   function handleClickOutsideBox(event) {
-    if (!box.contains(event.target) && !rocketButton.contains(event.target)) {
+    if (
+      !box.contains(event.target) &&
+      !specMonkeyButton.contains(event.target)
+    ) {
       box.style.display = "none";
       currentOpenBox = null;
       document.removeEventListener("click", handleClickOutsideBox);
