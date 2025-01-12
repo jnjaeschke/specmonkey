@@ -1,0 +1,776 @@
+{
+  "flush-and-enqueue": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#flush-and-enqueue",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 139
+    }
+  ],
+  "dom-textencoder-encodeinto": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textencoder-encodeinto",
+      "filepath": "mfbt/Latin1.h",
+      "line_number": 220
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textencoder-encodeinto",
+      "filepath": "mfbt/Utf8.h",
+      "line_number": 326
+    }
+  ],
+  "utf-8-decode-without-bom": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode-without-bom",
+      "filepath": "intl/Encoding.h",
+      "line_number": 427
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode-without-bom",
+      "filepath": "intl/Encoding.h",
+      "line_number": 465
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode-without-bom",
+      "filepath": "intl/Encoding.h",
+      "line_number": 531
+    }
+  ],
+  "names-and-labels": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-cn-big5.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-csbig5.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-x-x-big5.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-big5-hkscs.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-csbig5.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-x-x-big5.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-big5-hkscs.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-cn-big5.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-cseuckr.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-csksc56011987.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-ks_c_5601-1987.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-ksc_5601.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-korean.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-ksc_5601.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-cseuckr.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-windows-949.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-iso-ir-149.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-iso-ir-149.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-csksc56011987.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-ks_c_5601-1989.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-windows-949.html",
+      "line_number": 32
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-ksc5601.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-ks_c_5601-1987.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-korean.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-ks_c_5601-1989.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-ksc5601.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form-csiso2022jp.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-ms_kanji.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-csshiftjis.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-x-sjis.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-sjis.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-shift-jis.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-ms932.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#names-and-labels",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-windows-31j.html",
+      "line_number": 19
+    }
+  ],
+  "euc-kr": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-errors-han.html",
+      "line_number": 37
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-href-errors-han.html",
+      "line_number": 37
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-href-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-href.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-encode-form-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-korean/euc-kr/euckr-decode-errors.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-kr",
+      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/wpt/random/euckr-encode-form.html",
+      "line_number": 31
+    }
+  ],
+  "legacy-single-byte-encodings": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#legacy-single-byte-encodings",
+      "filepath": "intl/Encoding.h",
+      "line_number": 256
+    }
+  ],
+  "big5-encoder": [
+    {
+      "url": "http://encoding.spec.whatwg.org/#big5-encoder",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 123003
+    }
+  ],
+  "utf-16le": [
+    {
+      "url": "http://encoding.spec.whatwg.org/#utf-16le",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 124073
+    }
+  ],
+  "utf-8-decode": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 365
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 403
+    }
+  ],
+  "decode-and-enqueue-a-chunk": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode-and-enqueue-a-chunk",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 61
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode-and-enqueue-a-chunk",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 104
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode-and-enqueue-a-chunk",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 126
+    }
+  ],
+  "iso-2022-jp": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-href.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-href-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-decode.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-decode-csiso2022jp.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-href-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-href-errors-hangul.html",
+      "line_number": 25
+    }
+  ],
+  "iso-2022-jp-encoder": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#iso-2022-jp-encoder",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-encode-form-errors-stateful.html",
+      "line_number": 4
+    }
+  ],
+  "utf-8-decode-without-bom-or-fail": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode-without-bom-or-fail",
+      "filepath": "intl/Encoding.h",
+      "line_number": 489
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decode-without-bom-or-fail",
+      "filepath": "intl/Encoding.h",
+      "line_number": 561
+    }
+  ],
+  "euc-jp": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/iso-2022-jp/iso2022jp-decode-errors.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-decode-errors.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-decode-x-euc-jp.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-href.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-href-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form-x-euc-jp.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-href-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-decode-cseucpkdfmtjapanese.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-decode.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-href-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#euc-jp",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/euc-jp/eucjp-encode-form-cseucpkdfmtjapanese.html",
+      "line_number": 21
+    }
+  ],
+  "convert-code-unit-to-scalar-value": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#convert-code-unit-to-scalar-value",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 84
+    }
+  ],
+  "shift_jis": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-windows-31j.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-sjis.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-shift-jis.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-href-errors-han.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-href.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-ms932.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-x-sjis.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-href-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-ms_kanji.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-decode-errors.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-form-csshiftjis.html",
+      "line_number": 21
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#shift_jis",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-japanese/shift_jis/sjis-encode-href-errors-misc.html",
+      "line_number": 17
+    }
+  ],
+  "concept-encoding-get": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#concept-encoding-get",
+      "filepath": "intl/Encoding.h",
+      "line_number": 158
+    }
+  ],
+  "": [
+    {
+      "url": "https://encoding.spec.whatwg.org/",
+      "filepath": "intl/Encoding.h",
+      "line_number": 100
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/w3c_encoding.js",
+      "line_number": 19
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/encodings.json",
+      "filepath": "testing/web-platform/tests/encoding/resources/encodings.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/indexes.json",
+      "filepath": "testing/web-platform/tests/encoding/single-byte-decoder.window.js",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/index-gb18030-ranges.txt",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-schinese/gb18030/resources/ranges.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-characterSet-normalization-1.html",
+      "line_number": 13
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-characterSet-normalization-2.html",
+      "line_number": 13
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 5555
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/encodings.json",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 5732
+    }
+  ],
+  "dom-textdecoderstream": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textdecoderstream",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 95
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textdecoderstream",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 125
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textdecoderstream",
+      "filepath": "dom/encoding/TextDecoderStream.cpp",
+      "line_number": 159
+    }
+  ],
+  "encode-and-enqueue-a-chunk": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#encode-and-enqueue-a-chunk",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 98
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#encode-and-enqueue-a-chunk",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 158
+    }
+  ],
+  "dom-textencoderstream": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textencoderstream",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 142
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textencoderstream",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 172
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textencoderstream",
+      "filepath": "dom/encoding/TextEncoderStream.cpp",
+      "line_number": 205
+    }
+  ],
+  "decode": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode",
+      "filepath": "devtools/shared/DevToolsUtils.js",
+      "line_number": 645
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 292
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#decode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 335
+    }
+  ],
+  "encode": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#encode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 584
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#encode",
+      "filepath": "intl/Encoding.h",
+      "line_number": 628
+    }
+  ],
+  "dom-textdecoder": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#dom-textdecoder",
+      "filepath": "dom/encoding/TextDecoder.cpp",
+      "line_number": 21
+    }
+  ],
+  "big5": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-extra.html",
+      "line_number": 14
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-extBb.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-href-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-href-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-decode-errors.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-href.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-misc.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-hangul.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-enc-ascii.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-extBa.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-han.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-href-errors-han.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://encoding.spec.whatwg.org/#big5",
+      "filepath": "testing/web-platform/tests/encoding/legacy-mb-tchinese/big5/big5-encode-form-errors-pua.html",
+      "line_number": 20
+    }
+  ],
+  "utf-8-decoder": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#utf-8-decoder",
+      "filepath": "intl/icu_capi/src/utf.rs",
+      "line_number": 27
+    }
+  ],
+  "shared-utf-16-decoder": [
+    {
+      "url": "https://encoding.spec.whatwg.org/#shared-utf-16-decoder",
+      "filepath": "intl/icu_capi/src/utf.rs",
+      "line_number": 104
+    }
+  ]
+}

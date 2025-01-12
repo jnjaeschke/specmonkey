@@ -1,0 +1,104 @@
+{
+  "": [
+    {
+      "url": "https://resources.whatwg.org/standard.css",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 1
+    },
+    {
+      "url": "https://resources.whatwg.org/logo.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 1
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/chrome.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 24
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/firefox.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 25
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/uc.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 26
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/android.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 27
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/bb.jpg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/chrome.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 29
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/edge.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 30
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/firefox.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 31
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/ie.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 32
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/ie-mobile.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 33
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/safari-ios.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 34
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/opera-mini.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/opera.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 36
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/opera.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 37
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/safari.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 38
+    },
+    {
+      "url": "https://resources.whatwg.org/browser-logos/samsung.png",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 39
+    },
+    {
+      "url": "https://resources.whatwg.org/file-issue.js",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 161
+    },
+    {
+      "url": "https://resources.whatwg.org/logo.svg",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 163
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "": [
+    {
+      "url": "http://johnjbarton.github.io/nonymous/index.html",
+      "filepath": "devtools/client/shared/components/reps/reps/function.js",
+      "line_number": 200
+    },
+    {
+      "url": "http://johnjbarton.github.io/nonymous/index.html",
+      "filepath": "devtools/client/debugger/src/utils/pause/frames/displayName.js",
+      "line_number": 7
+    }
+  ]
+}

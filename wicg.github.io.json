@@ -1,0 +1,1828 @@
+{
+  "dom-cssstylesheet-cssstylesheet": [
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/#dom-cssstylesheet-cssstylesheet",
+      "filepath": "layout/style/StyleSheet.cpp",
+      "line_number": 82
+    }
+  ],
+  "web-bluetooth-patch": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#web-bluetooth-patch",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/resources/bluetooth-access.https.html",
+      "line_number": 18
+    },
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#web-bluetooth-patch",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-bluetooth.tentative.https.html",
+      "line_number": 43
+    }
+  ],
+  "security-and-privacy": [
+    {
+      "url": "https://wicg.github.io/video-rvfc/#security-and-privacy",
+      "filepath": "dom/html/HTMLVideoElement.cpp",
+      "line_number": 779
+    }
+  ],
+  "sanitize-action-for-an-attribute": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#sanitize-action-for-an-attribute",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1980
+    }
+  ],
+  "sec-report-image-element": [
+    {
+      "url": "https://wicg.github.io/element-timing/#sec-report-image-element",
+      "filepath": "dom/performance/LargestContentfulPaint.cpp",
+      "line_number": 375
+    }
+  ],
+  "backgroundfetchupdateuievent": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#backgroundfetchupdateuievent",
+      "filepath": "testing/web-platform/tests/background-fetch/update-ui.https.window.js",
+      "line_number": 7
+    }
+  ],
+  "implicitly-restricted": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#implicitly-restricted",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-screen-capture.https.html",
+      "line_number": 30
+    }
+  ],
+  "dom-backgroundfetchregistration-match": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-match",
+      "filepath": "testing/web-platform/tests/background-fetch/match.https.window.js",
+      "line_number": 8
+    }
+  ],
+  "tasksignal-signal-priority-change": [
+    {
+      "url": "https://wicg.github.io/scheduling-apis/#tasksignal-signal-priority-change",
+      "filepath": "dom/webscheduling/WebTaskController.cpp",
+      "line_number": 23
+    }
+  ],
+  "browsing-context-loading-mode": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.htmlprerendering.html#browsing-context-loading-mode",
+      "filepath": "testing/web-platform/tests/fenced-frame/resources/navigate-by-name-reporting-helper.html",
+      "line_number": 23
+    }
+  ],
+  "feature-policy": [
+    {
+      "url": "https://wicg.github.io/picture-in-picture/#feature-policy",
+      "filepath": "testing/web-platform/tests/feature-policy/picture-in-picture-supported-by-feature-policy.html",
+      "line_number": 4
+    }
+  ],
+  "examples": [
+    {
+      "url": "https://wicg.github.io/signature-based-sri/#examples",
+      "filepath": "testing/web-platform/tests/subresource-integrity/signatures/tentative/path.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/signature-based-sri/#examples",
+      "filepath": "testing/web-platform/tests/subresource-integrity/signatures/tentative/fetch.any.js",
+      "line_number": 5
+    }
+  ],
+  "permissions-policy": [
+    {
+      "url": "https://wicg.github.io/local-fonts/#permissions-policy",
+      "filepath": "testing/web-platform/tests/font-access/permissions-policy/local-fonts-supported-by-permissions-policy.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/local-fonts/#permissions-policy",
+      "filepath": "testing/web-platform/tests/fetch/fetch-later/permissions-policy/deferred-fetch-supported-by-permissions-policy.tentative.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/webusb/#permissions-policy",
+      "filepath": "testing/web-platform/tests/webusb/usb-supported-by-permissions-policy.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/picture-in-picture/#permissions-policy",
+      "filepath": "testing/web-platform/tests/permissions-policy/picture-in-picture-supported-by-permissions-policy.html",
+      "line_number": 4
+    }
+  ],
+  "has-block-level-display": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#has-block-level-display",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 119
+    }
+  ],
+  "ref-for-abortsignal-add": [
+    {
+      "url": "https://wicg.github.io/observable/#ref-for-abortsignal-add",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-catch.any.js",
+      "line_number": 232
+    }
+  ],
+  "compress-and-enqueue-a-chunk": [
+    {
+      "url": "https://wicg.github.io/compression/#compress-and-enqueue-a-chunk",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 55
+    },
+    {
+      "url": "https://wicg.github.io/compression/#compress-and-enqueue-a-chunk",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 58
+    },
+    {
+      "url": "https://wicg.github.io/compression/#compress-and-enqueue-a-chunk",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 103
+    }
+  ],
+  "scrolltimeline-interface": [
+    {
+      "url": "https://wicg.github.io/scroll-animations/#scrolltimeline-interface",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/constructor.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/scroll-animations/#scrolltimeline-interface",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/constructor-no-document.html",
+      "line_number": 4
+    }
+  ],
+  "dom-filesystemdirectoryentry-getfile": [
+    {
+      "url": "https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getfile",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryentry-getFile-manual.html",
+      "line_number": 4
+    }
+  ],
+  "avoiding-cycles": [
+    {
+      "url": "https://wicg.github.io/scroll-animations/#avoiding-cycles",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/scroll-timeline-snapshotting.html",
+      "line_number": 4
+    }
+  ],
+  "restricting-the-text-fragment": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#restricting-the-text-fragment",
+      "filepath": "dom/base/FragmentDirective.h",
+      "line_number": 123
+    }
+  ],
+  "api-domfilesystem": [
+    {
+      "url": "https://wicg.github.io/entries-api/#api-domfilesystem",
+      "filepath": "testing/web-platform/tests/entries-api/filesystem-manual.html",
+      "line_number": 4
+    }
+  ],
+  "baseline-attribute-allow-list": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#baseline-attribute-allow-list",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 971
+    }
+  ],
+  "invoking-text-directives": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoking-text-directives",
+      "filepath": "layout/base/nsDocumentViewer.cpp",
+      "line_number": 1099
+    },
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoking-text-directives",
+      "filepath": "layout/base/PresShell.cpp",
+      "line_number": 3133
+    },
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoking-text-directives",
+      "filepath": "layout/base/PresShell.cpp",
+      "line_number": 3198
+    },
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoking-text-directives",
+      "filepath": "dom/base/Document.cpp",
+      "line_number": 4185
+    },
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoking-text-directives",
+      "filepath": "dom/base/Document.cpp",
+      "line_number": 13541
+    }
+  ],
+  "corp-check": [
+    {
+      "url": "https://wicg.github.io/cross-origin-embedder-policy/#corp-check",
+      "filepath": "netwerk/base/LoadInfo.h",
+      "line_number": 407
+    },
+    {
+      "url": "https://wicg.github.io/cross-origin-embedder-policy/#corp-check",
+      "filepath": "dom/cache/CacheOpParent.cpp",
+      "line_number": 275
+    }
+  ],
+  "activation-gated": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#activation-gated",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-web-share.https.html",
+      "line_number": 28
+    },
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#activation-gated",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-idle-detection.https.html",
+      "line_number": 28
+    }
+  ],
+  "decompress-flush-and-enqueue": [
+    {
+      "url": "https://wicg.github.io/compression/#decompress-flush-and-enqueue",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 89
+    },
+    {
+      "url": "https://wicg.github.io/compression/#decompress-flush-and-enqueue",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 101
+    },
+    {
+      "url": "https://wicg.github.io/compression/#decompress-flush-and-enqueue",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 219
+    }
+  ],
+  "background-fetch-manager-get": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#background-fetch-manager-get",
+      "filepath": "testing/web-platform/tests/background-fetch/get.https.window.js",
+      "line_number": 8
+    }
+  ],
+  "default-configuration": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#default-configuration",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1237
+    },
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#default-configuration",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1459
+    }
+  ],
+  "non-searchable-subtree": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#non-searchable-subtree",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 135
+    }
+  ],
+  "sanitize-action-for-an-element": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#sanitize-action-for-an-element",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1584
+    },
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#sanitize-action-for-an-element",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1730
+    }
+  ],
+  "invoke-text-directives": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#invoke-text-directives",
+      "filepath": "dom/base/TextDirectiveFinder.cpp",
+      "line_number": 32
+    }
+  ],
+  "find-a-range-from-a-text-directive": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#find-a-range-from-a-text-directive",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/find-range-from-text-directive.html",
+      "line_number": 4
+    }
+  ],
+  "display-mode-extensions": [
+    {
+      "url": "http://wicg.github.io/manifest-incubations/#display-mode-extensions",
+      "filepath": "testing/web-platform/tests/css/mediaqueries/display-mode.tentative.html",
+      "line_number": 2
+    }
+  ],
+  "compress-flush-and-enqueue": [
+    {
+      "url": "https://wicg.github.io/compression/#compress-flush-and-enqueue",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 92
+    },
+    {
+      "url": "https://wicg.github.io/compression/#compress-flush-and-enqueue",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 104
+    }
+  ],
+  "features": [
+    {
+      "url": "https://wicg.github.io/feature-policy/#features",
+      "filepath": "testing/web-platform/tests/feature-policy/resources/featurepolicy.js",
+      "line_number": 24
+    }
+  ],
+  "element-kind": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#element-kind",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1696
+    }
+  ],
+  "file-interface": [
+    {
+      "url": "https://wicg.github.io/entries-api/#file-interface",
+      "filepath": "testing/web-platform/tests/entries-api/file-webkitRelativePath-manual.html",
+      "line_number": 4
+    }
+  ],
+  "decompress-and-enqueue-a-chunk": [
+    {
+      "url": "https://wicg.github.io/compression/#decompress-and-enqueue-a-chunk",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 100
+    }
+  ],
+  "baseline-elements": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#baseline-elements",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1190
+    }
+  ],
+  "overscroll-behavior-properties": [
+    {
+      "url": "https://wicg.github.io/overscroll-behavior/#overscroll-behavior-properties",
+      "filepath": "servo/components/style/properties/longhands/box.mako.rs",
+      "line_number": 352
+    },
+    {
+      "url": "https://wicg.github.io/overscroll-behavior/#overscroll-behavior-properties",
+      "filepath": "servo/components/style/properties/shorthands/box.mako.rs",
+      "line_number": 32
+    }
+  ],
+  "patch-notifications": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#patch-notifications",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-notification.https.html",
+      "line_number": 3
+    }
+  ],
+  "nearest-block-ancestor": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#nearest-block-ancestor",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 125
+    }
+  ],
+  "document-uninvoked-directives": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#document-uninvoked-directives",
+      "filepath": "dom/base/FragmentDirective.h",
+      "line_number": 40
+    }
+  ],
+  "dom-subscriber-complete": [
+    {
+      "url": "https://wicg.github.io/observable/#dom-subscriber-complete",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-map.any.js",
+      "line_number": 111
+    }
+  ],
+  "dom-cssstylesheet-insertrule": [
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/#dom-cssstylesheet-insertrule",
+      "filepath": "layout/style/StyleSheet.cpp",
+      "line_number": 607
+    }
+  ],
+  "": [
+    {
+      "url": "https://wicg.github.io/event-timing/",
+      "filepath": "testing/web-platform/tests/event-timing/idlharness.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/webhid/",
+      "filepath": "testing/web-platform/tests/webhid/idlharness.https.any.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/element-timing/",
+      "filepath": "testing/web-platform/tests/element-timing/idlharness.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/media-capabilities/",
+      "filepath": "testing/web-platform/tests/media-capabilities/idlharness.any.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/shape-detection-api/",
+      "filepath": "testing/web-platform/tests/shape-detection/idlharness.https.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/background-fetch/",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-background-fetch.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/mixed-content-fetch.tentative.https.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/window-open.tentative.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/anchor.tentative.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/window-open-existing.tentative.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/background-fetch/",
+      "filepath": "testing/web-platform/tests/background-fetch/idlharness.https.any.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/performance-measure-memory/",
+      "filepath": "testing/web-platform/tests/measure-memory/idlharness.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/webusb/test/",
+      "filepath": "testing/web-platform/tests/webusb/resources/usb-helpers.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/compression/",
+      "filepath": "testing/web-platform/tests/compression/idlharness.https.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/fully-clipped-visual-rect.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/content-visibility-auto-onscreen.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/body-display-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/ignore-fixed-and-sticky.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-into-viewport-inline-direction-and-scroll.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/transform.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/transform-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/sticky-descendant-move.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/inline-flow-shift-vertical-rl.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/video.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/expand-above-viewport.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-into-viewport.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/move-distance-clamped.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/content-visibility-auto-resize.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/transform-above-filter-dynamic.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-outside-viewport-inline-direction.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/transform-counter-layout-shift.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/main-frame.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-while-scrolled.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/contain-paint-fully-clipped.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/rtl-distance.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-outside-viewport.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/clip-negative-bottom-margin.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/opacity-nonzero-to-zero.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/add-remove-position-sticky.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/add-remove-position-fixed.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/multicol-000.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/absolute-child-shift-with-parent-will-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/visible-to-hidden.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/translate-counter-layout-shift.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/transform-above-perspective-dynamic.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/multi-clip-visual-rect.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-with-counterscroll-2.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/sources-maximpact.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/pointerdown-becomes-scroll.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/content-visibility-hidden.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/composited-element-movement.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-with-overflow-status-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/inline-flow-shift-one-line.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/move-transformed.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/pointerdown-becomes-tap.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/visibility-hidden.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/child-shift-with-parent.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/absolute-child-shift-with-parent-contain.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/sticky-layout-no-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/sources.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-scroll-anchoring-natural-scroll.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/local-shift-without-viewport-shift-2.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/absolute-child-shift-with-parent-negative-overflow.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/child-shift-with-parent-overflow-x-clip.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-invisible.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/content-visibility-auto-offscreen.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/visibility-hidden-layout-and-visible.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/display-change-with-transform.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/fixed-position-move.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/outline.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-into-viewport-inline-direction.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/multicol-001.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/child-shift-with-parent-overflow-hidden.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/inline-flow-shift.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/partially-clipped-visual-rect.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/opacity-zero.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/local-shift-without-viewport-shift.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/sources-enclosure.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/mousemove-becomes-drag.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/opacity-zero-layout-and-visible.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/simple-block-movement.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-with-counter-scroll-and-transform.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/translate-change.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/pointermove-becomes-drag.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/idlharness.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-with-counterscroll.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/shift-with-counter-scroll-and-translate.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/layout-instability/",
+      "filepath": "testing/web-platform/tests/layout-instability/absolute-child-shift-with-parent-overflow.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/webusb/test/",
+      "filepath": "testing/web-platform/tests/resources/chromium/webusb-test.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/auxclick",
+      "filepath": "testing/web-platform/tests/html/interaction/focus/focus-input-type-switch.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegate-fullscreen-request-popup-same-origin.https.tentative.html",
+      "line_number": 18
+    },
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegation-consumes-activation.https.tentative.html",
+      "line_number": 17
+    },
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegate-fullscreen-request-popup-cross-origin.https.sub.tentative.html",
+      "line_number": 18
+    },
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegate-fullscreen-request-subframe-same-origin.https.tentative.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegate-fullscreen-request-subframe-cross-origin.https.sub.tentative.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://wicg.github.io/aom/spec/aria-reflection.html",
+      "filepath": "testing/web-platform/tests/html/dom/aria-attribute-reflection.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/aom/spec/aria-reflection.html",
+      "filepath": "testing/web-platform/tests/html/dom/aria-attribute-reflection.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/background-sync/spec/",
+      "filepath": "testing/web-platform/tests/background-sync/idlharness.https.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/ResizeObserver/",
+      "filepath": "testing/web-platform/tests/resize-observer/idlharness.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/savedata/",
+      "filepath": "testing/web-platform/tests/savedata/idlharness.any.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/geolocation-sensor/",
+      "filepath": "testing/web-platform/tests/geolocation-sensor/GeolocationSensor.https.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/geolocation-sensor/",
+      "filepath": "testing/web-platform/tests/geolocation-sensor/GeolocationSensor_read.https.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/geolocation-sensor/",
+      "filepath": "testing/web-platform/tests/geolocation-sensor/idlharness.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/geolocation-sensor/",
+      "filepath": "testing/web-platform/tests/geolocation-sensor/GeolocationSensor_insecure_context.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/geolocation-sensor/",
+      "filepath": "testing/web-platform/tests/geolocation-sensor/GeolocationSensor-iframe-access.https.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/scoped-registry-define-upgrade-criteria.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/constructor-call.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/scoped-registry-registry-define-get-etc.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/constructor-reentry-with-different-definition.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/CustomElementRegistry-constructor.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/ShadowRoot-init-registry.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/scoped-registry-define-upgrade-order.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/ShadowRoot-importNode.tentative.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/CustomElementRegistry-multi-register.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/ShadowRoot-innerHTML-upgrade.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/webcomponents/proposals/Scoped-Custom-Element-Registries",
+      "filepath": "testing/web-platform/tests/custom-elements/scoped-registry/ShadowRoot-createElement.tentative.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment-api.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/non-html-documents.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/same-document-test-sync-load.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/percent-encoding.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment-after-DOMContentLoaded.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment-scroll-to-center.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/iframes.sub.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/same-document-tests.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment-same-doc.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/iframe-scroll.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/non-html-documents-json.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/same-document-tests-no-force-load-at-top.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/scroll-to-text-fragment-security.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/same-document-tests-force-load-at-top.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/redirects.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/tests/scroll-to-text-fragment/force-load-at-top.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/visual-viewport/index.html",
+      "filepath": "testing/web-platform/tests/visual-viewport/scroll-event-order.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/visual-viewport/index.html",
+      "filepath": "testing/web-platform/tests/visual-viewport/resize-event-order.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/WebApiDevice/managed_config",
+      "filepath": "testing/web-platform/tests/managed/resources/managed-configuration-helper.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/",
+      "filepath": "testing/web-platform/tests/infrastructure/assumptions/non-local-ports.sub.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/css-parser-api/",
+      "filepath": "testing/web-platform/tests/css/css-parser-api/idlharness.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "filepath": "testing/web-platform/tests/css/cssom/CSSStyleSheet-constructable-replace-on-regular-sheet.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "filepath": "testing/web-platform/tests/css/cssom/CSSStyleSheet-constructable-duplicate.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "filepath": "testing/web-platform/tests/css/cssom/CSSStyleSheet-constructable.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "filepath": "testing/web-platform/tests/css/cssom/CSSStyleSheet-template-adoption.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "filepath": "testing/web-platform/tests/css/cssom/CSSStyleSheet-constructable-disabled-regular-sheet-insertion.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/ua-client-hints/",
+      "filepath": "testing/web-platform/tests/ua-client-hints/idlharness.https.any.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/keyboard-map/",
+      "filepath": "testing/web-platform/tests/keyboard-map/idlharness.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/picture-in-picture/",
+      "filepath": "testing/web-platform/tests/picture-in-picture/idlharness.window.js",
+      "line_number": 11
+    },
+    {
+      "url": "https://wicg.github.io/netinfo/",
+      "filepath": "testing/web-platform/tests/netinfo/idlharness.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/netinfo/",
+      "filepath": "testing/web-platform/tests/netinfo/netinfo-basics.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-iframe.https.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://wicg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/support/fedcm-iframe-level2.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://wicg.github.io/cookie-store/",
+      "filepath": "testing/web-platform/tests/cookie-store/idlharness.https.any.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/cookie-store/",
+      "filepath": "testing/web-platform/tests/cookie-store/cookieStore_opaque_origin.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api",
+      "filepath": "testing/web-platform/tests/entries-api/errors-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/digital-credentials/",
+      "filepath": "testing/web-platform/tests/digital-credentials/create.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/digital-credentials/",
+      "filepath": "testing/web-platform/tests/digital-credentials/get.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/digital-credentials/",
+      "filepath": "testing/web-platform/tests/digital-credentials/digital-credentials-static-methods.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/animation-worklet/",
+      "filepath": "testing/web-platform/tests/animation-worklet/idlharness.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+      "filepath": "testing/web-platform/tests/installedapp/idlharness.https.window.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/get-installed-related-app/spec",
+      "filepath": "testing/web-platform/tests/installedapp/installedapp.https.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/is-input-pending/",
+      "filepath": "testing/web-platform/tests/is-input-pending/idlharness.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/page-lifecycle/",
+      "filepath": "testing/web-platform/tests/page-lifecycle/idlharness.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/permissions-policy/",
+      "filepath": "testing/web-platform/tests/permissions-policy/idlharness.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/auxclick/",
+      "filepath": "testing/web-platform/tests/uievents/click/auxclick_event.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://wicg.github.io/content-index/spec/",
+      "filepath": "testing/web-platform/tests/content-index/idlharness.https.any.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/largest-contentful-paint/",
+      "filepath": "testing/web-platform/tests/largest-contentful-paint/idlharness.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/periodic-background-sync/",
+      "filepath": "testing/web-platform/tests/periodic-background-sync/idlharness.https.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/ScrollToTextFragment/",
+      "filepath": "testing/web-platform/mozilla/tests/scroll-to-text-fragment/scroll-to-text-fragment-open-link-in-new-tab-desktop.html",
+      "line_number": 4
+    }
+  ],
+  "audio-output-patch": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#audio-output-patch",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-audio-setSinkId.https.tentative.html",
+      "line_number": 47
+    },
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#audio-output-patch",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/resources/audio-setSinkId.https.html",
+      "line_number": 23
+    },
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#audio-output-patch",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-audio-setSinkId-with-invalid-sinkId.https.tentative.html",
+      "line_number": 49
+    }
+  ],
+  "cbor-representation": [
+    {
+      "url": "nhttps://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#cbor-representation",
+      "filepath": "remote/cdp/Protocol.sys.mjs",
+      "line_number": 8783
+    },
+    {
+      "url": "nhttps://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#cbor-representation",
+      "filepath": "remote/cdp/test/browser/chrome-remote-interface.js",
+      "line_number": 8
+    }
+  ],
+  "element-matches-an-element-name": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#element-matches-an-element-name",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 1967
+    }
+  ],
+  "get-an-element": [
+    {
+      "url": "https://wicg.github.io/element-timing/#get-an-element",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 461
+    }
+  ],
+  "dom-cssstylesheet-deleterule": [
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/#dom-cssstylesheet-deleterule",
+      "filepath": "layout/style/StyleSheet.cpp",
+      "line_number": 626
+    }
+  ],
+  "tts-methods": [
+    {
+      "url": "https://wicg.github.io/speech-api/#tts-methods",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/resources/speech-synthesis.https.html",
+      "line_number": 25
+    }
+  ],
+  "dom-decompressionstream-decompressionstream": [
+    {
+      "url": "https://wicg.github.io/compression/#dom-decompressionstream-decompressionstream",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 270
+    }
+  ],
+  "check-if-a-text-directive-can-be-scrolled": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#check-if-a-text-directive-can-be-scrolled",
+      "filepath": "dom/base/FragmentDirective.cpp",
+      "line_number": 189
+    }
+  ],
+  "visible-text-node": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#visible-text-node",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 46
+    }
+  ],
+  "intersectionobserver-root-intersection-rectangle": [
+    {
+      "url": "http://wicg.github.io/IntersectionObserver/#intersectionobserver-root-intersection-rectangle",
+      "filepath": "testing/web-platform/tests/intersection-observer/resources/intersection-observer-test-utils.js",
+      "line_number": 134
+    },
+    {
+      "url": "http://wicg.github.io/IntersectionObserver/#intersectionobserver-root-intersection-rectangle",
+      "filepath": "testing/web-platform/tests/intersection-observer/resources/intersection-observer-test-utils.js",
+      "line_number": 144
+    }
+  ],
+  "sec-security": [
+    {
+      "url": "https://wicg.github.io/element-timing/#sec-security",
+      "filepath": "dom/performance/LargestContentfulPaint.cpp",
+      "line_number": 200
+    }
+  ],
+  "patch-serial": [
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#patch-serial",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/resources/web-serial.https.html",
+      "line_number": 20
+    },
+    {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html#patch-serial",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/restriction-web-serial.tentative.https.html",
+      "line_number": 34
+    }
+  ],
+  "api-entry": [
+    {
+      "url": "https://wicg.github.io/entries-api/#api-entry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystementry-attributes-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api/#api-entry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemfileentry-attributes-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api/#api-entry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemfileentry-file-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api/#api-entry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemfileentry-getParent-manual.html",
+      "line_number": 4
+    }
+  ],
+  "api-directoryreader": [
+    {
+      "url": "https://wicg.github.io/entries-api/#api-directoryreader",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryreader-manual.html",
+      "line_number": 4
+    }
+  ],
+  "the-visualviewport-interface": [
+    {
+      "url": "https://wicg.github.io/visual-viewport/#the-visualviewport-interface",
+      "filepath": "dom/base/VisualViewport.h",
+      "line_number": 24
+    }
+  ],
+  "integration-script-type": [
+    {
+      "url": "https://wicg.github.io/import-maps/#integration-script-type",
+      "filepath": "dom/script/ScriptLoader.cpp",
+      "line_number": 2723
+    }
+  ],
+  "handle-funky-elements": [
+    {
+      "url": "https://wicg.github.io/sanitizer-api/#handle-funky-elements",
+      "filepath": "dom/base/nsTreeSanitizer.cpp",
+      "line_number": 2052
+    }
+  ],
+  "monkey-patch-to-html-initiating-delegation": [
+    {
+      "url": "https://wicg.github.io/capability-delegation/spec.html#monkey-patch-to-html-initiating-delegation",
+      "filepath": "testing/web-platform/tests/html/capability-delegation/delegation-sender-checks.tentative.html",
+      "line_number": 16
+    }
+  ],
+  "integration-fetch": [
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-fetch-document.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/xhr.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker-blob-fetch.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/xhr.https.tentative.window.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/websocket.tentative.window.js",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-background-fetch.tentative.https.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-fetch-document-treat-as-public.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/iframe.tentative.https.window.js",
+      "line_number": 12
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fetch.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/websocket.tentative.https.window.js",
+      "line_number": 3
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fenced-frame-subresource-fetch.tentative.https.window.js",
+      "line_number": 11
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/nested-worker.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker-fetch.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/xhr-from-treat-as-public.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/worker-blob-fetch.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/nested-worker.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-fetch.tentative.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/iframe.tentative.window.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/worker.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/service-worker-update.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/worker-fetch.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fenced-frame.tentative.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/redirect.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker-fetch.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fetch-from-treat-as-public.tentative.https.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/worker.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fenced-frame-no-preflight-required.tentative.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/worker-fetch.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/shared-worker-blob-fetch.tentative.window.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/private-network-access/#integration-fetch",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/fetch.tentative.https.window.js",
+      "line_number": 9
+    }
+  ],
+  "speechsynthesiserrorevent-attributes": [
+    {
+      "url": "https://wicg.github.io/speech-api/#speechsynthesiserrorevent-attributes",
+      "filepath": "testing/web-platform/tests/speculation-rules/prerender/resources/speech-synthesis.https.html",
+      "line_number": 33
+    }
+  ],
+  "using-constructed-stylesheets": [
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/#using-constructed-stylesheets",
+      "filepath": "toolkit/content/widgets/vendor/lit.all.mjs",
+      "line_number": 98
+    }
+  ],
+  "supported-formats": [
+    {
+      "url": "https://wicg.github.io/compression/#supported-formats",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 145
+    },
+    {
+      "url": "https://wicg.github.io/compression/#supported-formats",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 158
+    }
+  ],
+  "background-fetch-registration-abort": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#background-fetch-registration-abort",
+      "filepath": "testing/web-platform/tests/background-fetch/abort.https.window.js",
+      "line_number": 6
+    }
+  ],
+  "dom-cssstylesheet-replacesync": [
+    {
+      "url": "https://wicg.github.io/construct-stylesheets/#dom-cssstylesheet-replacesync",
+      "filepath": "layout/style/StyleSheet.cpp",
+      "line_number": 756
+    }
+  ],
+  "dom-compressionstream-compressionstream": [
+    {
+      "url": "https://wicg.github.io/compression/#dom-compressionstream-compressionstream",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 41
+    },
+    {
+      "url": "https://wicg.github.io/compression/#dom-compressionstream-compressionstream",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 76
+    },
+    {
+      "url": "https://wicg.github.io/compression/#dom-compressionstream-compressionstream",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 44
+    },
+    {
+      "url": "https://wicg.github.io/compression/#dom-compressionstream-compressionstream",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 79
+    },
+    {
+      "url": "https://wicg.github.io/compression/#dom-compressionstream-compressionstream",
+      "filepath": "dom/base/CompressionStream.cpp",
+      "line_number": 228
+    }
+  ],
+  "current-time-algorithm": [
+    {
+      "url": "https://wicg.github.io/scroll-animations/#current-time-algorithm",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/current-time-writing-modes.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/scroll-animations/#current-time-algorithm",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/current-time-root-scroller.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/scroll-animations/#current-time-algorithm",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/testcommon.js",
+      "line_number": 39
+    },
+    {
+      "url": "https://wicg.github.io/scroll-animations/#current-time-algorithm",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/current-time-nan.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/scroll-animations/#current-time-algorithm",
+      "filepath": "testing/web-platform/tests/scroll-animations/scroll-timelines/scroll-timeline-invalidation.html",
+      "line_number": 4
+    }
+  ],
+  "background-fetch-manager-fetch": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#background-fetch-manager-fetch",
+      "filepath": "testing/web-platform/tests/background-fetch/fetch.https.window.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://wicg.github.io/background-fetch/#background-fetch-manager-fetch",
+      "filepath": "testing/web-platform/tests/background-fetch/fetch-uploads.https.window.js",
+      "line_number": 7
+    }
+  ],
+  "next-non-whitespace-position": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#next-non-whitespace-position",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 158
+    }
+  ],
+  "rfc.section.3.1": [
+    {
+      "url": "nhttps://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#rfc.section.3.1",
+      "filepath": "remote/cdp/Protocol.sys.mjs",
+      "line_number": 8724
+    },
+    {
+      "url": "nhttps://wicg.github.io/webpackage/draft-yasskin-httpbis-origin-signed-exchanges-impl.html#rfc.section.3.1",
+      "filepath": "remote/cdp/test/browser/chrome-remote-interface.js",
+      "line_number": 8
+    }
+  ],
+  "dom-filesystemdirectoryentry-getdirectory": [
+    {
+      "url": "https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getdirectory",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryentry-getDirectory-manual.html",
+      "line_number": 4
+    }
+  ],
+  "search-invisible": [
+    {
+      "url": "https://wicg.github.io/scroll-to-text-fragment/#search-invisible",
+      "filepath": "dom/base/TextDirectiveUtil.h",
+      "line_number": 104
+    }
+  ],
+  "sec-ch-width": [
+    {
+      "url": "https://wicg.github.io/responsive-image-client-hints/#sec-ch-width",
+      "filepath": "testing/web-platform/tests/client-hints/sec-ch-width.https.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/responsive-image-client-hints/#sec-ch-width",
+      "filepath": "testing/web-platform/tests/client-hints/sec-ch-width-auto-sizes-picture.https.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://wicg.github.io/responsive-image-client-hints/#sec-ch-width",
+      "filepath": "testing/web-platform/tests/client-hints/sec-ch-width-auto-sizes-img.https.html",
+      "line_number": 5
+    }
+  ],
+  "video-rvfc-procedures": [
+    {
+      "url": "https://wicg.github.io/video-rvfc/#video-rvfc-procedures",
+      "filepath": "layout/base/nsRefreshDriver.cpp",
+      "line_number": 2761
+    }
+  ],
+  "x25519-operations": [
+    {
+      "url": "https://wicg.github.io/webcrypto-secure-curves/#x25519-operations",
+      "filepath": "dom/crypto/WebCryptoTask.cpp",
+      "line_number": 2545
+    }
+  ],
+  "dom-barcodedetector-getsupportedformats": [
+    {
+      "url": "https://wicg.github.io/shape-detection-api/#dom-barcodedetector-getsupportedformats",
+      "filepath": "testing/web-platform/tests/shape-detection/detection-getSupportedFormats.https.html",
+      "line_number": 2
+    }
+  ],
+  "background-fetch-manager-getIds": [
+    {
+      "url": "https://wicg.github.io/background-fetch/#background-fetch-manager-getIds",
+      "filepath": "testing/web-platform/tests/background-fetch/get-ids.https.window.js",
+      "line_number": 8
+    }
+  ],
+  "cors-preflight": [
+    {
+      "url": "https://wicg.github.io/private-network-access/#cors-preflight",
+      "filepath": "testing/web-platform/tests/fetch/private-network-access/preflight-cache.https.tentative.window.js",
+      "line_number": 4
+    }
+  ],
+  "cookie-maximum-attribute-value-size": [
+    {
+      "url": "https://wicg.github.io/cookie-store/#cookie-maximum-attribute-value-size",
+      "filepath": "testing/web-platform/tests/cookie-store/cookieStore_set_arguments.https.any.js",
+      "line_number": 290
+    },
+    {
+      "url": "https://wicg.github.io/cookie-store/#cookie-maximum-attribute-value-size",
+      "filepath": "testing/web-platform/tests/cookie-store/cookieStore_set_arguments.https.any.js",
+      "line_number": 302
+    }
+  ],
+  "api-directoryentry": [
+    {
+      "url": "https://wicg.github.io/entries-api/#api-directoryentry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryentry-getParent-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api/#api-directoryentry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryentry-createReader-manual.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://wicg.github.io/entries-api/#api-directoryentry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystemdirectoryentry-attributes-manual.html",
+      "line_number": 4
+    }
+  ],
+  "close-a-subscription": [
+    {
+      "url": "https://wicg.github.io/observable/#close-a-subscription",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
+      "line_number": 704
+    }
+  ],
+  "dom-filesystementry-getparentapi-entry": [
+    {
+      "url": "https://wicg.github.io/entries-api/#dom-filesystementry-getparentapi-entry",
+      "filepath": "testing/web-platform/tests/entries-api/filesystementry-getParent-manual.html",
+      "line_number": 4
+    }
+  ],
+  "utterance-events": [
+    {
+      "url": "https://wicg.github.io/speech-api/#utterance-events",
+      "filepath": "testing/web-platform/tests/speech-api/SpeechSynthesisEvent-properties.html",
+      "line_number": 3
+    }
+  ]
+}

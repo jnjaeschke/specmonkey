@@ -1,0 +1,9 @@
+{
+  "the-testutils-namespace": [
+    {
+      "url": "https://testutils.spec.whatwg.org/#the-testutils-namespace",
+      "filepath": "testing/web-platform/tests/common/gc.js",
+      "line_number": 17
+    }
+  ]
+}

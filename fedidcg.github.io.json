@@ -1,0 +1,320 @@
+{
+  "webdriver-gettitle": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 977
+    }
+  ],
+  "webdriver-selectaccount": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 940
+    }
+  ],
+  "webdriver-canceldialog": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-canceldialog",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 903
+    }
+  ],
+  "webdriver-getdialogtype": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 995
+    }
+  ],
+  "webdriver-setdelayenabled": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1013
+    }
+  ],
+  "webdriver-accountlist": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 959
+    }
+  ],
+  "webdriver-clickdialogbutton": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 921
+    }
+  ],
+  "": [
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-abort-silent-mediation-not-permitted.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-reject-invalid-responses.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-cross-origin-policy.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-multi-idp/fedcm-multi-idp-mediation-silent.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-multi-idp/fedcm-multi-idp-basic.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-multi-idp/fedcm-multi-idp-abort.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-multi-idp/fedcm-multi-idp-mediation-optional.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-multi-idp/fedcm-multi-idp-context.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-userinfo.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-too-many-disconnect-calls.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-pending-disconnect.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-client-metadata-not-cached.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-same-site-none.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-manifest-not-in-list.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect.sub.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-continue-on-with-account.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/resolve-after-preventsilentaccess.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-userinfo-after-resolve.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-continue-on.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-disclosure-text-shown.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-continue-on-disallowed.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-authz/fedcm-params.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-returning-account-auto-reauthn.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-not-observed-by-service-worker.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-domainhint.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-after-abort.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-button-mode-auto-selected-flag.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-use-other-account-button-flow.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-button-mode-basics.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-use-other-account.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-button-mode-priority.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-identity-assertion-nocors.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-abort.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-register/fedcm-no-registered-idps.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-auto-reauthn-without-approved-clients.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-no-login-url.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect-errors.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-store.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-loginhint.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-token-returned-with-http-error.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-nonce-is-optional.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-opaque-rp-origin.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-csp.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-context.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-pending-call-rejected.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-pending-userinfo.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-auto-selected-flag.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-basic.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-error-basic.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-endpoint-redirects.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-storage-access-api-autogrant.tentative.https.sub.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect-iframe.sub.https.html",
+      "line_number": 3
+    }
+  ],
+  "webdriver-resetcooldown": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-resetcooldown",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1032
+    }
+  ]
+}

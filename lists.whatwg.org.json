@@ -1,0 +1,19 @@
+{
+  "": [
+    {
+      "url": "http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2010-May/026449.html",
+      "filepath": "dom/base/nsAttrValue.cpp",
+      "line_number": 1879
+    },
+    {
+      "url": "http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2013-October/041272.html",
+      "filepath": "dom/notification/Notification.cpp",
+      "line_number": 617
+    },
+    {
+      "url": "http://lists.whatwg.org/pipermail/whatwg-whatwg.org/2009-July/020721.html",
+      "filepath": "testing/web-platform/tests/editing/include/tests.js",
+      "line_number": 1832
+    }
+  ]
+}

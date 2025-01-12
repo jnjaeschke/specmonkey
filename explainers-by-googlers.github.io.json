@@ -1,0 +1,94 @@
+{
+  "": [
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.localStorage.tentative.sub.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/popinContextTypesSupported.in-popin.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.permission-default.tentative.sub.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.proxy-same.tentative.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.secure.tentative.sub.http.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.cookies-blocked.tentative.sub.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/popinContextType.in-popin.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.secure.tentative.sub.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.proxy-cross.tentative.sub.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.permission-all.tentative.sub.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.cookies-allowed.tentative.sub.https.window.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/popinContextTypesSupported.tentative.http.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.permission-self.tentative.sub.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.limit.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.request-header.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/popinContextTypesSupported.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/popinContextType.tentative.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://explainers-by-googlers.github.io/partitioned-popins/",
+      "filepath": "testing/web-platform/tests/partitioned-popins/partitioned-popins.recursive.tentative.https.window.js",
+      "line_number": 6
+    }
+  ]
+}

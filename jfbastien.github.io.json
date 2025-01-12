@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "http://jfbastien.github.io/papers/Math.signbit.html",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7709
+    }
+  ]
+}

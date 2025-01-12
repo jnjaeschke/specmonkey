@@ -1,0 +1,26 @@
+{
+  "dom-websocket-websocket": [
+    {
+      "url": "https://websockets.spec.whatwg.org/#dom-websocket-websocket",
+      "filepath": "dom/websocket/WebSocket.cpp",
+      "line_number": 2153
+    }
+  ],
+  "": [
+    {
+      "url": "https://websockets.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
+      "line_number": 21
+    },
+    {
+      "url": "https://websockets.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
+      "line_number": 21
+    },
+    {
+      "url": "https://websockets.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/websockets/idlharness.any.js",
+      "line_number": 4
+    }
+  ]
+}

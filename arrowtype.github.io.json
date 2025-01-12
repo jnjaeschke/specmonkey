@@ -1,0 +1,14 @@
+{
+  "": [
+    {
+      "url": "https://arrowtype.github.io/vf-slnt-test/index.html",
+      "filepath": "testing/web-platform/tests/css/css-fonts/variations/slnt-backslant-variable.html",
+      "line_number": 11
+    },
+    {
+      "url": "https://arrowtype.github.io/vf-slnt-test/index.html",
+      "filepath": "testing/web-platform/tests/css/css-fonts/variations/slnt-variable.html",
+      "line_number": 11
+    }
+  ]
+}

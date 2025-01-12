@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "http://kripken.github.io/emscripten-site/docs/api_reference/preamble.js.html",
+      "filepath": "js/src/jit-test/tests/wasm/bench/wasm_box2d.js",
+      "line_number": 112
+    }
+  ]
+}

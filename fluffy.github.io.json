@@ -1,0 +1,9 @@
+{
+  "screen-based-video-constraints": [
+    {
+      "url": "http://fluffy.github.io/w3c-screen-share/#screen-based-video-constraints",
+      "filepath": "dom/media/webrtc/tests/mochitests/test_getUserMedia_constraints.html",
+      "line_number": 82
+    }
+  ]
+}

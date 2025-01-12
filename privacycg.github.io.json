@@ -1,0 +1,102 @@
+{
+  "set-storage-access-command": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 798
+    }
+  ],
+  "run-bounce-tracking-mitigations-command": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1240
+    }
+  ],
+  "dom-document-requeststorageaccess": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
+      "filepath": "dom/base/Document.cpp",
+      "line_number": 18229
+    }
+  ],
+  "": [
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/webstorage/localstorage-about-blank-3P-iframe-opens-3P-window.partitioned.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/webstorage/sessionStorage-basic-partitioned.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/webstorage/localstorage-basic-partitioned.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/IndexedDB/idb-partitioned-coverage.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/IndexedDB/idb-partitioned-persistence.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/IndexedDB/idb-partitioned-basic.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/partitioned-estimate-usage-details-service-workers.tentative.https.sub.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/resources/partitioned-estimate-usage-details-indexeddb-helper-frame.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/resources/partitioned-estimate-usage-details-service-workers-helper-frame.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/resources/partitioned-estimate-usage-details-caches-helper-frame.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/partitioned-estimate-usage-details-caches.tentative.https.sub.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "testing/web-platform/tests/storage/partitioned-estimate-usage-details-indexeddb.tentative.https.sub.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://privacycg.github.io/storage-access/",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-storage-access-api-autogrant.tentative.https.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://privacycg.github.io/storage-partitioning/",
+      "filepath": "toolkit/components/antitracking/StoragePrincipalHelper.h",
+      "line_number": 26
+    }
+  ],
+  "bounce-tracking-timer": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1234
+    }
+  ]
+}

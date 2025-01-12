@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "http://bestiejs.github.io/json3",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
+      "line_number": 2239
+    }
+  ]
+}

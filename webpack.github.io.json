@@ -1,0 +1,9 @@
+{
+  "check": [
+    {
+      "url": "https://webpack.github.io/docs/hot-module-replacement.html#check",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
+      "line_number": 5512
+    }
+  ]
+}

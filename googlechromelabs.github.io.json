@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json",
+      "filepath": "remote/test/puppeteer/tools/update_browser_revision.mjs",
+      "line_number": 120
+    }
+  ]
+}

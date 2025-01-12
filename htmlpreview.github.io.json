@@ -1,0 +1,29 @@
+{
+  "": [
+    {
+      "url": "https://htmlpreview.github.io/?https://github.com/unicode-org/icu-docs/blob/main/design/collation/ICU_collation_design.htm",
+      "filepath": "intl/icu/source/i18n/unicode/stsearch.h",
+      "line_number": 40
+    },
+    {
+      "url": "https://htmlpreview.github.io/?https://github.com/unicode-org/icu-docs/blob/main/design/collation/ICU_collation_design.htm",
+      "filepath": "intl/icu/source/i18n/unicode/usearch.h",
+      "line_number": 35
+    },
+    {
+      "url": "https://htmlpreview.github.io/?https://github.com/unicode-org/icu-docs/blob/main/design/conversion/conversion_extensions.html",
+      "filepath": "intl/icu/source/common/ucnvmbcs.cpp",
+      "line_number": 1094
+    },
+    {
+      "url": "https://htmlpreview.github.io/?https://github.com/unicode-org/icu-docs/blob/main/design/unicodeset_properties.html",
+      "filepath": "intl/icu/source/common/unicode/uniset.h",
+      "line_number": 1763
+    },
+    {
+      "url": "https://htmlpreview.github.io/?https://github.com/unicode-org/icu-docs/blob/main/design/collation/ICU_collation_design.htm",
+      "filepath": "intl/icu/source/common/unicode/unorm.h",
+      "line_number": 118
+    }
+  ]
+}

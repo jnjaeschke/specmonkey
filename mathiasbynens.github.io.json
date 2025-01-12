@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    {
+      "url": "https://mathiasbynens.github.io/rel-noopener/#recommendations",
+      "filepath": "node_modules/@microsoft/eslint-plugin-sdl/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js",
+      "line_number": 124
+    },
+    {
+      "url": "https://mathiasbynens.github.io/rel-noopener/#recommendations",
+      "filepath": "node_modules/@microsoft/eslint-plugin-sdl/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js",
+      "line_number": 125
+    },
+    {
+      "url": "https://mathiasbynens.github.io/rel-noopener/#recommendations",
+      "filepath": "node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js",
+      "line_number": 125
+    },
+    {
+      "url": "https://mathiasbynens.github.io/rel-noopener/#recommendations",
+      "filepath": "node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js",
+      "line_number": 126
+    }
+  ]
+}

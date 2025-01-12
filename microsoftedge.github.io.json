@@ -1,0 +1,9 @@
+{
+  "directory-interface": [
+    {
+      "url": "https://microsoftedge.github.io/directory-upload/proposal.html#directory-interface",
+      "filepath": "dom/filesystem/Directory.h",
+      "line_number": 48
+    }
+  ]
+}

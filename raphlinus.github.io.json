@@ -1,0 +1,54 @@
+{
+  "": [
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/srgb-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/xyz-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/xyz-gradient-ref.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/srgb-linear-gradient-ref.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/legacy-color-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/oklab-gradient-ref.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/srgb-linear-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/oklab-gradient.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://raphlinus.github.io/color/2021/01/18/oklab-critique.html",
+      "filepath": "testing/web-platform/tests/css/css-images/gradient/srgb-gradient-ref.html",
+      "line_number": 7
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "": [
+    {
+      "url": "https://mozilla-spidermonkey.github.io/cacheirhealthreport/",
+      "filepath": "js/src/jit/CacheIRHealth.h",
+      "line_number": 58
+    },
+    {
+      "url": "https://mozilla-spidermonkey.github.io/cacheirhealthreport/info.html",
+      "filepath": "js/src/jit/CacheIRHealth.h",
+      "line_number": 62
+    }
+  ]
+}

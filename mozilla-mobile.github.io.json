@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "https://mozilla-mobile.github.io/testapp/anti-tracker-test_set_storage_with_sa_api.html",
+      "filepath": "mobile/android/fenix/app/src/androidTest/assets/pages/cross-site-cookies.html",
+      "line_number": 16
+    }
+  ]
+}

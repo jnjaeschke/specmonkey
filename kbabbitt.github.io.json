@@ -1,0 +1,19 @@
+{
+  "column-row-rule-width": [
+    {
+      "url": "https://kbabbitt.github.io/css-gap-decorations/pr-11115/Overview.html#column-row-rule-width",
+      "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-width-computed.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://kbabbitt.github.io/css-gap-decorations/#column-row-rule-width",
+      "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-width-valid.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://kbabbitt.github.io/css-gap-decorations/#column-row-rule-width",
+      "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-width-invalid.html",
+      "line_number": 6
+    }
+  ]
+}

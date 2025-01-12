@@ -1,0 +1,288 @@
+{
+  "run-the-fullscreen-steps": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#run-the-fullscreen-steps",
+      "filepath": "layout/base/nsRefreshDriver.cpp",
+      "line_number": 2240
+    }
+  ],
+  "simple-fullscreen-document": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#simple-fullscreen-document",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 47
+    }
+  ],
+  "exit-fullscreen": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#exit-fullscreen",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 55
+    }
+  ],
+  "dom-document-fullscreenelement": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenelement",
+      "filepath": "testing/web-platform/tests/fullscreen/api/shadowroot-fullscreen-element.html",
+      "line_number": 6
+    }
+  ],
+  "::backdrop-pseudo-element": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#::backdrop-pseudo-element",
+      "filepath": "testing/web-platform/tests/css/css-pseudo/backdrop-animate.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#::backdrop-pseudo-element",
+      "filepath": "testing/web-platform/tests/css/css-pseudo/backdrop-animate-002.html",
+      "line_number": 4
+    }
+  ],
+  "new-stacking-layer": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "layout/base/RestyleManager.cpp",
+      "line_number": 2640
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "servo/components/style/style_adjuster.rs",
+      "line_number": 136
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/fullscreen/api/fullscreen-display-contents.html",
+      "line_number": 16
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/backdrop-dynamic-style-change.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-overflow-scroll.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-generated-content.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/element-removed-from-top-layer-has-original-position.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-sibling.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-clip.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-filter.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-nesting.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/backdrop-stacking-order.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-overflow-hidden.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/fixed-position-child-with-transformed-ancestor.tentative.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-stacking.tentative.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-containing-block.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/backdrop-descendant-selector.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/dialogs-with-no-backdrop.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-in-table-column.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-transform.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-in-replaced-renderer.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-stacking-dynamic.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/removed-element-is-removed-from-top-layer.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-display-none.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-stacking-correct-order-remove-readd.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-mask.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-in-iframe.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/dont-share-style-to-top-layer.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/fixed-position-child-with-fo-ancestor.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/fixed-position-child-with-will-change-ancestor.tentative.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-overflow-clip.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-display-contents.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/backdrop-in-flow.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/backdrop-dynamic-display-none.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/fixed-position-child-with-contain-ancestor.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-in-object.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#new-stacking-layer",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/top-layer-parent-opacity.html",
+      "line_number": 7
+    }
+  ],
+  "user-agent-level-style-sheet-defaults": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop-opacity.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop.html",
+      "line_number": 3
+    }
+  ],
+  ":fullscreen-pseudo-class": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#:fullscreen-pseudo-class",
+      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
+      "line_number": 3
+    }
+  ],
+  "fullscreen-enabled-flag": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allowfullscreen.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allow.html",
+      "line_number": 7
+    }
+  ],
+  "removing-steps": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#removing-steps",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/dialog-showModal-remove.html",
+      "line_number": 4
+    }
+  ],
+  "%3Afullscreen-pseudo-class": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#%3Afullscreen-pseudo-class",
+      "filepath": "dom/base/rust/lib.rs",
+      "line_number": 40
+    }
+  ],
+  "collect-documents-to-unfullscreen": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#collect-documents-to-unfullscreen",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 45
+    }
+  ],
+  "top-layer": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#top-layer",
+      "filepath": "servo/components/style/properties/longhands/box.mako.rs",
+      "line_number": 33
+    }
+  ]
+}

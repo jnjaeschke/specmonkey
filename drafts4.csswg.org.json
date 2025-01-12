@@ -1,0 +1,73 @@
+{
+  "": [
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-getComputedStyle-001.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-eval.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-getComputedStyle-002.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-name.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-002.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-getComputedStyle-003.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-001.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-003.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-default.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-transition-attr.html",
+      "line_number": 3
+    }
+  ],
+  "position-anchor": [
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/#position-anchor",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/position-anchor-003.html",
+      "line_number": 3
+    }
+  ],
+  "scroll": [
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/#scroll",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-scroll-composited-scrolling-006.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://drafts4.csswg.org/css-anchor-position-1/#scroll",
+      "filepath": "testing/web-platform/tests/css/css-anchor-position/anchor-scroll-004.html",
+      "line_number": 4
+    }
+  ]
+}

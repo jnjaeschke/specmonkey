@@ -1,0 +1,2046 @@
+{
+  "set-up-readable-stream-default-controller-from-underlying-source": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller-from-underlying-source",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 42
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller-from-underlying-source",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 69
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller-from-underlying-source",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 97
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller-from-underlying-source",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 564
+    }
+  ],
+  "readable-byte-stream-controller-get-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-get-desired-size",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 271
+    }
+  ],
+  "readable-stream-has-default-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-has-default-reader",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 140
+    }
+  ],
+  "readable-stream-get-num-read-requests": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-get-num-read-requests",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 771
+    }
+  ],
+  "writable-stream-finish-in-flight-close-with-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-finish-in-flight-close-with-error",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 242
+    }
+  ],
+  "peek-queue-value": [
+    {
+      "url": "https://streams.spec.whatwg.org/#peek-queue-value",
+      "filepath": "dom/streams/QueueWithSizes.h",
+      "line_number": 109
+    }
+  ],
+  "default-writer-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-writer-close",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 185
+    }
+  ],
+  "readable-stream-tee": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-tee",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1025
+    }
+  ],
+  "writable-stream-default-writer-release": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-release",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 211
+    }
+  ],
+  "initialize-transform-stream": [
+    {
+      "url": "https://streams.spec.whatwg.org/#initialize-transform-stream",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 202
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#initialize-transform-stream",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 426
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#initialize-transform-stream",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 526
+    }
+  ],
+  "create-readable-stream": [
+    {
+      "url": "https://streams.spec.whatwg.org/#create-readable-stream",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 490
+    }
+  ],
+  "readable-byte-stream-controller-respond-internal": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-respond-internal",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1540
+    }
+  ],
+  "readable-stream-fulfill-read-into-request": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-fulfill-read-into-request",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 667
+    }
+  ],
+  "readablestreamdefaultcontroller-pulling": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestreamdefaultcontroller-pulling",
+      "filepath": "dom/webtransport/api/WebTransportDatagramDuplexStream.cpp",
+      "line_number": 181
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestreamdefaultcontroller-pulling",
+      "filepath": "dom/webtransport/api/WebTransportStreams.cpp",
+      "line_number": 62
+    }
+  ],
+  "rs-asynciterator-prototype-return": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-asynciterator-prototype-return",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1169
+    }
+  ],
+  "make-size-algorithm-from-size-function": [
+    {
+      "url": "https://streams.spec.whatwg.org/#make-size-algorithm-from-size-function",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 531
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#make-size-algorithm-from-size-function",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 278
+    }
+  ],
+  "writable-stream-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-close",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 600
+    }
+  ],
+  "pull-into-descriptor-reader-type": [
+    {
+      "url": "https://streams.spec.whatwg.org/#pull-into-descriptor-reader-type",
+      "filepath": "dom/streams/ReadableByteStreamController.h",
+      "line_number": 32
+    }
+  ],
+  "default-writer-abort": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-writer-abort",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 155
+    }
+  ],
+  "abstract-opdef-crossrealmtransformsenderror": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-crossrealmtransformsenderror",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 75
+    }
+  ],
+  "ref-for-transfer-receiving-steps①": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-receiving-steps①",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 961
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-receiving-steps①",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 980
+    }
+  ],
+  "readable-stream-default-controller-clear-algorithms": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-clear-algorithms",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 187
+    }
+  ],
+  "readable-byte-stream-controller-respond": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-respond",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1591
+    }
+  ],
+  "writable-stream-default-controller-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-close",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 432
+    }
+  ],
+  "acquire-readable-stream-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#acquire-readable-stream-reader",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 674
+    }
+  ],
+  "writable-stream-update-backpressure": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-update-backpressure",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 407
+    }
+  ],
+  "set-up-readable-stream-default-controller": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 489
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-controller",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 522
+    }
+  ],
+  "ts-default-controller-terminate": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ts-default-controller-terminate",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 166
+    }
+  ],
+  "readable-byte-stream-controller-handle-queue-drain": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-handle-queue-drain",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1140
+    }
+  ],
+  "writable-stream-default-controller-get-backpressure": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-get-backpressure",
+      "filepath": "dom/streams/WritableStreamDefaultController.h",
+      "line_number": 95
+    }
+  ],
+  "readable-byte-stream-controller-invalidate-byob-request": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-invalidate-byob-request",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 303
+    }
+  ],
+  "rs-default-controller-private-cancel": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-private-cancel",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 586
+    }
+  ],
+  "transform-stream-default-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-controller-error",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 156
+    }
+  ],
+  "readablestream-set-up": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1265
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/StreamUtils.h",
+      "line_number": 21
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 120
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 130
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 145
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 133
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.h",
+      "line_number": 132
+    }
+  ],
+  "enqueue-value-with-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#enqueue-value-with-size",
+      "filepath": "dom/streams/QueueWithSizes.h",
+      "line_number": 53
+    }
+  ],
+  "rbs-controller-private-cancel": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rbs-controller-private-cancel",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1116
+    }
+  ],
+  "rbs-controller-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rbs-controller-enqueue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1067
+    }
+  ],
+  "readable-stream-default-controller-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-close",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 208
+    }
+  ],
+  "rs-asynciterator-prototype-next": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-asynciterator-prototype-next",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1077
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-asynciterator-prototype-next",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1138
+    }
+  ],
+  "set-up-writable-stream-default-controller": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 130
+    }
+  ],
+  "writable-stream-default-controller-process-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-process-close",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 245
+    }
+  ],
+  "readable-stream-add-read-into-request": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-add-read-into-request",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1222
+    }
+  ],
+  "readable-byte-stream-controller-call-pull-if-needed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-call-pull-if-needed",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 602
+    }
+  ],
+  "writable-stream-default-writer-abort": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-abort",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 141
+    }
+  ],
+  "set-up-writable-stream-default-writer": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-writer",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 359
+    }
+  ],
+  "set-up-transform-stream-default-controller": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 199
+    }
+  ],
+  "readable-stream-reader-generic-release": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-reader-generic-release",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 273
+    }
+  ],
+  "set-up-readable-stream-byob-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-byob-reader",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 46
+    }
+  ],
+  "transform-stream-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-error",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 141
+    }
+  ],
+  "ts-constructor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ts-constructor",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 580
+    }
+  ],
+  "rs-prototype": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-prototype",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 157
+    }
+  ],
+  "reset-queue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#reset-queue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 331
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#reset-queue",
+      "filepath": "dom/streams/QueueWithSizes.h",
+      "line_number": 125
+    }
+  ],
+  "readable-byte-stream-controller-enqueue-chunk-to-queue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-enqueue-chunk-to-queue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 458
+    }
+  ],
+  "readable-byte-stream-controller-respond-in-readable-state": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-respond-in-readable-state",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1413
+    }
+  ],
+  "writablestream-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-error",
+      "filepath": "dom/streams/WritableStream.h",
+      "line_number": 190
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-error",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 800
+    }
+  ],
+  "rs-default-controller-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-close",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 831
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-close",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 235
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-close",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 351
+    }
+  ],
+  "readable-byte-stream-controller-shift-pending-pull-into": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-shift-pending-pull-into",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1266
+    }
+  ],
+  "rbs-controller-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rbs-controller-close",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 438
+    }
+  ],
+  "ts-default-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ts-default-controller-error",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 149
+    }
+  ],
+  "abstract-opdef-readablebytestreamcontrollerenqueueclonedchunktoqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontrollerenqueueclonedchunktoqueue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 473
+    }
+  ],
+  "abstract-opdef-readablebytestreamcontrollergetbyobrequest": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontrollergetbyobrequest",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 220
+    }
+  ],
+  "readable-stream-from-iterable": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-from-iterable",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 244
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-from-iterable",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 431
+    }
+  ],
+  "rs-cancel": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-cancel",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 657
+    }
+  ],
+  "readable-stream-default-reader-read": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 206
+    }
+  ],
+  "transform-stream-default-sink-close-algorithm": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-sink-close-algorithm",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 329
+    }
+  ],
+  "ts-default-controller-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ts-default-controller-desired-size",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 62
+    }
+  ],
+  "readable-byte-stream-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-error",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 349
+    }
+  ],
+  "rs-pipe-to": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipe-to",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 994
+    }
+  ],
+  "rs-pipeTo-shutdown-with-action": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-shutdown-with-action",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 396
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-shutdown-with-action",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 461
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-shutdown-with-action",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 473
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-shutdown-with-action",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 489
+    }
+  ],
+  "readable-stream-reader-generic-cancel": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-reader-generic-cancel",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 379
+    }
+  ],
+  "writable-stream-start-erroring": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-start-erroring",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 370
+    }
+  ],
+  "abstract-opdef-setupcrossrealmtransformwritable": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformwritable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 93
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformwritable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 222
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformwritable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 301
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformwritable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 434
+    }
+  ],
+  "byte-length-queuing-strategy-size-function": [
+    {
+      "url": "https://streams.spec.whatwg.org/#byte-length-queuing-strategy-size-function",
+      "filepath": "dom/base/nsIGlobalObject.h",
+      "line_number": 380
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#byte-length-queuing-strategy-size-function",
+      "filepath": "dom/streams/ByteLengthQueuingStrategy.cpp",
+      "line_number": 68
+    }
+  ],
+  "readable-byte-stream-controller-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-close",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 379
+    }
+  ],
+  "readable-stream-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-close",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 524
+    }
+  ],
+  "abstract-opdef-createreadablebytestream": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-createreadablebytestream",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1238
+    }
+  ],
+  "abstract-opdef-readablestreamdefaulttee": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/TeeState.cpp",
+      "line_number": 58
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 872
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 925
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/TeeState.h",
+      "line_number": 34
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 152
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/ReadableStreamTee.h",
+      "line_number": 23
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee",
+      "filepath": "dom/streams/ReadableStreamTee.h",
+      "line_number": 60
+    }
+  ],
+  "set-up-writable-stream-default-controller-from-underlying-sink": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 32
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 52
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 73
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 93
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.h",
+      "line_number": 57
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-writable-stream-default-controller-from-underlying-sink",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 226
+    }
+  ],
+  "writable-stream-default-controller-process-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-process-write",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 197
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-process-write",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 296
+    }
+  ],
+  "readable-byte-stream-controller-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-enqueue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 875
+    }
+  ],
+  "default-reader-read": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.h",
+      "line_number": 26
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 139
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 166
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 184
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-read",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 244
+    }
+  ],
+  "readable-byte-stream-controller-respond-in-closed-state": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-respond-in-closed-state",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1343
+    }
+  ],
+  "readable-byte-stream-queue-entry": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-queue-entry",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 46
+    }
+  ],
+  "rs-get-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-get-reader",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 692
+    }
+  ],
+  "readablestream-set-up-with-byte-reading-support": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1309
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/StreamUtils.h",
+      "line_number": 23
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 121
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 131
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 146
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 140
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-set-up-with-byte-reading-support",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.h",
+      "line_number": 133
+    }
+  ],
+  "readablestream-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-close",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1352
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-close",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 161
+    }
+  ],
+  "transformstream-set-up": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transformstream-set-up",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 37
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#transformstream-set-up",
+      "filepath": "dom/streams/StreamUtils.h",
+      "line_number": 25
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#transformstream-set-up",
+      "filepath": "dom/streams/TransformerCallbackHelpers.h",
+      "line_number": 80
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#transformstream-set-up",
+      "filepath": "dom/streams/TransformStream.h",
+      "line_number": 31
+    }
+  ],
+  "rs-pipeTo-finalize": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-finalize",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 537
+    }
+  ],
+  "readablestream-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-error",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1381
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-error",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 164
+    }
+  ],
+  "readablestream-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-enqueue",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1437
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-enqueue",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 168
+    }
+  ],
+  "abstract-opdef-readablebytestreamtee": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/TeeState.h",
+      "line_number": 35
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 197
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 245
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 357
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 373
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 509
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 580
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 632
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 654
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 879
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 921
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee",
+      "filepath": "dom/streams/ReadableStreamTee.cpp",
+      "line_number": 964
+    }
+  ],
+  "readablestreamdefaultreader-read-a-chunk": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestreamdefaultreader-read-a-chunk",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.h",
+      "line_number": 80
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestreamdefaultreader-read-a-chunk",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 429
+    }
+  ],
+  "blqs-internal-slots": [
+    {
+      "url": "https://streams.spec.whatwg.org/#blqs-internal-slots",
+      "filepath": "dom/streams/ByteLengthQueuingStrategy.cpp",
+      "line_number": 43
+    }
+  ],
+  "writable-stream-default-controller-get-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-get-desired-size",
+      "filepath": "dom/streams/WritableStreamDefaultController.h",
+      "line_number": 105
+    }
+  ],
+  "other-specs-rs": [
+    {
+      "url": "https://streams.spec.whatwg.org/#other-specs-rs",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 131
+    }
+  ],
+  "ws-default-controller-private-abort": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-default-controller-private-abort",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 92
+    }
+  ],
+  "readable-stream-get-num-read-into-requests": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-get-num-read-into-requests",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 545
+    }
+  ],
+  "readable-byte-stream-controller-process-pull-into-descriptors-using-queue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-process-pull-into-descriptors-using-queue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 750
+    }
+  ],
+  "writablestream-set-up": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
+      "line_number": 1023
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/streams/WritableStream.h",
+      "line_number": 171
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 268
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.h",
+      "line_number": 119
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/streams/StreamUtils.h",
+      "line_number": 24
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writablestream-set-up",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 751
+    }
+  ],
+  "set-up-readable-byte-stream-controller-from-underlying-source": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-byte-stream-controller-from-underlying-source",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 2209
+    }
+  ],
+  "readablestream-current-byob-request-view": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-current-byob-request-view",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1396
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-current-byob-request-view",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1496
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-current-byob-request-view",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 173
+    }
+  ],
+  "other-specs-rs-create": [
+    {
+      "url": "https://streams.spec.whatwg.org/#other-specs-rs-create",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.h",
+      "line_number": 73
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#other-specs-rs-create",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.h",
+      "line_number": 67
+    }
+  ],
+  "set-up-readable-byte-stream-controller": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-byte-stream-controller",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 2120
+    }
+  ],
+  "writable-stream-default-controller-error-if-needed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-error-if-needed",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 509
+    }
+  ],
+  "transfer-array-buffer": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transfer-array-buffer",
+      "filepath": "dom/streams/ByteStreamHelpers.h",
+      "line_number": 19
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#transfer-array-buffer",
+      "filepath": "dom/streams/ByteStreamHelpers.cpp",
+      "line_number": 16
+    }
+  ],
+  "writable-stream-finish-erroring": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-finish-erroring",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 103
+    }
+  ],
+  "writable-stream-mark-first-write-request-in-flight": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-mark-first-write-request-in-flight",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 320
+    }
+  ],
+  "ws-constructor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-constructor",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 438
+    }
+  ],
+  "default-reader-constructor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-constructor",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 106
+    }
+  ],
+  "writable-stream-default-controller-clear-algorithms": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-clear-algorithms",
+      "filepath": "dom/streams/WritableStreamDefaultController.h",
+      "line_number": 109
+    }
+  ],
+  "other-specs-ws": [
+    {
+      "url": "https://streams.spec.whatwg.org/#other-specs-ws",
+      "filepath": "dom/streams/WritableStream.h",
+      "line_number": 169
+    }
+  ],
+  "dequeue-value": [
+    {
+      "url": "https://streams.spec.whatwg.org/#dequeue-value",
+      "filepath": "dom/streams/QueueWithSizes.h",
+      "line_number": 84
+    }
+  ],
+  "blqs-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#blqs-size",
+      "filepath": "dom/streams/ByteLengthQueuingStrategy.cpp",
+      "line_number": 55
+    }
+  ],
+  "writable-stream-finish-in-flight-write-with-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-finish-in-flight-write-with-error",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 284
+    }
+  ],
+  "writable-stream-mark-close-request-in-flight": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-mark-close-request-in-flight",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 305
+    }
+  ],
+  "ref-for-transfer-receiving-steps": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-receiving-steps",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 868
+    }
+  ],
+  "readable-stream-pipe-to": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-pipe-to",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 33
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-pipe-to",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 189
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-pipe-to",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 294
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-pipe-to",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 909
+    }
+  ],
+  "writable-stream-reject-close-and-closed-promise-if-needed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-reject-close-and-closed-promise-if-needed",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 338
+    }
+  ],
+  "abstract-opdef-cloneasuint8array": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-cloneasuint8array",
+      "filepath": "dom/streams/ByteStreamHelpers.cpp",
+      "line_number": 68
+    }
+  ],
+  "acquire-writable-stream-default-writer": [
+    {
+      "url": "https://streams.spec.whatwg.org/#acquire-writable-stream-default-writer",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 676
+    }
+  ],
+  "readable-stream-default-controller-can-close-or-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-can-close-or-enqueue",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 104
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-can-close-or-enqueue",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 117
+    }
+  ],
+  "default-writer-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-writer-desired-size",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 128
+    }
+  ],
+  "readable-stream-default-controller-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-enqueue",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 253
+    }
+  ],
+  "readable-stream-cancel": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-cancel",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 571
+    }
+  ],
+  "transform-stream-default-source-pull-algorithm": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-source-pull-algorithm",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 453
+    }
+  ],
+  "abstract-opdef-readablestreamdefaultreadererrorreadrequests": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaultreadererrorreadrequests",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 311
+    }
+  ],
+  "writable-stream-deal-with-rejection": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-deal-with-rejection",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 82
+    }
+  ],
+  "readable-byte-stream-controller-fill-head-pull-into-descriptor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-fill-head-pull-into-descriptor",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1396
+    }
+  ],
+  "readable-stream-default-controller-call-pull-if-needed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-call-pull-if-needed",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 428
+    }
+  ],
+  "abstract-opdef-readablestreambyobreaderrelease": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreambyobreaderrelease",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 333
+    }
+  ],
+  "rs-get-iterator": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-get-iterator",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1058
+    }
+  ],
+  "abstract-opdef-readablebytestreamcontroller-releasesteps": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontroller-releasesteps",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1246
+    }
+  ],
+  "transform-stream-default-sink-write-algorithm": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-sink-write-algorithm",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 232
+    }
+  ],
+  "writable-stream-default-writer-close-with-error-propagation": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-close-with-error-propagation",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 507
+    }
+  ],
+  "writable-stream-default-controller-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-write",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 446
+    }
+  ],
+  "writable-stream-add-write-request": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-add-write-request",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 730
+    }
+  ],
+  "writable-stream-finish-in-flight-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-finish-in-flight-close",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 194
+    }
+  ],
+  "rs-default-controller-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-desired-size",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 179
+    }
+  ],
+  "ws-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-close",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 653
+    }
+  ],
+  "ref-for-transfer-steps①": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps①",
+      "filepath": "dom/base/StructuredCloneHolder.cpp",
+      "line_number": 1836
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps①",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 907
+    }
+  ],
+  "readable-stream-default-controller-should-call-pull": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-should-call-pull",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 373
+    }
+  ],
+  "abstract-opdef-readablestreambyobreadererrorreadintorequests": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreambyobreadererrorreadintorequests",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 310
+    }
+  ],
+  "abstract-opdef-readablestreamdefaultreaderrelease": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaultreaderrelease",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 333
+    }
+  ],
+  "readable-byte-stream-controller-commit-pull-into-descriptor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-commit-pull-into-descriptor",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 698
+    }
+  ],
+  "read-loop": [
+    {
+      "url": "https://streams.spec.whatwg.org/#read-loop",
+      "filepath": "testing/web-platform/tests/wasm/webapi/wasm_stream_compile_test.html",
+      "line_number": 91
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#read-loop",
+      "filepath": "testing/web-platform/tests/wasm/webapi/wasm_stream_instantiate_test.html",
+      "line_number": 90
+    }
+  ],
+  "transform-stream-default-controller-enqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-controller-enqueue",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 91
+    }
+  ],
+  "readablestreamdefaultreader-read-all-bytes": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestreamdefaultreader-read-all-bytes",
+      "filepath": "dom/base/BodyConsumer.cpp",
+      "line_number": 651
+    }
+  ],
+  "rbs-controller-private-pull": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rbs-controller-private-pull",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1164
+    }
+  ],
+  "ws-abort": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-abort",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 583
+    }
+  ],
+  "default-reader-release-lock": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-reader-release-lock",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 355
+    }
+  ],
+  "rs-pipeTo-shutdown": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipeTo-shutdown",
+      "filepath": "dom/streams/ReadableStreamPipeTo.cpp",
+      "line_number": 525
+    }
+  ],
+  "validate-and-normalize-high-water-mark": [
+    {
+      "url": "https://streams.spec.whatwg.org/#validate-and-normalize-high-water-mark",
+      "filepath": "dom/streams/StreamUtils.cpp",
+      "line_number": 13
+    }
+  ],
+  "set-up-transform-stream-default-controller-from-transformer": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller-from-transformer",
+      "filepath": "dom/streams/TransformerCallbackHelpers.cpp",
+      "line_number": 30
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller-from-transformer",
+      "filepath": "dom/streams/TransformerCallbackHelpers.cpp",
+      "line_number": 68
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller-from-transformer",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 219
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller-from-transformer",
+      "filepath": "dom/streams/TransformerCallbackHelpers.h",
+      "line_number": 35
+    }
+  ],
+  "set-up-readable-stream-default-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-reader",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 107
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-reader",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 116
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#set-up-readable-stream-default-reader",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 408
+    }
+  ],
+  "rs-pipe-through": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-pipe-through",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 728
+    }
+  ],
+  "readable-byte-stream-controller-clear-algorithms": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-clear-algorithms",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 341
+    }
+  ],
+  "transform-stream-default-sink-abort-algorithm": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-sink-abort-algorithm",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 308
+    }
+  ],
+  "cqs-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#cqs-size",
+      "filepath": "dom/streams/CountQueuingStrategy.cpp",
+      "line_number": 59
+    }
+  ],
+  "writable-stream-default-writer-get-desired-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-get-desired-size",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 102
+    }
+  ],
+  "rs-byob-request-respond-with-new-view": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-byob-request-respond-with-new-view",
+      "filepath": "dom/streams/ReadableStreamBYOBRequest.cpp",
+      "line_number": 93
+    }
+  ],
+  "readable-stream-has-byob-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-has-byob-reader",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 125
+    }
+  ],
+  "default-writer-release-lock": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-writer-release-lock",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 251
+    }
+  ],
+  "rs-default-controller-private-pull": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-private-pull",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 607
+    }
+  ],
+  "byob-reader-constructor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-constructor",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 70
+    }
+  ],
+  "readable-stream-byob-reader-read": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-byob-reader-read",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 173
+    }
+  ],
+  "is-readable-stream-locked": [
+    {
+      "url": "https://streams.spec.whatwg.org/#is-readable-stream-locked",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 469
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#is-readable-stream-locked",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 721
+    }
+  ],
+  "default-writer-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#default-writer-write",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 343
+    }
+  ],
+  "rs-byob-request-respond": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-byob-request-respond",
+      "filepath": "dom/streams/ReadableStreamBYOBRequest.cpp",
+      "line_number": 58
+    }
+  ],
+  "abstract-opdef-setupcrossrealmtransformreadable": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformreadable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 496
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformreadable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 631
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformreadable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 688
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-setupcrossrealmtransformreadable",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 767
+    }
+  ],
+  "create-writable-stream": [
+    {
+      "url": "https://streams.spec.whatwg.org/#create-writable-stream",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 694
+    }
+  ],
+  "writable-stream-finish-in-flight-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-finish-in-flight-write",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 272
+    }
+  ],
+  "readable-stream-default-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-default-controller-error",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 406
+    }
+  ],
+  "readable-byte-stream-controller-respond-with-new-view": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-respond-with-new-view",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1646
+    }
+  ],
+  "is-non-negative-number": [
+    {
+      "url": "https://streams.spec.whatwg.org/#is-non-negative-number",
+      "filepath": "dom/streams/QueueWithSizes.h",
+      "line_number": 41
+    }
+  ],
+  "": [
+    {
+      "url": "https://streams.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
+      "line_number": 59
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
+      "line_number": 59
+    }
+  ],
+  "transform-stream-default-controller-terminate": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-controller-terminate",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 173
+    }
+  ],
+  "abstract-opdef-readablebytestreamcontrollerfillreadrequestfromqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontrollerfillreadrequestfromqueue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 800
+    }
+  ],
+  "rs-default-controller-has-backpressure": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-default-controller-has-backpressure",
+      "filepath": "dom/streams/TransformStreamDefaultController.cpp",
+      "line_number": 74
+    }
+  ],
+  "writable-stream-default-writer-ensure-ready-promise-rejected": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-ensure-ready-promise-rejected",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 487
+    }
+  ],
+  "transform-stream-error-writable-and-unblock-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-error-writable-and-unblock-write",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 115
+    }
+  ],
+  "readable-byte-stream-controller-should-call-pull": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-should-call-pull",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 554
+    }
+  ],
+  "writable-set-up": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-set-up",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 113
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-set-up",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 131
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-set-up",
+      "filepath": "dom/streams/UnderlyingSinkCallbackHelpers.cpp",
+      "line_number": 141
+    }
+  ],
+  "abstract-opdef-readablebytestreamcontrollerenqueuedetachedpullintotoqueue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontrollerenqueuedetachedpullintotoqueue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 517
+    }
+  ],
+  "byob-reader-release-lock": [
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-release-lock",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 355
+    }
+  ],
+  "abstract-opdef-cancopydatablockbytes": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-cancopydatablockbytes",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1731
+    }
+  ],
+  "readable-stream-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-error",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 780
+    }
+  ],
+  "writable-stream-default-controller-get-chunk-size": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-get-chunk-size",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 520
+    }
+  ],
+  "readable-byte-stream-controller-convert-pull-into-descriptor": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-convert-pull-into-descriptor",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1305
+    }
+  ],
+  "ref-for-transfer-steps": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps",
+      "filepath": "dom/base/StructuredCloneHolder.cpp",
+      "line_number": 1825
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 814
+    }
+  ],
+  "ref-for-transfer-steps②": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps②",
+      "filepath": "dom/base/StructuredCloneHolder.cpp",
+      "line_number": 1847
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-steps②",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 1000
+    }
+  ],
+  "readablestream-pull-from-bytes": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-pull-from-bytes",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.cpp",
+      "line_number": 390
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-pull-from-bytes",
+      "filepath": "dom/streams/UnderlyingSourceCallbackHelpers.h",
+      "line_number": 265
+    }
+  ],
+  "count-queuing-strategy-size-function": [
+    {
+      "url": "https://streams.spec.whatwg.org/#count-queuing-strategy-size-function",
+      "filepath": "dom/base/nsIGlobalObject.h",
+      "line_number": 269
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#count-queuing-strategy-size-function",
+      "filepath": "dom/base/nsIGlobalObject.h",
+      "line_number": 377
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#count-queuing-strategy-size-function",
+      "filepath": "dom/streams/CountQueuingStrategy.cpp",
+      "line_number": 49
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#count-queuing-strategy-size-function",
+      "filepath": "dom/streams/CountQueuingStrategy.cpp",
+      "line_number": 70
+    }
+  ],
+  "rs-byob-request-view": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rs-byob-request-view",
+      "filepath": "dom/streams/ReadableStreamBYOBRequest.cpp",
+      "line_number": 51
+    }
+  ],
+  "writable-stream-default-controller-advance-queue-if-needed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-controller-advance-queue-if-needed",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 378
+    }
+  ],
+  "byob-reader-read": [
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-read",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 100
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-read",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 123
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-read",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 146
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#byob-reader-read",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 208
+    }
+  ],
+  "abstract-opdef-readablestreamdefaultcontroller-releasesteps": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaultcontroller-releasesteps",
+      "filepath": "dom/streams/ReadableStreamDefaultController.cpp",
+      "line_number": 648
+    }
+  ],
+  "ws-default-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-default-controller-error",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 78
+    }
+  ],
+  "readable-byte-stream-controller-pull-into": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-pull-into",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1921
+    }
+  ],
+  "writable-stream-default-writer-write": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-write",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 270
+    }
+  ],
+  "generic-reader-closed": [
+    {
+      "url": "https://streams.spec.whatwg.org/#generic-reader-closed",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 373
+    }
+  ],
+  "ref-for-transfer-receiving-steps②": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ref-for-transfer-receiving-steps②",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 1030
+    }
+  ],
+  "readable-byte-stream-controller-clear-pending-pull-intos": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-clear-pending-pull-intos",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 321
+    }
+  ],
+  "abstract-opdef-packandpostmessagehandlingerror": [
+    {
+      "url": "https://streams.spec.whatwg.org/#abstract-opdef-packandpostmessagehandlingerror",
+      "filepath": "dom/streams/Transferable.cpp",
+      "line_number": 281
+    }
+  ],
+  "writable-stream-default-writer-close": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-close",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 170
+    }
+  ],
+  "initialize-readable-stream": [
+    {
+      "url": "https://streams.spec.whatwg.org/#initialize-readable-stream",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 476
+    }
+  ],
+  "ws-default-controller-private-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#ws-default-controller-private-error",
+      "filepath": "dom/streams/WritableStreamDefaultController.cpp",
+      "line_number": 112
+    }
+  ],
+  "acquire-readable-stream-byob-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#acquire-readable-stream-byob-reader",
+      "filepath": "dom/streams/ReadableStreamBYOBReader.cpp",
+      "line_number": 374
+    }
+  ],
+  "readable-stream-reader-generic-initialize": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-reader-generic-initialize",
+      "filepath": "dom/streams/ReadableStreamDefaultReader.cpp",
+      "line_number": 63
+    }
+  ],
+  "transform-stream-default-controller-perform-transform": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-default-controller-perform-transform",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 159
+    }
+  ],
+  "readable-byte-stream-controller-fill-pull-into-descriptor-from-queue": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-byte-stream-controller-fill-pull-into-descriptor-from-queue",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1784
+    }
+  ],
+  "transform-stream-set-backpressure": [
+    {
+      "url": "https://streams.spec.whatwg.org/#transform-stream-set-backpressure",
+      "filepath": "dom/streams/TransformStream.cpp",
+      "line_number": 507
+    }
+  ],
+  "readablestream-get-a-reader": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-get-a-reader",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 1519
+    },
+    {
+      "url": "https://streams.spec.whatwg.org/#readablestream-get-a-reader",
+      "filepath": "dom/streams/ReadableStream.h",
+      "line_number": 183
+    }
+  ],
+  "writable-stream-default-writer-ensure-closed-promise-rejected": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-default-writer-ensure-closed-promise-rejected",
+      "filepath": "dom/streams/WritableStreamDefaultWriter.cpp",
+      "line_number": 467
+    }
+  ],
+  "can-transfer-array-buffer": [
+    {
+      "url": "https://streams.spec.whatwg.org/#can-transfer-array-buffer",
+      "filepath": "dom/streams/ByteStreamHelpers.cpp",
+      "line_number": 42
+    }
+  ],
+  "rbs-controller-error": [
+    {
+      "url": "https://streams.spec.whatwg.org/#rbs-controller-error",
+      "filepath": "dom/streams/ReadableByteStreamController.cpp",
+      "line_number": 1108
+    }
+  ],
+  "writable-stream-abort": [
+    {
+      "url": "https://streams.spec.whatwg.org/#writable-stream-abort",
+      "filepath": "dom/streams/WritableStream.cpp",
+      "line_number": 504
+    }
+  ],
+  "readable-stream-add-read-request": [
+    {
+      "url": "https://streams.spec.whatwg.org/#readable-stream-add-read-request",
+      "filepath": "dom/streams/ReadableStream.cpp",
+      "line_number": 859
+    }
+  ]
+}

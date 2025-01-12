@@ -1,0 +1,89 @@
+{
+  "": [
+    {
+      "url": "http://test.csswg.org/suites/css2.1/20110111/html4/at-rule-013.htm",
+      "filepath": "layout/reftests/css-parsing/at-rule-013-ref.html",
+      "line_number": 4
+    },
+    {
+      "url": "http://test.csswg.org/suites/css2.1/20110111/html4/at-rule-013.htm",
+      "filepath": "layout/reftests/css-parsing/at-rule-013.html",
+      "line_number": 4
+    },
+    {
+      "url": "http://test.csswg.org/source/support/cat.png",
+      "filepath": "testing/web-platform/tests/notifications/icon-basic-manual.https.html",
+      "line_number": 22
+    },
+    {
+      "url": "http://test.csswg.org/suites/css-grid-1_dev/nightly-unstable/",
+      "filepath": "testing/web-platform/tests/css/css-grid/test-plan/index.html",
+      "line_number": 23
+    },
+    {
+      "url": "http://test.csswg.org/suites/css3-shapes/nightly-unstable/",
+      "filepath": "testing/web-platform/tests/css/css-shapes/test-plan/index.html",
+      "line_number": 22
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-003.html",
+      "line_number": 45
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-implicit-001.html",
+      "line_number": 44
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-001.html",
+      "line_number": 45
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-inherit-003.html",
+      "line_number": 43
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-inherit-001.html",
+      "line_number": 44
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-inherit-002.html",
+      "line_number": 44
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/properties-value-002.html",
+      "line_number": 44
+    },
+    {
+      "url": "http://test.csswg.org/source/contributors/rodneyrehm/submitted/css3-transitions/README.md",
+      "filepath": "testing/web-platform/tests/css/css-transitions/pseudo-elements-001.html",
+      "line_number": 45
+    },
+    {
+      "url": "http://test.csswg.org/source/css-flexbox-1/reference/flexbox-flex-wrap-nowrap-ref.htm",
+      "filepath": "testing/web-platform/tests/css/css-writing-modes/test-plan/req-tcu-font.html",
+      "line_number": 90
+    },
+    {
+      "url": "http://test.csswg.org/suites/css3-writing-modes/nightly-unstable/",
+      "filepath": "testing/web-platform/tests/css/css-writing-modes/test-plan/index.html",
+      "line_number": 26
+    },
+    {
+      "url": "http://test.csswg.org/suites/css-text-3_dev/nightly-unstable/html/white-space-mixed-003.htm",
+      "filepath": "testing/web-platform/tests/css/css-text/white-space/white-space-pre-052.html",
+      "line_number": 10
+    },
+    {
+      "url": "http://test.csswg.org/suites/css-text-3_dev/nightly-unstable/html/white-space-mixed-003.htm",
+      "filepath": "testing/web-platform/tests/css/css-text/white-space/white-space-pre-051.html",
+      "line_number": 10
+    }
+  ]
+}
