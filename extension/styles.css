@@ -65,8 +65,9 @@
 
 /* Style for the SVG icon inside the rocket button */
 .specmonkey-box-icon {
-    width: 20px;   /* Adjust the size as needed */
-    height: 20px;  /* Adjust the size as needed */
+    width: 1em;   /* Adjust the size as needed */
+    height: 1em;  /* Adjust the size as needed */
+    vertical-align: middle;
     pointer-events: none; /* Ensures the click event is handled by the button */
     background-color: transparent;
   }
