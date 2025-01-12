@@ -1,73 +1,103 @@
 /* styles.css */
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: black;
+    --text: white;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: white;
+    --text: black;
+  }
+}
 /* SpecMonkey Box Styling */
 .specmonkey-box {
-    border: 2px solid red;
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 10px;
-    position: absolute; /* Changed from fixed to absolute */
-    z-index: 1000;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    max-width: 50vw;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    overflow: auto; /* Allows scrolling if content exceeds box height */
-  }
+  border: 2px solid #ff7e5f;
+  background-color: var(--background);
+  color: var(--text);
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  max-width: 50vw;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: auto; /* Allows scrolling if content exceeds box height */
+}
 
-  /* SpecMonkey Box Headlines */
-  .specmonkey-box h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    color: #333;
-  }
+/* SpecMonkey Box Headlines */
+.specmonkey-box h3 {
+  margin-top: .3em;
+  margin-bottom: .1em;
+  font-size: 1.5em;
+  color: #444;
+}
 
-  /* SpecMonkey Links */
-  .specmonkey-box a {
-    color: #0078D7; /* Searchfox blue color */
-    text-decoration: none;
-    margin-bottom: 5px;
-    display: block;
-  }
+/* SpecMonkey Links */
+.specmonkey-box a {
+  color: var(--text);
+  text-decoration: none;
+  margin-bottom: .1em;
+  display: block;
+}
 
-  .specmonkey-box a:hover {
-    text-decoration: underline;
-  }
+.specmonkey-box a:hover {
+  text-decoration: underline;
+}
 
-  .specmonkey-box-button {
-    margin-left: 5px;
-    cursor: pointer;
-    border: none; /* Ensures no border is present */
-    background-color: transparent; /* Explicitly sets background to transparent */
-    padding: 0; /* Removes padding to prevent background spill */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    outline: none; /* Removes focus outline */
-    box-shadow: none !important; /* Removes any box-shadow */
-  }
-  /* Close Button Styling */
-  .specmonkey-close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-    color: #000;
-  }
+.specmonkey-box-button {
+  margin-left: 5px;
+  cursor: pointer;
+  border: none; /* Ensures no border is present */
+  background-color: transparent; /* Explicitly sets background to transparent */
+  padding: 0; /* Removes padding to prevent background spill */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: none; /* Removes focus outline */
+  box-shadow: none !important; /* Removes any box-shadow */
+}
+/* Close Button Styling */
+.specmonkey-close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--text);
+}
 
-  .specmonkey-close-button:hover {
-    color: #ff0000;
-  }
-
+.specmonkey-close-button:hover {
+  color: #ff7e5f;
+}
 
 /* Style for the SVG icon inside the rocket button */
 .specmonkey-box-icon {
-    width: 1em;   /* Adjust the size as needed */
-    height: 1em;  /* Adjust the size as needed */
-    vertical-align: middle;
-    pointer-events: none; /* Ensures the click event is handled by the button */
-    background-color: transparent;
-  }
+  width: 1.1em; /* Adjust the size as needed */
+  height: 1.1em; /* Adjust the size as needed */
+  vertical-align: middle;
+  pointer-events: none; /* Ensures the click event is handled by the button */
+  background-color: transparent;
+}
+
+/* Styles for the Information Box */
+.specmonkey-info-box {
+  position: absolute;
+  border: 2px solid #ff7e5f;
+  background-color: var(--background);
+  color: var(--text);
+  padding: .1em .3em;
+  border-radius: .5em;
+  font-size: 0.8em;
+  visibility: hidden;
+  white-space: nowrap; /* Prevents text wrapping */
+  z-index: 1000; /* Ensures it appears above other elements */
+}
+
+.specmonkey-info-box.visible {
+  visibility: visible;
+}

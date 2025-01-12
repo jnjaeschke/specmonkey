@@ -1,6 +1,24 @@
 // content.js
 initializeSpecMonkey();
 let currentOpenBox = null;
+const infoBoxes = new Map();
+const infoInlays = new Map();
+
+/**
+ * Handles clicks outside the SpecMonkey box to close it.
+ *
+ * @param {MouseEvent} event - The mouse event triggered by the click.
+ */
+function handleClickOutsideBox(event) {
+  if (currentOpenBox == null) {
+    return;
+  }
+  if (!currentOpenBox.contains(event.target)) {
+    currentOpenBox.style.display = "none";
+    currentOpenBox = null;
+    document.removeEventListener("click", handleClickOutsideBox);
+  }
+}
 
 /**
  * Checks if the current domain matches any domain in the config.
@@ -168,68 +186,106 @@ function displaySpecmonkeyButton(anchor, elements) {
     specMonkeyButton
   );
 
-  // Create the box container
-  const box = document.createElement("div");
-  box.classList.add("specmonkey-box");
-  box.style.display = "none"; // Hidden by default
-
-  // Organize links into categories based on the specified criteria
-  const categorizedLinks = categorizeLinks(elements);
-
-  const headline = document.createElement("h3");
-  const searchfoxQuery = document.createElement("a");
-  searchfoxQuery.href = `https://searchfox.org/mozilla-central/search?q=${encodeURIComponent(
-    elements[0].url
-  )}`;
-  searchfoxQuery.target = "_blank";
-  searchfoxQuery.rel = "noopener noreferrer";
-  searchfoxQuery.textContent = `${elements.length} References in Gecko (`;
-  headline.appendChild(searchfoxQuery);
-  box.appendChild(headline);
-  // Populate the box with categorized links
-  for (const [category, links] of Object.entries(categorizedLinks)) {
-    if (links.length === 0) continue; // Skip empty categories
-
-    if (!searchfoxQuery.textContent.endsWith("(")) {
-      searchfoxQuery.textContent += ", ";
+  function createInlayAndBox() {
+    if (infoBoxes.has(anchor) && infoInlays.has(anchor)) {
+      return infoBoxes.get(anchor), infoInlays.get(anchor);
     }
-    searchfoxQuery.textContent += `${links.length} ${category}`;
-    // Create and append the headline
+    // Create the box container
+    const infoBox = document.createElement("div");
+    infoBox.classList.add("specmonkey-box");
+    infoBox.style.display = "none"; // Hidden by default
+
+    // Organize links into categories based on the specified criteria
+    const categorizedLinks = categorizeLinks(elements);
+
+    // Create the information box
+    const infoInlay = document.createElement("div");
+    infoInlay.classList.add("specmonkey-info-box");
+    shortCategories = Object.entries(categorizedLinks)
+      .filter((el) => el[1].length != 0)
+      .map((el) => {
+        return `${[...el[0]].reduce(
+          (caps, ch) => (ch.match(/[A-Z]/) ? caps + ch : caps),
+          ""
+        )}: ${el[1].length}`;
+      })
+      .join(" | ");
+
+    infoInlay.innerText = shortCategories;
+    document.body.appendChild(infoInlay);
+
     const headline = document.createElement("h3");
-    headline.textContent = category;
-    box.appendChild(headline);
+    const searchfoxQuery = document.createElement("a");
+    searchfoxQuery.href = `https://searchfox.org/mozilla-central/search?q=${encodeURIComponent(
+      elements[0].url
+    )}`;
+    searchfoxQuery.target = "_blank";
+    searchfoxQuery.rel = "noopener noreferrer";
+    searchfoxQuery.textContent = `${elements.length} ${elements.length == 1 ? "Reference" : "References"} in Gecko (`;
+    headline.appendChild(searchfoxQuery);
+    infoBox.appendChild(headline);
+    // Populate the box with categorized links
+    for (const [category, links] of Object.entries(categorizedLinks)) {
+      if (links.length === 0) continue; // Skip empty categories
 
-    // Create and append the links
-    links.forEach((linkData) => {
-      const link = document.createElement("a");
-      link.href = constructSearchfoxURL(
-        linkData.filepath,
-        linkData.line_number
-      );
-      link.textContent = `${linkData.filepath}#${linkData.line_number}`;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
+      if (!searchfoxQuery.textContent.endsWith("(")) {
+        searchfoxQuery.textContent += ", ";
+      }
+      searchfoxQuery.textContent += `${links.length} ${category}`;
+      // Create and append the headline
+      const headline = document.createElement("h3");
+      headline.textContent = category;
+      infoBox.appendChild(headline);
 
-      box.appendChild(link);
+      // Create and append the links
+      links.forEach((linkData) => {
+        const link = document.createElement("a");
+        link.href = constructSearchfoxURL(
+          linkData.filepath,
+          linkData.line_number
+        );
+        link.textContent = `${linkData.filepath}#${linkData.line_number}`;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+
+        infoBox.appendChild(link);
+      });
+    }
+    searchfoxQuery.textContent += ")";
+
+    // Optional: Add a close button
+    const closeButton = document.createElement("span");
+    closeButton.textContent = "×";
+    closeButton.classList.add("specmonkey-close-button");
+
+    // Append the close button to the box
+    infoBox.appendChild(closeButton);
+
+    // Append the box to the body
+    document.body.appendChild(infoBox);
+
+    infoBoxes.set(anchor, infoBox);
+    infoInlays.set(anchor, infoInlay);
+
+    infoInlay.addEventListener("mouseenter", () => {
+      infoInlay.classList.add("visible");
+    });
+
+    infoInlay.addEventListener("mouseleave", () => {
+      infoInlay.classList.remove("visible");
+    });
+
+    // Event listener for the close button
+    closeButton.addEventListener("click", () => {
+      currentOpenBox.style.display = "none";
+      currentOpenBox = null;
     });
   }
-  searchfoxQuery.textContent += ")";
-
-  // Optional: Add a close button
-  const closeButton = document.createElement("span");
-  closeButton.textContent = "×";
-  closeButton.classList.add("specmonkey-close-button");
-
-  // Append the close button to the box
-  box.appendChild(closeButton);
-
-  // Append the box to the body
-  document.body.appendChild(box);
 
   /**
    * Positions the SpecMonkey box immediately adjacent to the specmonkey button.
    */
-  function positionBox() {
+  function positionBox(box) {
     // Get the bounding rectangle of the specmonkey button
     const buttonRect = specMonkeyButton.getBoundingClientRect();
 
@@ -250,49 +306,49 @@ function displaySpecmonkeyButton(anchor, elements) {
     }
   }
 
+  specMonkeyButton.addEventListener("mouseenter", () => {
+    createInlayAndBox();
+    const infoBox = infoBoxes.get(anchor);
+    if(currentOpenBox === infoBox) {
+      return;
+    }
+    const infoInlay = infoInlays.get(anchor);
+    const buttonRect = specMonkeyButton.getBoundingClientRect();
+    infoInlay.style.top = `${buttonRect.top + window.scrollY}px`;
+    infoInlay.style.left = `${buttonRect.right + window.scrollX + 10}px`; // 10px gap to the right
+    infoInlay.classList.add("visible");
+  });
+
+  specMonkeyButton.addEventListener("mouseleave", (event) => {
+    const infoInlay = infoInlays.get(anchor);
+    if (!infoInlay.contains(event.relatedTarget)) {
+      infoInlay.classList.remove("visible");
+    }
+  });
+
   // Event listener for clicking the specmonkey button
   specMonkeyButton.addEventListener("click", (event) => {
     event.stopPropagation(); // Prevent the event from bubbling up
-    const isVisible = box.style.display === "block";
+    createInlayAndBox();
+    const infoBox = infoBoxes.get(anchor);
+    const infoInlay = infoInlays.get(anchor);
+    infoInlay.classList.remove("visible");
+    const isVisible = infoBox.style.display === "block";
     if (!isVisible) {
-      if (currentOpenBox && currentOpenBox !== box) {
+      if (currentOpenBox && currentOpenBox !== infoBox) {
         currentOpenBox.style.display = "none";
       }
-      box.style.display = "block";
-      positionBox();
-      currentOpenBox = box;
+      infoBox.style.display = "block";
+      positionBox(infoBox);
+      currentOpenBox = infoBox;
       // Add event listener to the document to handle clicks outside
       document.addEventListener("click", handleClickOutsideBox);
     } else {
-      box.style.display = "none";
+      infoBox.style.display = "none";
       currentOpenBox = null;
       document.removeEventListener("click", handleClickOutsideBox);
     }
   });
-
-  // Event listener for the close button
-  closeButton.addEventListener("click", (event) => {
-    event.stopPropagation(); // Prevent triggering other click events
-    box.style.display = "none";
-    currentOpenBox = null;
-    document.removeEventListener("click", handleClickOutsideBox);
-  });
-
-  /**
-   * Handles clicks outside the SpecMonkey box to close it.
-   *
-   * @param {MouseEvent} event - The mouse event triggered by the click.
-   */
-  function handleClickOutsideBox(event) {
-    if (
-      !box.contains(event.target) &&
-      !specMonkeyButton.contains(event.target)
-    ) {
-      box.style.display = "none";
-      currentOpenBox = null;
-      document.removeEventListener("click", handleClickOutsideBox);
-    }
-  }
 }
 
 /**
@@ -304,7 +360,7 @@ function displaySpecmonkeyButton(anchor, elements) {
 function categorizeLinks(elements) {
   const categories = {
     "Web-Platform Test": [],
-    Mochitest: [],
+    Test: [],
     Code: [],
   };
 
@@ -323,7 +379,7 @@ function categorizeLinks(elements) {
       lowerPath.includes("test") &&
       mochitestExtensions.includes(extension)
     ) {
-      categories["Mochitest"].push(element);
+      categories["Test"].push(element);
     } else {
       categories["Code"].push(element);
     }
