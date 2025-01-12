@@ -61,17 +61,18 @@ fn main() -> SMResult<()> {
             let Config {
                 extensions,
                 domains,
-                source_repository,
-                index_repository,
+                excluded_dirs,
+                source_repository: _,
+                index_repository: _,
             } = Config::try_from_file(&config_file)?;
 
-            // todo: pull git repo
-
             // scan repo for urls
-            let raw_url_data =
-                gather_files(&source_repository_path, Arc::new(extensions)).map(|filepaths| {
-                    URLCrawler::find_urls(filepaths, &source_repository_path, domains)
-                })?;
+            let raw_url_data = gather_files(
+                &source_repository_path,
+                Arc::new(extensions),
+                Arc::new(excluded_dirs.into_iter().map(PathBuf::from).collect()),
+            )
+            .map(|filepaths| URLCrawler::find_urls(filepaths, &source_repository_path, domains))?;
 
             Index::from_raw_data(raw_url_data).write_json(index_repository_path)?;
 

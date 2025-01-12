@@ -12,6 +12,7 @@ use crate::SMResult;
 pub struct Config {
     pub(super) extensions: Vec<String>,
     pub(super) domains: Vec<String>,
+    pub(super) excluded_dirs: Vec<String>,
     pub(super) source_repository: Repository,
     pub(super) index_repository: Repository,
 }
@@ -59,6 +60,7 @@ impl Default for Config {
         Self {
             extensions: vec![String::from("h"), String::from("cpp")],
             domains: vec![String::from("example.com")],
+            excluded_dirs: vec![],
             source_repository: Default::default(),
             index_repository: Default::default(),
         }
