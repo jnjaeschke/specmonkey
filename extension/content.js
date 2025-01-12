@@ -176,10 +176,24 @@ function displaySpecmonkeyButton(anchor, elements) {
   // Organize links into categories based on the specified criteria
   const categorizedLinks = categorizeLinks(elements);
 
+  const headline = document.createElement("h3");
+  const searchfoxQuery = document.createElement("a");
+  searchfoxQuery.href = `https://searchfox.org/mozilla-central/search?q=${encodeURIComponent(
+    elements[0].url
+  )}`;
+  searchfoxQuery.target = "_blank";
+  searchfoxQuery.rel = "noopener noreferrer";
+  searchfoxQuery.textContent = `${elements.length} References in Gecko (`;
+  headline.appendChild(searchfoxQuery);
+  box.appendChild(headline);
   // Populate the box with categorized links
   for (const [category, links] of Object.entries(categorizedLinks)) {
     if (links.length === 0) continue; // Skip empty categories
 
+    if (!searchfoxQuery.textContent.endsWith("(")) {
+      searchfoxQuery.textContent += ", ";
+    }
+    searchfoxQuery.textContent += `${links.length} ${category}`;
     // Create and append the headline
     const headline = document.createElement("h3");
     headline.textContent = category;
@@ -192,13 +206,14 @@ function displaySpecmonkeyButton(anchor, elements) {
         linkData.filepath,
         linkData.line_number
       );
-      link.textContent = `View: ${linkData.filepath}#L${linkData.line_number}`;
+      link.textContent = `${linkData.filepath}#${linkData.line_number}`;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
 
       box.appendChild(link);
     });
   }
+  searchfoxQuery.textContent += ")";
 
   // Optional: Add a close button
   const closeButton = document.createElement("span");
