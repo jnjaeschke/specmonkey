@@ -130,7 +130,7 @@ impl URLCrawler {
                 let host_lowercase = host.to_lowercase();
                 let domains = self.whitelist_domains.clone();
                 if domains.is_empty() {
-                    return Some((url_string, host_lowercase, line_number));
+                    return Some((url_string, host_lowercase.clone(), line_number));
                 }
                 return domains
                     .iter()
@@ -138,7 +138,7 @@ impl URLCrawler {
                         if *domain == host_lowercase
                             || host_lowercase.ends_with(&format!(".{}", domain))
                         {
-                            Some(domain.clone())
+                            Some(host_lowercase.clone())
                         } else {
                             None
                         }
