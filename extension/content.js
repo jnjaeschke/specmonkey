@@ -56,7 +56,7 @@ async function initializeSpecMonkey() {
       );
 
       // Step 4: Fetch the corresponding JSON file from GitHub
-      const indexData = await fetchIndexData(matchingDomain);
+      const indexData = await fetchIndexData(currentDomain);
 
       // Step 5: Process the index data and display boxes
       processIndexData(indexData);
@@ -113,6 +113,7 @@ async function fetchIndexData(domain) {
       `Invalid JSON format for domain ${domain}: Expected a key-value map.`
     );
   }
+  console.log(`Got ${Object.keys(jsonData).length} fragment entries.`);
 
   return jsonData;
 }
@@ -221,7 +222,9 @@ function displaySpecmonkeyButton(anchor, elements) {
     )}`;
     searchfoxQuery.target = "_blank";
     searchfoxQuery.rel = "noopener noreferrer";
-    searchfoxQuery.textContent = `${elements.length} ${elements.length == 1 ? "Reference" : "References"} in Gecko (`;
+    searchfoxQuery.textContent = `${elements.length} ${
+      elements.length == 1 ? "Reference" : "References"
+    } in Gecko (`;
     headline.appendChild(searchfoxQuery);
     infoBox.appendChild(headline);
     // Populate the box with categorized links
@@ -309,7 +312,7 @@ function displaySpecmonkeyButton(anchor, elements) {
   specMonkeyButton.addEventListener("mouseenter", () => {
     createInlayAndBox();
     const infoBox = infoBoxes.get(anchor);
-    if(currentOpenBox === infoBox) {
+    if (currentOpenBox === infoBox) {
       return;
     }
     const infoInlay = infoInlays.get(anchor);
