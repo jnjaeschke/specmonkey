@@ -6,13 +6,6 @@
       "line_number": 1173
     }
   ],
-  "ordered-map": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ordered-map",
-      "filepath": "js/loader/ImportMap.cpp",
-      "line_number": 213
-    }
-  ],
   "ascii-whitespace": [
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
@@ -67,11 +60,18 @@
       "line_number": 52
     }
   ],
-  "c0-control-or-space": [
+  "ordered-set": [
     {
-      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1176
+      "url": "https://infra.spec.whatwg.org/#ordered-set",
+      "filepath": "dom/html/HTMLSlotElement.cpp",
+      "line_number": 253
+    }
+  ],
+  "ordered-map": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ordered-map",
+      "filepath": "js/loader/ImportMap.cpp",
+      "line_number": 213
     }
   ],
   "byte-value": [
@@ -81,18 +81,18 @@
       "line_number": 6
     }
   ],
-  "ordered-set": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ordered-set",
-      "filepath": "dom/html/HTMLSlotElement.cpp",
-      "line_number": 253
-    }
-  ],
   "strip-and-collapse-ascii-whitespace": [
     {
       "url": "https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace",
       "filepath": "devtools/client/debugger/test/mochitest/examples/ember/quickstart/dist/assets/vendor.js",
       "line_number": 8124
+    }
+  ],
+  "isomorphic-encode": [
+    {
+      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
+      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
+      "line_number": 14
     }
   ],
   "ascii-code-point": [
@@ -109,11 +109,11 @@
       "line_number": 352
     }
   ],
-  "isomorphic-encode": [
+  "c0-control-or-space": [
     {
-      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
-      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
-      "line_number": 14
+      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1176
     }
   ]
 }

@@ -1,4 +1,69 @@
 {
+  "content-server": [
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 590
+    },
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 645
+    }
+  ],
+  "definedriver": [
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
+      "line_number": 1
+    }
+  ],
+  "measure": [
+    {
+      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
+      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
+      "line_number": 38
+    }
+  ],
+  "limits": [
+    {
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
+      "filepath": "toolkit/components/glean/bindings/private/StringList.h",
+      "line_number": 39
+    },
+    {
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string.html#limits",
+      "filepath": "toolkit/components/glean/bindings/private/String.h",
+      "line_number": 28
+    },
+    {
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
+      "filepath": "toolkit/components/glean/api/src/private/string_list.rs",
+      "line_number": 64
+    }
+  ],
+  "submitting-an-add-on-abuse-report": [
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 352
+    },
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 393
+    },
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 447
+    }
+  ],
   "enabling-debugging-features-through-environment-variables": [
     {
       "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
@@ -77,37 +142,37 @@
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_booleans.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 63
+      "line_number": 65
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_strings.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 101
+      "line_number": 103
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_counters.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 132
+      "line_number": 134
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_custom_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 165
+      "line_number": 167
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_memory_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 198
+      "line_number": 200
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_timing_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 231
+      "line_number": 233
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_quantities.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 271
+      "line_number": 277
     },
     {
       "url": "https://mozilla.github.io/",
@@ -118,71 +183,6 @@
       "url": "https://mozilla.github.io/fathom/training.html",
       "filepath": "toolkit/components/satchel/SignUpFormRuleset.sys.mjs",
       "line_number": 12
-    }
-  ],
-  "measure": [
-    {
-      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
-      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
-      "line_number": 38
-    }
-  ],
-  "limits": [
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
-      "filepath": "toolkit/components/glean/bindings/private/StringList.h",
-      "line_number": 39
-    },
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string.html#limits",
-      "filepath": "toolkit/components/glean/bindings/private/String.h",
-      "line_number": 28
-    },
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
-      "filepath": "toolkit/components/glean/api/src/private/string_list.rs",
-      "line_number": 63
-    }
-  ],
-  "content-server": [
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 590
-    },
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 645
-    }
-  ],
-  "definedriver": [
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
-      "line_number": 1
-    },
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
-      "line_number": 1
-    }
-  ],
-  "submitting-an-add-on-abuse-report": [
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 352
-    },
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 393
-    },
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 447
     }
   ]
 }

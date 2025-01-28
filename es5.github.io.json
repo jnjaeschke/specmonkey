@@ -1,4 +1,26 @@
 {
+  "x15.1.2.2": [
+    {
+      "url": "https://es5.github.io/#x15.1.2.2",
+      "filepath": "node_modules/lodash/parseInt.js",
+      "line_number": 16
+    },
+    {
+      "url": "https://es5.github.io/#x15.1.2.2",
+      "filepath": "node_modules/lodash/lodash.js",
+      "line_number": 14527
+    },
+    {
+      "url": "https://es5.github.io/#x15.1.2.2",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 22648
+    },
+    {
+      "url": "https://es5.github.io/#x15.1.2.2",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 25085
+    }
+  ],
   "x13.2.2": [
     {
       "url": "https://es5.github.io/#x13.2.2",
@@ -24,28 +46,6 @@
       "url": "https://es5.github.io/#x13.2.2",
       "filepath": "testing/modules/sinon-7.2.7.js",
       "line_number": 15633
-    }
-  ],
-  "x15.1.2.2": [
-    {
-      "url": "https://es5.github.io/#x15.1.2.2",
-      "filepath": "node_modules/lodash/parseInt.js",
-      "line_number": 16
-    },
-    {
-      "url": "https://es5.github.io/#x15.1.2.2",
-      "filepath": "node_modules/lodash/lodash.js",
-      "line_number": 14527
-    },
-    {
-      "url": "https://es5.github.io/#x15.1.2.2",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 22648
-    },
-    {
-      "url": "https://es5.github.io/#x15.1.2.2",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 25085
     }
   ],
   "x9": [

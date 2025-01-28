@@ -1,170 +1,4 @@
 {
-  "sec-white-space": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-white-space",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 105504
-    }
-  ],
-  "sec-switch-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-switch-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108473
-    }
-  ],
-  "sec-method-definitions": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-method-definitions",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108992
-    }
-  ],
-  "sec-set-immutable-prototype": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-set-immutable-prototype",
-      "filepath": "dom/base/MaybeCrossOriginObject.cpp",
-      "line_number": 386
-    }
-  ],
-  "sec-set.from": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.from",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7482
-    },
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.from",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 102909
-    }
-  ],
-  "sec-object-initializer": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-object-initializer",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 106964
-    }
-  ],
-  "sec-comments": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-comments",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109700
-    }
-  ],
-  "sec-class-definitions": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-class-definitions",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109092
-    }
-  ],
-  "sec-continue-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-continue-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108400
-    }
-  ],
-  "sec-multiplicative-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-multiplicative-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107596
-    }
-  ],
-  "sec-assignment-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-assignment-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107686
-    }
-  ],
-  "sec-try-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-try-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108575
-    }
-  ],
-  "sec-generator-function-definitions": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-generator-function-definitions",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109049
-    }
-  ],
-  "sec-weakset.of": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.of",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7466
-    }
-  ],
-  "sec-equality-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-equality-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107600
-    }
-  ],
-  "sec-expression-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-expression-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108175
-    }
-  ],
-  "sec-do-while-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-do-while-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108210
-    }
-  ],
-  "sec-debugger-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-debugger-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108617
-    }
-  ],
-  "sec-weakset.from": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.from",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7498
-    }
-  ],
-  "sec-exports": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-exports",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109375
-    }
-  ],
-  "sec-modules": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-modules",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109237
-    }
-  ],
-  "sec-static-semantics-tv-and-trv": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-static-semantics-tv-and-trv",
-      "filepath": "js/src/frontend/TokenStream.h",
-      "line_number": 2182
-    }
-  ],
-  "sec-binary-bitwise-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-binary-bitwise-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107601
-    }
-  ],
   "sec-scripts-static-semantics-lexicallydeclarednames": [
     {
       "url": "https://tc39.github.io/ecma262/#sec-scripts-static-semantics-lexicallydeclarednames",
@@ -472,6 +306,27 @@
       "line_number": 26
     }
   ],
+  "sec-weakmap.of": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7458
+    }
+  ],
+  "array-index": [
+    {
+      "url": "https://tc39.github.io/ecma262/#array-index",
+      "filepath": "js/src/jsfriendapi.h",
+      "line_number": 450
+    }
+  ],
+  "sec-block": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-block",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107886
+    }
+  ],
   "sec-FlattenIntoArray": [
     {
       "url": "https://tc39.github.io/proposal-flatMap/#sec-FlattenIntoArray",
@@ -479,11 +334,53 @@
       "line_number": 3579
     }
   ],
-  "sec-let-and-const-declarations": [
+  "sec-set-immutable-prototype": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-let-and-const-declarations",
+      "url": "https://tc39.github.io/ecma262/#sec-set-immutable-prototype",
+      "filepath": "dom/base/MaybeCrossOriginObject.cpp",
+      "line_number": 386
+    }
+  ],
+  "sec-variable-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-variable-statement",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107940
+      "line_number": 108106
+    }
+  ],
+  "sec-break-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-break-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108419
+    }
+  ],
+  "sec-keywords": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-keywords",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109925
+    }
+  ],
+  "sec-function-definitions": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-function-definitions",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108708
+    }
+  ],
+  "sec-multiplicative-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-multiplicative-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107596
+    }
+  ],
+  "sec-weakmap.from": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7490
     }
   ],
   "sec-list-and-record-specification-type": [
@@ -493,18 +390,86 @@
       "line_number": 18
     }
   ],
-  "sec-if-statement": [
+  "sec-getprototypefromconstructor": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-if-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108182
+      "url": "https://tc39.github.io/ecma262/#sec-getprototypefromconstructor",
+      "filepath": "js/src/vm/JSObject.h",
+      "line_number": 799
     }
   ],
-  "sec-with-statement": [
+  "sec-performpromisethen": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-with-statement",
+      "url": "https://tc39.github.io/ecma262/#sec-performpromisethen",
+      "filepath": "js/src/builtin/Promise.cpp",
+      "line_number": 6241
+    },
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-performpromisethen",
+      "filepath": "js/src/builtin/Promise.cpp",
+      "line_number": 6312
+    }
+  ],
+  "sec-for-in-and-for-of-statements": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-for-in-and-for-of-statements",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108453
+      "line_number": 108253
+    }
+  ],
+  "sec-line-terminators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-line-terminators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 105509
+    }
+  ],
+  "sec-array-initializer": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-array-initializer",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 106929
+    }
+  ],
+  "sec-ecmascript-language-types-string-type": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-ecmascript-language-types-string-type",
+      "filepath": "js/src/frontend/TokenStream.cpp",
+      "line_number": 1073
+    }
+  ],
+  "sec-grouping-operator": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-grouping-operator",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107172
+    }
+  ],
+  "sec-switch-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-switch-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108473
+    }
+  ],
+  "sec-modules": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-modules",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109237
+    }
+  ],
+  "sec-imports": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-imports",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109257
+    }
+  ],
+  "sec-template-literal-lexical-components": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-template-literal-lexical-components",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 110480
     }
   ],
   "sec-literals-regular-expression-literals": [
@@ -519,25 +484,39 @@
       "line_number": 110662
     }
   ],
-  "sec-binary-logical-operators": [
+  "sec-ordinary-object-internal-methods-and-internal-slots-hasproperty-p": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-binary-logical-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107602
+      "url": "https://tc39.github.io/ecma262/#sec-ordinary-object-internal-methods-and-internal-slots-hasproperty-p",
+      "filepath": "dom/base/nsGlobalWindowOuter.cpp",
+      "line_number": 420
     }
   ],
-  "sec-update-expressions": [
+  "sec-comments": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-update-expressions",
+      "url": "https://tc39.github.io/ecma262/#sec-comments",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107514
+      "line_number": 109700
     }
   ],
-  "sec-exp-operator": [
+  "sec-left-hand-side-expressions": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-exp-operator",
+      "url": "https://tc39.github.io/ecma262/#sec-left-hand-side-expressions",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107595
+      "line_number": 107330
+    }
+  ],
+  "sec-ordinarysetprototypeof": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-ordinarysetprototypeof",
+      "filepath": "testing/web-platform/tests/html/browsers/history/the-location-interface/allow_prototype_cycle_through_location.sub.html",
+      "line_number": 9
+    }
+  ],
+  "sec-typeof-operator": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-typeof-operator",
+      "filepath": "toolkit/content/widgets/vendor/lit.all.mjs",
+      "line_number": 2336
     }
   ],
   "sec-lexical-and-regexp-grammars": [
@@ -547,112 +526,18 @@
       "line_number": 85
     }
   ],
-  "sec-ecmascript-language-statements-and-declarations": [
+  "sec-destructuring-binding-patterns": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-ecmascript-language-statements-and-declarations",
+      "url": "https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108624
+      "line_number": 107995
     }
   ],
-  "sec-punctuators": [
+  "sec-Array.prototype.flatMap": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-punctuators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 110128
-    }
-  ],
-  "sec-weakmap.of": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of",
+      "url": "https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatMap",
       "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7458
-    }
-  ],
-  "sec-map.from": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-map.from",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7474
-    },
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-map.from",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 102822
-    }
-  ],
-  "sec-toindex": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-toindex",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 3545
-    }
-  ],
-  "sec-function-definitions": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-function-definitions",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108708
-    }
-  ],
-  "sec-primary-expression": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-primary-expression",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 106834
-    }
-  ],
-  "sec-block": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-block",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107886
-    }
-  ],
-  "sec-set.of": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.of",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7450
-    },
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.of",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 102917
-    }
-  ],
-  "sec-keywords": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-keywords",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109925
-    }
-  ],
-  "sec-bitwise-shift-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-bitwise-shift-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107598
-    }
-  ],
-  "sec-ecmascript-language-types-string-type": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-ecmascript-language-types-string-type",
-      "filepath": "js/src/frontend/TokenStream.cpp",
-      "line_number": 1073
-    }
-  ],
-  "sec-future-reserved-words": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-future-reserved-words",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109894
-    }
-  ],
-  "sec-literals-string-literals": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-literals-string-literals",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 110378
+      "line_number": 7087
     }
   ],
   "sec-object.getownpropertydescriptors": [
@@ -660,6 +545,55 @@
       "url": "https://tc39.github.io/ecma262/#sec-object.getownpropertydescriptors",
       "filepath": "devtools/client/shared/vendor/whatwg-url.js",
       "line_number": 2626
+    }
+  ],
+  "sec-setviewvalue": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-setviewvalue",
+      "filepath": "js/src/builtin/DataViewObject.cpp",
+      "line_number": 528
+    }
+  ],
+  "sec-object-initializer": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-object-initializer",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 106964
+    }
+  ],
+  "sec-equality-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-equality-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107600
+    }
+  ],
+  "sec-if-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-if-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108182
+    }
+  ],
+  "sec-for-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-for-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108252
+    }
+  ],
+  "sec-continue-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-continue-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108400
+    }
+  ],
+  "sec-exports": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-exports",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109375
     }
   ],
   "sec-map.of": [
@@ -674,46 +608,18 @@
       "line_number": 102830
     }
   ],
-  "sec-typeof-operator": [
+  "sec-primary-expression": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-typeof-operator",
-      "filepath": "toolkit/content/widgets/vendor/lit.all.mjs",
-      "line_number": 2336
-    }
-  ],
-  "sec-weakmap.from": [
-    {
-      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7490
-    }
-  ],
-  "sec-left-hand-side-expressions": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-left-hand-side-expressions",
+      "url": "https://tc39.github.io/ecma262/#sec-primary-expression",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107330
+      "line_number": 106834
     }
   ],
-  "sec-relational-operators": [
+  "sec-with-statement": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-relational-operators",
+      "url": "https://tc39.github.io/ecma262/#sec-with-statement",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107599
-    }
-  ],
-  "sec-empty-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-empty-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108169
-    }
-  ],
-  "sec-break-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-break-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108419
+      "line_number": 108453
     }
   ],
   "sec-directive-prologues-and-the-use-strict-directive": [
@@ -723,25 +629,107 @@
       "line_number": 108952
     }
   ],
-  "sec-arrow-function-definitions": [
+  "sec-additive-operators": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-arrow-function-definitions",
+      "url": "https://tc39.github.io/ecma262/#sec-additive-operators",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107793
+      "line_number": 107597
     }
   ],
-  "sec-grouping-operator": [
+  "sec-comma-operator": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-grouping-operator",
+      "url": "https://tc39.github.io/ecma262/#sec-comma-operator",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107172
+      "line_number": 107868
     }
   ],
-  "sec-for-in-and-for-of-statements": [
+  "sec-try-statement": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-for-in-and-for-of-statements",
+      "url": "https://tc39.github.io/ecma262/#sec-try-statement",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108253
+      "line_number": 108575
+    }
+  ],
+  "sec-bitwise-shift-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-bitwise-shift-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107598
+    }
+  ],
+  "sec-update-expressions": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-update-expressions",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107514
+    }
+  ],
+  "sec-ecmascript-language-statements-and-declarations": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-ecmascript-language-statements-and-declarations",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108624
+    }
+  ],
+  "sec-weakset.of": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.of",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7466
+    }
+  ],
+  "sec-unary-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-unary-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107553
+    }
+  ],
+  "sec-binary-bitwise-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-binary-bitwise-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107601
+    }
+  ],
+  "sec-conditional-operator": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-conditional-operator",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107668
+    }
+  ],
+  "sec-throw-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-throw-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108564
+    }
+  ],
+  "sec-exp-operator": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-exp-operator",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107595
+    }
+  ],
+  "sec-static-semantics-tv-and-trv": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-static-semantics-tv-and-trv",
+      "filepath": "js/src/frontend/TokenStream.h",
+      "line_number": 2182
+    }
+  ],
+  "sec-set.of": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.of",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7450
+    },
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.of",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 102917
     }
   ],
   "sec-names-and-keywords": [
@@ -756,44 +744,11 @@
       "line_number": 110090
     }
   ],
-  "sec-ordinary-object-internal-methods-and-internal-slots-hasproperty-p": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-ordinary-object-internal-methods-and-internal-slots-hasproperty-p",
-      "filepath": "dom/base/nsGlobalWindowOuter.cpp",
-      "line_number": 420
-    }
-  ],
-  "sec-throw-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-throw-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108564
-    }
-  ],
-  "sec-literals-numeric-literals": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-literals-numeric-literals",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 105529
-    },
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-literals-numeric-literals",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 110208
-    }
-  ],
-  "sec-while-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-while-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108232
-    }
-  ],
   "sec-getfunctionrealm": [
     {
       "url": "https://tc39.github.io/ecma262/#sec-getfunctionrealm",
       "filepath": "js/src/vm/Realm.cpp",
-      "line_number": 752
+      "line_number": 753
     },
     {
       "url": "https://tc39.github.io/ecma262/#sec-getfunctionrealm",
@@ -801,25 +756,60 @@
       "line_number": 125
     }
   ],
-  "sec-conditional-operator": [
+  "sec-white-space": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-conditional-operator",
+      "url": "https://tc39.github.io/ecma262/#sec-white-space",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107668
+      "line_number": 105504
     }
   ],
-  "sec-variable-statement": [
+  "sec-assignment-operators": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-variable-statement",
+      "url": "https://tc39.github.io/ecma262/#sec-assignment-operators",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108106
+      "line_number": 107686
     }
   ],
-  "sec-Array.prototype.flatten": [
+  "sec-class-definitions": [
     {
-      "url": "https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatten",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7116
+      "url": "https://tc39.github.io/ecma262/#sec-class-definitions",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109092
+    }
+  ],
+  "sec-do-while-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-do-while-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108210
+    }
+  ],
+  "sec-empty-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-empty-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108169
+    }
+  ],
+  "sec-literals-string-literals": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-literals-string-literals",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 110378
+    }
+  ],
+  "sec-IsHTMLDDA-internal-slot": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-IsHTMLDDA-internal-slot",
+      "filepath": "js/src/jit-test/tests/cacheir/compare.js",
+      "line_number": 286
+    }
+  ],
+  "sec-expression-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-expression-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108175
     }
   ],
   "eqn-modulo": [
@@ -827,34 +817,6 @@
       "url": "https://tc39.github.io/ecma262/#eqn-modulo",
       "filepath": "devtools/client/shared/vendor/whatwg-url.js",
       "line_number": 8316
-    }
-  ],
-  "sec-getprototypefromconstructor": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-getprototypefromconstructor",
-      "filepath": "js/src/vm/JSObject.h",
-      "line_number": 799
-    }
-  ],
-  "sec-line-terminators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-line-terminators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 105509
-    }
-  ],
-  "sec-unary-operators": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-unary-operators",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107553
-    }
-  ],
-  "sec-return-statement": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-return-statement",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108438
     }
   ],
   "": [
@@ -872,16 +834,6 @@
       "url": "https://tc39.github.io/String.prototype.matchAll/",
       "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
       "line_number": 7227
-    },
-    {
-      "url": "https://tc39.github.io/proposal-json-superset/",
-      "filepath": "js/src/tests/non262/eval/line-terminator-paragraph-terminator.js",
-      "line_number": 8
-    },
-    {
-      "url": "https://tc39.github.io/proposal-well-formed-stringify/",
-      "filepath": "js/src/tests/non262/JSON/stringify-special-escapes.js",
-      "line_number": 222
     },
     {
       "url": "https://tc39.github.io/proposal-json-superset/",
@@ -934,58 +886,37 @@
       "line_number": 24
     }
   ],
-  "sec-performpromisethen": [
+  "sec-set.from": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-performpromisethen",
-      "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 6221
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.from",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7482
     },
     {
-      "url": "https://tc39.github.io/ecma262/#sec-performpromisethen",
-      "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 6292
-    }
-  ],
-  "sec-setviewvalue": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-setviewvalue",
-      "filepath": "js/src/builtin/DataViewObject.cpp",
-      "line_number": 528
-    }
-  ],
-  "sec-comma-operator": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-comma-operator",
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-set.from",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107868
+      "line_number": 102909
     }
   ],
-  "sec-labelled-statements": [
+  "sec-toindex": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-labelled-statements",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108523
-    }
-  ],
-  "sec-IsHTMLDDA-internal-slot": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-IsHTMLDDA-internal-slot",
-      "filepath": "js/src/jit-test/tests/cacheir/compare.js",
-      "line_number": 286
-    }
-  ],
-  "sec-template-literals": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-template-literals",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107140
-    }
-  ],
-  "sec-Array.prototype.flatMap": [
-    {
-      "url": "https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatMap",
+      "url": "https://tc39.github.io/ecma262/#sec-toindex",
       "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
-      "line_number": 7087
+      "line_number": 3545
+    }
+  ],
+  "sec-arrow-function-definitions": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-arrow-function-definitions",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107793
+    }
+  ],
+  "sec-Array.prototype.flatten": [
+    {
+      "url": "https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatten",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7116
     }
   ],
   "sec-getviewvalue": [
@@ -995,25 +926,60 @@
       "line_number": 422
     }
   ],
-  "array-index": [
+  "sec-labelled-statements": [
     {
-      "url": "https://tc39.github.io/ecma262/#array-index",
-      "filepath": "js/src/jsfriendapi.h",
-      "line_number": 450
+      "url": "https://tc39.github.io/ecma262/#sec-labelled-statements",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108523
     }
   ],
-  "sec-for-statement": [
+  "sec-template-literals": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-for-statement",
+      "url": "https://tc39.github.io/ecma262/#sec-template-literals",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 108252
+      "line_number": 107140
     }
   ],
-  "sec-destructuring-binding-patterns": [
+  "sec-method-definitions": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns",
+      "url": "https://tc39.github.io/ecma262/#sec-method-definitions",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107995
+      "line_number": 108992
+    }
+  ],
+  "sec-generator-function-definitions": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-generator-function-definitions",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109049
+    }
+  ],
+  "sec-return-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-return-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108438
+    }
+  ],
+  "sec-future-reserved-words": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-future-reserved-words",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 109894
+    }
+  ],
+  "sec-relational-operators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-relational-operators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107599
+    }
+  ],
+  "sec-debugger-statement": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-debugger-statement",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 108617
     }
   ],
   "sec-scripts": [
@@ -1023,39 +989,18 @@
       "line_number": 109236
     }
   ],
-  "sec-additive-operators": [
+  "sec-binary-logical-operators": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-additive-operators",
+      "url": "https://tc39.github.io/ecma262/#sec-binary-logical-operators",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 107597
+      "line_number": 107602
     }
   ],
-  "sec-imports": [
+  "sec-while-statement": [
     {
-      "url": "https://tc39.github.io/ecma262/#sec-imports",
+      "url": "https://tc39.github.io/ecma262/#sec-while-statement",
       "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 109257
-    }
-  ],
-  "sec-template-literal-lexical-components": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-template-literal-lexical-components",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 110480
-    }
-  ],
-  "sec-ordinarysetprototypeof": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-ordinarysetprototypeof",
-      "filepath": "testing/web-platform/tests/html/browsers/history/the-location-interface/allow_prototype_cycle_through_location.sub.html",
-      "line_number": 9
-    }
-  ],
-  "sec-array-initializer": [
-    {
-      "url": "https://tc39.github.io/ecma262/#sec-array-initializer",
-      "filepath": "node_modules/yarn/lib/cli.js",
-      "line_number": 106929
+      "line_number": 108232
     }
   ],
   "await": [
@@ -1067,7 +1012,52 @@
     {
       "url": "https://tc39.github.io/ecma262/#await",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 5632
+      "line_number": 5652
+    }
+  ],
+  "sec-map.from": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-map.from",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7474
+    },
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-map.from",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 102822
+    }
+  ],
+  "sec-weakset.from": [
+    {
+      "url": "https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.from",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/sourcemapped/polyfill-bundle.js",
+      "line_number": 7498
+    }
+  ],
+  "sec-punctuators": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-punctuators",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 110128
+    }
+  ],
+  "sec-literals-numeric-literals": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-literals-numeric-literals",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 105529
+    },
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-literals-numeric-literals",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 110208
+    }
+  ],
+  "sec-let-and-const-declarations": [
+    {
+      "url": "https://tc39.github.io/ecma262/#sec-let-and-const-declarations",
+      "filepath": "node_modules/yarn/lib/cli.js",
+      "line_number": 107940
     }
   ]
 }

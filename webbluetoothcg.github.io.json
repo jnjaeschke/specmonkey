@@ -1,4 +1,11 @@
 {
+  "typedefdef-bluetoothdescriptoruuid": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
+      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
+      "line_number": 357
+    }
+  ],
   "typedefdef-bluetoothserviceuuid": [
     {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
@@ -19,7 +26,7 @@
     },
     {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/",
-      "filepath": "testing/web-platform/tests/bluetooth/idl/idlharness.tentative.https.window.js",
+      "filepath": "testing/web-platform/tests/bluetooth/legacy/idl/idlharness.tentative.https.window.js",
       "line_number": 7
     }
   ],
@@ -38,15 +45,8 @@
   "dom-bluetoothremotegattserver-connect": [
     {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattserver-connect",
-      "filepath": "testing/web-platform/tests/bluetooth/server/connect/get-same-gatt-server.https.window.js",
+      "filepath": "testing/web-platform/tests/bluetooth/legacy/server/connect/get-same-gatt-server.https.window.js",
       "line_number": 14
-    }
-  ],
-  "typedefdef-bluetoothdescriptoruuid": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
-      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
-      "line_number": 357
     }
   ]
 }

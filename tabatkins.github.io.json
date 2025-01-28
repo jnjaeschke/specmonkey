@@ -24,50 +24,8 @@
   "": [
     {
       "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-slack-valid.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-track-invalid.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-slack-computed.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-slack-invalid.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-track-computed.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-track-valid.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
       "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-color-computed.html",
       "line_number": 6
-    }
-  ],
-  "template-tracks": [
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/#template-tracks",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-template-tracks-valid.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/#template-tracks",
-      "filepath": "testing/web-platform/tests/css/css-masonry/tentative/parsing/masonry-template-tracks-invalid.html",
-      "line_number": 4
     }
   ]
 }

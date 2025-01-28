@@ -11,6 +11,11 @@
       "line_number": 195
     },
     {
+      "url": "https://arai-a.github.io/ecma262-compare/?pr=3000",
+      "filepath": "js/src/frontend/TryEmitter.h",
+      "line_number": 119
+    },
+    {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-applydecoratorstoelementdefinition",
       "filepath": "js/src/frontend/DecoratorEmitter.cpp",
       "line_number": 53
@@ -38,62 +43,62 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 127
+      "line_number": 126
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 199
+      "line_number": 167
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 734
+      "line_number": 687
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-getdisposemethod",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 773
+      "line_number": 726
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-createdisposableresource",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 931
+      "line_number": 884
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 995
+      "line_number": 948
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-runtime-semantics-forin-div-ofbodyevaluation-lhs-stmt-iterator-lhskind-labelset",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 1187
+      "line_number": 1190
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-iteratorclose&secAll=true",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 1233
+      "line_number": 1246
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-asynciteratorclose&secAll=true",
       "filepath": "js/src/frontend/UsingEmitter.cpp",
-      "line_number": 1237
+      "line_number": 1250
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/frontend/UsingEmitter.h",
-      "line_number": 33
+      "line_number": 32
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 10849
+      "line_number": 10859
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 11028
+      "line_number": 11038
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",
@@ -188,7 +193,7 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-suppressederror",
       "filepath": "js/src/vm/ErrorObject.cpp",
-      "line_number": 405
+      "line_number": 408
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
@@ -258,12 +263,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 2278
+      "line_number": 2298
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 5679
+      "line_number": 5699
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-asyncdisposablestack.prototype.disposeAsync",

@@ -1,16 +1,16 @@
 {
-  "": [
-    {
-      "url": "https://chromedevtools.github.io/devtools-protocol",
-      "filepath": "remote/cdp/CDP.sys.mjs",
-      "line_number": 40
-    }
-  ],
   "method-navigate": [
     {
       "url": "https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-navigate",
       "filepath": "remote/cdp/domains/parent/Page.sys.mjs",
       "line_number": 128
+    }
+  ],
+  "": [
+    {
+      "url": "https://chromedevtools.github.io/devtools-protocol",
+      "filepath": "remote/cdp/CDP.sys.mjs",
+      "line_number": 40
     }
   ]
 }

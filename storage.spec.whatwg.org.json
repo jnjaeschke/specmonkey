@@ -1,16 +1,16 @@
 {
-  "schemeless-origin-group": [
-    {
-      "url": "https://storage.spec.whatwg.org/#schemeless-origin-group",
-      "filepath": "dom/quota/StorageManager.cpp",
-      "line_number": 211
-    }
-  ],
   "dom-storagemanager-persist": [
     {
       "url": "https://storage.spec.whatwg.org/#dom-storagemanager-persist",
       "filepath": "testing/web-platform/tests/storage/persist-permission-manual.https.html",
       "line_number": 8
+    }
+  ],
+  "schemeless-origin-group": [
+    {
+      "url": "https://storage.spec.whatwg.org/#schemeless-origin-group",
+      "filepath": "dom/quota/StorageManager.cpp",
+      "line_number": 211
     }
   ]
 }

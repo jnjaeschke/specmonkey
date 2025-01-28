@@ -6,6 +6,20 @@
       "line_number": 7
     }
   ],
+  "countreset": [
+    {
+      "url": "https://console.spec.whatwg.org/#countreset",
+      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "timing": [
+    {
+      "url": "https://console.spec.whatwg.org/#timing",
+      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
+      "line_number": 7
+    }
+  ],
   "console-namespace": [
     {
       "url": "https://console.spec.whatwg.org/#console-namespace",
@@ -32,20 +46,6 @@
     {
       "url": "https://console.spec.whatwg.org/#formatter",
       "filepath": "testing/web-platform/tests/console/console-number-format-specifiers-symbol-manual.html",
-      "line_number": 7
-    }
-  ],
-  "timing": [
-    {
-      "url": "https://console.spec.whatwg.org/#timing",
-      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "countreset": [
-    {
-      "url": "https://console.spec.whatwg.org/#countreset",
-      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
       "line_number": 7
     }
   ],
