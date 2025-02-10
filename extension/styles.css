@@ -2,21 +2,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: black;
-    --text: white;
+    --specmonkey-background: black;
+    --specmonkey-text: white;
   }
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background: white;
-    --text: black;
+    --specmonkey-background: white;
+    --specmonkey-text: black;
   }
 }
 /* SpecMonkey Box Styling */
 .specmonkey-box {
   border: 2px solid #ff7e5f;
-  background-color: var(--background);
-  color: var(--text);
+  background-color: var(--specmonkey-background);
+  color: var(--specmonkey-text);
   padding: 10px;
   position: absolute;
   z-index: 1000;
@@ -38,7 +38,7 @@
 
 /* SpecMonkey Links */
 .specmonkey-box a {
-  color: var(--text);
+  color: var(--specmonkey-text);
   text-decoration: none;
   margin-bottom: .1em;
   display: block;
@@ -68,7 +68,7 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
-  color: var(--text);
+  color: var(--specmonkey-text);
 }
 
 .specmonkey-close-button:hover {
@@ -88,8 +88,8 @@
 .specmonkey-info-box {
   position: absolute;
   border: 2px solid #ff7e5f;
-  background-color: var(--background);
-  color: var(--text);
+  background-color: var(--specmonkey-background);
+  color: var(--specmonkey-text);
   padding: .1em .3em;
   border-radius: .5em;
   font-size: 0.8em;
