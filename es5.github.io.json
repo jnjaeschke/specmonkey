@@ -48,18 +48,18 @@
       "line_number": 15633
     }
   ],
-  "x9": [
-    {
-      "url": "https://es5.github.io/#x9",
-      "filepath": "node_modules/es-abstract/es5.js",
-      "line_number": 5
-    }
-  ],
   "x15.2.3.4": [
     {
       "url": "http://es5.github.io/#x15.2.3.4",
       "filepath": "testing/web-platform/tests/js/builtins/Object.prototype.getOwnPropertyNames.html",
       "line_number": 3
+    }
+  ],
+  "x9": [
+    {
+      "url": "https://es5.github.io/#x9",
+      "filepath": "node_modules/es-abstract/es5.js",
+      "line_number": 5
     }
   ]
 }

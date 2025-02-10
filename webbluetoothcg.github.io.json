@@ -1,11 +1,4 @@
 {
-  "typedefdef-bluetoothdescriptoruuid": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
-      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
-      "line_number": 357
-    }
-  ],
   "typedefdef-bluetoothserviceuuid": [
     {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
@@ -16,6 +9,13 @@
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
       "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
       "line_number": 234
+    }
+  ],
+  "typedefdef-bluetoothdescriptoruuid": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
+      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
+      "line_number": 357
     }
   ],
   "": [
@@ -40,6 +40,13 @@
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateAdapter-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
       "line_number": 98
+    }
+  ],
+  "automated-testing": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
+      "filepath": "testing/web-platform/tests/bluetooth/resources/bluetooth-test.js",
+      "line_number": 95
     }
   ],
   "dom-bluetoothremotegattserver-connect": [

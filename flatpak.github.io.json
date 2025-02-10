@@ -13,18 +13,18 @@
       "line_number": 423
     }
   ],
-  "gdbus-org.freedesktop.portal.Session": [
-    {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-org.freedesktop.portal.Session",
-      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
-      "line_number": 242
-    }
-  ],
   "parent_window": [
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/#parent_window",
       "filepath": "dom/system/linux/PortalLocationProvider.cpp",
       "line_number": 240
+    }
+  ],
+  "gdbus-org.freedesktop.portal.Session": [
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-org.freedesktop.portal.Session",
+      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
+      "line_number": 242
     }
   ]
 }

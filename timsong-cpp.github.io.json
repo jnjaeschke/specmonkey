@@ -1,9 +1,9 @@
 {
-  "3": [
+  "syn-1": [
     {
-      "url": "https://timsong-cpp.github.io/cppwp/n4140/dcl.type.elab#3",
-      "filepath": "security/sandbox/chromium/base/containers/span.h",
-      "line_number": 497
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/optional#syn-1",
+      "filepath": "security/sandbox/chromium/base/optional.h",
+      "line_number": 432
     }
   ],
   "optional-3": [
@@ -13,11 +13,11 @@
       "line_number": 441
     }
   ],
-  "syn-1": [
+  "3": [
     {
-      "url": "https://timsong-cpp.github.io/cppwp/n4659/optional#syn-1",
-      "filepath": "security/sandbox/chromium/base/optional.h",
-      "line_number": 432
+      "url": "https://timsong-cpp.github.io/cppwp/n4140/dcl.type.elab#3",
+      "filepath": "security/sandbox/chromium/base/containers/span.h",
+      "line_number": 497
     }
   ]
 }

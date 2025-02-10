@@ -1,54 +1,4 @@
 {
-  "count": [
-    {
-      "url": "https://console.spec.whatwg.org/#count",
-      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "countreset": [
-    {
-      "url": "https://console.spec.whatwg.org/#countreset",
-      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "timing": [
-    {
-      "url": "https://console.spec.whatwg.org/#timing",
-      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "console-namespace": [
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 3422
-    },
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
-      "line_number": 5
-    },
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
-      "line_number": 4
-    }
-  ],
-  "formatter": [
-    {
-      "url": "https://console.spec.whatwg.org/#formatter",
-      "filepath": "testing/web-platform/tests/console/console-string-format-specifier-symbol-manual.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://console.spec.whatwg.org/#formatter",
-      "filepath": "testing/web-platform/tests/console/console-number-format-specifiers-symbol-manual.html",
-      "line_number": 7
-    }
-  ],
   "": [
     {
       "url": "http://console.spec.whatwg.org/",
@@ -69,6 +19,56 @@
       "url": "https://console.spec.whatwg.org/",
       "filepath": "testing/web-platform/tests/console/console-log-large-array.any.js",
       "line_number": 3
+    }
+  ],
+  "countreset": [
+    {
+      "url": "https://console.spec.whatwg.org/#countreset",
+      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "formatter": [
+    {
+      "url": "https://console.spec.whatwg.org/#formatter",
+      "filepath": "testing/web-platform/tests/console/console-string-format-specifier-symbol-manual.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#formatter",
+      "filepath": "testing/web-platform/tests/console/console-number-format-specifiers-symbol-manual.html",
+      "line_number": 7
+    }
+  ],
+  "console-namespace": [
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 3422
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
+      "line_number": 4
+    }
+  ],
+  "count": [
+    {
+      "url": "https://console.spec.whatwg.org/#count",
+      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "timing": [
+    {
+      "url": "https://console.spec.whatwg.org/#timing",
+      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
+      "line_number": 7
     }
   ]
 }

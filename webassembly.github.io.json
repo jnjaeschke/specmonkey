@@ -1,16 +1,9 @@
 {
-  "defaultvalue": [
+  "constant-expressions": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
-      "filepath": "js/src/wasm/WasmJS.cpp",
-      "line_number": 2646
-    }
-  ],
-  "floating-point": [
-    {
-      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
-      "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1448
+      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
+      "filepath": "js/src/wasm/WasmInitExpr.h",
+      "line_number": 54
     }
   ],
   "tojsvalue": [
@@ -20,11 +13,18 @@
       "line_number": 395
     }
   ],
-  "": [
+  "floating-point": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
-      "line_number": 8
+      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
+      "filepath": "js/src/builtin/TestingFunctions.cpp",
+      "line_number": 1448
+    }
+  ],
+  "namespacedef-webassembly": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
+      "line_number": 5
     }
   ],
   "conventions": [
@@ -34,11 +34,18 @@
       "line_number": 338
     }
   ],
-  "constant-expressions": [
+  "towebassemblyvalue": [
     {
-      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
-      "filepath": "js/src/wasm/WasmInitExpr.h",
-      "line_number": 54
+      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
+      "filepath": "js/src/wasm/WasmValue.h",
+      "line_number": 382
+    }
+  ],
+  "defaultvalue": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
+      "filepath": "js/src/wasm/WasmJS.cpp",
+      "line_number": 2646
     }
   ],
   "aux-nans": [
@@ -48,18 +55,11 @@
       "line_number": 544
     }
   ],
-  "towebassemblyvalue": [
+  "": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
-      "filepath": "js/src/wasm/WasmValue.h",
-      "line_number": 382
-    }
-  ],
-  "namespacedef-webassembly": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
-      "line_number": 5
+      "url": "https://webassembly.github.io/spec/js-api/",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
+      "line_number": 8
     }
   ]
 }

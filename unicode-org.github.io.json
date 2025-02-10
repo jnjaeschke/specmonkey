@@ -1,4 +1,30 @@
 {
+  "version-numbers-in-icu": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/design#version-numbers-in-icu",
+      "filepath": "intl/icu/source/common/unicode/uvernum.h",
+      "line_number": 144
+    }
+  ],
+  "data-file-syntax\\n": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/transforms/normalization#data-file-syntax\\n",
+      "filepath": "intl/icu/source/tools/gennorm2/gennorm2.cpp",
+      "line_number": 110
+    }
+  ],
+  "locales-and-services": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/locale#locales-and-services",
+      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
+      "line_number": 917
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/locale#locales-and-services",
+      "filepath": "intl/icu/source/i18n/unicode/coll.h",
+      "line_number": 843
+    }
+  ],
   "": [
     {
       "url": "https://unicode-org.github.io/icu/userguide/howtouseicu",
@@ -266,64 +292,11 @@
       "line_number": 203
     }
   ],
-  "strings-in-cc": [
+  "details-about-icu-error-codes": [
     {
-      "url": "https://unicode-org.github.io/icu/userguide/strings#strings-in-cc",
-      "filepath": "intl/icu/source/common/unicode/unistr.h",
-      "line_number": 231
-    }
-  ],
-  "collator-naming-scheme": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
-      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 455
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
-      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 958
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
-      "filepath": "intl/icu/source/i18n/unicode/tblcoll.h",
-      "line_number": 705
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
-      "filepath": "intl/icu/source/i18n/unicode/coll.h",
-      "line_number": 1194
-    }
-  ],
-  "sort-key-features": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/api#sort-key-features",
-      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 1170
-    }
-  ],
-  "data-file-syntax\\n": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/transforms/normalization#data-file-syntax\\n",
-      "filepath": "intl/icu/source/tools/gennorm2/gennorm2.cpp",
-      "line_number": 110
-    }
-  ],
-  "building-on-existing-locales": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
-      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 383
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
-      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 1379
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
-      "filepath": "intl/icu/source/i18n/unicode/tblcoll.h",
-      "line_number": 498
+      "url": "https://unicode-org.github.io/icu/userguide/dev/codingguidelines#details-about-icu-error-codes",
+      "filepath": "intl/icu/source/common/unicode/utypes.h",
+      "line_number": 418
     }
   ],
   "date-field-symbol-table": [
@@ -333,11 +306,26 @@
       "line_number": 149
     }
   ],
-  "details-about-icu-error-codes": [
+  "case-mappings": [
     {
-      "url": "https://unicode-org.github.io/icu/userguide/dev/codingguidelines#details-about-icu-error-codes",
-      "filepath": "intl/icu/source/common/unicode/utypes.h",
-      "line_number": 418
+      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
+      "filepath": "intl/icu/source/common/unicode/uchar.h",
+      "line_number": 4191
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
+      "filepath": "intl/icu/source/common/unicode/uchar.h",
+      "line_number": 4216
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
+      "filepath": "intl/icu/source/common/unicode/uchar.h",
+      "line_number": 4241
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
+      "filepath": "intl/icu/source/common/unicode/uchar.h",
+      "line_number": 4265
     }
   ],
   "updating-the-time-zone-data": [
@@ -369,52 +357,50 @@
       "line_number": 1947
     }
   ],
-  "case-mappings": [
+  "building-on-existing-locales": [
     {
-      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
-      "filepath": "intl/icu/source/common/unicode/uchar.h",
-      "line_number": 4191
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
-      "filepath": "intl/icu/source/common/unicode/uchar.h",
-      "line_number": 4216
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
-      "filepath": "intl/icu/source/common/unicode/uchar.h",
-      "line_number": 4241
-    },
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/icu/posix#case-mappings",
-      "filepath": "intl/icu/source/common/unicode/uchar.h",
-      "line_number": 4265
-    }
-  ],
-  "locales-and-services": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/locale#locales-and-services",
+      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
       "filepath": "intl/icu/source/i18n/unicode/ucol.h",
-      "line_number": 917
+      "line_number": 383
     },
     {
-      "url": "https://unicode-org.github.io/icu/userguide/locale#locales-and-services",
+      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
+      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
+      "line_number": 1379
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/collation/customization#building-on-existing-locales",
+      "filepath": "intl/icu/source/i18n/unicode/tblcoll.h",
+      "line_number": 498
+    }
+  ],
+  "collator-naming-scheme": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
+      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
+      "line_number": 455
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
+      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
+      "line_number": 958
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
+      "filepath": "intl/icu/source/i18n/unicode/tblcoll.h",
+      "line_number": 705
+    },
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/collation/concepts#collator-naming-scheme",
       "filepath": "intl/icu/source/i18n/unicode/coll.h",
-      "line_number": 843
+      "line_number": 1194
     }
   ],
-  "maximizing-performance-with-the-unicodestring-storage-model": [
+  "sort-key-features": [
     {
-      "url": "https://unicode-org.github.io/icu/userguide/strings#maximizing-performance-with-the-unicodestring-storage-model",
-      "filepath": "intl/icu/source/common/unicode/unistr.h",
-      "line_number": 289
-    }
-  ],
-  "version-numbers-in-icu": [
-    {
-      "url": "https://unicode-org.github.io/icu/userguide/design#version-numbers-in-icu",
-      "filepath": "intl/icu/source/common/unicode/uvernum.h",
-      "line_number": 144
+      "url": "https://unicode-org.github.io/icu/userguide/collation/api#sort-key-features",
+      "filepath": "intl/icu/source/i18n/unicode/ucol.h",
+      "line_number": 1170
     }
   ],
   "101c4f8aa144538f": [
@@ -422,6 +408,20 @@
       "url": "https://unicode-org.github.io/cldr-staging/charts/40/summary/nl.html#101c4f8aa144538f",
       "filepath": "testing/web-platform/tests/css/css-content/quotes-021.html",
       "line_number": 9
+    }
+  ],
+  "strings-in-cc": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/strings#strings-in-cc",
+      "filepath": "intl/icu/source/common/unicode/unistr.h",
+      "line_number": 231
+    }
+  ],
+  "maximizing-performance-with-the-unicodestring-storage-model": [
+    {
+      "url": "https://unicode-org.github.io/icu/userguide/strings#maximizing-performance-with-the-unicodestring-storage-model",
+      "filepath": "intl/icu/source/common/unicode/unistr.h",
+      "line_number": 289
     }
   ]
 }

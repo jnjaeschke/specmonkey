@@ -1,76 +1,39 @@
 {
-  "the-webkit-text-stroke-color": [
+  "the-webkit-text-stroke": [
     {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-color",
-      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
-      "line_number": 241
-    }
-  ],
-  "": [
-    {
-      "url": "https://compat.spec.whatwg.org",
-      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
-      "line_number": 223
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-003.html",
+      "line_number": 7
     },
     {
-      "url": "https://compat.spec.whatwg.org/",
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-002.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-004.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-005.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-001.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
       "filepath": "servo/components/style/properties/shorthands/inherited_text.mako.rs",
-      "line_number": 222
+      "line_number": 228
     },
     {
-      "url": "https://compat.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/compat/idlharness.window.js",
-      "line_number": 7
-    }
-  ],
-  "the-webkit-text-stroke-width": [
-    {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-width",
-      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
-      "line_number": 251
-    }
-  ],
-  "css-media-queries-webkit-device-pixel-ratio": [
-    {
-      "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio",
-      "filepath": "servo/components/style/servo/media_queries.rs",
-      "line_number": 366
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio",
-      "filepath": "servo/components/style/gecko/media_features.rs",
-      "line_number": 66
-    }
-  ],
-  "touch-action": [
-    {
-      "url": "https://compat.spec.whatwg.org/#touch-action",
-      "filepath": "servo/components/style/properties/longhands/box.mako.rs",
-      "line_number": 597
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#touch-action",
-      "filepath": "dom/events/test/pointerevents/wpt/compat/pointerevent_touch-action_two-finger_interaction-manual.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#touch-action",
-      "filepath": "testing/web-platform/tests/pointerevents/compat/pointerevent_touch-action_two-finger_interaction.html",
-      "line_number": 7
-    }
-  ],
-  "text-fill-and-stroking": [
-    {
-      "url": "https://compat.spec.whatwg.org/#text-fill-and-stroking",
-      "filepath": "testing/web-platform/tests/css/css-pseudo/highlight-styling-003.tentative.html",
-      "line_number": 6
-    }
-  ],
-  "propdef--webkit-text-stroke-width": [
-    {
-      "url": "https://compat.spec.whatwg.org/#propdef--webkit-text-stroke-width",
-      "filepath": "dom/animation/test/mozilla/file_discrete_animations.html",
-      "line_number": 53
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "filepath": "testing/web-platform/tests/css/css-fill-stroke/paint-order-001.html",
+      "line_number": 9
     }
   ],
   "propdef--webkit-text-stroke": [
@@ -80,20 +43,42 @@
       "line_number": 7
     }
   ],
-  "css-simple-aliases": [
+  "propdef--webkit-box-align": [
     {
-      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
-      "filepath": "testing/web-platform/tests/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html",
-      "line_number": 9
+      "url": "https://compat.spec.whatwg.org/#propdef--webkit-box-align",
+      "filepath": "testing/web-platform/tests/compat/webkit-box-align-001.html",
+      "line_number": 4
+    }
+  ],
+  "css-gradients-webkit-linear-gradient": [
+    {
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-bottom.html",
+      "line_number": 5
     },
     {
-      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
-      "filepath": "testing/web-platform/tests/compat/css-style-declaration-alias-enumeration.html",
-      "line_number": 3
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-right.html",
+      "line_number": 5
     },
     {
-      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
-      "filepath": "testing/web-platform/tests/compat/webkit-mask-box-enumeration.html",
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-left.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-gradient-sign.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-top.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
+      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-diff-unprefixed.html",
       "line_number": 3
     }
   ],
@@ -149,6 +134,37 @@
       "line_number": 6
     }
   ],
+  "propdef--webkit-border-radius": [
+    {
+      "url": "https://compat.spec.whatwg.org/#propdef--webkit-border-radius",
+      "filepath": "testing/web-platform/tests/css/css-backgrounds/parsing/webkit-border-radius-valid.html",
+      "line_number": 6
+    }
+  ],
+  "css-simple-aliases": [
+    {
+      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
+      "filepath": "testing/web-platform/tests/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html",
+      "line_number": 9
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
+      "filepath": "testing/web-platform/tests/compat/css-style-declaration-alias-enumeration.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-simple-aliases",
+      "filepath": "testing/web-platform/tests/compat/webkit-mask-box-enumeration.html",
+      "line_number": 3
+    }
+  ],
+  "the-webkit-text-stroke-color": [
+    {
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-color",
+      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
+      "line_number": 241
+    }
+  ],
   "valdef-flex--webkit-box": [
     {
       "url": "https://compat.spec.whatwg.org/#valdef-flex--webkit-box",
@@ -161,36 +177,21 @@
       "line_number": 6
     }
   ],
-  "css-gradients-webkit-linear-gradient": [
+  "touch-action": [
     {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-bottom.html",
-      "line_number": 5
+      "url": "https://compat.spec.whatwg.org/#touch-action",
+      "filepath": "servo/components/style/properties/longhands/box.mako.rs",
+      "line_number": 597
     },
     {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-right.html",
-      "line_number": 5
+      "url": "https://compat.spec.whatwg.org/#touch-action",
+      "filepath": "dom/events/test/pointerevents/wpt/compat/pointerevent_touch-action_two-finger_interaction-manual.html",
+      "line_number": 7
     },
     {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-left.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-gradient-sign.html",
-      "line_number": 2
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-line-top.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#css-gradients-webkit-linear-gradient",
-      "filepath": "testing/web-platform/tests/compat/webkit-linear-gradient-diff-unprefixed.html",
-      "line_number": 3
+      "url": "https://compat.spec.whatwg.org/#touch-action",
+      "filepath": "testing/web-platform/tests/pointerevents/compat/pointerevent_touch-action_two-finger_interaction.html",
+      "line_number": 7
     }
   ],
   "css-media-queries-webkit-transform-3d": [
@@ -200,48 +201,35 @@
       "line_number": 111
     }
   ],
-  "propdef--webkit-box-align": [
+  "propdef--webkit-text-stroke-width": [
     {
-      "url": "https://compat.spec.whatwg.org/#propdef--webkit-box-align",
-      "filepath": "testing/web-platform/tests/compat/webkit-box-align-001.html",
-      "line_number": 4
+      "url": "https://compat.spec.whatwg.org/#propdef--webkit-text-stroke-width",
+      "filepath": "dom/animation/test/mozilla/file_discrete_animations.html",
+      "line_number": 53
     }
   ],
-  "the-webkit-text-stroke": [
+  "the-webkit-text-stroke-width": [
     {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-003.html",
-      "line_number": 7
+      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-width",
+      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
+      "line_number": 251
+    }
+  ],
+  "": [
+    {
+      "url": "https://compat.spec.whatwg.org",
+      "filepath": "servo/components/style/properties/longhands/inherited_text.mako.rs",
+      "line_number": 223
     },
     {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-002.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-004.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-005.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "layout/reftests/text-stroke/webkit-text-stroke-property-001.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
+      "url": "https://compat.spec.whatwg.org/",
       "filepath": "servo/components/style/properties/shorthands/inherited_text.mako.rs",
-      "line_number": 228
+      "line_number": 222
     },
     {
-      "url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
-      "filepath": "testing/web-platform/tests/css/css-fill-stroke/paint-order-001.html",
-      "line_number": 9
+      "url": "https://compat.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/compat/idlharness.window.js",
+      "line_number": 7
     }
   ],
   "css-gradients-webkit-radial-gradient": [
@@ -256,11 +244,23 @@
       "line_number": 2
     }
   ],
-  "propdef--webkit-border-radius": [
+  "text-fill-and-stroking": [
     {
-      "url": "https://compat.spec.whatwg.org/#propdef--webkit-border-radius",
-      "filepath": "testing/web-platform/tests/css/css-backgrounds/parsing/webkit-border-radius-valid.html",
+      "url": "https://compat.spec.whatwg.org/#text-fill-and-stroking",
+      "filepath": "testing/web-platform/tests/css/css-pseudo/highlight-styling-003.tentative.html",
       "line_number": 6
+    }
+  ],
+  "css-media-queries-webkit-device-pixel-ratio": [
+    {
+      "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio",
+      "filepath": "servo/components/style/servo/media_queries.rs",
+      "line_number": 366
+    },
+    {
+      "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio",
+      "filepath": "servo/components/style/gecko/media_features.rs",
+      "line_number": 66
     }
   ]
 }

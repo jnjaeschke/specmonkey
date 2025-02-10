@@ -1,32 +1,4 @@
 {
-  "webdriver-gettitle": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 977
-    }
-  ],
-  "webdriver-clickdialogbutton": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 921
-    }
-  ],
-  "webdriver-setdelayenabled": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1013
-    }
-  ],
-  "webdriver-getdialogtype": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 995
-    }
-  ],
   "webdriver-accountlist": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
@@ -34,11 +6,11 @@
       "line_number": 959
     }
   ],
-  "webdriver-selectaccount": [
+  "webdriver-setdelayenabled": [
     {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 940
+      "line_number": 1013
     }
   ],
   "webdriver-canceldialog": [
@@ -315,6 +287,34 @@
       "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect-iframe.sub.https.html",
       "line_number": 3
+    }
+  ],
+  "webdriver-gettitle": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 977
+    }
+  ],
+  "webdriver-clickdialogbutton": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 921
+    }
+  ],
+  "webdriver-selectaccount": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 940
+    }
+  ],
+  "webdriver-getdialogtype": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 995
     }
   ]
 }
