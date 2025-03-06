@@ -2,11 +2,6 @@
   "": [
     {
       "url": "https://stuk.github.io/jszip/documentation/howto/read_zip.html",
-      "filepath": "devtools/client/shared/vendor/jszip.js",
-      "line_number": 3681
-    },
-    {
-      "url": "https://stuk.github.io/jszip/documentation/howto/read_zip.html",
       "filepath": "testing/web-platform/tests/tools/wave/www/lib/jszip.min.js",
       "line_number": 13
     }

@@ -2,8 +2,8 @@
   "": [
     {
       "url": "http://johnjbarton.github.io/nonymous/index.html",
-      "filepath": "devtools/client/shared/components/reps/reps/function.js",
-      "line_number": 200
+      "filepath": "devtools/client/shared/components/reps/reps/function.mjs",
+      "line_number": 194
     },
     {
       "url": "http://johnjbarton.github.io/nonymous/index.html",

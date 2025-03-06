@@ -1,4 +1,11 @@
 {
+  "dom-filesystemwritablefilestream-write": [
+    {
+      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-write",
+      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
+      "line_number": 690
+    }
+  ],
   "write-a-chunk": [
     {
       "url": "https://fs.spec.whatwg.org/#write-a-chunk",
@@ -9,6 +16,20 @@
       "url": "https://fs.spec.whatwg.org/#write-a-chunk",
       "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
       "line_number": 806
+    }
+  ],
+  "dom-filesystemwritablefilestream-seek": [
+    {
+      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-seek",
+      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
+      "line_number": 725
+    }
+  ],
+  "dom-filesystemwritablefilestream-truncate": [
+    {
+      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-truncate",
+      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
+      "line_number": 763
     }
   ],
   "create-a-new-filesystemwritablefilestream": [
@@ -36,27 +57,6 @@
       "url": "https://fs.spec.whatwg.org/#create-a-new-filesystemwritablefilestream",
       "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
       "line_number": 1018
-    }
-  ],
-  "dom-filesystemwritablefilestream-write": [
-    {
-      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-write",
-      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
-      "line_number": 690
-    }
-  ],
-  "dom-filesystemwritablefilestream-seek": [
-    {
-      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-seek",
-      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
-      "line_number": 725
-    }
-  ],
-  "dom-filesystemwritablefilestream-truncate": [
-    {
-      "url": "https://fs.spec.whatwg.org/#dom-filesystemwritablefilestream-truncate",
-      "filepath": "dom/fs/api/FileSystemWritableFileStream.cpp",
-      "line_number": 763
     }
   ]
 }

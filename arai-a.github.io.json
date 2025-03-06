@@ -93,12 +93,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 10859
+      "line_number": 10856
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 11038
+      "line_number": 11035
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",
@@ -153,12 +153,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 2640
+      "line_number": 2552
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 3418
+      "line_number": 3330
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposableresource-records",
@@ -178,22 +178,22 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-getdisposemethod",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1697
+      "line_number": 1629
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1740
+      "line_number": 1672
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1790
+      "line_number": 1722
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-suppressederror",
       "filepath": "js/src/vm/ErrorObject.cpp",
-      "line_number": 408
+      "line_number": 422
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
@@ -263,12 +263,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 2298
+      "line_number": 2309
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 5699
+      "line_number": 5711
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-asyncdisposablestack.prototype.disposeAsync",

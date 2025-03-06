@@ -1,40 +1,9 @@
 {
-  "": [
+  "the-text-decoration-doesnt-propagate-into-tables-quirk": [
     {
-      "url": "https://quirks.spec.whatwg.org/",
-      "filepath": "servo/components/selectors/context.rs",
-      "line_number": 111
-    }
-  ],
-  "the-active-and-hover-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
-      "filepath": "servo/components/selectors/matching.rs",
-      "line_number": 694
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
-      "filepath": "toolkit/content/widgets/videocontrols.js",
-      "line_number": 1012
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
-      "filepath": "toolkit/content/widgets/videocontrols.js",
-      "line_number": 2164
-    }
-  ],
-  "the-collapsing-table-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-collapsing-table-quirk",
+      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesnt-propagate-into-tables-quirk",
       "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
-      "line_number": 57
-    }
-  ],
-  "the-blocks-ignore-line-height-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-blocks-ignore-line-height-quirk",
-      "filepath": "testing/web-platform/tests/quirks/line-height-trailing-collapsable-whitespace.html",
-      "line_number": 3
+      "line_number": 50
     }
   ],
   "the-html-element-fills-the-viewport-quirk": [
@@ -49,11 +18,52 @@
       "line_number": 4
     }
   ],
-  "the-text-decoration-doesnt-propagate-into-tables-quirk": [
+  "the-blocks-ignore-line-height-quirk": [
     {
-      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesnt-propagate-into-tables-quirk",
-      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
-      "line_number": 50
+      "url": "https://quirks.spec.whatwg.org/#the-blocks-ignore-line-height-quirk",
+      "filepath": "testing/web-platform/tests/quirks/line-height-trailing-collapsable-whitespace.html",
+      "line_number": 3
+    }
+  ],
+  "the-tables-inherit-color-from-body-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
+      "filepath": "servo/components/style/servo/media_queries.rs",
+      "line_number": 192
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
+      "filepath": "servo/components/style/gecko/media_queries.rs",
+      "line_number": 54
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
+      "filepath": "servo/components/style/gecko/media_queries.rs",
+      "line_number": 201
+    }
+  ],
+  "the-hashless-hex-color-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
+      "filepath": "servo/components/style/values/specified/color.rs",
+      "line_number": 664
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
+      "filepath": "servo/components/style/values/specified/color.rs",
+      "line_number": 692
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
+      "filepath": "testing/web-platform/tests/quirks/supports.html",
+      "line_number": 7
+    }
+  ],
+  "goals": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#goals",
+      "filepath": "testing/web-platform/tests/quirks/historical/list-item-bullet-size.html",
+      "line_number": 3
     }
   ],
   "the-table-cell-width-calculation-quirk": [
@@ -66,6 +76,56 @@
       "url": "https://quirks.spec.whatwg.org/#the-table-cell-width-calculation-quirk",
       "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
       "line_number": 61
+    }
+  ],
+  "the-table-cell-nowrap-minimum-width-calculation-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-table-cell-nowrap-minimum-width-calculation-quirk",
+      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
+      "line_number": 42
+    }
+  ],
+  "": [
+    {
+      "url": "https://quirks.spec.whatwg.org/",
+      "filepath": "servo/components/selectors/context.rs",
+      "line_number": 111
+    }
+  ],
+  "the-collapsing-table-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-collapsing-table-quirk",
+      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
+      "line_number": 57
+    }
+  ],
+  "the-table-cell-height-box-sizing-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
+      "filepath": "layout/tables/nsTableRowFrame.cpp",
+      "line_number": 564
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
+      "filepath": "testing/web-platform/tests/css/css-tables/table-cell-inline-size-box-sizing-quirks.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
+      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
+      "line_number": 30
+    }
+  ],
+  "the-text-decoration-doesn't-propagate-into-tables-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesn't-propagate-into-tables-quirk",
+      "filepath": "layout/reftests/text-decoration/underline-block-propagation-2-quirks-ref.html",
+      "line_number": 19
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesn't-propagate-into-tables-quirk",
+      "filepath": "layout/reftests/text-decoration/underline-block-propagation-2-quirks.html",
+      "line_number": 19
     }
   ],
   "the-body-element-fills-the-html-element-quirk": [
@@ -100,35 +160,6 @@
       "line_number": 2
     }
   ],
-  "the-text-decoration-doesn't-propagate-into-tables-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesn't-propagate-into-tables-quirk",
-      "filepath": "layout/reftests/text-decoration/underline-block-propagation-2-quirks-ref.html",
-      "line_number": 19
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-text-decoration-doesn't-propagate-into-tables-quirk",
-      "filepath": "layout/reftests/text-decoration/underline-block-propagation-2-quirks.html",
-      "line_number": 19
-    }
-  ],
-  "the-tables-inherit-color-from-body-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
-      "filepath": "servo/components/style/servo/media_queries.rs",
-      "line_number": 192
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
-      "filepath": "servo/components/style/gecko/media_queries.rs",
-      "line_number": 54
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-tables-inherit-color-from-body-quirk",
-      "filepath": "servo/components/style/gecko/media_queries.rs",
-      "line_number": 201
-    }
-  ],
   "the-unitless-length-quirk": [
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
@@ -138,27 +169,27 @@
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
       "filepath": "servo/components/style/values/specified/length.rs",
-      "line_number": 1735
+      "line_number": 1734
     },
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
       "filepath": "servo/components/style/values/specified/length.rs",
-      "line_number": 1874
+      "line_number": 1872
     },
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
       "filepath": "servo/components/style/values/specified/length.rs",
-      "line_number": 1946
+      "line_number": 1944
     },
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
       "filepath": "servo/components/style/values/specified/length.rs",
-      "line_number": 1978
+      "line_number": 1976
     },
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
       "filepath": "servo/components/style/values/specified/length.rs",
-      "line_number": 2138
+      "line_number": 2136
     },
     {
       "url": "https://quirks.spec.whatwg.org/#the-unitless-length-quirk",
@@ -181,21 +212,43 @@
       "line_number": 8
     }
   ],
-  "the-hashless-hex-color-quirk": [
+  "the-active-and-hover-quirk": [
     {
-      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
-      "filepath": "servo/components/style/values/specified/color.rs",
-      "line_number": 664
+      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
+      "filepath": "servo/components/selectors/matching.rs",
+      "line_number": 699
     },
     {
-      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
-      "filepath": "servo/components/style/values/specified/color.rs",
-      "line_number": 692
+      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
+      "filepath": "toolkit/content/widgets/videocontrols.js",
+      "line_number": 1012
     },
     {
-      "url": "https://quirks.spec.whatwg.org/#the-hashless-hex-color-quirk",
-      "filepath": "testing/web-platform/tests/quirks/supports.html",
-      "line_number": 7
+      "url": "https://quirks.spec.whatwg.org/#the-active-and-hover-quirk",
+      "filepath": "toolkit/content/widgets/videocontrols.js",
+      "line_number": 2164
+    }
+  ],
+  "the-line-height-calculation-quirk": [
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
+      "filepath": "testing/web-platform/tests/quirks/line-height-limited-quirks-mode.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
+      "filepath": "testing/web-platform/tests/quirks/line-height-preserved-segment-break.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
+      "filepath": "testing/web-platform/tests/quirks/line-height-quirks-mode.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
+      "filepath": "testing/web-platform/tests/quirks/line-height-in-list-item.html",
+      "line_number": 3
     }
   ],
   "the-percentage-height-calculation-quirk": [
@@ -223,59 +276,6 @@
       "url": "https://quirks.spec.whatwg.org/#the-percentage-height-calculation-quirk",
       "filepath": "testing/web-platform/tests/quirks/percentage-height-quirk-excludes-flex-grid-001.html",
       "line_number": 7
-    }
-  ],
-  "the-line-height-calculation-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
-      "filepath": "testing/web-platform/tests/quirks/line-height-limited-quirks-mode.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
-      "filepath": "testing/web-platform/tests/quirks/line-height-preserved-segment-break.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
-      "filepath": "testing/web-platform/tests/quirks/line-height-quirks-mode.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-line-height-calculation-quirk",
-      "filepath": "testing/web-platform/tests/quirks/line-height-in-list-item.html",
-      "line_number": 3
-    }
-  ],
-  "goals": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#goals",
-      "filepath": "testing/web-platform/tests/quirks/historical/list-item-bullet-size.html",
-      "line_number": 3
-    }
-  ],
-  "the-table-cell-height-box-sizing-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
-      "filepath": "layout/tables/nsTableRowFrame.cpp",
-      "line_number": 564
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
-      "filepath": "testing/web-platform/tests/css/css-tables/table-cell-inline-size-box-sizing-quirks.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-table-cell-height-box-sizing-quirk",
-      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
-      "line_number": 30
-    }
-  ],
-  "the-table-cell-nowrap-minimum-width-calculation-quirk": [
-    {
-      "url": "https://quirks.spec.whatwg.org/#the-table-cell-nowrap-minimum-width-calculation-quirk",
-      "filepath": "testing/web-platform/tests/css/css-tables/tentative/table-quirks.html",
-      "line_number": 42
     }
   ]
 }

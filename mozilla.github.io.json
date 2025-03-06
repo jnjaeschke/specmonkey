@@ -1,11 +1,4 @@
 {
-  "measure": [
-    {
-      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
-      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
-      "line_number": 38
-    }
-  ],
   "": [
     {
       "url": "http://mozilla.github.io/pdf.js/build/pdf.js",
@@ -25,12 +18,12 @@
     {
       "url": "https://mozilla.github.io/geckoview/consumer/docs/automation",
       "filepath": "testing/geckodriver/src/android.rs",
-      "line_number": 20
+      "line_number": 19
     },
     {
       "url": "https://mozilla.github.io/geckoview/consumer/docs/automation",
       "filepath": "testing/geckodriver/src/android.rs",
-      "line_number": 323
+      "line_number": 322
     },
     {
       "url": "https://mozilla.github.io/glean/book/index.html",
@@ -113,6 +106,37 @@
       "line_number": 12
     }
   ],
+  "measure": [
+    {
+      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
+      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
+      "line_number": 38
+    }
+  ],
+  "enabling-debugging-features-through-environment-variables": [
+    {
+      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
+      "filepath": "toolkit/components/glean/src/init/mod.rs",
+      "line_number": 110
+    }
+  ],
+  "definedriver": [
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
+      "line_number": 1
+    }
+  ],
   "content-server": [
     {
       "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
@@ -123,30 +147,6 @@
       "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
       "filepath": "browser/components/uitour/UITour-lib.js",
       "line_number": 645
-    }
-  ],
-  "enabling-debugging-features-through-environment-variables": [
-    {
-      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
-      "filepath": "toolkit/components/glean/src/init/mod.rs",
-      "line_number": 110
-    }
-  ],
-  "limits": [
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
-      "filepath": "toolkit/components/glean/bindings/private/StringList.h",
-      "line_number": 39
-    },
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string.html#limits",
-      "filepath": "toolkit/components/glean/bindings/private/String.h",
-      "line_number": 28
-    },
-    {
-      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
-      "filepath": "toolkit/components/glean/api/src/private/string_list.rs",
-      "line_number": 64
     }
   ],
   "submitting-an-add-on-abuse-report": [
@@ -166,16 +166,21 @@
       "line_number": 447
     }
   ],
-  "definedriver": [
+  "limits": [
     {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
-      "line_number": 1
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
+      "filepath": "toolkit/components/glean/bindings/private/StringList.h",
+      "line_number": 39
     },
     {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
-      "line_number": 1
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string.html#limits",
+      "filepath": "toolkit/components/glean/bindings/private/String.h",
+      "line_number": 28
+    },
+    {
+      "url": "https://mozilla.github.io/glean/book/user/metrics/string_list.html#limits",
+      "filepath": "toolkit/components/glean/api/src/private/string_list.rs",
+      "line_number": 64
     }
   ],
   "ping-sections": [
