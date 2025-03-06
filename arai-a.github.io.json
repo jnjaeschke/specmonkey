@@ -103,52 +103,52 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 7748
+      "line_number": 7742
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-static-semantics-classelementevaluation",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 7828
+      "line_number": 7822
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9104
+      "line_number": 9098
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9109
+      "line_number": 9103
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9131
+      "line_number": 9125
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9134
+      "line_number": 9128
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9149
+      "line_number": 9143
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9153
+      "line_number": 9147
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9233
+      "line_number": 9227
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9242
+      "line_number": 9236
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",

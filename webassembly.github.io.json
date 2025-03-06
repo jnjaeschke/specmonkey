@@ -1,16 +1,9 @@
 {
-  "namespacedef-webassembly": [
+  "conventions": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
-      "line_number": 5
-    }
-  ],
-  "aux-nans": [
-    {
-      "url": "https://webassembly.github.io/spec/core/exec/numerics.html#aux-nans",
-      "filepath": "js/src/jit/riscv64/MacroAssembler-riscv64.cpp",
-      "line_number": 544
+      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
+      "filepath": "js/public/ColumnNumber.h",
+      "line_number": 338
     }
   ],
   "": [
@@ -20,11 +13,11 @@
       "line_number": 8
     }
   ],
-  "constant-expressions": [
+  "floating-point": [
     {
-      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
-      "filepath": "js/src/wasm/WasmInitExpr.h",
-      "line_number": 54
+      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
+      "filepath": "js/src/builtin/TestingFunctions.cpp",
+      "line_number": 1431
     }
   ],
   "towebassemblyvalue": [
@@ -34,18 +27,18 @@
       "line_number": 382
     }
   ],
+  "aux-nans": [
+    {
+      "url": "https://webassembly.github.io/spec/core/exec/numerics.html#aux-nans",
+      "filepath": "js/src/jit/riscv64/MacroAssembler-riscv64.cpp",
+      "line_number": 544
+    }
+  ],
   "tojsvalue": [
     {
       "url": "https://webassembly.github.io/spec/js-api/index.html#tojsvalue",
       "filepath": "js/src/wasm/WasmValue.h",
       "line_number": 395
-    }
-  ],
-  "conventions": [
-    {
-      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
-      "filepath": "js/public/ColumnNumber.h",
-      "line_number": 338
     }
   ],
   "defaultvalue": [
@@ -55,11 +48,18 @@
       "line_number": 2646
     }
   ],
-  "floating-point": [
+  "namespacedef-webassembly": [
     {
-      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
-      "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1431
+      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
+      "line_number": 5
+    }
+  ],
+  "constant-expressions": [
+    {
+      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
+      "filepath": "js/src/wasm/WasmInitExpr.h",
+      "line_number": 54
     }
   ]
 }

@@ -1,30 +1,4 @@
 {
-  "constrainterror": [
-    {
-      "url": "https://heycam.github.io/webidl/#constrainterror",
-      "filepath": "dom/webauthn/AndroidWebAuthnService.h",
-      "line_number": 41
-    }
-  ],
-  "interface-object": [
-    {
-      "url": "https://heycam.github.io/webidl/#interface-object",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 772
-    }
-  ],
-  "abstract-opdef-converttoint": [
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 27743
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 30096
-    }
-  ],
   "dfn-perform-steps-once-promise-is-settled": [
     {
       "url": "https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled",
@@ -32,37 +6,11 @@
       "line_number": 143
     }
   ],
-  "Exposed": [
+  "idl-constructors": [
     {
-      "url": "https://heycam.github.io/webidl/#Exposed",
+      "url": "https://heycam.github.io/webidl/#idl-constructors",
       "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
-      "line_number": 2680
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#Exposed",
-      "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
-      "line_number": 3491
-    }
-  ],
-  "internally-create-a-new-object-implementing-the-interface": [
-    {
-      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
-      "filepath": "dom/bindings/BindingUtils.cpp",
-      "line_number": 3631
-    }
-  ],
-  "es-interface-call": [
-    {
-      "url": "https://heycam.github.io/webidl/#es-interface-call",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 744
-    }
-  ],
-  "Unforgeable": [
-    {
-      "url": "https://heycam.github.io/webidl/#Unforgeable",
-      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2679
+      "line_number": 2698
     }
   ],
   "dfn-obtain-unicode": [
@@ -77,11 +25,63 @@
       "line_number": 5455
     }
   ],
-  "idl-constructors": [
+  "abstract-opdef-converttoint": [
     {
-      "url": "https://heycam.github.io/webidl/#idl-constructors",
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 27743
+    },
+    {
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 30096
+    }
+  ],
+  "Unforgeable": [
+    {
+      "url": "https://heycam.github.io/webidl/#Unforgeable",
+      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
+      "line_number": 2679
+    }
+  ],
+  "Exposed": [
+    {
+      "url": "https://heycam.github.io/webidl/#Exposed",
       "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
-      "line_number": 2698
+      "line_number": 2680
+    },
+    {
+      "url": "https://heycam.github.io/webidl/#Exposed",
+      "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
+      "line_number": 3491
+    }
+  ],
+  "constrainterror": [
+    {
+      "url": "https://heycam.github.io/webidl/#constrainterror",
+      "filepath": "dom/webauthn/AndroidWebAuthnService.h",
+      "line_number": 41
+    }
+  ],
+  "es-interface-call": [
+    {
+      "url": "https://heycam.github.io/webidl/#es-interface-call",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 744
+    }
+  ],
+  "interface-object": [
+    {
+      "url": "https://heycam.github.io/webidl/#interface-object",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 772
+    }
+  ],
+  "internally-create-a-new-object-implementing-the-interface": [
+    {
+      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
+      "filepath": "dom/bindings/BindingUtils.cpp",
+      "line_number": 3631
     }
   ]
 }

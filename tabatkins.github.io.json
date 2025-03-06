@@ -1,11 +1,4 @@
 {
-  "": [
-    {
-      "url": "https://tabatkins.github.io/specs/css-masonry/",
-      "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-color-computed.html",
-      "line_number": 6
-    }
-  ],
   "masonry-containers": [
     {
       "url": "https://tabatkins.github.io/specs/css-masonry/#masonry-containers",
@@ -26,6 +19,13 @@
       "url": "https://tabatkins.github.io/specs/css-masonry/#masonry-containers",
       "filepath": "testing/web-platform/tests/css/css-display/parsing/tentative/display-valid.html",
       "line_number": 15
+    }
+  ],
+  "": [
+    {
+      "url": "https://tabatkins.github.io/specs/css-masonry/",
+      "filepath": "testing/web-platform/tests/css/css-gaps/tentative/parsing/gap-decorations-color-computed.html",
+      "line_number": 6
     }
   ]
 }

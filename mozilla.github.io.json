@@ -113,57 +113,11 @@
       "line_number": 38
     }
   ],
-  "enabling-debugging-features-through-environment-variables": [
+  "ping-sections": [
     {
-      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
-      "filepath": "toolkit/components/glean/src/init/mod.rs",
-      "line_number": 110
-    }
-  ],
-  "definedriver": [
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
-      "line_number": 1
-    },
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
-      "line_number": 1
-    },
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
-      "line_number": 1
-    }
-  ],
-  "content-server": [
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 590
-    },
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 645
-    }
-  ],
-  "submitting-an-add-on-abuse-report": [
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 352
-    },
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 393
-    },
-    {
-      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
-      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
-      "line_number": 447
+      "url": "https://mozilla.github.io/glean/book/user/pings/index.html#ping-sections",
+      "filepath": "toolkit/components/glean/bindings/private/Ping.h",
+      "line_number": 46
     }
   ],
   "limits": [
@@ -183,11 +137,57 @@
       "line_number": 64
     }
   ],
-  "ping-sections": [
+  "definedriver": [
     {
-      "url": "https://mozilla.github.io/glean/book/user/pings/index.html#ping-sections",
-      "filepath": "toolkit/components/glean/bindings/private/Ping.h",
-      "line_number": 46
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
+      "line_number": 1
+    }
+  ],
+  "enabling-debugging-features-through-environment-variables": [
+    {
+      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
+      "filepath": "toolkit/components/glean/src/init/mod.rs",
+      "line_number": 110
+    }
+  ],
+  "submitting-an-add-on-abuse-report": [
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 352
+    },
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 393
+    },
+    {
+      "url": "https://mozilla.github.io/addons-server/topics/api/abuse.html#submitting-an-add-on-abuse-report",
+      "filepath": "toolkit/mozapps/extensions/test/xpcshell/test_AbuseReporter.js",
+      "line_number": 447
+    }
+  ],
+  "content-server": [
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 590
+    },
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 645
     }
   ]
 }

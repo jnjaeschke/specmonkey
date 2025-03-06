@@ -1,11 +1,4 @@
 {
-  "count": [
-    {
-      "url": "https://console.spec.whatwg.org/#count",
-      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
-      "line_number": 7
-    }
-  ],
   "console-namespace": [
     {
       "url": "https://console.spec.whatwg.org/#console-namespace",
@@ -39,6 +32,13 @@
     {
       "url": "https://console.spec.whatwg.org/#timing",
       "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "count": [
+    {
+      "url": "https://console.spec.whatwg.org/#count",
+      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
       "line_number": 7
     }
   ],

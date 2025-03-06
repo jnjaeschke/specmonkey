@@ -36,13 +36,6 @@
       "line_number": 8
     }
   ],
-  "global-attributes": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
-      "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 113
-    }
-  ],
   "the-math-script-level-property": [
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-script-level-property",
@@ -118,6 +111,13 @@
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-script-level-property",
       "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-002.tentative.html",
       "line_number": 7
+    }
+  ],
+  "global-attributes": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
+      "filepath": "dom/mathml/MathMLElement.cpp",
+      "line_number": 113
     }
   ],
   "dfn-displaystyle": [

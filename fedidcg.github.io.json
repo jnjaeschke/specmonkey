@@ -1,18 +1,4 @@
 {
-  "webdriver-setdelayenabled": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1159
-    }
-  ],
-  "webdriver-accountlist": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1105
-    }
-  ],
   "": [
     {
       "url": "https://fedidcg.github.io/FedCM",
@@ -275,11 +261,11 @@
       "line_number": 3
     }
   ],
-  "webdriver-selectaccount": [
+  "webdriver-gettitle": [
     {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1086
+      "line_number": 1123
     }
   ],
   "webdriver-getdialogtype": [
@@ -296,18 +282,32 @@
       "line_number": 1067
     }
   ],
+  "webdriver-accountlist": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1105
+    }
+  ],
+  "webdriver-selectaccount": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1086
+    }
+  ],
+  "webdriver-setdelayenabled": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1159
+    }
+  ],
   "webdriver-canceldialog": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-canceldialog",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
       "line_number": 1049
-    }
-  ],
-  "webdriver-gettitle": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1123
     }
   ],
   "webdriver-resetcooldown": [

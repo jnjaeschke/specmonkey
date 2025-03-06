@@ -1,49 +1,4 @@
 {
-  "dom-serviceworkerregistration-shownotification": [
-    {
-      "url": "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-shownotification",
-      "filepath": "dom/notification/Notification.cpp",
-      "line_number": 779
-    },
-    {
-      "url": "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-shownotification",
-      "filepath": "dom/serviceworkers/ServiceWorkerRegistration.cpp",
-      "line_number": 383
-    }
-  ],
-  "notificationoptions": [
-    {
-      "url": "http://notifications.spec.whatwg.org/#notificationoptions",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/webkit_notifications.js",
-      "line_number": 25
-    }
-  ],
-  "create-a-notification": [
-    {
-      "url": "https://notifications.spec.whatwg.org/#create-a-notification",
-      "filepath": "dom/notification/Notification.cpp",
-      "line_number": 404
-    }
-  ],
-  "dom-notification-notification": [
-    {
-      "url": "https://notifications.spec.whatwg.org/#dom-notification-notification",
-      "filepath": "dom/notification/NotificationParent.cpp",
-      "line_number": 126
-    },
-    {
-      "url": "https://notifications.spec.whatwg.org/#dom-notification-notification",
-      "filepath": "testing/web-platform/tests/notifications/idlharness.https.any.js",
-      "line_number": 22
-    }
-  ],
-  "non-persistent-notification": [
-    {
-      "url": "https://notifications.spec.whatwg.org/#non-persistent-notification",
-      "filepath": "testing/web-platform/tests/notifications/shownotification.https.window.js",
-      "line_number": 82
-    }
-  ],
   "dom-serviceworkerregistration-getnotifications": [
     {
       "url": "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-getnotifications",
@@ -61,11 +16,25 @@
       "line_number": 71
     }
   ],
-  "notification": [
+  "create-a-notification": [
     {
-      "url": "http://notifications.spec.whatwg.org/#notification",
+      "url": "https://notifications.spec.whatwg.org/#create-a-notification",
+      "filepath": "dom/notification/Notification.cpp",
+      "line_number": 404
+    }
+  ],
+  "notificationoptions": [
+    {
+      "url": "http://notifications.spec.whatwg.org/#notificationoptions",
       "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/webkit_notifications.js",
-      "line_number": 42
+      "line_number": 25
+    }
+  ],
+  "non-persistent-notification": [
+    {
+      "url": "https://notifications.spec.whatwg.org/#non-persistent-notification",
+      "filepath": "testing/web-platform/tests/notifications/shownotification.https.window.js",
+      "line_number": 82
     }
   ],
   "": [
@@ -75,6 +44,13 @@
       "line_number": 7
     }
   ],
+  "activating-a-notification": [
+    {
+      "url": "https://notifications.spec.whatwg.org/#activating-a-notification",
+      "filepath": "dom/notification/NotificationChild.cpp",
+      "line_number": 48
+    }
+  ],
   "notificationpermissioncallback": [
     {
       "url": "http://notifications.spec.whatwg.org/#notificationpermissioncallback",
@@ -82,11 +58,35 @@
       "line_number": 155
     }
   ],
-  "activating-a-notification": [
+  "dom-serviceworkerregistration-shownotification": [
     {
-      "url": "https://notifications.spec.whatwg.org/#activating-a-notification",
-      "filepath": "dom/notification/NotificationChild.cpp",
-      "line_number": 48
+      "url": "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-shownotification",
+      "filepath": "dom/notification/Notification.cpp",
+      "line_number": 779
+    },
+    {
+      "url": "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-shownotification",
+      "filepath": "dom/serviceworkers/ServiceWorkerRegistration.cpp",
+      "line_number": 383
+    }
+  ],
+  "dom-notification-notification": [
+    {
+      "url": "https://notifications.spec.whatwg.org/#dom-notification-notification",
+      "filepath": "dom/notification/NotificationParent.cpp",
+      "line_number": 126
+    },
+    {
+      "url": "https://notifications.spec.whatwg.org/#dom-notification-notification",
+      "filepath": "testing/web-platform/tests/notifications/idlharness.https.any.js",
+      "line_number": 22
+    }
+  ],
+  "notification": [
+    {
+      "url": "http://notifications.spec.whatwg.org/#notification",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/webkit_notifications.js",
+      "line_number": 42
     }
   ]
 }

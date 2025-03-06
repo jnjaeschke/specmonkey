@@ -1,16 +1,4 @@
 {
-  "initialise-the-document-object": [
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 95
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 137
-    }
-  ],
   "otherwise-steps-for-iframe-or-frame-elements": [
     {
       "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
@@ -21,6 +9,40 @@
       "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
       "line_number": 142
+    }
+  ],
+  "": [
+    {
+      "url": "http://whatwg.org/html",
+      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
+      "line_number": 168
+    },
+    {
+      "url": "https://whatwg.org/",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 163
+    }
+  ],
+  "navigate": [
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 61
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 84
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 103
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 126
     }
   ],
   "ping": [
@@ -72,38 +94,16 @@
       "line_number": 155
     }
   ],
-  "": [
+  "initialise-the-document-object": [
     {
-      "url": "http://whatwg.org/html",
-      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
-      "line_number": 168
+      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 95
     },
     {
-      "url": "https://whatwg.org/",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 163
-    }
-  ],
-  "navigate": [
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 61
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 84
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 103
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 126
+      "line_number": 137
     }
   ]
 }
