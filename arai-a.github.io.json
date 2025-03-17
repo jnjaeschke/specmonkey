@@ -263,12 +263,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 2309
+      "line_number": 2334
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 5711
+      "line_number": 5732
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-asyncdisposablestack.prototype.disposeAsync",

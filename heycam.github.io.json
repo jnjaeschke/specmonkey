@@ -6,6 +6,32 @@
       "line_number": 143
     }
   ],
+  "abstract-opdef-converttoint": [
+    {
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 27743
+    },
+    {
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 30096
+    }
+  ],
+  "Unforgeable": [
+    {
+      "url": "https://heycam.github.io/webidl/#Unforgeable",
+      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
+      "line_number": 2679
+    }
+  ],
+  "es-interface-call": [
+    {
+      "url": "https://heycam.github.io/webidl/#es-interface-call",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 744
+    }
+  ],
   "idl-constructors": [
     {
       "url": "https://heycam.github.io/webidl/#idl-constructors",
@@ -25,23 +51,11 @@
       "line_number": 5455
     }
   ],
-  "abstract-opdef-converttoint": [
+  "internally-create-a-new-object-implementing-the-interface": [
     {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 27743
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 30096
-    }
-  ],
-  "Unforgeable": [
-    {
-      "url": "https://heycam.github.io/webidl/#Unforgeable",
-      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2679
+      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
+      "filepath": "dom/bindings/BindingUtils.cpp",
+      "line_number": 3631
     }
   ],
   "Exposed": [
@@ -63,25 +77,11 @@
       "line_number": 41
     }
   ],
-  "es-interface-call": [
-    {
-      "url": "https://heycam.github.io/webidl/#es-interface-call",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 744
-    }
-  ],
   "interface-object": [
     {
       "url": "https://heycam.github.io/webidl/#interface-object",
       "filepath": "dom/imptests/idlharness.js",
       "line_number": 772
-    }
-  ],
-  "internally-create-a-new-object-implementing-the-interface": [
-    {
-      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
-      "filepath": "dom/bindings/BindingUtils.cpp",
-      "line_number": 3631
     }
   ]
 }

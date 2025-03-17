@@ -1,4 +1,18 @@
 {
+  "enabling-debugging-features-through-environment-variables": [
+    {
+      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
+      "filepath": "toolkit/components/glean/src/init/mod.rs",
+      "line_number": 110
+    }
+  ],
+  "measure": [
+    {
+      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
+      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
+      "line_number": 38
+    }
+  ],
   "": [
     {
       "url": "http://mozilla.github.io/pdf.js/build/pdf.js",
@@ -106,13 +120,6 @@
       "line_number": 12
     }
   ],
-  "measure": [
-    {
-      "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
-      "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
-      "line_number": 38
-    }
-  ],
   "ping-sections": [
     {
       "url": "https://mozilla.github.io/glean/book/user/pings/index.html#ping-sections",
@@ -137,28 +144,16 @@
       "line_number": 64
     }
   ],
-  "definedriver": [
+  "content-server": [
     {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
-      "line_number": 1
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 590
     },
     {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
-      "line_number": 1
-    },
-    {
-      "url": "https://mozilla.github.io/localForage/#definedriver",
-      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
-      "line_number": 1
-    }
-  ],
-  "enabling-debugging-features-through-environment-variables": [
-    {
-      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
-      "filepath": "toolkit/components/glean/src/init/mod.rs",
-      "line_number": 110
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 645
     }
   ],
   "submitting-an-add-on-abuse-report": [
@@ -178,16 +173,21 @@
       "line_number": 447
     }
   ],
-  "content-server": [
+  "definedriver": [
     {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 590
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app/public/static/js/minified.js",
+      "line_number": 1
     },
     {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 645
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/minified.js",
+      "line_number": 1
+    },
+    {
+      "url": "https://mozilla.github.io/localForage/#definedriver",
+      "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
+      "line_number": 1
     }
   ]
 }
