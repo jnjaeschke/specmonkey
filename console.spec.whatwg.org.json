@@ -1,38 +1,139 @@
 {
-  "count": [
+  "ref-for-dfn-namespace-object": [
     {
-      "url": "https://console.spec.whatwg.org/#count",
-      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "timing": [
-    {
-      "url": "https://console.spec.whatwg.org/#timing",
-      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
-      "line_number": 7
-    }
-  ],
-  "": [
-    {
-      "url": "http://console.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/console/console-tests-historical.any.js",
-      "line_number": 5
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/ChromeUtilsBinding.cpp",
+      "line_number": 6936
     },
     {
-      "url": "https://console.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/console/console-log-symbol.any.js",
-      "line_number": 3
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/ConsoleBinding.cpp",
+      "line_number": 1181
     },
     {
-      "url": "https://console.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/console/idlharness.any.js",
-      "line_number": 5
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/PathUtilsBinding.cpp",
+      "line_number": 984
     },
     {
-      "url": "https://console.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/console/console-log-large-array.any.js",
-      "line_number": 3
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/InspectorUtilsBinding.cpp",
+      "line_number": 5426
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UniFFIBinding.cpp",
+      "line_number": 1352
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/SessionStoreUtilsBinding.cpp",
+      "line_number": 2131
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TelemetryStopwatchBinding.cpp",
+      "line_number": 723
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 65562
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 66776
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 67077
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/CSSBinding.cpp",
+      "line_number": 435
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/AddonManagerBinding.cpp",
+      "line_number": 2550
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/PromiseDebuggingBinding.cpp",
+      "line_number": 538
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/IOUtilsBinding.cpp",
+      "line_number": 3405
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/L10nOverlaysBinding.cpp",
+      "line_number": 338
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/APZTestDataBinding.cpp",
+      "line_number": 1310
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebGPUBinding.cpp",
+      "line_number": 14906
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebGPUBinding.cpp",
+      "line_number": 15471
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebGPUBinding.cpp",
+      "line_number": 21245
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebGPUBinding.cpp",
+      "line_number": 27289
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebGPUBinding.cpp",
+      "line_number": 30258
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestUtilsBinding.cpp",
+      "line_number": 133
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WorkerTestUtilsBinding.cpp",
+      "line_number": 266
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/PlacesObserversBinding.cpp",
+      "line_number": 1523
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/WebrtcGlobalInformationBinding.cpp",
+      "line_number": 897
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UserInteractionBinding.cpp",
+      "line_number": 331
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#ref-for-dfn-namespace-object",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/MediaControllerBinding.cpp",
+      "line_number": 230
     }
   ],
   "formatter": [
@@ -64,10 +165,46 @@
       "line_number": 4
     }
   ],
+  "": [
+    {
+      "url": "http://console.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/console/console-tests-historical.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://console.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/console/console-log-symbol.any.js",
+      "line_number": 3
+    },
+    {
+      "url": "https://console.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/console/idlharness.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://console.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/console/console-log-large-array.any.js",
+      "line_number": 3
+    }
+  ],
   "countreset": [
     {
       "url": "https://console.spec.whatwg.org/#countreset",
       "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "count": [
+    {
+      "url": "https://console.spec.whatwg.org/#count",
+      "filepath": "testing/web-platform/tests/console/console-count-logging-manual.html",
+      "line_number": 7
+    }
+  ],
+  "timing": [
+    {
+      "url": "https://console.spec.whatwg.org/#timing",
+      "filepath": "testing/web-platform/tests/console/console-timing-logging-manual.html",
       "line_number": 7
     }
   ]

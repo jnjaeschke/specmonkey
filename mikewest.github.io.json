@@ -1,28 +1,9 @@
 {
-  "": [
-    {
-      "url": "https://mikewest.github.io/corpp/",
-      "filepath": "testing/web-platform/tests/html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html",
-      "line_number": 12
-    },
-    {
-      "url": "https://mikewest.github.io/corpp/",
-      "filepath": "testing/web-platform/tests/html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html",
-      "line_number": 12
-    }
-  ],
   "corp-check": [
     {
       "url": "https://mikewest.github.io/corpp/#corp-check",
       "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
       "line_number": 2578
-    }
-  ],
-  "process-navigation-response": [
-    {
-      "url": "https://mikewest.github.io/corpp/#process-navigation-response",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 2538
     }
   ],
   "initialize-embedder-policy-for-global": [
@@ -37,6 +18,18 @@
       "line_number": 51
     }
   ],
+  "": [
+    {
+      "url": "https://mikewest.github.io/corpp/",
+      "filepath": "testing/web-platform/tests/html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html",
+      "line_number": 12
+    },
+    {
+      "url": "https://mikewest.github.io/corpp/",
+      "filepath": "testing/web-platform/tests/html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html",
+      "line_number": 12
+    }
+  ],
   "integration-html": [
     {
       "url": "https://mikewest.github.io/corpp/#integration-html",
@@ -49,6 +42,18 @@
       "url": "https://mikewest.github.io/corpp/#parsing",
       "filepath": "netwerk/base/nsNetUtil.h",
       "line_number": 895
+    },
+    {
+      "url": "https://mikewest.github.io/corpp/#parsing",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsNetUtil.h",
+      "line_number": 895
+    }
+  ],
+  "process-navigation-response": [
+    {
+      "url": "https://mikewest.github.io/corpp/#process-navigation-response",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 2538
     }
   ]
 }

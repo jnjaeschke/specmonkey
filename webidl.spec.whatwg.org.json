@@ -1,69 +1,50 @@
 {
-  "es-namespaces": [
+  "es-DOMString": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
-      "filepath": "testing/web-platform/tests/css/cssom/CSS-namespace-object-class-string.html",
-      "line_number": 4
+      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
+      "filepath": "testing/web-platform/tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/heading-obsolete-attributes-01.html",
+      "line_number": 5
     },
     {
-      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
-      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
-      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
-      "line_number": 3
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
-      "line_number": 4
-    }
-  ],
-  "es-forEach": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-forEach",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/iterator-invalidation-foreach.html",
-      "line_number": 6
-    }
-  ],
-  "legacy-platform-object-ownpropertykeys": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-ownpropertykeys",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-platform-object/OwnPropertyKeys.html",
-      "line_number": 4
-    }
-  ],
-  "dfn-json-types": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-json-types",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 511
-    }
-  ],
-  "dfn-create-operation-function": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
+      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
+      "filepath": "testing/web-platform/tests/html/dom/elements/global-attributes/classlist-nonstring.html",
       "line_number": 6
     },
     {
-      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
+      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
+      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-null-undef-xhtml.xhtml",
       "line_number": 6
     },
     {
-      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
+      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
+      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-null-undef.html",
       "line_number": 5
     }
   ],
-  "idl-unsigned-long": [
+  "dfn-error-names-table": [
     {
-      "url": "https://webidl.spec.whatwg.org/#idl-unsigned-long",
-      "filepath": "testing/web-platform/tests/webnn/resources/utils_validation.js",
-      "line_number": 15
+      "url": "https://webidl.spec.whatwg.org/#dfn-error-names-table",
+      "filepath": "testing/web-platform/tests/resources/testharness.js",
+      "line_number": 2171
+    }
+  ],
+  "property-enumeration": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#property-enumeration",
+      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.forms.html",
+      "line_number": 56
+    }
+  ],
+  "end-of-iteration": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#end-of-iteration",
+      "filepath": "dom/bindings/IterableIterator.h",
+      "line_number": 46
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#end-of-iteration",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/IterableIterator.h",
+      "line_number": 46
     }
   ],
   "": [
@@ -78,122 +59,10 @@
       "line_number": 57
     }
   ],
-  "call-a-user-objects-operation": [
+  "es-sequence": [
     {
-      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
-      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/microtasks/resources/checkpoint-after-error-event.js",
-      "line_number": 17
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
-      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/microtasks/resources/checkpoint-after-error-event.js",
-      "line_number": 60
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
-      "filepath": "testing/web-platform/tests/domxpath/resolver-callback-interface.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
-      "filepath": "testing/web-platform/tests/dom/events/event-global-set-before-handleEvent-lookup.window.js",
-      "line_number": 2
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
-      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-coercing-beforeunload-result.html",
-      "line_number": 5
-    }
-  ],
-  "defineownproperty": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#defineownproperty",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-indexed-properties-strict.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#defineownproperty",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-indexed-properties.html",
-      "line_number": 8
-    }
-  ],
-  "es-operations": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-operations",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 2261
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-operations",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-operations",
-      "filepath": "testing/web-platform/tests/css/cssom-view/scrollintoview.html",
-      "line_number": 7
-    }
-  ],
-  "es-stringifier": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
-      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-area-element/area-stringifier.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
-      "filepath": "testing/web-platform/tests/html/semantics/text-level-semantics/the-a-element/a-stringifier.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
-      "filepath": "testing/web-platform/tests/html/browsers/history/the-location-interface/location-stringifier.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
-      "filepath": "testing/web-platform/tests/common/stringifiers.js",
-      "line_number": 2
-    }
-  ],
-  "interface-prototype-object": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1884
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-prototype-chain.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-prototype-constructor-set-receiver.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-prototype-object.html",
-      "line_number": 4
-    }
-  ],
-  "ecmascript-binding": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#ecmascript-binding",
-      "filepath": "testing/web-platform/tests/html/semantics/document-metadata/the-link-element/link-rellist.html",
-      "line_number": 6
-    }
-  ],
-  "default-tojson-steps": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#default-tojson-steps",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/default-toJSON-cross-realm.html",
+      "url": "https://webidl.spec.whatwg.org/#es-sequence",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/sequence-conversion.html",
       "line_number": 4
     }
   ],
@@ -204,16 +73,11 @@
       "line_number": 4
     }
   ],
-  "interface-object": [
+  "create-an-inheritance-stack": [
     {
-      "url": "https://webidl.spec.whatwg.org/#interface-object",
+      "url": "https://webidl.spec.whatwg.org/#create-an-inheritance-stack",
       "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1573
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#interface-object",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1765
+      "line_number": 1344
     }
   ],
   "Unforgeable": [
@@ -228,142 +92,18 @@
       "line_number": 5
     }
   ],
-  "internally-create-a-new-object-implementing-the-interface": [
+  "es-observable-array-deleteProperty": [
     {
-      "url": "https://webidl.spec.whatwg.org/#internally-create-a-new-object-implementing-the-interface",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/proto-from-ctor-realm.html",
-      "line_number": 4
+      "url": "https://webidl.spec.whatwg.org/#es-observable-array-deleteProperty",
+      "filepath": "dom/bindings/ObservableArrayProxyHandler.cpp",
+      "line_number": 101
     }
   ],
-  "es-overloads": [
+  "define-the-attributes": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-overloads",
-      "filepath": "testing/web-platform/tests/css/cssom-view/scrollintoview.html",
-      "line_number": 8
-    }
-  ],
-  "es-sequence": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-sequence",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/sequence-conversion.html",
-      "line_number": 4
-    }
-  ],
-  "dfn-attribute-setter": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
-      "line_number": 4
-    }
-  ],
-  "create-an-inheritance-stack": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#create-an-inheritance-stack",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1344
-    }
-  ],
-  "es-attributes": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-attributes",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
-      "line_number": 7
-    }
-  ],
-  "dfn-named-property-visibility": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
-      "filepath": "js/src/jit/CacheIR.cpp",
-      "line_number": 1896
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/window-named-properties-object.html",
-      "line_number": 65
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/window-named-properties-object.html",
-      "line_number": 126
-    }
-  ],
-  "end-of-iteration": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#end-of-iteration",
-      "filepath": "dom/bindings/IterableIterator.h",
-      "line_number": 46
-    }
-  ],
-  "dfn-get-buffer-source-copy": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-get-buffer-source-copy",
-      "filepath": "dom/indexedDB/Key.cpp",
-      "line_number": 917
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-get-buffer-source-copy",
-      "filepath": "testing/web-platform/tests/webnn/validation_tests/constant-changed-buffer.https.any.js",
-      "line_number": 69
-    }
-  ],
-  "dfn-attribute-getter": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
+      "url": "https://webidl.spec.whatwg.org/#define-the-attributes",
       "filepath": "testing/web-platform/tests/html/webappapis/the-shadowrealmglobalscope-interface/self.any.js",
-      "line_number": 36
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
-      "line_number": 3
-    }
-  ],
-  "qualified-name": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#qualified-name",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1323
-    }
-  ],
-  "idl-interface-mixins": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#idl-interface-mixins",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/attributes-accessors-unique-function-objects.html",
-      "line_number": 4
-    }
-  ],
-  "LegacyNamespace": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#LegacyNamespace",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1279
-    }
-  ],
-  "legacy-platform-object-defineownproperty": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-platform-object/DefineOwnProperty.html",
-      "line_number": 4
+      "line_number": 18
     }
   ],
   "es-to-record": [
@@ -418,26 +158,28 @@
       "line_number": 331
     }
   ],
-  "es-DOMString": [
+  "PutForwards": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
-      "filepath": "testing/web-platform/tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/heading-obsolete-attributes-01.html",
-      "line_number": 5
+      "url": "https://webidl.spec.whatwg.org/#PutForwards",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/put-forwards.html",
+      "line_number": 7
+    }
+  ],
+  "ref-for-prepare-to-run-script": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
+      "filepath": "testing/web-platform/tests/domxpath/resolver-callback-interface-cross-realm.tentative.html",
+      "line_number": 4
     },
     {
-      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
-      "filepath": "testing/web-platform/tests/html/dom/elements/global-attributes/classlist-nonstring.html",
-      "line_number": 6
+      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
+      "filepath": "testing/web-platform/tests/dom/traversal/TreeWalker-acceptNode-filter-cross-realm.html",
+      "line_number": 4
     },
     {
-      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
-      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-null-undef-xhtml.xhtml",
-      "line_number": 6
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#es-DOMString",
-      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-null-undef.html",
-      "line_number": 5
+      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
+      "filepath": "testing/web-platform/tests/dom/events/EventListener-handleEvent-cross-realm.html",
+      "line_number": 4
     }
   ],
   "create-an-interface-prototype-object": [
@@ -445,6 +187,285 @@
       "url": "https://webidl.spec.whatwg.org/#create-an-interface-prototype-object",
       "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-prototype-object.html",
       "line_number": 9
+    }
+  ],
+  "es-overloads": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-overloads",
+      "filepath": "testing/web-platform/tests/css/cssom-view/scrollintoview.html",
+      "line_number": 8
+    }
+  ],
+  "defineownproperty": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#defineownproperty",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-indexed-properties-strict.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#defineownproperty",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-indexed-properties.html",
+      "line_number": 8
+    }
+  ],
+  "es-iterator": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-iterator",
+      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-iterator.html",
+      "line_number": 4
+    }
+  ],
+  "dfn-named-property-visibility": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
+      "filepath": "js/src/jit/CacheIR.cpp",
+      "line_number": 1896
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/window-named-properties-object.html",
+      "line_number": 65
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-named-property-visibility",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/window-named-properties-object.html",
+      "line_number": 126
+    }
+  ],
+  "es-stringifier": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-area-element/area-stringifier.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
+      "filepath": "testing/web-platform/tests/html/semantics/text-level-semantics/the-a-element/a-stringifier.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
+      "filepath": "testing/web-platform/tests/html/browsers/history/the-location-interface/location-stringifier.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-stringifier",
+      "filepath": "testing/web-platform/tests/common/stringifiers.js",
+      "line_number": 2
+    }
+  ],
+  "dfn-get-buffer-source-copy": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-get-buffer-source-copy",
+      "filepath": "dom/indexedDB/Key.cpp",
+      "line_number": 917
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-get-buffer-source-copy",
+      "filepath": "testing/web-platform/tests/webnn/validation_tests/constant-changed-buffer.https.any.js",
+      "line_number": 69
+    }
+  ],
+  "host-objects": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#host-objects",
+      "filepath": "testing/web-platform/tests/html/semantics/interfaces.html",
+      "line_number": 6
+    }
+  ],
+  "dfn-attribute-getter": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
+      "filepath": "testing/web-platform/tests/html/webappapis/the-shadowrealmglobalscope-interface/self.any.js",
+      "line_number": 36
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-getter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
+      "line_number": 3
+    }
+  ],
+  "es-namespaces": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
+      "filepath": "testing/web-platform/tests/css/cssom/CSS-namespace-object-class-string.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
+      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
+      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
+      "line_number": 3
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-namespaces",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
+      "line_number": 4
+    }
+  ],
+  "dfn-attribute-setter": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-attribute-setter",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
+      "line_number": 4
+    }
+  ],
+  "call-a-user-objects-operation": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
+      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/microtasks/resources/checkpoint-after-error-event.js",
+      "line_number": 17
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
+      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/microtasks/resources/checkpoint-after-error-event.js",
+      "line_number": 60
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
+      "filepath": "testing/web-platform/tests/domxpath/resolver-callback-interface.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
+      "filepath": "testing/web-platform/tests/dom/events/event-global-set-before-handleEvent-lookup.window.js",
+      "line_number": 2
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#call-a-user-objects-operation",
+      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-coercing-beforeunload-result.html",
+      "line_number": 5
+    }
+  ],
+  "define-the-global-property-references": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#define-the-global-property-references",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-object-set-receiver.html",
+      "line_number": 4
+    }
+  ],
+  "legacy-callback-interface-object": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-callback-interface-object",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-callback-interface-object.html",
+      "line_number": 7
+    }
+  ],
+  "dfn-create-operation-function": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value-cross-realm.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/invalid-this-value-cross-realm.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#dfn-create-operation-function",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/global-object-implicit-this-value.any.js",
+      "line_number": 5
+    }
+  ],
+  "internally-create-a-new-object-implementing-the-interface": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#internally-create-a-new-object-implementing-the-interface",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/proto-from-ctor-realm.html",
+      "line_number": 4
+    }
+  ],
+  "interface-prototype-object": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1884
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-prototype-chain.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-prototype-constructor-set-receiver.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-prototype-object",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-prototype-object.html",
+      "line_number": 4
+    }
+  ],
+  "LegacyNamespace": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#LegacyNamespace",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1279
+    }
+  ],
+  "idl-unsigned-long": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#idl-unsigned-long",
+      "filepath": "testing/web-platform/tests/webnn/resources/utils_validation.js",
+      "line_number": 15
+    }
+  ],
+  "es-attributes": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-attributes",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
+      "line_number": 7
+    }
+  ],
+  "abstract-opdef-converttoint": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#abstract-opdef-converttoint",
+      "filepath": "testing/web-platform/tests/webvtt/api/VTTRegion/lines.html",
+      "line_number": 17
+    }
+  ],
+  "idl-interface-mixins": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#idl-interface-mixins",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/attributes-accessors-unique-function-objects.html",
+      "line_number": 4
+    }
+  ],
+  "legacy-platform-object-ownpropertykeys": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-ownpropertykeys",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-platform-object/OwnPropertyKeys.html",
+      "line_number": 4
     }
   ],
   "named-properties-object": [
@@ -472,60 +493,22 @@
   "dfn-indexed-property-getter": [
     {
       "url": "https://webidl.spec.whatwg.org/#dfn-indexed-property-getter",
-      "filepath": "testing/web-platform/tests/css/css-mixins/at-function-cssom.tentative.html",
+      "filepath": "testing/web-platform/tests/css/css-mixins/at-function-cssom.html",
       "line_number": 174
     }
   ],
-  "legacy-callback-interface-object": [
+  "idl-long": [
     {
-      "url": "https://webidl.spec.whatwg.org/#legacy-callback-interface-object",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-callback-interface-object.html",
-      "line_number": 7
+      "url": "https://webidl.spec.whatwg.org/#idl-long",
+      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
+      "line_number": 8
     }
   ],
-  "es-iterator-prototype-object": [
+  "wait-for-all": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-iterator-prototype-object",
-      "filepath": "testing/web-platform/tests/xhr/formdata/iteration.any.js",
-      "line_number": 4
-    }
-  ],
-  "ref-for-prepare-to-run-script": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
-      "filepath": "testing/web-platform/tests/domxpath/resolver-callback-interface-cross-realm.tentative.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
-      "filepath": "testing/web-platform/tests/dom/traversal/TreeWalker-acceptNode-filter-cross-realm.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://webidl.spec.whatwg.org/#ref-for-prepare-to-run-script",
-      "filepath": "testing/web-platform/tests/dom/events/EventListener-handleEvent-cross-realm.html",
-      "line_number": 4
-    }
-  ],
-  "default-tojson-operation": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#default-tojson-operation",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 1382
-    }
-  ],
-  "platform-object-setprototypeof": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#platform-object-setprototypeof",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 2809
-    }
-  ],
-  "host-objects": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#host-objects",
-      "filepath": "testing/web-platform/tests/html/semantics/interfaces.html",
-      "line_number": 6
+      "url": "https://webidl.spec.whatwg.org/#wait-for-all",
+      "filepath": "dom/promise/Promise.cpp",
+      "line_number": 263
     }
   ],
   "getownproperty": [
@@ -540,17 +523,45 @@
       "line_number": 7
     }
   ],
-  "define-the-attributes": [
+  "es-iterator-prototype-object": [
     {
-      "url": "https://webidl.spec.whatwg.org/#define-the-attributes",
-      "filepath": "testing/web-platform/tests/html/webappapis/the-shadowrealmglobalscope-interface/self.any.js",
-      "line_number": 18
+      "url": "https://webidl.spec.whatwg.org/#es-iterator-prototype-object",
+      "filepath": "testing/web-platform/tests/xhr/formdata/iteration.any.js",
+      "line_number": 4
+    }
+  ],
+  "ecmascript-binding": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#ecmascript-binding",
+      "filepath": "testing/web-platform/tests/html/semantics/document-metadata/the-link-element/link-rellist.html",
+      "line_number": 6
+    }
+  ],
+  "platform-object-setprototypeof": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#platform-object-setprototypeof",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 2809
+    }
+  ],
+  "qualified-name": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#qualified-name",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1323
     }
   ],
   "legacy-platform-object-set": [
     {
       "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-set",
       "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-platform-object/Set.html",
+      "line_number": 4
+    }
+  ],
+  "default-tojson-steps": [
+    {
+      "url": "https://webidl.spec.whatwg.org/#default-tojson-steps",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/default-toJSON-cross-realm.html",
       "line_number": 4
     }
   ],
@@ -561,46 +572,142 @@
       "line_number": 7
     }
   ],
-  "abstract-opdef-converttoint": [
+  "interface-object": [
     {
-      "url": "https://webidl.spec.whatwg.org/#abstract-opdef-converttoint",
-      "filepath": "testing/web-platform/tests/webvtt/api/VTTRegion/lines.html",
-      "line_number": 17
+      "url": "https://webidl.spec.whatwg.org/#interface-object",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1573
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#interface-object",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1765
     }
   ],
-  "PutForwards": [
+  "es-operations": [
     {
-      "url": "https://webidl.spec.whatwg.org/#PutForwards",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/put-forwards.html",
+      "url": "https://webidl.spec.whatwg.org/#es-operations",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 2261
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-operations",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#es-operations",
+      "filepath": "testing/web-platform/tests/css/cssom-view/scrollintoview.html",
       "line_number": 7
     }
   ],
-  "define-the-global-property-references": [
+  "legacy-platform-object-defineownproperty": [
     {
-      "url": "https://webidl.spec.whatwg.org/#define-the-global-property-references",
-      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/interface-object-set-receiver.html",
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/MozStorageStatementParamsBinding.cpp",
+      "line_number": 336
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/MozStorageStatementParamsBinding.cpp",
+      "line_number": 357
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/DOMStringMapBinding.cpp",
+      "line_number": 242
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestExampleGenBinding.cpp",
+      "line_number": 40353
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestExampleGenBinding.cpp",
+      "line_number": 40373
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 11852
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 11876
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 15933
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 15952
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 17607
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 17636
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 18446
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp",
+      "line_number": 65006
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/HTMLSelectElementBinding.cpp",
+      "line_number": 2029
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/HTMLOptionsCollectionBinding.cpp",
+      "line_number": 552
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/MozStorageAsyncStatementParamsBinding.cpp",
+      "line_number": 336
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/MozStorageAsyncStatementParamsBinding.cpp",
+      "line_number": 357
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/StorageBinding.cpp",
+      "line_number": 965
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/SVGLengthListBinding.cpp",
+      "line_number": 684
+    },
+    {
+      "url": "https://webidl.spec.whatwg.org/#legacy-platform-object-defineownproperty",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/legacy-platform-object/DefineOwnProperty.html",
       "line_number": 4
     }
   ],
-  "es-iterator": [
+  "es-forEach": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-iterator",
-      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-iterator.html",
-      "line_number": 4
-    }
-  ],
-  "idl-long": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#idl-long",
-      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
-      "line_number": 8
-    }
-  ],
-  "dfn-error-names-table": [
-    {
-      "url": "https://webidl.spec.whatwg.org/#dfn-error-names-table",
-      "filepath": "testing/web-platform/tests/resources/testharness.js",
-      "line_number": 2167
+      "url": "https://webidl.spec.whatwg.org/#es-forEach",
+      "filepath": "testing/web-platform/tests/webidl/ecmascript-binding/iterator-invalidation-foreach.html",
+      "line_number": 6
     }
   ],
   "es-interface-call": [
@@ -610,18 +717,18 @@
       "line_number": 1548
     }
   ],
-  "property-enumeration": [
+  "default-tojson-operation": [
     {
-      "url": "https://webidl.spec.whatwg.org/#property-enumeration",
-      "filepath": "testing/web-platform/tests/html/dom/documents/dom-tree-accessors/document.forms.html",
-      "line_number": 56
+      "url": "https://webidl.spec.whatwg.org/#default-tojson-operation",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 1382
     }
   ],
-  "es-observable-array-deleteProperty": [
+  "dfn-json-types": [
     {
-      "url": "https://webidl.spec.whatwg.org/#es-observable-array-deleteProperty",
-      "filepath": "dom/bindings/ObservableArrayProxyHandler.cpp",
-      "line_number": 101
+      "url": "https://webidl.spec.whatwg.org/#dfn-json-types",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 511
     }
   ]
 }

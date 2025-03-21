@@ -4,6 +4,11 @@
       "url": "https://googlechrome.github.io/CertificateTransparency/ct_policy.html",
       "filepath": "security/ct/CTPolicyEnforcer.h",
       "line_number": 34
+    },
+    {
+      "url": "https://googlechrome.github.io/CertificateTransparency/ct_policy.html",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/CTPolicyEnforcer.h",
+      "line_number": 34
     }
   ]
 }

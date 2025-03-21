@@ -4,6 +4,11 @@
       "url": "http://rtcweb-wg.github.io/jsep/#rfc.section.4.1.9",
       "filepath": "dom/media/PeerConnection.sys.mjs",
       "line_number": 377
+    },
+    {
+      "url": "http://rtcweb-wg.github.io/jsep/#rfc.section.4.1.9",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/modules/media/PeerConnection.sys.mjs",
+      "line_number": 377
     }
   ]
 }

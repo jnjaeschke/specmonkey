@@ -4,6 +4,11 @@
       "url": "https://microsoftedge.github.io/directory-upload/proposal.html#directory-interface",
       "filepath": "dom/filesystem/Directory.h",
       "line_number": 48
+    },
+    {
+      "url": "https://microsoftedge.github.io/directory-upload/proposal.html#directory-interface",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Directory.h",
+      "line_number": 48
     }
   ]
 }

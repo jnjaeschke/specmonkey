@@ -1,4 +1,30 @@
 {
+  "captured-mouse-change-event-init": [
+    {
+      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event-init",
+      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
+      "line_number": 4
+    }
+  ],
+  "captured-mouse-change-event": [
+    {
+      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event",
+      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event",
+      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor-inherited.html",
+      "line_number": 3
+    }
+  ],
+  "elements-eligible-for-restriction": [
+    {
+      "url": "https://screen-share.github.io/element-capture/#elements-eligible-for-restriction",
+      "filepath": "testing/web-platform/tests/mediacapture-streams/BrowserCaptureMediaStreamTrack-restrictTo.https.html",
+      "line_number": 55
+    }
+  ],
   "capture-controller-extensions": [
     {
       "url": "https://screen-share.github.io/captured-mouse-events/#capture-controller-extensions",
@@ -21,32 +47,6 @@
       "url": "https://screen-share.github.io/captured-mouse-events",
       "filepath": "testing/web-platform/tests/captured-mouse-events/capturing-mouse-coordinates-manual.tentative.https.html",
       "line_number": 4
-    }
-  ],
-  "elements-eligible-for-restriction": [
-    {
-      "url": "https://screen-share.github.io/element-capture/#elements-eligible-for-restriction",
-      "filepath": "testing/web-platform/tests/mediacapture-streams/BrowserCaptureMediaStreamTrack-restrictTo.https.html",
-      "line_number": 55
-    }
-  ],
-  "captured-mouse-change-event-init": [
-    {
-      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event-init",
-      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
-      "line_number": 4
-    }
-  ],
-  "captured-mouse-change-event": [
-    {
-      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event",
-      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://screen-share.github.io/captured-mouse-events/#captured-mouse-change-event",
-      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor-inherited.html",
-      "line_number": 3
     }
   ]
 }

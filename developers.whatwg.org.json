@@ -1,4 +1,11 @@
 {
+  "": [
+    {
+      "url": "http://developers.whatwg.org/",
+      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
+      "line_number": 334
+    }
+  ],
   "datatransferitem": [
     {
       "url": "http://developers.whatwg.org/dnd.html#datatransferitem",
@@ -14,13 +21,6 @@
       "url": "http://developers.whatwg.org/dnd.html#datatransferitem",
       "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
       "line_number": 1914
-    }
-  ],
-  "": [
-    {
-      "url": "http://developers.whatwg.org/",
-      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
-      "line_number": 334
     }
   ]
 }

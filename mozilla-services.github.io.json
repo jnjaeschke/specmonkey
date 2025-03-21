@@ -1,0 +1,19 @@
+{
+  "": [
+    {
+      "url": "https://mozilla-services.github.io/merino/",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/glean/UrlbarMetrics.h",
+      "line_number": 79
+    },
+    {
+      "url": "https://mozilla-services.github.io/merino/",
+      "filepath": "obj-x86_64-pc-linux-gnu/toolkit/components/glean/UrlbarMetrics.h",
+      "line_number": 79
+    },
+    {
+      "url": "https://mozilla-services.github.io/merino/",
+      "filepath": "obj-x86_64-pc-linux-gnu/toolkit/components/glean/api/src/metrics.rs",
+      "line_number": 24796
+    }
+  ]
+}

@@ -21,6 +21,11 @@
       "line_number": 39
     },
     {
+      "url": "https://wiki.whatwg.org/wiki/OffscreenCanvas",
+      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ImageBitmapRenderingContext.h",
+      "line_number": 39
+    },
+    {
       "url": "http://wiki.whatwg.org/wiki/IRC",
       "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
       "line_number": 342

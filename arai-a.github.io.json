@@ -193,7 +193,7 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-suppressederror",
       "filepath": "js/src/vm/ErrorObject.cpp",
-      "line_number": 422
+      "line_number": 418
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
