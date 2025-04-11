@@ -1,43 +1,420 @@
 {
+  "dom-gpubuffer-mapstate": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#dom-gpubuffer-mapstate",
+      "filepath": "dom/webgpu/Buffer.cpp",
+      "line_number": 460
+    }
+  ],
+  "texturestore": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
+      "line_number": 60
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
+      "line_number": 99
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
+      "line_number": 140
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
+      "line_number": 180
+    }
+  ],
+  "dom-gpubuffer-getmappedrange": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#dom-gpubuffer-getmappedrange",
+      "filepath": "dom/webgpu/Buffer.cpp",
+      "line_number": 277
+    }
+  ],
+  "var-decls": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 591
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 622
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 644
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 662
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 738
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
+      "line_number": 755
+    }
+  ],
+  "texturesamplecomparelevel": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 54
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 95
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 141
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 188
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 233
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 278
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
+      "line_number": 316
+    }
+  ],
   "gpuerror": [
     {
       "url": "https://gpuweb.github.io/gpuweb/#gpuerror",
       "filepath": "gfx/wgpu_bindings/src/error.rs",
       "line_number": 103
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#gpuerror",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 607
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#gpuerror",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 607
     }
   ],
-  "dictdef-gpurenderbundledescriptor": [
+  "texturesamplelevel": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpurenderbundledescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2357
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 67
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpurenderbundledescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2357
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 109
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 155
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 201
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 248
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 293
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
+      "line_number": 331
     }
   ],
-  "typedefdef-gpubufferusageflags": [
+  "texturesamplebaseclamptoedge": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpubufferusageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3392
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
+      "line_number": 28
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpubufferusageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3392
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
+      "line_number": 58
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
+      "line_number": 91
+    }
+  ],
+  "function-calls": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 678
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 740
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 760
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 784
+    }
+  ],
+  "compatible-usage-list": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#compatible-usage-list",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/resource_usages/texture/in_pass_encoder.spec.js",
+      "line_number": 1080
+    }
+  ],
+  "texturenumlevels": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlevels",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLevels.spec.js",
+      "line_number": 43
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlevels",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLevels.spec.js",
+      "line_number": 78
+    }
+  ],
+  "programming-model-synchronization": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#programming-model-synchronization",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/resource_usages/texture/in_render_misc.spec.js",
+      "line_number": 472
+    }
+  ],
+  "texturesamplegrad": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 59
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 99
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 144
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 189
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 234
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 279
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 325
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
+      "line_number": 364
+    }
+  ],
+  "atomic-types": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#atomic-types",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/types/atomics.spec.js",
+      "line_number": 20
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#atomic-types",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/types/atomics.spec.js",
+      "line_number": 111
+    }
+  ],
+  "texturesamplecompare": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 58
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 99
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 145
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 191
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 236
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 281
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 357
+    }
+  ],
+  "enumdef-gpuerrorfilter": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuerrorfilter",
+      "filepath": "gfx/wgpu_bindings/src/error.rs",
+      "line_number": 104
+    }
+  ],
+  "workgroupUniformLoad-builtin": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#workgroupUniformLoad-builtin",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/execution/expression/call/builtin/workgroupUniformLoad.spec.js",
+      "line_number": 93
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 75
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 95
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 110
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 125
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 149
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 164
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 175
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 198
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 217
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
+      "line_number": 459
+    }
+  ],
+  "texturesample": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBias.spec.js",
+      "line_number": 320
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 87
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 130
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 174
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 218
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 263
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 301
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
+      "line_number": 337
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
+      "line_number": 319
     }
   ],
   "": [
@@ -4037,560 +4414,6 @@
       "line_number": 5
     }
   ],
-  "texturestore": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
-      "line_number": 60
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
-      "line_number": 99
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
-      "line_number": 140
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturestore",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureStore.spec.js",
-      "line_number": 180
-    }
-  ],
-  "workgroupUniformLoad-builtin": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#workgroupUniformLoad-builtin",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/execution/expression/call/builtin/workgroupUniformLoad.spec.js",
-      "line_number": 93
-    }
-  ],
-  "texturesamplebaseclamptoedge": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
-      "line_number": 28
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
-      "line_number": 58
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplebaseclamptoedge",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBaseClampToEdge.spec.js",
-      "line_number": 91
-    }
-  ],
-  "dictdef-gputexturedescriptor": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gputexturedescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2260
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gputexturedescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2260
-    }
-  ],
-  "texturesamplecomparelevel": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 54
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 95
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 141
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 188
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 233
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 278
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecomparelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompareLevel.spec.js",
-      "line_number": 316
-    }
-  ],
-  "dom-gpudevice-destroy": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dom-gpudevice-destroy",
-      "filepath": "dom/webgpu/Device.cpp",
-      "line_number": 1057
-    }
-  ],
-  "texturenumlevels": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlevels",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLevels.spec.js",
-      "line_number": 43
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlevels",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLevels.spec.js",
-      "line_number": 78
-    }
-  ],
-  "dictdef-gpucommandbufferdescriptor": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpucommandbufferdescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3366
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpucommandbufferdescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3366
-    }
-  ],
-  "dictdef-gpublendcomponent": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpublendcomponent",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2946
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpublendcomponent",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2946
-    }
-  ],
-  "dictdef-gpudepthstencilstate": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3083
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3110
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3131
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3083
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3110
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpudepthstencilstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3131
-    }
-  ],
-  "enumdef-gpuaddressmode": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuaddressmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 149
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuaddressmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 149
-    }
-  ],
-  "dictdef-gpuimagecopytexture": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuimagecopytexture",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3226
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuimagecopytexture",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3226
-    }
-  ],
-  "enumdef-gpublendfactor": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpublendfactor",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 347
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpublendfactor",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 347
-    }
-  ],
-  "texturegather": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 100
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 145
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 197
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 247
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 298
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 349
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 401
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
-      "line_number": 445
-    }
-  ],
-  "texturenumlayers": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
-      "line_number": 40
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
-      "line_number": 75
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
-      "line_number": 108
-    }
-  ],
-  "dictdef-gpucommandencoderdescriptor": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpucommandencoderdescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2334
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpucommandencoderdescriptor",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2334
-    }
-  ],
-  "texturedimensions": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
-      "line_number": 110
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
-      "line_number": 148
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
-      "line_number": 184
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
-      "line_number": 227
-    }
-  ],
-  "enumdef-gpufrontface": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpufrontface",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 680
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpufrontface",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 680
-    }
-  ],
-  "programming-model-synchronization": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#programming-model-synchronization",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/resource_usages/texture/in_render_misc.spec.js",
-      "line_number": 473
-    }
-  ],
-  "enumdef-gpustenciloperation": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpustenciloperation",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 859
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpustenciloperation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 859
-    }
-  ],
-  "lose-the-device": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#lose-the-device",
-      "filepath": "dom/webgpu/ipc/WebGPUParent.cpp",
-      "line_number": 362
-    }
-  ],
-  "dictdef-gpuvertexattribute": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuvertexattribute",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2901
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuvertexattribute",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2901
-    }
-  ],
-  "enumdef-gpuprimitivetopology": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuprimitivetopology",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 782
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuprimitivetopology",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 782
-    }
-  ],
-  "var-decls": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 591
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 622
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 644
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 662
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 738
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#var-decls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/decl/var.spec.js",
-      "line_number": 755
-    }
-  ],
-  "typedefdef-gpushaderstageflags": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpushaderstageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2798
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpushaderstageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2798
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 75
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 95
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 110
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 125
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 149
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 164
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 175
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 198
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 217
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#diagnostics",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/parse/diagnostic.spec.js",
-      "line_number": 459
-    }
-  ],
-  "enumdef-gputextureaspect": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureaspect",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 935
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureaspect",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 935
-    }
-  ],
-  "texturesamplelevel": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 67
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 109
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 155
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 201
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 248
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 293
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplelevel",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleLevel.spec.js",
-      "line_number": 331
-    }
-  ],
-  "enumdef-gpublendoperation": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpublendoperation",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 433
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpublendoperation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 433
-    }
-  ],
-  "function-calls": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 678
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 740
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 760
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-calls",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 784
-    }
-  ],
-  "reading-depth-stencil": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#reading-depth-stencil",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/execution/expression/call/builtin/texture_utils.js",
-      "line_number": 2420
-    }
-  ],
-  "dom-gpubuffer-mapstate": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dom-gpubuffer-mapstate",
-      "filepath": "dom/webgpu/Buffer.cpp",
-      "line_number": 459
-    }
-  ],
   "textureload": [
     {
       "url": "https://gpuweb.github.io/gpuweb/wgsl/#textureload",
@@ -4638,291 +4461,6 @@
       "line_number": 488
     }
   ],
-  "atomic-types": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#atomic-types",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/types/atomics.spec.js",
-      "line_number": 20
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#atomic-types",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/types/atomics.spec.js",
-      "line_number": 111
-    }
-  ],
-  "behaviors-rules": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
-      "line_number": 42
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
-      "line_number": 103
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
-      "line_number": 123
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
-      "line_number": 140
-    }
-  ],
-  "enumdef-gpufiltermode": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpufiltermode",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 655
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpufiltermode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 655
-    }
-  ],
-  "enumdef-gpucullmode": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpucullmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 633
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpucullmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 633
-    }
-  ],
-  "enumdef-gpustoreop": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpustoreop",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 906
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpustoreop",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 906
-    }
-  ],
-  "gpusupportedlimits": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 1485
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 1485
-    }
-  ],
-  "dictdef-gpustencilfacestate": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpustencilfacestate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3052
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpustencilfacestate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3052
-    }
-  ],
-  "texturesamplecompare": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 58
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 99
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 145
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 191
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 236
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 281
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplecompare",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 357
-    }
-  ],
-  "dom-gpubuffer-getmappedrange": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dom-gpubuffer-getmappedrange",
-      "filepath": "dom/webgpu/Buffer.cpp",
-      "line_number": 276
-    }
-  ],
-  "function-declaration-sec": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-declaration-sec",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 647
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-declaration-sec",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
-      "line_number": 670
-    }
-  ],
-  "enumdef-gpuloadop": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2416
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2523
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2685
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2416
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2523
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuloadop",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2685
-    }
-  ],
-  "depth-formats": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#depth-formats",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/image_copy/buffer_texture_copies.spec.js",
-      "line_number": 63
-    }
-  ],
-  "enumdef-gpuindexformat": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuindexformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 714
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuindexformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 714
-    }
-  ],
-  "dictdef-gpuorigin3ddict": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuorigin3ddict",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3201
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuorigin3ddict",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3201
-    }
-  ],
-  "enumdef-gputexturedimension": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputexturedimension",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 972
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputexturedimension",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 972
-    }
-  ],
-  "enumdef-gpucomparefunction": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpucomparefunction",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 521
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpucomparefunction",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 521
-    }
-  ],
-  "dictdef-gpumultisamplestate": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpumultisamplestate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3163
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpumultisamplestate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3163
-    }
-  ],
-  "enumdef-gputextureviewdimension": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureviewdimension",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 997
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureviewdimension",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 997
-    }
-  ],
-  "dictdef-gpuextent3ddict": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuextent3ddict",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 1710
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpuextent3ddict",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 1710
-    }
-  ],
-  "texturenumsamples": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumsamples",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumSamples.spec.js",
-      "line_number": 35
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumsamples",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumSamples.spec.js",
-      "line_number": 70
-    }
-  ],
   "texturegathercompare": [
     {
       "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegathercompare",
@@ -4960,16 +4498,11 @@
       "line_number": 315
     }
   ],
-  "enumdef-gpuvertexstepmode": [
+  "depth-formats": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuvertexstepmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 1273
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuvertexstepmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 1273
+      "url": "https://gpuweb.github.io/gpuweb/#depth-formats",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/image_copy/buffer_texture_copies.spec.js",
+      "line_number": 63
     }
   ],
   "texturesamplebias": [
@@ -5009,6 +4542,74 @@
       "line_number": 356
     }
   ],
+  "dom-gpudevice-destroy": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#dom-gpudevice-destroy",
+      "filepath": "dom/webgpu/Device.cpp",
+      "line_number": 1076
+    }
+  ],
+  "lose-the-device": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/#lose-the-device",
+      "filepath": "dom/webgpu/ipc/WebGPUParent.cpp",
+      "line_number": 368
+    }
+  ],
+  "texturenumsamples": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumsamples",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumSamples.spec.js",
+      "line_number": 35
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumsamples",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumSamples.spec.js",
+      "line_number": 70
+    }
+  ],
+  "texturegather": [
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 100
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 145
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 197
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 247
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 298
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 349
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 401
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturegather",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureGather.spec.js",
+      "line_number": 445
+    }
+  ],
   "function-restriction": [
     {
       "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-restriction",
@@ -5046,201 +4647,84 @@
       "line_number": 632
     }
   ],
-  "enumdef-gputextureformat": [
+  "reading-depth-stencil": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 1734
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 1734
+      "url": "https://gpuweb.github.io/gpuweb/#reading-depth-stencil",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/execution/expression/call/builtin/texture_utils.js",
+      "line_number": 2490
     }
   ],
-  "enumdef-gpuvertexformat": [
+  "function-declaration-sec": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuvertexformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 1034
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-declaration-sec",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 647
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuvertexformat",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 1034
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#function-declaration-sec",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/functions/restrictions.spec.js",
+      "line_number": 670
     }
   ],
-  "dictdef-gpublendstate": [
+  "texturedimensions": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpublendstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2977
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
+      "line_number": 110
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpublendstate",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2977
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
+      "line_number": 148
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
+      "line_number": 184
+    },
+    {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturedimensions",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureDimensions.spec.js",
+      "line_number": 227
     }
   ],
-  "texturesample": [
+  "texturenumlayers": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleBias.spec.js",
-      "line_number": 320
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
+      "line_number": 40
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 87
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
+      "line_number": 75
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 130
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 174
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 218
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 263
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 301
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSample.spec.js",
-      "line_number": 337
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesample",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleCompare.spec.js",
-      "line_number": 319
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturenumlayers",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureNumLayers.spec.js",
+      "line_number": 108
     }
   ],
-  "enumdef-gpupowerpreference": [
+  "behaviors-rules": [
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpupowerpreference",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 757
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
+      "line_number": 42
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpupowerpreference",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 757
-    }
-  ],
-  "enumdef-gpuerrorfilter": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuerrorfilter",
-      "filepath": "gfx/wgpu_bindings/src/error.rs",
-      "line_number": 104
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
+      "line_number": 103
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuerrorfilter",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 608
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
+      "line_number": 123
     },
     {
-      "url": "https://gpuweb.github.io/gpuweb/#enumdef-gpuerrorfilter",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 608
-    }
-  ],
-  "compatible-usage-list": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#compatible-usage-list",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/api/validation/resource_usages/texture/in_pass_encoder.spec.js",
-      "line_number": 1084
-    }
-  ],
-  "typedefdef-gpucolorwriteflags": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpucolorwriteflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3006
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gpucolorwriteflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3006
-    }
-  ],
-  "texturesamplegrad": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 59
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 99
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 144
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 189
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 234
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 279
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 325
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/#texturesamplegrad",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/expression/call/builtin/textureSampleGrad.spec.js",
-      "line_number": 364
-    }
-  ],
-  "typedefdef-gputextureusageflags": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gputextureusageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 2218
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#typedefdef-gputextureusageflags",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 2218
-    }
-  ],
-  "dictdef-gpurequestadapteroptions": [
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpurequestadapteroptions",
-      "filepath": "obj-x86_64-pc-linux-gnu/gfx/wgpu_bindings/wgpu_ffi_generated.h",
-      "line_number": 3266
-    },
-    {
-      "url": "https://gpuweb.github.io/gpuweb/#dictdef-gpurequestadapteroptions",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/webgpu/ffi/wgpu_ffi_generated.h",
-      "line_number": 3266
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/#behaviors-rules",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/shader/validation/statement/statement_behavior.spec.js",
+      "line_number": 140
     }
   ]
 }

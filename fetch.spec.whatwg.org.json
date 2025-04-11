@@ -1,38 +1,9 @@
 {
-  "dom-response-redirect": [
+  "": [
     {
-      "url": "https://fetch.spec.whatwg.org/#dom-response-redirect",
-      "filepath": "testing/web-platform/tests/fetch/api/response/multi-globals/url-parsing.html",
-      "line_number": 3
-    }
-  ],
-  "http-cache-partitions": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
-      "filepath": "testing/web-platform/tests/fetch/http-cache/resources/split-cache-popup.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
-      "filepath": "testing/web-platform/tests/fetch/http-cache/resources/split-cache-popup-with-iframe.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
-      "filepath": "testing/web-platform/tests/fetch/http-cache/split-cache.html",
-      "line_number": 6
-    }
-  ],
-  "ref-for-request-keepalive-flag%E2%91%A0": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-request-keepalive-flag%E2%91%A0",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/xpcrs/rt/nsILoadGroup.rs",
-      "line_number": 318
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-request-keepalive-flag%E2%91%A0",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/xpcrs/rt/nsILoadGroup.rs",
-      "line_number": 334
+      "url": "https://fetch.spec.whatwg.org",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 2254
     }
   ],
   "dom-headers-delete": [
@@ -40,6 +11,13 @@
       "url": "https://fetch.spec.whatwg.org/#dom-headers-delete",
       "filepath": "dom/fetch/InternalHeaders.cpp",
       "line_number": 151
+    }
+  ],
+  "data-url-processor": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#data-url-processor",
+      "filepath": "netwerk/protocol/data/nsDataHandler.cpp",
+      "line_number": 163
     }
   ],
   "concept-response": [
@@ -54,640 +32,6 @@
       "line_number": 23
     }
   ],
-  "request-keepalive-flag": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#request-keepalive-flag",
-      "filepath": "testing/web-platform/tests/content-security-policy/reporting/report-same-origin-with-cookies.html",
-      "line_number": 26
-    }
-  ],
-  "port-blocking": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#port-blocking",
-      "filepath": "netwerk/base/nsIOService.cpp",
-      "line_number": 114
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#port-blocking",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-bad-port.any.js",
-      "line_number": 4
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#port-blocking",
-      "filepath": "testing/web-platform/tests/background-fetch/port-blocking.https.window.js",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#port-blocking",
-      "filepath": "testing/web-platform/tests/websockets/Create-blocked-port.any.js",
-      "line_number": 12
-    }
-  ],
-  "concept-response-https-state": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-response-https-state",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 3098
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-response-https-state",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsContentUtils.h",
-      "line_number": 3098
-    }
-  ],
-  "http-whitespace-bytes": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-whitespace-bytes",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/modules/sinon-7.2.7.js",
-      "line_number": 29427
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-whitespace-bytes",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29427
-    }
-  ],
-  "ref-for-cross-origin-embedder-policy-allows-credentials": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-cross-origin-embedder-policy-allows-credentials",
-      "filepath": "dom/security/nsContentSecurityManager.cpp",
-      "line_number": 1596
-    }
-  ],
-  "ref-for-concept-request-cache-mode%E2%91%A2": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-cache-mode%E2%91%A2",
-      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
-      "line_number": 1721
-    }
-  ],
-  "concept-request-credentials-mode": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-credentials-mode",
-      "filepath": "dom/workers/test/test_importScripts_3rdparty.html",
-      "line_number": 45
-    }
-  ],
-  "ref-for-concept-request-cache-mode%E2%91%A3": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-cache-mode%E2%91%A3",
-      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
-      "line_number": 1701
-    }
-  ],
-  "tao-check": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#tao-check",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 5617
-    }
-  ],
-  "concept-request-reserved-client": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-reserved-client",
-      "filepath": "netwerk/protocol/http/EarlyHintPreloader.cpp",
-      "line_number": 346
-    }
-  ],
-  "should-response-to-request-be-blocked-due-to-nosniff": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
-      "filepath": "testing/web-platform/tests/fetch/corb/script-js-mislabeled-as-html-nosniff.sub.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
-      "filepath": "testing/web-platform/tests/fetch/corb/style-css-mislabeled-as-html-nosniff.sub.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
-      "filepath": "testing/web-platform/tests/preload/preload-error.sub.html",
-      "line_number": 218
-    }
-  ],
-  "concept-request-parser-metadata": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-parser-metadata",
-      "filepath": "js/loader/ScriptFetchOptions.h",
-      "line_number": 18
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-parser-metadata",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/js/loader/ScriptFetchOptions.h",
-      "line_number": 18
-    }
-  ],
-  "concept-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "dom/script/ScriptLoader.cpp",
-      "line_number": 758
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "dom/script/ScriptLoader.cpp",
-      "line_number": 791
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "dom/fetch/FetchDriver.cpp",
-      "line_number": 881
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/script-tests-data.js",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/link-tests-data.js",
-      "line_number": 314
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/image-tests-data.js",
-      "line_number": 4
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
-      "filepath": "uriloader/preload/PreloadService.cpp",
-      "line_number": 143
-    }
-  ],
-  "dom-response-url": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-response-url",
-      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-match.https.any.js",
-      "line_number": 205
-    }
-  ],
-  "concept-header-value-normalize": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
-      "filepath": "testing/web-platform/tests/mimesniff/mime-types/parsing.any.js",
-      "line_number": 11
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
-      "filepath": "testing/web-platform/tests/mimesniff/mime-types/charset-parameter.window.js",
-      "line_number": 9
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
-      "filepath": "testing/web-platform/tests/resource-timing/content-type-minimization.html",
-      "line_number": 15
-    }
-  ],
-  "serializing-a-request-origin": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#serializing-a-request-origin",
-      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
-      "line_number": 10287
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#serializing-a-request-origin",
-      "filepath": "dom/security/nsContentSecurityManager.cpp",
-      "line_number": 1646
-    }
-  ],
-  "response-body-info": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#response-body-info",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 5572
-    }
-  ],
-  "dom-body-bodyused": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
-      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
-      "line_number": 49
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
-      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
-      "line_number": 62
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
-      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
-      "line_number": 322
-    }
-  ],
-  "cors-unsafe-request-header-byte": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-unsafe-request-header-byte",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 8191
-    }
-  ],
-  "abort-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#abort-fetch",
-      "filepath": "dom/fetch/Response.h",
-      "line_number": 130
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#abort-fetch",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Response.h",
-      "line_number": 130
-    }
-  ],
-  "navigation-request-context": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#navigation-request-context",
-      "filepath": "dom/fetch/InternalRequest.cpp",
-      "line_number": 377
-    }
-  ],
-  "forbidden-header-name": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
-      "filepath": "devtools/client/netmonitor/src/widgets/RequestListContextMenu.js",
-      "line_number": 691
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/modules/sinon-7.2.7.js",
-      "line_number": 29341
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/browser/chrome/devtools/modules/devtools/client/netmonitor/src/widgets/RequestListContextMenu.js",
-      "line_number": 691
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29341
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
-      "filepath": "toolkit/components/extensions/parent/ext-downloads.js",
-      "line_number": 53
-    }
-  ],
-  "concept-request-use-url-credentials-flag": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-use-url-credentials-flag",
-      "filepath": "dom/workers/test/test_importScripts_3rdparty.html",
-      "line_number": 43
-    }
-  ],
-  "concept-filtered-response-opaque": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
-      "filepath": "netwerk/protocol/http/OpaqueResponseUtils.h",
-      "line_number": 72
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 3362
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 3383
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/net/OpaqueResponseUtils.h",
-      "line_number": 72
-    }
-  ],
-  "scheme-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#scheme-fetch",
-      "filepath": "dom/fetch/FetchDriver.cpp",
-      "line_number": 1169
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#scheme-fetch",
-      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
-      "line_number": 1306
-    }
-  ],
-  "response": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#response",
-      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
-      "line_number": 6
-    }
-  ],
-  "http-redirect-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "netwerk/base/nsNetUtil.cpp",
-      "line_number": 2577
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 5263
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "netwerk/protocol/http/nsCORSListenerProxy.cpp",
-      "line_number": 1136
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "dom/fetch/FetchDriver.cpp",
-      "line_number": 1717
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
-      "line_number": 3556
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/redirected-response.https.html",
-      "line_number": 414
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/redirected-response.https.html",
-      "line_number": 435
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
-      "filepath": "testing/web-platform/mozilla/tests/fetch/api/redirect/redirect-referrer.https.html",
-      "line_number": 8
-    }
-  ],
-  "requestmode": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#requestmode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/modules/services-common/kinto-http-client.sys.mjs",
-      "line_number": 524
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#requestmode",
-      "filepath": "services/common/kinto-http-client.sys.mjs",
-      "line_number": 524
-    }
-  ],
-  "cross-origin-resource-policy-header": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
-      "filepath": "testing/web-platform/tests/web-bundle/subresource-loading/corp.https.tentative.html",
-      "line_number": 9
-    }
-  ],
-  "dom-request": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "dom/fetch/Request.cpp",
-      "line_number": 269
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "dom/serviceworkers/ServiceWorkerPrivate.cpp",
-      "line_number": 327
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "testing/web-platform/tests/fetch/api/request/multi-globals/url-parsing.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/iframe-inheritance-about-blank.html",
-      "line_number": 39
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/iframe-inheritance-javascript.html",
-      "line_number": 24
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-request",
-      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/popup-inheritance-about-blank.html",
-      "line_number": 36
-    }
-  ],
-  "forbidden-method": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#forbidden-method",
-      "filepath": "testing/web-platform/tests/fetch/api/request/forbidden-method.any.js",
-      "line_number": 3
-    }
-  ],
-  "concept-bodyinit-extract": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "dom/base/FormData.cpp",
-      "line_number": 352
-    },
-    {
-      "url": "http://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "dom/fetch/Fetch.h",
-      "line_number": 72
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "dom/fetch/Fetch.cpp",
-      "line_number": 1608
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "dom/url/URLSearchParams.cpp",
-      "line_number": 185
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "dom/file/Blob.cpp",
-      "line_number": 206
-    },
-    {
-      "url": "http://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Fetch.h",
-      "line_number": 72
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/form-submission-0/constructing-form-data-set.html",
-      "line_number": 5
-    }
-  ],
-  "concept-body-package-data": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-body-package-data",
-      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
-      "line_number": 170
-    }
-  ],
-  "data-url-processor": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#data-url-processor",
-      "filepath": "netwerk/protocol/data/nsDataHandler.cpp",
-      "line_number": 163
-    }
-  ],
-  "": [
-    {
-      "url": "https://fetch.spec.whatwg.org",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 2254
-    }
-  ],
-  "request": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#request",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-keepalive-quota.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#request",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-clone.sub.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#request",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-001.sub.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#request",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
-      "line_number": 6
-    }
-  ],
-  "concept-header-value": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
-      "filepath": "testing/web-platform/tests/mimesniff/mime-types/parsing.any.js",
-      "line_number": 18
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
-      "filepath": "testing/web-platform/tests/mimesniff/mime-types/charset-parameter.window.js",
-      "line_number": 16
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
-      "filepath": "testing/web-platform/tests/resource-timing/content-type-minimization.html",
-      "line_number": 22
-    }
-  ],
-  "document-accept-header-value": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#document-accept-header-value",
-      "filepath": "netwerk/protocol/http/nsHttpHandler.cpp",
-      "line_number": 234
-    }
-  ],
-  "ref-for-simple-range-header-value%E2%91%A1": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-simple-range-header-value%E2%91%A1",
-      "filepath": "netwerk/base/ContentRange.cpp",
-      "line_number": 14
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-simple-range-header-value%E2%91%A1",
-      "filepath": "netwerk/base/ContentRange.cpp",
-      "line_number": 28
-    }
-  ],
-  "dom-global-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-global-fetch",
-      "filepath": "dom/fetch/Request.cpp",
-      "line_number": 268
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#dom-global-fetch",
-      "filepath": "dom/serviceworkers/ServiceWorkerPrivate.cpp",
-      "line_number": 326
-    }
-  ],
-  "cors-safelisted-method": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-method",
-      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
-      "line_number": 51
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-method",
-      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
-      "line_number": 64
-    }
-  ],
-  "http-network-or-cache-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
-      "line_number": 1141
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "dom/fetch/FetchUtil.h",
-      "line_number": 88
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/FetchUtil.h",
-      "line_number": 88
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url-service-worker.https.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin-worker.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin-service-worker.https.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url-worker.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-service-worker.https.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-no-referrer-worker.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-no-referrer-service-worker.https.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
-      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-worker.html",
-      "line_number": 7
-    }
-  ],
   "cors-preflight-fetch-0": [
     {
       "url": "https://fetch.spec.whatwg.org/#cors-preflight-fetch-0",
@@ -695,92 +39,11 @@
       "line_number": 855
     }
   ],
-  "concept-request-response-tainting": [
+  "request-keepalive-flag": [
     {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-response-tainting",
-      "filepath": "netwerk/base/LoadTainting.h",
-      "line_number": 17
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-response-tainting",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/LoadTainting.h",
-      "line_number": 17
-    }
-  ],
-  "concept-http-network-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-http-network-fetch",
-      "filepath": "dom/fetch/Fetch.cpp",
-      "line_number": 66
-    }
-  ],
-  "incrementally-read-loop": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#incrementally-read-loop",
-      "filepath": "dom/fetch/FetchStreamReader.cpp",
-      "line_number": 325
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#incrementally-read-loop",
-      "filepath": "dom/fetch/FetchStreamReader.cpp",
-      "line_number": 348
-    }
-  ],
-  "ref-for-concept-request-tainted-origin": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-tainted-origin",
-      "filepath": "dom/security/nsContentSecurityManager.cpp",
-      "line_number": 1651
-    }
-  ],
-  "content-length-header": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#content-length-header",
-      "filepath": "netwerk/protocol/http/nsHttpResponseHead.h",
-      "line_number": 160
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#content-length-header",
-      "filepath": "netwerk/protocol/http/nsHttpResponseHead.cpp",
-      "line_number": 1092
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#content-length-header",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsHttpResponseHead.h",
-      "line_number": 160
-    }
-  ],
-  "cors-preflight-fetch": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-preflight-fetch",
-      "filepath": "netwerk/protocol/http/nsCORSListenerProxy.cpp",
-      "line_number": 1788
-    }
-  ],
-  "append-a-request-origin-header": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#append-a-request-origin-header",
-      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
-      "line_number": 10320
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#append-a-request-origin-header",
-      "filepath": "dom/security/ReferrerInfo.cpp",
-      "line_number": 414
-    }
-  ],
-  "fetching": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#fetching",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/resources/fetch-request-xhr-iframe.https.html",
-      "line_number": 53
-    }
-  ],
-  "ref-for-header-list-contains%E2%91%A7": [
-    {
-      "url": "https://fetch.spec.whatwg.org/commit-snapshots/8dd73dbecfefdbef8f432164fb3a5b9785f7f520/#ref-for-header-list-contains%E2%91%A7",
-      "filepath": "netwerk/protocol/http/nsHttpHandler.cpp",
-      "line_number": 227
+      "url": "https://fetch.spec.whatwg.org/#request-keepalive-flag",
+      "filepath": "testing/web-platform/tests/content-security-policy/reporting/report-same-origin-with-cookies.html",
+      "line_number": 26
     }
   ],
   "concept-request-destination": [
@@ -788,86 +51,42 @@
       "url": "https://fetch.spec.whatwg.org/#concept-request-destination",
       "filepath": "dom/fetch/InternalRequest.h",
       "line_number": 424
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-destination",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/InternalRequest.h",
-      "line_number": 424
     }
   ],
-  "http-cors-protocol": [
+  "concept-request-reserved-client": [
     {
-      "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
-      "filepath": "testing/web-platform/tests/attribution-reporting/resources/helpers.js",
-      "line_number": 112
+      "url": "https://fetch.spec.whatwg.org/#concept-request-reserved-client",
+      "filepath": "netwerk/protocol/http/EarlyHintPreloader.cpp",
+      "line_number": 345
     }
   ],
-  "body-mixin": [
+  "concept-main-fetch": [
     {
-      "url": "https://fetch.spec.whatwg.org/#body-mixin",
-      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
-      "line_number": 7
+      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
+      "filepath": "dom/workers/ScriptLoader.cpp",
+      "line_number": 973
     },
     {
-      "url": "https://fetch.spec.whatwg.org/#body-mixin",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-keepalive-quota.html",
-      "line_number": 8
-    }
-  ],
-  "cors-safelisted-request-header": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 8268
+      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
+      "filepath": "dom/serviceworkers/ServiceWorkerUtils.cpp",
+      "line_number": 345
     },
     {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 2900
+      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
+      "filepath": "testing/web-platform/tests/workers/modules/dedicated-worker-import-data-url-cross-origin.html",
+      "line_number": 37
     },
     {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsContentUtils.h",
-      "line_number": 2900
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/xpcrs/rt/nsIDOMWindowUtils.rs",
-      "line_number": 1875
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
-      "filepath": "testing/webdriver/src/server.rs",
-      "line_number": 486
-    }
-  ],
-  "concept-method-normalize": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
-      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
-      "line_number": 49
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
-      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
-      "line_number": 62
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
-      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
-      "line_number": 76
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-001.sub.html",
-      "line_number": 13
+      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
+      "filepath": "testing/web-platform/tests/workers/modules/shared-worker-import-data-url-cross-origin.html",
+      "line_number": 38
     }
   ],
   "main-fetch": [
     {
       "url": "https://fetch.spec.whatwg.org/#main-fetch",
       "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 4719
+      "line_number": 4744
     },
     {
       "url": "https://fetch.spec.whatwg.org/#main-fetch",
@@ -960,40 +179,32 @@
       "line_number": 7
     }
   ],
-  "should-response-to-request-be-blocked-due-to-mime-type": [
+  "body-incrementally-read": [
     {
-      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type",
-      "filepath": "testing/web-platform/tests/preload/preload-error.sub.html",
-      "line_number": 215
+      "url": "https://fetch.spec.whatwg.org/#body-incrementally-read",
+      "filepath": "dom/fetch/FetchStreamReader.cpp",
+      "line_number": 211
     }
   ],
-  "http-sec-purpose": [
+  "ref-for-concept-request-tainted-origin": [
     {
-      "url": "https://fetch.spec.whatwg.org/#http-sec-purpose",
-      "filepath": "uriloader/prefetch/nsPrefetchService.cpp",
-      "line_number": 134
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-sec-purpose",
-      "filepath": "uriloader/prefetch/nsPrefetchService.cpp",
-      "line_number": 296
+      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-tainted-origin",
+      "filepath": "dom/security/nsContentSecurityManager.cpp",
+      "line_number": 1645
     }
   ],
-  "http-fetch": [
+  "ref-for-concept-request-cache-mode%E2%91%A3": [
     {
-      "url": "https://fetch.spec.whatwg.org/#http-fetch",
-      "filepath": "dom/clients/manager/ClientChannelHelper.cpp",
-      "line_number": 161
-    },
+      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-cache-mode%E2%91%A3",
+      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
+      "line_number": 1701
+    }
+  ],
+  "concept-request-parser-metadata": [
     {
-      "url": "https://fetch.spec.whatwg.org/#http-fetch",
-      "filepath": "testing/web-platform/tests/xhr/security-consideration.sub.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#http-fetch",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/webvtt-cross-origin.https.html",
-      "line_number": 15
+      "url": "https://fetch.spec.whatwg.org/#concept-request-parser-metadata",
+      "filepath": "js/loader/ScriptFetchOptions.h",
+      "line_number": 18
     }
   ],
   "network-partition-keys": [
@@ -1023,35 +234,71 @@
       "line_number": 6
     }
   ],
+  "abort-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#abort-fetch",
+      "filepath": "dom/fetch/Response.h",
+      "line_number": 130
+    }
+  ],
+  "concept-header-value-normalize": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
+      "filepath": "testing/web-platform/tests/mimesniff/mime-types/parsing.any.js",
+      "line_number": 11
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
+      "filepath": "testing/web-platform/tests/mimesniff/mime-types/charset-parameter.window.js",
+      "line_number": 9
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value-normalize",
+      "filepath": "testing/web-platform/tests/resource-timing/content-type-minimization.html",
+      "line_number": 15
+    }
+  ],
+  "navigation-request-context": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#navigation-request-context",
+      "filepath": "dom/fetch/InternalRequest.cpp",
+      "line_number": 377
+    }
+  ],
+  "dom-body-bodyused": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
+      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
+      "line_number": 49
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
+      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
+      "line_number": 62
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-body-bodyused",
+      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-put.https.any.js",
+      "line_number": 322
+    }
+  ],
+  "http-sec-purpose": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-sec-purpose",
+      "filepath": "uriloader/prefetch/nsPrefetchService.cpp",
+      "line_number": 134
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-sec-purpose",
+      "filepath": "uriloader/prefetch/nsPrefetchService.cpp",
+      "line_number": 296
+    }
+  ],
   "headers-class": [
     {
       "url": "https://fetch.spec.whatwg.org/#headers-class",
       "filepath": "toolkit/components/extensions/test/xpcshell/test_ext_dnr_modifyHeaders.js",
       "line_number": 530
-    }
-  ],
-  "cors-check": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#cors-check",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 5511
-    }
-  ],
-  "simple-range-header-value": [
-    {
-      "url": "https://fetch.spec.whatwg.org/#simple-range-header-value",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 8114
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#simple-range-header-value",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 2864
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#simple-range-header-value",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsContentUtils.h",
-      "line_number": 2864
     }
   ],
   "worker-request-context": [
@@ -1061,16 +308,575 @@
       "line_number": 393
     }
   ],
-  "concept-request-tainted-origin": [
+  "should-response-to-request-be-blocked-due-to-nosniff": [
     {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-tainted-origin",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.h",
-      "line_number": 604
+      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
+      "filepath": "testing/web-platform/tests/fetch/corb/script-js-mislabeled-as-html-nosniff.sub.html",
+      "line_number": 6
     },
     {
-      "url": "https://fetch.spec.whatwg.org/#concept-request-tainted-origin",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/net/HttpBaseChannel.h",
-      "line_number": 604
+      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
+      "filepath": "testing/web-platform/tests/fetch/corb/style-css-mislabeled-as-html-nosniff.sub.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff",
+      "filepath": "testing/web-platform/tests/preload/preload-error.sub.html",
+      "line_number": 218
+    }
+  ],
+  "response-body-info": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#response-body-info",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 5597
+    }
+  ],
+  "http-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-fetch",
+      "filepath": "dom/clients/manager/ClientChannelHelper.cpp",
+      "line_number": 161
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-fetch",
+      "filepath": "testing/web-platform/tests/xhr/security-consideration.sub.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-fetch",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/webvtt-cross-origin.https.html",
+      "line_number": 15
+    }
+  ],
+  "cross-origin-resource-policy-header": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
+      "filepath": "testing/web-platform/tests/web-bundle/subresource-loading/corp.https.tentative.html",
+      "line_number": 9
+    }
+  ],
+  "http-cors-protocol": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
+      "filepath": "testing/web-platform/tests/attribution-reporting/resources/helpers.js",
+      "line_number": 112
+    }
+  ],
+  "append-a-request-origin-header": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#append-a-request-origin-header",
+      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
+      "line_number": 10252
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#append-a-request-origin-header",
+      "filepath": "dom/security/ReferrerInfo.cpp",
+      "line_number": 414
+    }
+  ],
+  "cors-unsafe-request-header-byte": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-unsafe-request-header-byte",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 8176
+    }
+  ],
+  "body-mixin": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#body-mixin",
+      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#body-mixin",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-keepalive-quota.html",
+      "line_number": 8
+    }
+  ],
+  "concept-bodyinit-extract": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "dom/base/FormData.cpp",
+      "line_number": 352
+    },
+    {
+      "url": "http://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "dom/fetch/Fetch.h",
+      "line_number": 72
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "dom/fetch/Fetch.cpp",
+      "line_number": 1608
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "dom/url/URLSearchParams.cpp",
+      "line_number": 185
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "dom/file/Blob.cpp",
+      "line_number": 206
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-bodyinit-extract",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/form-submission-0/constructing-form-data-set.html",
+      "line_number": 5
+    }
+  ],
+  "should-response-to-request-be-blocked-due-to-mime-type": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type",
+      "filepath": "testing/web-platform/tests/preload/preload-error.sub.html",
+      "line_number": 215
+    }
+  ],
+  "concept-request-response-tainting": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-request-response-tainting",
+      "filepath": "netwerk/base/LoadTainting.h",
+      "line_number": 17
+    }
+  ],
+  "incrementally-read-loop": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#incrementally-read-loop",
+      "filepath": "dom/fetch/FetchStreamReader.cpp",
+      "line_number": 325
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#incrementally-read-loop",
+      "filepath": "dom/fetch/FetchStreamReader.cpp",
+      "line_number": 348
+    }
+  ],
+  "forbidden-header-name": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
+      "filepath": "devtools/client/netmonitor/src/widgets/RequestListContextMenu.js",
+      "line_number": 691
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29341
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#forbidden-header-name",
+      "filepath": "toolkit/components/extensions/parent/ext-downloads.js",
+      "line_number": 53
+    }
+  ],
+  "http-cache-partitions": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
+      "filepath": "testing/web-platform/tests/fetch/http-cache/resources/split-cache-popup.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
+      "filepath": "testing/web-platform/tests/fetch/http-cache/resources/split-cache-popup-with-iframe.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
+      "filepath": "testing/web-platform/tests/fetch/http-cache/split-cache.html",
+      "line_number": 6
+    }
+  ],
+  "http-whitespace-bytes": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-whitespace-bytes",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29427
+    }
+  ],
+  "fetching": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#fetching",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/resources/fetch-request-xhr-iframe.https.html",
+      "line_number": 53
+    }
+  ],
+  "port-blocking": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#port-blocking",
+      "filepath": "netwerk/base/nsIOService.cpp",
+      "line_number": 114
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#port-blocking",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-bad-port.any.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#port-blocking",
+      "filepath": "testing/web-platform/tests/background-fetch/port-blocking.https.window.js",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#port-blocking",
+      "filepath": "testing/web-platform/tests/websockets/Create-blocked-port.any.js",
+      "line_number": 12
+    }
+  ],
+  "scheme-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#scheme-fetch",
+      "filepath": "dom/fetch/FetchDriver.cpp",
+      "line_number": 1169
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#scheme-fetch",
+      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
+      "line_number": 1306
+    }
+  ],
+  "http-network-or-cache-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
+      "line_number": 1141
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "dom/fetch/FetchUtil.h",
+      "line_number": 88
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url-service-worker.https.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin-worker.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin-service-worker.https.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-when-cross-origin.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url-worker.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-service-worker.https.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-unsafe-url.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-no-referrer-worker.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-no-referrer-service-worker.https.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
+      "filepath": "testing/web-platform/tests/fetch/api/policies/referrer-origin-worker.html",
+      "line_number": 7
+    }
+  ],
+  "dom-response-url": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-response-url",
+      "filepath": "testing/web-platform/tests/service-workers/cache-storage/cache-match.https.any.js",
+      "line_number": 205
+    }
+  ],
+  "concept-filtered-response-opaque": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
+      "filepath": "netwerk/protocol/http/OpaqueResponseUtils.h",
+      "line_number": 72
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 3387
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-filtered-response-opaque",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 3408
+    }
+  ],
+  "simple-range-header-value": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#simple-range-header-value",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 8099
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#simple-range-header-value",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 2883
+    }
+  ],
+  "concept-http-network-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-http-network-fetch",
+      "filepath": "dom/fetch/Fetch.cpp",
+      "line_number": 66
+    }
+  ],
+  "cors-preflight-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-preflight-fetch",
+      "filepath": "netwerk/protocol/http/nsCORSListenerProxy.cpp",
+      "line_number": 1788
+    }
+  ],
+  "tao-check": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#tao-check",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 5642
+    }
+  ],
+  "concept-body-package-data": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-body-package-data",
+      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
+      "line_number": 170
+    }
+  ],
+  "ref-for-concept-request-cache-mode%E2%91%A2": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#ref-for-concept-request-cache-mode%E2%91%A2",
+      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
+      "line_number": 1721
+    }
+  ],
+  "concept-request-credentials-mode": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-request-credentials-mode",
+      "filepath": "dom/workers/test/test_importScripts_3rdparty.html",
+      "line_number": 45
+    }
+  ],
+  "concept-header-value": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
+      "filepath": "testing/web-platform/tests/mimesniff/mime-types/parsing.any.js",
+      "line_number": 18
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
+      "filepath": "testing/web-platform/tests/mimesniff/mime-types/charset-parameter.window.js",
+      "line_number": 16
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-header-value",
+      "filepath": "testing/web-platform/tests/resource-timing/content-type-minimization.html",
+      "line_number": 22
+    }
+  ],
+  "ref-for-cross-origin-embedder-policy-allows-credentials": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#ref-for-cross-origin-embedder-policy-allows-credentials",
+      "filepath": "dom/security/nsContentSecurityManager.cpp",
+      "line_number": 1590
+    }
+  ],
+  "cors-safelisted-request-header": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 8253
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 2919
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
+      "filepath": "testing/webdriver/src/server.rs",
+      "line_number": 486
+    }
+  ],
+  "request": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#request",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-keepalive-quota.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#request",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-clone.sub.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#request",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-001.sub.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#request",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
+      "line_number": 6
+    }
+  ],
+  "forbidden-method": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#forbidden-method",
+      "filepath": "testing/web-platform/tests/fetch/api/request/forbidden-method.any.js",
+      "line_number": 3
+    }
+  ],
+  "cors-check": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-check",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 5536
+    }
+  ],
+  "serializing-a-request-origin": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#serializing-a-request-origin",
+      "filepath": "netwerk/protocol/http/nsHttpChannel.cpp",
+      "line_number": 10219
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#serializing-a-request-origin",
+      "filepath": "dom/security/nsContentSecurityManager.cpp",
+      "line_number": 1640
+    }
+  ],
+  "concept-request-use-url-credentials-flag": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-request-use-url-credentials-flag",
+      "filepath": "dom/workers/test/test_importScripts_3rdparty.html",
+      "line_number": 43
+    }
+  ],
+  "concept-method-normalize": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
+      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
+      "line_number": 49
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
+      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
+      "line_number": 62
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
+      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
+      "line_number": 76
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-method-normalize",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-001.sub.html",
+      "line_number": 13
+    }
+  ],
+  "http-redirect-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "netwerk/base/nsNetUtil.cpp",
+      "line_number": 2576
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 5288
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "netwerk/protocol/http/nsCORSListenerProxy.cpp",
+      "line_number": 1136
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "dom/fetch/FetchDriver.cpp",
+      "line_number": 1717
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
+      "line_number": 3558
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/redirected-response.https.html",
+      "line_number": 414
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/redirected-response.https.html",
+      "line_number": 435
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+      "filepath": "testing/web-platform/mozilla/tests/fetch/api/redirect/redirect-referrer.https.html",
+      "line_number": 8
+    }
+  ],
+  "document-accept-header-value": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#document-accept-header-value",
+      "filepath": "netwerk/protocol/http/nsHttpHandler.cpp",
+      "line_number": 233
+    }
+  ],
+  "concept-response-https-state": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-response-https-state",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 3117
+    }
+  ],
+  "ref-for-simple-range-header-value%E2%91%A1": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#ref-for-simple-range-header-value%E2%91%A1",
+      "filepath": "netwerk/base/ContentRange.cpp",
+      "line_number": 14
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#ref-for-simple-range-header-value%E2%91%A1",
+      "filepath": "netwerk/base/ContentRange.cpp",
+      "line_number": 28
+    }
+  ],
+  "requestmode": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#requestmode",
+      "filepath": "services/common/kinto-http-client.sys.mjs",
+      "line_number": 524
+    }
+  ],
+  "response": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#response",
+      "filepath": "testing/web-platform/tests/fetch/api/response/response-consume.html",
+      "line_number": 6
     }
   ],
   "concept-body-consume-body": [
@@ -1080,33 +886,130 @@
       "line_number": 327
     }
   ],
-  "concept-main-fetch": [
+  "dom-response-redirect": [
     {
-      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
-      "filepath": "dom/workers/ScriptLoader.cpp",
-      "line_number": 974
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
-      "filepath": "dom/serviceworkers/ServiceWorkerUtils.cpp",
-      "line_number": 289
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
-      "filepath": "testing/web-platform/tests/workers/modules/dedicated-worker-import-data-url-cross-origin.html",
-      "line_number": 37
-    },
-    {
-      "url": "https://fetch.spec.whatwg.org/#concept-main-fetch",
-      "filepath": "testing/web-platform/tests/workers/modules/shared-worker-import-data-url-cross-origin.html",
-      "line_number": 38
+      "url": "https://fetch.spec.whatwg.org/#dom-response-redirect",
+      "filepath": "testing/web-platform/tests/fetch/api/response/multi-globals/url-parsing.html",
+      "line_number": 3
     }
   ],
-  "body-incrementally-read": [
+  "concept-fetch": [
     {
-      "url": "https://fetch.spec.whatwg.org/#body-incrementally-read",
-      "filepath": "dom/fetch/FetchStreamReader.cpp",
-      "line_number": 211
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "dom/script/ScriptLoader.cpp",
+      "line_number": 771
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "dom/script/ScriptLoader.cpp",
+      "line_number": 804
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "dom/fetch/FetchDriver.cpp",
+      "line_number": 881
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/script-tests-data.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/link-tests-data.js",
+      "line_number": 314
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "testing/web-platform/mozilla/tests/fetch/fetchpriority/support/image-tests-data.js",
+      "line_number": 4
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-fetch",
+      "filepath": "uriloader/preload/PreloadService.cpp",
+      "line_number": 143
+    }
+  ],
+  "concept-request-tainted-origin": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#concept-request-tainted-origin",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.h",
+      "line_number": 604
+    }
+  ],
+  "cors-safelisted-method": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-method",
+      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
+      "line_number": 51
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#cors-safelisted-method",
+      "filepath": "testing/web-platform/tests/fetch/api/cors/cors-preflight-star.any.js",
+      "line_number": 64
+    }
+  ],
+  "dom-request": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "dom/fetch/Request.cpp",
+      "line_number": 269
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "dom/serviceworkers/ServiceWorkerPrivate.cpp",
+      "line_number": 345
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "testing/web-platform/tests/fetch/api/request/multi-globals/url-parsing.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/iframe-inheritance-about-blank.html",
+      "line_number": 39
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/iframe-inheritance-javascript.html",
+      "line_number": 24
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-request",
+      "filepath": "testing/web-platform/tests/referrer-policy/generic/inheritance/popup-inheritance-about-blank.html",
+      "line_number": 36
+    }
+  ],
+  "ref-for-header-list-contains%E2%91%A7": [
+    {
+      "url": "https://fetch.spec.whatwg.org/commit-snapshots/8dd73dbecfefdbef8f432164fb3a5b9785f7f520/#ref-for-header-list-contains%E2%91%A7",
+      "filepath": "netwerk/protocol/http/nsHttpHandler.cpp",
+      "line_number": 226
+    }
+  ],
+  "dom-global-fetch": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-global-fetch",
+      "filepath": "dom/fetch/Request.cpp",
+      "line_number": 268
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#dom-global-fetch",
+      "filepath": "dom/serviceworkers/ServiceWorkerPrivate.cpp",
+      "line_number": 344
+    }
+  ],
+  "content-length-header": [
+    {
+      "url": "https://fetch.spec.whatwg.org/#content-length-header",
+      "filepath": "netwerk/protocol/http/nsHttpResponseHead.h",
+      "line_number": 160
+    },
+    {
+      "url": "https://fetch.spec.whatwg.org/#content-length-header",
+      "filepath": "netwerk/protocol/http/nsHttpResponseHead.cpp",
+      "line_number": 1091
     }
   ]
 }

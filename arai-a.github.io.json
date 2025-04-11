@@ -93,12 +93,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 10856
+      "line_number": 10860
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 11035
+      "line_number": 11039
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",

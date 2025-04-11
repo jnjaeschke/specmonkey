@@ -67,66 +67,6 @@
     },
     {
       "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_FAST_PATH_TEXTURE_2D.c",
-      "line_number": 358
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_TEXTURE_2D_YUV.c",
-      "line_number": 358
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_TEXTURE_RECT_YUV.c",
-      "line_number": 1284
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_ALPHA_PASS_TEXTURE_RECT_YUV.c",
-      "line_number": 1285
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_TEXTURE_2D.c",
-      "line_number": 357
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_TEXTURE_RECT.c",
-      "line_number": 357
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_ALPHA_PASS_TEXTURE_2D_YUV.c",
-      "line_number": 1285
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_FAST_PATH_TEXTURE_RECT.c",
-      "line_number": 358
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_DEBUG_OVERDRAW_TEXTURE_RECT_YUV.c",
-      "line_number": 1285
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_DEBUG_OVERDRAW_TEXTURE_2D_YUV.c",
-      "line_number": 1285
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/composite_TEXTURE_RECT_YUV.c",
-      "line_number": 358
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/swgl-72f8e5bf72858f1f/out/brush_yuv_image_TEXTURE_2D_YUV.c",
-      "line_number": 1284
-    },
-    {
-      "url": "https://jdashg.github.io/misc/colors/from-coeffs.html",
       "filepath": "testing/web-platform/tests/html/canvas/element/manual/wide-gamut-canvas/canvas-display-p3.js",
       "line_number": 230
     }

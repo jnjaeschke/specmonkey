@@ -9,11 +9,6 @@
       "url": "http://johnjbarton.github.io/nonymous/index.html",
       "filepath": "devtools/client/debugger/src/utils/pause/frames/displayName.js",
       "line_number": 7
-    },
-    {
-      "url": "http://johnjbarton.github.io/nonymous/index.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/browser/chrome/devtools/modules/devtools/client/shared/components/reps/reps/function.mjs",
-      "line_number": 194
     }
   ]
 }

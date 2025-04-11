@@ -1,24 +1,9 @@
 {
-  "abstract-opdef-converttoint": [
+  "es-interface-call": [
     {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/modules/sinon-7.2.7.js",
-      "line_number": 27743
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/modules/sinon-7.2.7.js",
-      "line_number": 30096
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 27743
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 30096
+      "url": "https://heycam.github.io/webidl/#es-interface-call",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 744
     }
   ],
   "idl-constructors": [
@@ -28,16 +13,18 @@
       "line_number": 2698
     }
   ],
-  "es-interface-call": [
+  "internally-create-a-new-object-implementing-the-interface": [
     {
-      "url": "https://heycam.github.io/webidl/#es-interface-call",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 744
-    },
+      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
+      "filepath": "dom/bindings/BindingUtils.cpp",
+      "line_number": 3631
+    }
+  ],
+  "dfn-perform-steps-once-promise-is-settled": [
     {
-      "url": "https://heycam.github.io/webidl/#es-interface-call",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/resources/idlharness.js",
-      "line_number": 744
+      "url": "https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled",
+      "filepath": "js/src/builtin/Promise.h",
+      "line_number": 143
     }
   ],
   "dfn-obtain-unicode": [
@@ -48,32 +35,8 @@
     },
     {
       "url": "https://heycam.github.io/webidl/#dfn-obtain-unicode",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/modules/sinon-7.2.7.js",
-      "line_number": 5455
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#dfn-obtain-unicode",
       "filepath": "testing/modules/sinon-7.2.7.js",
       "line_number": 5455
-    }
-  ],
-  "Unforgeable": [
-    {
-      "url": "https://heycam.github.io/webidl/#Unforgeable",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/modules/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2679
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#Unforgeable",
-      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2679
-    }
-  ],
-  "dfn-perform-steps-once-promise-is-settled": [
-    {
-      "url": "https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled",
-      "filepath": "js/src/builtin/Promise.h",
-      "line_number": 143
     }
   ],
   "constrainterror": [
@@ -88,11 +51,18 @@
       "url": "https://heycam.github.io/webidl/#interface-object",
       "filepath": "dom/imptests/idlharness.js",
       "line_number": 772
+    }
+  ],
+  "abstract-opdef-converttoint": [
+    {
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 27743
     },
     {
-      "url": "https://heycam.github.io/webidl/#interface-object",
-      "filepath": "obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/resources/idlharness.js",
-      "line_number": 772
+      "url": "https://heycam.github.io/webidl/#abstract-opdef-converttoint",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 30096
     }
   ],
   "Exposed": [
@@ -107,148 +77,11 @@
       "line_number": 3491
     }
   ],
-  "call-a-user-objects-operation": [
+  "Unforgeable": [
     {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TransformerBinding.cpp",
-      "line_number": 246
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TransformerBinding.cpp",
-      "line_number": 257
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TransformerBinding.cpp",
-      "line_number": 366
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TransformerBinding.cpp",
-      "line_number": 378
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/TransformerBinding.cpp",
-      "line_number": 389
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSourceBinding.cpp",
-      "line_number": 619
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSourceBinding.cpp",
-      "line_number": 636
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSourceBinding.cpp",
-      "line_number": 698
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSourceBinding.cpp",
-      "line_number": 709
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/DocumentBinding.cpp",
-      "line_number": 514
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 52
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 62
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 72
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 83
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 776
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 786
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/RTCIdentityProviderBinding.cpp",
-      "line_number": 797
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/PeerConnectionImplBinding.cpp",
-      "line_number": 58
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 247
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 264
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 319
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 428
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 440
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/UnderlyingSinkBinding.cpp",
-      "line_number": 451
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/LockManagerBinding.cpp",
-      "line_number": 83
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/LockManagerBinding.cpp",
-      "line_number": 94
-    },
-    {
-      "url": "https://heycam.github.io/webidl/#call-a-user-objects-operation",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/bindings/NavigateEventBinding.cpp",
-      "line_number": 375
-    }
-  ],
-  "internally-create-a-new-object-implementing-the-interface": [
-    {
-      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
-      "filepath": "dom/bindings/BindingUtils.cpp",
-      "line_number": 3631
+      "url": "https://heycam.github.io/webidl/#Unforgeable",
+      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
+      "line_number": 2679
     }
   ]
 }

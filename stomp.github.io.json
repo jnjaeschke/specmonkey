@@ -4,11 +4,6 @@
       "url": "https://stomp.github.io/stomp-specification-1.2.html",
       "filepath": "devtools/client/netmonitor/src/components/messages/parsers/stomp/parser.js",
       "line_number": 44
-    },
-    {
-      "url": "https://stomp.github.io/stomp-specification-1.2.html",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/browser/chrome/devtools/modules/devtools/client/netmonitor/src/components/messages/parsers/stomp/parser.js",
-      "line_number": 44
     }
   ]
 }

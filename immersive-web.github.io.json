@@ -1,59 +1,14 @@
 {
-  "dom-xrsession-updaterenderstate": [
+  "multiply-transforms": [
     {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-updaterenderstate",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 190
-    }
-  ],
-  "enumdef-xrtargetraymode": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#enumdef-xrtargetraymode",
-      "filepath": "gfx/vr/external_api/moz_external_vr.h",
-      "line_number": 533
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#enumdef-xrtargetraymode",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/moz_external_vr.h",
-      "line_number": 533
-    }
-  ],
-  "enumdef-gamepadmappingtype": [
-    {
-      "url": "https://immersive-web.github.io/webxr-gamepads-module/#enumdef-gamepadmappingtype",
-      "filepath": "gfx/vr/external_api/moz_external_vr.h",
-      "line_number": 536
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr-gamepads-module/#enumdef-gamepadmappingtype",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/moz_external_vr.h",
-      "line_number": 536
-    }
-  ],
-  "active-immersive-session": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#active-immersive-session",
-      "filepath": "dom/vr/XRSystem.h",
-      "line_number": 156
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#active-immersive-session",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRSystem.h",
-      "line_number": 156
-    }
-  ],
-  "dom-xrsession-updatetargetframerate": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-updatetargetframerate",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 417
-    }
-  ],
-  "dom-xrboundedreferencespace-boundsgeometry": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrboundedreferencespace-boundsgeometry",
+      "url": "https://immersive-web.github.io/webxr/#multiply-transforms",
       "filepath": "dom/vr/XRBoundedReferenceSpace.cpp",
-      "line_number": 33
+      "line_number": 57
+    },
+    {
+      "url": "https://immersive-web.github.io/webxr/#multiply-transforms",
+      "filepath": "dom/vr/XRReferenceSpace.cpp",
+      "line_number": 24
     }
   ],
   "reference-space-is-supported": [
@@ -63,23 +18,67 @@
       "line_number": 629
     }
   ],
-  "pending-immersive-session": [
+  "list-of-inline-sessions": [
     {
-      "url": "https://immersive-web.github.io/webxr/#pending-immersive-session",
+      "url": "https://immersive-web.github.io/webxr/#list-of-inline-sessions",
       "filepath": "dom/vr/XRSystem.h",
-      "line_number": 154
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#pending-immersive-session",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRSystem.h",
-      "line_number": 154
+      "line_number": 158
     }
   ],
-  "feature-policy": [
+  "xrsession-next-animation-frame": [
     {
-      "url": "https://immersive-web.github.io/webxr/#feature-policy",
-      "filepath": "dom/security/featurepolicy/FeaturePolicyUtils.cpp",
-      "line_number": 64
+      "url": "https://immersive-web.github.io/webxr-test-api/#xrsession-next-animation-frame",
+      "filepath": "testing/web-platform/tests/webxr/resources/webxr_util.js",
+      "line_number": 90
+    }
+  ],
+  "xrrenderstate-composition-disabled": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#xrrenderstate-composition-disabled",
+      "filepath": "dom/vr/XRRenderState.h",
+      "line_number": 59
+    }
+  ],
+  "dom-xrsession-updatetargetframerate": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-updatetargetframerate",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 417
+    }
+  ],
+  "poses-may-be-reported": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#poses-may-be-reported",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 182
+    }
+  ],
+  "dom-xrboundedreferencespace-boundsgeometry": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrboundedreferencespace-boundsgeometry",
+      "filepath": "dom/vr/XRBoundedReferenceSpace.cpp",
+      "line_number": 33
+    }
+  ],
+  "eventdef-xrreferencespace-reset": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#eventdef-xrreferencespace-reset",
+      "filepath": "dom/vr/XRReferenceSpace.h",
+      "line_number": 37
+    }
+  ],
+  "minimum-inline-field-of-view": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#minimum-inline-field-of-view",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 249
+    }
+  ],
+  "maximum-inline-field-of-view": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#maximum-inline-field-of-view",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 252
     }
   ],
   "dom-xrinputsource-gripspace": [
@@ -87,11 +86,62 @@
       "url": "https://immersive-web.github.io/webxr/#dom-xrinputsource-gripspace",
       "filepath": "gfx/vr/external_api/moz_external_vr.h",
       "line_number": 582
-    },
+    }
+  ],
+  "active-immersive-session": [
     {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrinputsource-gripspace",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/moz_external_vr.h",
-      "line_number": 582
+      "url": "https://immersive-web.github.io/webxr/#active-immersive-session",
+      "filepath": "dom/vr/XRSystem.h",
+      "line_number": 156
+    }
+  ],
+  "xr-compatible": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#xr-compatible",
+      "filepath": "dom/canvas/ClientWebGLContext.h",
+      "line_number": 2389
+    }
+  ],
+  "enumdef-gamepadmappingtype": [
+    {
+      "url": "https://immersive-web.github.io/webxr-gamepads-module/#enumdef-gamepadmappingtype",
+      "filepath": "gfx/vr/external_api/moz_external_vr.h",
+      "line_number": 536
+    }
+  ],
+  "dom-xrinputsource-targetrayspace": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrinputsource-targetrayspace",
+      "filepath": "gfx/vr/external_api/moz_external_vr.h",
+      "line_number": 587
+    }
+  ],
+  "default-features": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#default-features",
+      "filepath": "testing/web-platform/tests/webxr/resources/webxr_test_constants.js",
+      "line_number": 200
+    }
+  ],
+  "dom-xrsession-updaterenderstate": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-updaterenderstate",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 190
+    }
+  ],
+  "dom-xrsession-inputsources": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-inputsources",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 141
+    }
+  ],
+  "apply-the-pending-render-state": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#apply-the-pending-render-state",
+      "filepath": "dom/vr/XRSession.cpp",
+      "line_number": 241
     }
   ],
   "poses-must-be-limited": [
@@ -106,23 +156,25 @@
       "line_number": 157
     }
   ],
+  "pending-immersive-session": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#pending-immersive-session",
+      "filepath": "dom/vr/XRSystem.h",
+      "line_number": 154
+    }
+  ],
+  "dom-xrwebgllayer-xrwebgllayer": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-xrwebgllayer",
+      "filepath": "dom/canvas/XRWebGLLayer.cpp",
+      "line_number": 62
+    }
+  ],
   "xrrenderstate-output-canvas": [
     {
       "url": "https://immersive-web.github.io/webxr/#xrrenderstate-output-canvas",
       "filepath": "dom/vr/XRRenderState.h",
       "line_number": 57
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#xrrenderstate-output-canvas",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRRenderState.h",
-      "line_number": 57
-    }
-  ],
-  "default-features": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#default-features",
-      "filepath": "testing/web-platform/tests/webxr/resources/webxr_test_constants.js",
-      "line_number": 200
     }
   ],
   "": [
@@ -167,139 +219,11 @@
       "line_number": 6
     }
   ],
-  "xr-compatible": [
+  "feature-policy": [
     {
-      "url": "https://immersive-web.github.io/webxr/#xr-compatible",
-      "filepath": "dom/canvas/ClientWebGLContext.h",
-      "line_number": 2388
-    }
-  ],
-  "dom-xrwebgllayer-xrwebgllayer": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-xrwebgllayer",
-      "filepath": "dom/canvas/XRWebGLLayer.cpp",
-      "line_number": 62
-    }
-  ],
-  "xrsession-next-animation-frame": [
-    {
-      "url": "https://immersive-web.github.io/webxr-test-api/#xrsession-next-animation-frame",
-      "filepath": "testing/web-platform/tests/webxr/resources/webxr_util.js",
-      "line_number": 90
-    }
-  ],
-  "minimum-inline-field-of-view": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#minimum-inline-field-of-view",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 249
-    }
-  ],
-  "opaque-framebuffer": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#opaque-framebuffer",
-      "filepath": "dom/canvas/WebGLContext.cpp",
-      "line_number": 1142
-    }
-  ],
-  "eventdef-xrreferencespace-reset": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#eventdef-xrreferencespace-reset",
-      "filepath": "dom/vr/XRReferenceSpace.h",
-      "line_number": 37
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#eventdef-xrreferencespace-reset",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRReferenceSpace.h",
-      "line_number": 37
-    }
-  ],
-  "maximum-inline-field-of-view": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#maximum-inline-field-of-view",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 252
-    }
-  ],
-  "xrrenderstate-composition-disabled": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#xrrenderstate-composition-disabled",
-      "filepath": "dom/vr/XRRenderState.h",
-      "line_number": 59
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#xrrenderstate-composition-disabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRRenderState.h",
-      "line_number": 59
-    }
-  ],
-  "xrspace-origin-offset": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#xrspace-origin-offset",
-      "filepath": "dom/vr/XRSpace.h",
-      "line_number": 48
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#xrspace-origin-offset",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRSpace.h",
-      "line_number": 48
-    }
-  ],
-  "dom-xrsession-inputsources": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrsession-inputsources",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 141
-    }
-  ],
-  "multiply-transforms": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#multiply-transforms",
-      "filepath": "dom/vr/XRBoundedReferenceSpace.cpp",
-      "line_number": 57
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#multiply-transforms",
-      "filepath": "dom/vr/XRReferenceSpace.cpp",
-      "line_number": 24
-    }
-  ],
-  "poses-may-be-reported": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#poses-may-be-reported",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 182
-    }
-  ],
-  "list-of-inline-sessions": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#list-of-inline-sessions",
-      "filepath": "dom/vr/XRSystem.h",
-      "line_number": 158
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#list-of-inline-sessions",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/XRSystem.h",
-      "line_number": 158
-    }
-  ],
-  "apply-the-pending-render-state": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#apply-the-pending-render-state",
-      "filepath": "dom/vr/XRSession.cpp",
-      "line_number": 241
-    }
-  ],
-  "dom-xrinputsource-targetrayspace": [
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrinputsource-targetrayspace",
-      "filepath": "gfx/vr/external_api/moz_external_vr.h",
-      "line_number": 587
-    },
-    {
-      "url": "https://immersive-web.github.io/webxr/#dom-xrinputsource-targetrayspace",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/moz_external_vr.h",
-      "line_number": 587
+      "url": "https://immersive-web.github.io/webxr/#feature-policy",
+      "filepath": "dom/security/featurepolicy/FeaturePolicyUtils.cpp",
+      "line_number": 64
     }
   ],
   "xrray-interface": [
@@ -312,6 +236,27 @@
       "url": "https://immersive-web.github.io/webxr/#xrray-interface",
       "filepath": "testing/web-platform/tests/webxr/hit-test/xrRay_constructor.https.html",
       "line_number": 12
+    }
+  ],
+  "enumdef-xrtargetraymode": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#enumdef-xrtargetraymode",
+      "filepath": "gfx/vr/external_api/moz_external_vr.h",
+      "line_number": 533
+    }
+  ],
+  "xrspace-origin-offset": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#xrspace-origin-offset",
+      "filepath": "dom/vr/XRSpace.h",
+      "line_number": 48
+    }
+  ],
+  "opaque-framebuffer": [
+    {
+      "url": "https://immersive-web.github.io/webxr/#opaque-framebuffer",
+      "filepath": "dom/canvas/WebGLContext.cpp",
+      "line_number": 1178
     }
   ]
 }

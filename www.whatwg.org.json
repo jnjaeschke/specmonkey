@@ -1,19 +1,347 @@
 {
+  "run-a-worker": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#run-a-worker",
+      "filepath": "dom/workers/WorkerRunnable.cpp",
+      "line_number": 205
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#run-a-worker",
+      "filepath": "dom/workers/WorkerRunnable.cpp",
+      "line_number": 424
+    }
+  ],
+  "the-canvas-element": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#the-canvas-element",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 49
+    }
+  ],
+  "parse-a-time-string": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#parse-a-time-string",
+      "filepath": "dom/html/HTMLInputElement.h",
+      "line_number": 1289
+    }
+  ],
+  "concept-input-value-string-number": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#concept-input-value-string-number",
+      "filepath": "dom/html/input/InputType.h",
+      "line_number": 83
+    }
+  ],
+  "dom-table-insertrow": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/tabular-data.html#dom-table-insertrow",
+      "filepath": "dom/html/test/test_bug1003539.html",
+      "line_number": 14
+    }
+  ],
+  "the-figure-element": [
+    {
+      "url": "http://www.whatwg.org/html5/#the-figure-element",
+      "filepath": "dom/html/reftests/figure.html",
+      "line_number": 4
+    },
+    {
+      "url": "http://www.whatwg.org/html5/#the-figure-element",
+      "filepath": "dom/html/reftests/figure-ref.html",
+      "line_number": 4
+    }
+  ],
+  "dom-textarea/input-setselectionrange": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#dom-textarea/input-setselectionrange",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/gecko_dom.js",
+      "line_number": 865
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#dom-textarea/input-setselectionrange",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/gecko_dom.js",
+      "line_number": 879
+    }
+  ],
+  "autofill-field-name": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#autofill-field-name",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 518
+    }
+  ],
+  "selector-enabled": [
+    {
+      "url": "http://www.whatwg.org/html/#selector-enabled",
+      "filepath": "dom/base/rust/lib.rs",
+      "line_number": 26
+    }
+  ],
+  "concept-input-step-scale": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#concept-input-step-scale",
+      "filepath": "dom/html/HTMLInputElement.h",
+      "line_number": 1314
+    }
+  ],
+  "the-head-element-0": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#the-head-element-0",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 709
+    }
+  ],
+  "boolean-attributes": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#boolean-attributes",
+      "filepath": "editor/libeditor/tests/browserscope/lib/richtext2/richtext2/static/js/canonicalize.js",
+      "line_number": 193
+    }
+  ],
+  "rules-for-parsing-a-legacy-color-value": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/complete/common-microsyntaxes.html#rules-for-parsing-a-legacy-color-value",
+      "filepath": "gfx/src/nsColor.cpp",
+      "line_number": 97
+    }
+  ],
+  "pagetransitionevent": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#pagetransitionevent",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 2192
+    }
+  ],
+  "named-character-references": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/named-character-references.html#named-character-references",
+      "filepath": "parser/html/nsHtml5NamedCharactersInclude.h",
+      "line_number": 11
+    }
+  ],
+  "dom-a-text": [
+    {
+      "url": "http://www.whatwg.org/html/#dom-a-text",
+      "filepath": "dom/html/test/test_a_text.html",
+      "line_number": 7
+    }
+  ],
+  "dom-worker-terminate": [
+    {
+      "url": "http://www.whatwg.org/html/#dom-worker-terminate",
+      "filepath": "testing/web-platform/tests/workers/constructors/Worker/terminate.html",
+      "line_number": 3
+    }
+  ],
+  "texttrackcue": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrackcue",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 1517
+    }
+  ],
+  "document.title": [
+    {
+      "url": "http://www.whatwg.org/html5/#document.title",
+      "filepath": "dom/base/test/test_createHTMLDocument.html",
+      "line_number": 7
+    },
+    {
+      "url": "http://www.whatwg.org/html5/#document.title",
+      "filepath": "testing/web-platform/tests/domparsing/innerhtml-01.xhtml",
+      "line_number": 7
+    }
+  ],
+  "javascript-protocol": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#javascript-protocol",
+      "filepath": "dom/jsurl/nsJSProtocolHandler.cpp",
+      "line_number": 362
+    }
+  ],
+  "floating-point-numbers": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#floating-point-numbers",
+      "filepath": "dom/html/HTMLInputElement.h",
+      "line_number": 847
+    }
+  ],
+  "messageport": [
+    {
+      "url": "http://www.whatwg.org/html/#messageport",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-properties.html",
+      "line_number": 4
+    }
+  ],
+  "dom-document-readystate": [
+    {
+      "url": "http://www.whatwg.org/html5/#dom-document-readystate",
+      "filepath": "dom/base/test/test_createHTMLDocument.html",
+      "line_number": 8
+    }
+  ],
+  "language": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#language",
+      "filepath": "servo/components/style/gecko/wrapper.rs",
+      "line_number": 1817
+    }
+  ],
+  "synchronous-section": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#synchronous-section",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 2282
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#synchronous-section",
+      "filepath": "dom/html/HTMLMediaElement.cpp",
+      "line_number": 2580
+    }
+  ],
+  "xml-fragment-serialization-algorithm": [
+    {
+      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
+      "filepath": "testing/web-platform/tests/domparsing/innerhtml-05.xhtml",
+      "line_number": 7
+    },
+    {
+      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
+      "filepath": "testing/web-platform/tests/domparsing/innerhtml-01.xhtml",
+      "line_number": 6
+    },
+    {
+      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
+      "filepath": "testing/web-platform/tests/domparsing/innerhtml-03.xhtml",
+      "line_number": 7
+    }
+  ],
+  "drag-and-drop-processing-model": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
+      "filepath": "widget/gtk/nsDragService.cpp",
+      "line_number": 646
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
+      "filepath": "widget/gtk/nsDragService.cpp",
+      "line_number": 714
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
+      "filepath": "widget/gtk/nsDragService.cpp",
+      "line_number": 2780
+    }
+  ],
+  "potentially-playing": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#potentially-playing",
+      "filepath": "dom/html/HTMLMediaElement.h",
+      "line_number": 348
+    }
+  ],
+  "value-sanitization-algorithm": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#value-sanitization-algorithm",
+      "filepath": "dom/html/HTMLInputElement.h",
+      "line_number": 1114
+    },
+    {
+      "url": "http://www.whatwg.org/html/#value-sanitization-algorithm",
+      "filepath": "dom/html/test/forms/test_input_sanitization.html",
+      "line_number": 204
+    }
+  ],
+  "popstateevent": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#popstateevent",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 2140
+    }
+  ],
+  "texttrackcuelist": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrackcuelist",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 1500
+    }
+  ],
+  "dom-media-seek": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#dom-media-seek",
+      "filepath": "dom/media/test/test_invalid_seek.html",
+      "line_number": 12
+    }
+  ],
+  "reflecting-content-attributes-in-idl-attributes": [
+    {
+      "url": "http://www.whatwg.org/html/#reflecting-content-attributes-in-idl-attributes",
+      "filepath": "dom/html/test/reflect.js",
+      "line_number": 8
+    }
+  ],
+  "other-elements,-attributes-and-apis": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/obsolete.html#other-elements,-attributes-and-apis",
+      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
+      "line_number": 26
+    }
+  ],
+  "selector-in-range": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/selectors.html#selector-in-range",
+      "filepath": "dom/html/test/forms/test_max_attribute.html",
+      "line_number": 57
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/selectors.html#selector-in-range",
+      "filepath": "dom/html/test/forms/test_min_attribute.html",
+      "line_number": 57
+    }
+  ],
+  "ended": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#ended",
+      "filepath": "dom/html/HTMLMediaElement.h",
+      "line_number": 352
+    }
+  ],
+  "timer-initialisation-steps": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#timer-initialisation-steps",
+      "filepath": "dom/base/nsGlobalWindowInner.cpp",
+      "line_number": 6104
+    }
+  ],
+  "dom-select-selectedoptions": [
+    {
+      "url": "http://www.whatwg.org/html/#dom-select-selectedoptions",
+      "filepath": "dom/html/test/forms/test_select_selectedOptions.html",
+      "line_number": 22
+    }
+  ],
+  "timeranges": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#timeranges",
+      "filepath": "dom/html/TimeRanges.h",
+      "line_number": 26
+    }
+  ],
   "": [
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html",
       "filepath": "widget/windows/WinIMEHandler.cpp",
-      "line_number": 659
+      "line_number": 642
     },
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/section-crossDocumentMessages.html",
       "filepath": "dom/base/nsGlobalWindowOuter.cpp",
-      "line_number": 5640
+      "line_number": 5604
     },
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/section-crossDocumentMessages.html",
       "filepath": "dom/base/nsGlobalWindowOuter.cpp",
-      "line_number": 5740
+      "line_number": 5704
     },
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/index.html",
@@ -38,7 +366,7 @@
     {
       "url": "https://www.whatwg.org/specs/web-apps/current-",
       "filepath": "dom/media/ogg/OggDemuxer.cpp",
-      "line_number": 109
+      "line_number": 111
     },
     {
       "url": "http://www.whatwg.org/specs/",
@@ -46,47 +374,214 @@
       "line_number": 418
     }
   ],
-  "the-head-element-0": [
+  "hyperlink-auditing": [
     {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#the-head-element-0",
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#hyperlink-auditing",
       "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 709
+      "line_number": 1200
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#hyperlink-auditing",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 1215
     }
   ],
-  "dom-sharedworker": [
+  "processing-the-image-candidates": [
     {
-      "url": "http://www.whatwg.org/html/#dom-sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/unresolvable-url.html",
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#processing-the-image-candidates",
+      "filepath": "dom/base/ResponsiveImageSelector.cpp",
+      "line_number": 150
+    }
+  ],
+  "sharedworker": [
+    {
+      "url": "http://www.whatwg.org/html/#sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-properties.html",
       "line_number": 3
     },
     {
-      "url": "http://www.whatwg.org/html/#dom-sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/empty-name.html",
+      "url": "http://www.whatwg.org/html/#sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-readonly.html",
       "line_number": 3
     },
     {
-      "url": "http://www.whatwg.org/html/#dom-sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/dummy-name.html",
+      "url": "http://www.whatwg.org/html/#sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/no-arguments-ctor.html",
+      "line_number": 3
+    }
+  ],
+  "dom-texttrackcue-line": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#dom-texttrackcue-line",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/media-elements/track/track-element/track-cue-mutable.html",
+      "line_number": 69
+    }
+  ],
+  "normalized-timeranges-object": [
+    {
+      "url": "http://www.whatwg.org/html/#normalized-timeranges-object",
+      "filepath": "dom/html/TimeRanges.h",
+      "line_number": 49
+    }
+  ],
+  "the-legend-element": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-legend-element",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-legend-element/HTMLLegendElement.html",
+      "line_number": 5
+    }
+  ],
+  "the-dragevent-interface": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#the-dragevent-interface",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 1953
+    }
+  ],
+  "messageevent": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#messageevent",
+      "filepath": "dom/events/MessageEvent.h",
+      "line_number": 35
+    }
+  ],
+  "dom-canvas-todataurl": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-canvas-todataurl",
+      "filepath": "dom/canvas/test/test_toDataURL_alpha.html",
+      "line_number": 15
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-canvas-todataurl",
+      "filepath": "dom/canvas/test/test_toDataURL_alpha.html",
+      "line_number": 16
+    }
+  ],
+  "seeking": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#seeking",
+      "filepath": "dom/html/HTMLMediaElement.cpp",
+      "line_number": 3460
+    }
+  ],
+  "attr-img-crossorigin": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-crossorigin",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 686
+    }
+  ],
+  "dom-texttrackcue-size": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#dom-texttrackcue-size",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/media-elements/track/track-element/track-cue-mutable.html",
+      "line_number": 78
+    }
+  ],
+  "implicit-submission": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#implicit-submission",
+      "filepath": "dom/html/HTMLFormElement.h",
+      "line_number": 178
+    }
+  ],
+  "hashchangeevent": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#hashchangeevent",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 2165
+    }
+  ],
+  "texttracklist": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttracklist",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 1445
+    }
+  ],
+  "selector-disabled": [
+    {
+      "url": "http://www.whatwg.org/html/#selector-disabled",
+      "filepath": "dom/base/rust/lib.rs",
+      "line_number": 29
+    }
+  ],
+  "text-track-cue-display-state": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#text-track-cue-display-state",
+      "filepath": "dom/media/webvtt/TextTrackCue.h",
+      "line_number": 324
+    }
+  ],
+  "dom-textarea-wrap": [
+    {
+      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
+      "filepath": "dom/html/reftests/41464-1a.html",
       "line_number": 3
     },
     {
-      "url": "http://www.whatwg.org/html/#dom-sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/dummy-shared-worker.html",
+      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
+      "filepath": "dom/html/reftests/41464-1b.html",
+      "line_number": 3
+    },
+    {
+      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
+      "filepath": "dom/html/reftests/41464-1-ref.html",
       "line_number": 3
     }
   ],
-  "texttrackcue": [
+  "valid-time-string": [
     {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrackcue",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1517
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-time-string",
+      "filepath": "dom/html/HTMLInputElement.h",
+      "line_number": 1279
+    },
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-time-string",
+      "filepath": "dom/html/test/forms/test_input_sanitization.html",
+      "line_number": 115
     }
   ],
-  "texttrackcuelist": [
+  "valid-date-string": [
     {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrackcuelist",
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-date-string",
+      "filepath": "dom/html/test/forms/test_input_sanitization.html",
+      "line_number": 88
+    }
+  ],
+  "dom-dedicatedworkerglobalscope-postmessage": [
+    {
+      "url": "http://www.whatwg.org/html/#dom-dedicatedworkerglobalscope-postmessage",
+      "filepath": "testing/web-platform/tests/workers/interfaces/DedicatedWorkerGlobalScope/postMessage/message-event.html",
+      "line_number": 4
+    }
+  ],
+  "video": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/#video",
+      "filepath": "dom/html/HTMLMediaElement.h",
+      "line_number": 1520
+    }
+  ],
+  "creating-documents": [
+    {
+      "url": "http://www.whatwg.org/html5/#creating-documents",
+      "filepath": "dom/base/test/test_createHTMLDocument.html",
+      "line_number": 6
+    }
+  ],
+  "dom-option-text": [
+    {
+      "url": "http://www.whatwg.org/html/#dom-option-text",
+      "filepath": "dom/html/test/forms/test_option_text.html",
+      "line_number": 5
+    }
+  ],
+  "texttrack": [
+    {
+      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrack",
       "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1500
+      "line_number": 1461
     }
   ],
   "dndevents": [
@@ -119,140 +614,30 @@
     },
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#input-type-attr-summary",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/bin/browser/chrome/devtools/modules/devtools/client/shared/vendor/react-dom.mjs",
-      "line_number": 1909
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#input-type-attr-summary",
       "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
       "line_number": 9154
     }
   ],
-  "dom-canvas-todataurl": [
+  "dom-sharedworker": [
     {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-canvas-todataurl",
-      "filepath": "dom/canvas/test/test_toDataURL_alpha.html",
-      "line_number": 15
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-canvas-todataurl",
-      "filepath": "dom/canvas/test/test_toDataURL_alpha.html",
-      "line_number": 16
-    }
-  ],
-  "texttrack": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttrack",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1461
-    }
-  ],
-  "valid-time-string": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-time-string",
-      "filepath": "dom/html/HTMLInputElement.h",
-      "line_number": 1279
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-time-string",
-      "filepath": "dom/html/test/forms/test_input_sanitization.html",
-      "line_number": 115
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-time-string",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLInputElement.h",
-      "line_number": 1279
-    }
-  ],
-  "javascript-protocol": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#javascript-protocol",
-      "filepath": "dom/jsurl/nsJSProtocolHandler.cpp",
-      "line_number": 356
-    }
-  ],
-  "sharedworker": [
-    {
-      "url": "http://www.whatwg.org/html/#sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-properties.html",
+      "url": "http://www.whatwg.org/html/#dom-sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/unresolvable-url.html",
       "line_number": 3
     },
     {
-      "url": "http://www.whatwg.org/html/#sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-readonly.html",
+      "url": "http://www.whatwg.org/html/#dom-sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/empty-name.html",
       "line_number": 3
     },
     {
-      "url": "http://www.whatwg.org/html/#sharedworker",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/no-arguments-ctor.html",
+      "url": "http://www.whatwg.org/html/#dom-sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/dummy-name.html",
       "line_number": 3
-    }
-  ],
-  "valid-date-string": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#valid-date-string",
-      "filepath": "dom/html/test/forms/test_input_sanitization.html",
-      "line_number": 88
-    }
-  ],
-  "selector-disabled": [
-    {
-      "url": "http://www.whatwg.org/html/#selector-disabled",
-      "filepath": "dom/base/rust/lib.rs",
-      "line_number": 29
     },
     {
-      "url": "http://www.whatwg.org/html/#selector-disabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/style-548bb8ac0907f3d5/out/gecko/structs.rs",
-      "line_number": 38020
-    },
-    {
-      "url": "http://www.whatwg.org/html/#selector-disabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/GeneratedElementDocumentState.h",
-      "line_number": 143
-    },
-    {
-      "url": "http://www.whatwg.org/html/#selector-disabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/base/GeneratedElementDocumentState.h",
-      "line_number": 143
-    }
-  ],
-  "reflecting-content-attributes-in-idl-attributes": [
-    {
-      "url": "http://www.whatwg.org/html/#reflecting-content-attributes-in-idl-attributes",
-      "filepath": "dom/html/test/reflect.js",
-      "line_number": 8
-    }
-  ],
-  "dom-document-readystate": [
-    {
-      "url": "http://www.whatwg.org/html5/#dom-document-readystate",
-      "filepath": "dom/base/test/test_createHTMLDocument.html",
-      "line_number": 8
-    }
-  ],
-  "document.title": [
-    {
-      "url": "http://www.whatwg.org/html5/#document.title",
-      "filepath": "dom/base/test/test_createHTMLDocument.html",
-      "line_number": 7
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#document.title",
-      "filepath": "testing/web-platform/tests/domparsing/innerhtml-01.xhtml",
-      "line_number": 7
-    }
-  ],
-  "ended": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#ended",
-      "filepath": "dom/html/HTMLMediaElement.h",
-      "line_number": 350
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#ended",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLMediaElement.h",
-      "line_number": 350
+      "url": "http://www.whatwg.org/html/#dom-sharedworker",
+      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/dummy-shared-worker.html",
+      "line_number": 3
     }
   ],
   "dom-worker": [
@@ -272,506 +657,11 @@
       "line_number": 7
     }
   ],
-  "concept-input-step-scale": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#concept-input-step-scale",
-      "filepath": "dom/html/HTMLInputElement.h",
-      "line_number": 1314
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#concept-input-step-scale",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLInputElement.h",
-      "line_number": 1314
-    }
-  ],
-  "dom-select-selectedoptions": [
-    {
-      "url": "http://www.whatwg.org/html/#dom-select-selectedoptions",
-      "filepath": "dom/html/test/forms/test_select_selectedOptions.html",
-      "line_number": 22
-    }
-  ],
-  "dom-textarea/input-setselectionrange": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#dom-textarea/input-setselectionrange",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/gecko_dom.js",
-      "line_number": 865
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#dom-textarea/input-setselectionrange",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/gecko_dom.js",
-      "line_number": 879
-    }
-  ],
-  "selector-in-range": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/selectors.html#selector-in-range",
-      "filepath": "dom/html/test/forms/test_max_attribute.html",
-      "line_number": 57
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/selectors.html#selector-in-range",
-      "filepath": "dom/html/test/forms/test_min_attribute.html",
-      "line_number": 57
-    }
-  ],
-  "the-canvas-element": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#the-canvas-element",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 49
-    }
-  ],
-  "the-dragevent-interface": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#the-dragevent-interface",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1953
-    }
-  ],
-  "pagetransitionevent": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#pagetransitionevent",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 2192
-    }
-  ],
-  "text-track-cue-display-state": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#text-track-cue-display-state",
-      "filepath": "dom/media/webvtt/TextTrackCue.h",
-      "line_number": 324
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#text-track-cue-display-state",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/TextTrackCue.h",
-      "line_number": 324
-    }
-  ],
-  "processing-the-image-candidates": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#processing-the-image-candidates",
-      "filepath": "dom/base/ResponsiveImageSelector.cpp",
-      "line_number": 150
-    }
-  ],
-  "the-legend-element": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-legend-element",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-legend-element/HTMLLegendElement.html",
-      "line_number": 5
-    }
-  ],
-  "drag-and-drop-processing-model": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
-      "filepath": "widget/gtk/nsDragService.cpp",
-      "line_number": 646
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
-      "filepath": "widget/gtk/nsDragService.cpp",
-      "line_number": 714
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#drag-and-drop-processing-model",
-      "filepath": "widget/gtk/nsDragService.cpp",
-      "line_number": 2780
-    }
-  ],
-  "synchronous-section": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#synchronous-section",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 2264
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#synchronous-section",
-      "filepath": "dom/html/HTMLMediaElement.cpp",
-      "line_number": 2576
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#synchronous-section",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/nsContentUtils.h",
-      "line_number": 2264
-    }
-  ],
   "dom-media-addtexttrack": [
     {
       "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#dom-media-addtexttrack",
       "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
       "line_number": 1424
-    }
-  ],
-  "timer-initialisation-steps": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#timer-initialisation-steps",
-      "filepath": "dom/base/nsGlobalWindowInner.cpp",
-      "line_number": 6094
-    }
-  ],
-  "selector-enabled": [
-    {
-      "url": "http://www.whatwg.org/html/#selector-enabled",
-      "filepath": "dom/base/rust/lib.rs",
-      "line_number": 26
-    },
-    {
-      "url": "http://www.whatwg.org/html/#selector-enabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/style-548bb8ac0907f3d5/out/gecko/structs.rs",
-      "line_number": 38015
-    },
-    {
-      "url": "http://www.whatwg.org/html/#selector-enabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/GeneratedElementDocumentState.h",
-      "line_number": 138
-    },
-    {
-      "url": "http://www.whatwg.org/html/#selector-enabled",
-      "filepath": "obj-x86_64-pc-linux-gnu/dom/base/GeneratedElementDocumentState.h",
-      "line_number": 138
-    }
-  ],
-  "normalized-timeranges-object": [
-    {
-      "url": "http://www.whatwg.org/html/#normalized-timeranges-object",
-      "filepath": "dom/html/TimeRanges.h",
-      "line_number": 49
-    },
-    {
-      "url": "http://www.whatwg.org/html/#normalized-timeranges-object",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/TimeRanges.h",
-      "line_number": 49
-    }
-  ],
-  "language": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#language",
-      "filepath": "servo/components/style/gecko/wrapper.rs",
-      "line_number": 1817
-    }
-  ],
-  "xml-fragment-serialization-algorithm": [
-    {
-      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
-      "filepath": "testing/web-platform/tests/domparsing/innerhtml-05.xhtml",
-      "line_number": 7
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
-      "filepath": "testing/web-platform/tests/domparsing/innerhtml-01.xhtml",
-      "line_number": 6
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#xml-fragment-serialization-algorithm",
-      "filepath": "testing/web-platform/tests/domparsing/innerhtml-03.xhtml",
-      "line_number": 7
-    }
-  ],
-  "dom-a-text": [
-    {
-      "url": "http://www.whatwg.org/html/#dom-a-text",
-      "filepath": "dom/html/test/test_a_text.html",
-      "line_number": 7
-    }
-  ],
-  "video": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#video",
-      "filepath": "dom/html/HTMLMediaElement.h",
-      "line_number": 1518
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#video",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLMediaElement.h",
-      "line_number": 1518
-    }
-  ],
-  "floating-point-numbers": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#floating-point-numbers",
-      "filepath": "dom/html/HTMLInputElement.h",
-      "line_number": 847
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#floating-point-numbers",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLInputElement.h",
-      "line_number": 847
-    }
-  ],
-  "attr-img-crossorigin": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-crossorigin",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 686
-    }
-  ],
-  "hashchangeevent": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#hashchangeevent",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 2165
-    }
-  ],
-  "dom-option-text": [
-    {
-      "url": "http://www.whatwg.org/html/#dom-option-text",
-      "filepath": "dom/html/test/forms/test_option_text.html",
-      "line_number": 5
-    }
-  ],
-  "dom-dedicatedworkerglobalscope-postmessage": [
-    {
-      "url": "http://www.whatwg.org/html/#dom-dedicatedworkerglobalscope-postmessage",
-      "filepath": "testing/web-platform/tests/workers/interfaces/DedicatedWorkerGlobalScope/postMessage/message-event.html",
-      "line_number": 4
-    }
-  ],
-  "popstateevent": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#popstateevent",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 2140
-    }
-  ],
-  "texttracklist": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#texttracklist",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1445
-    }
-  ],
-  "messageport": [
-    {
-      "url": "http://www.whatwg.org/html/#messageport",
-      "filepath": "testing/web-platform/tests/workers/constructors/SharedWorker/port-properties.html",
-      "line_number": 4
-    }
-  ],
-  "timeranges": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#timeranges",
-      "filepath": "dom/html/TimeRanges.h",
-      "line_number": 26
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#timeranges",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/TimeRanges.h",
-      "line_number": 26
-    }
-  ],
-  "creating-documents": [
-    {
-      "url": "http://www.whatwg.org/html5/#creating-documents",
-      "filepath": "dom/base/test/test_createHTMLDocument.html",
-      "line_number": 6
-    }
-  ],
-  "run-a-worker": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#run-a-worker",
-      "filepath": "dom/workers/WorkerRunnable.cpp",
-      "line_number": 205
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#run-a-worker",
-      "filepath": "dom/workers/WorkerRunnable.cpp",
-      "line_number": 424
-    }
-  ],
-  "the-figure-element": [
-    {
-      "url": "http://www.whatwg.org/html5/#the-figure-element",
-      "filepath": "dom/html/reftests/figure.html",
-      "line_number": 4
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#the-figure-element",
-      "filepath": "dom/html/reftests/figure-ref.html",
-      "line_number": 4
-    }
-  ],
-  "other-elements,-attributes-and-apis": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/obsolete.html#other-elements,-attributes-and-apis",
-      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
-      "line_number": 26
-    }
-  ],
-  "dom-table-insertrow": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/tabular-data.html#dom-table-insertrow",
-      "filepath": "dom/html/test/test_bug1003539.html",
-      "line_number": 14
-    }
-  ],
-  "autofill-field-name": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#autofill-field-name",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 517
-    }
-  ],
-  "concept-input-value-string-number": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#concept-input-value-string-number",
-      "filepath": "dom/html/input/InputType.h",
-      "line_number": 83
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#concept-input-value-string-number",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/InputType.h",
-      "line_number": 83
-    }
-  ],
-  "implicit-submission": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#implicit-submission",
-      "filepath": "dom/html/HTMLFormElement.h",
-      "line_number": 178
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#implicit-submission",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLFormElement.h",
-      "line_number": 178
-    }
-  ],
-  "messageevent": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#messageevent",
-      "filepath": "dom/events/MessageEvent.h",
-      "line_number": 35
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#messageevent",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/MessageEvent.h",
-      "line_number": 35
-    }
-  ],
-  "named-character-references": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/named-character-references.html#named-character-references",
-      "filepath": "parser/html/nsHtml5NamedCharactersInclude.h",
-      "line_number": 11
-    }
-  ],
-  "dom-texttrackcue-line": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#dom-texttrackcue-line",
-      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/media-elements/track/track-element/track-cue-mutable.html",
-      "line_number": 69
-    }
-  ],
-  "seeking": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#seeking",
-      "filepath": "dom/html/HTMLMediaElement.cpp",
-      "line_number": 3472
-    }
-  ],
-  "value-sanitization-algorithm": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#value-sanitization-algorithm",
-      "filepath": "dom/html/HTMLInputElement.h",
-      "line_number": 1114
-    },
-    {
-      "url": "http://www.whatwg.org/html/#value-sanitization-algorithm",
-      "filepath": "dom/html/test/forms/test_input_sanitization.html",
-      "line_number": 204
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#value-sanitization-algorithm",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLInputElement.h",
-      "line_number": 1114
-    }
-  ],
-  "dom-textarea-wrap": [
-    {
-      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
-      "filepath": "dom/html/reftests/41464-1a.html",
-      "line_number": 3
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
-      "filepath": "dom/html/reftests/41464-1b.html",
-      "line_number": 3
-    },
-    {
-      "url": "http://www.whatwg.org/html5/#dom-textarea-wrap",
-      "filepath": "dom/html/reftests/41464-1-ref.html",
-      "line_number": 3
-    }
-  ],
-  "parse-a-time-string": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#parse-a-time-string",
-      "filepath": "dom/html/HTMLInputElement.h",
-      "line_number": 1289
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#parse-a-time-string",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLInputElement.h",
-      "line_number": 1289
-    }
-  ],
-  "potentially-playing": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#potentially-playing",
-      "filepath": "dom/html/HTMLMediaElement.h",
-      "line_number": 346
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#potentially-playing",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/HTMLMediaElement.h",
-      "line_number": 346
-    }
-  ],
-  "boolean-attributes": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#boolean-attributes",
-      "filepath": "editor/libeditor/tests/browserscope/lib/richtext2/richtext2/static/js/canonicalize.js",
-      "line_number": 193
-    }
-  ],
-  "dom-worker-terminate": [
-    {
-      "url": "http://www.whatwg.org/html/#dom-worker-terminate",
-      "filepath": "testing/web-platform/tests/workers/constructors/Worker/terminate.html",
-      "line_number": 3
-    }
-  ],
-  "dom-texttrackcue-size": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#dom-texttrackcue-size",
-      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/media-elements/track/track-element/track-cue-mutable.html",
-      "line_number": 78
-    }
-  ],
-  "hyperlink-auditing": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#hyperlink-auditing",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1200
-    },
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#hyperlink-auditing",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 1215
-    }
-  ],
-  "rules-for-parsing-a-legacy-color-value": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/complete/common-microsyntaxes.html#rules-for-parsing-a-legacy-color-value",
-      "filepath": "gfx/src/nsColor.cpp",
-      "line_number": 97
-    }
-  ],
-  "dom-media-seek": [
-    {
-      "url": "http://www.whatwg.org/specs/web-apps/current-work/#dom-media-seek",
-      "filepath": "dom/media/test/test_invalid_seek.html",
-      "line_number": 12
     }
   ]
 }

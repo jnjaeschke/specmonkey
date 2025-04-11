@@ -1,29 +1,26 @@
 {
+  "set-storage-access-command": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 944
+    }
+  ],
+  "run-bounce-tracking-mitigations-command": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1386
+    }
+  ],
   "dom-document-requeststorageaccess": [
     {
       "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
       "filepath": "dom/base/Document.cpp",
-      "line_number": 18427
-    }
-  ],
-  "bounce-tracking-timer": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1380
+      "line_number": 18438
     }
   ],
   "": [
-    {
-      "url": "https://privacycg.github.io/storage-partitioning/\\n\\n",
-      "filepath": "obj-x86_64-pc-linux-gnu/x86_64-unknown-linux-gnu/release/build/style-548bb8ac0907f3d5/out/gecko/structs.rs",
-      "line_number": 88745
-    },
-    {
-      "url": "https://privacycg.github.io/storage-partitioning/",
-      "filepath": "obj-x86_64-pc-linux-gnu/dist/include/mozilla/StoragePrincipalHelper.h",
-      "line_number": 26
-    },
     {
       "url": "https://privacycg.github.io/storage-partitioning/",
       "filepath": "testing/web-platform/tests/webstorage/localstorage-about-blank-3P-iframe-opens-3P-window.partitioned.html",
@@ -95,18 +92,11 @@
       "line_number": 26
     }
   ],
-  "set-storage-access-command": [
+  "bounce-tracking-timer": [
     {
-      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 944
-    }
-  ],
-  "run-bounce-tracking-mitigations-command": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1386
+      "line_number": 1380
     }
   ]
 }

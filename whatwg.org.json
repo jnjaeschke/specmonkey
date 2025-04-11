@@ -1,16 +1,4 @@
 {
-  "": [
-    {
-      "url": "http://whatwg.org/html",
-      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
-      "line_number": 168
-    },
-    {
-      "url": "https://whatwg.org/",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 163
-    }
-  ],
   "navigate": [
     {
       "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
@@ -33,16 +21,16 @@
       "line_number": 126
     }
   ],
-  "initialise-the-document-object": [
+  "otherwise-steps-for-iframe-or-frame-elements": [
     {
-      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 95
+      "line_number": 54
     },
     {
-      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 137
+      "line_number": 142
     }
   ],
   "process-the-iframe-attributes": [
@@ -91,19 +79,31 @@
     {
       "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
       "filepath": "modules/libpref/init/all.js",
-      "line_number": 165
+      "line_number": 164
     }
   ],
-  "otherwise-steps-for-iframe-or-frame-elements": [
+  "": [
     {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 54
+      "url": "http://whatwg.org/html",
+      "filepath": "testing/web-platform/tests/tools/third_party/html5lib/benchmarks/data/html.html",
+      "line_number": 168
     },
     {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
+      "url": "https://whatwg.org/",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 163
+    }
+  ],
+  "initialise-the-document-object": [
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 142
+      "line_number": 95
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 137
     }
   ]
 }
