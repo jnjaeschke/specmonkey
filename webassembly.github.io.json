@@ -1,9 +1,9 @@
 {
-  "floating-point": [
+  "tojsvalue": [
     {
-      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
-      "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1431
+      "url": "https://webassembly.github.io/spec/js-api/index.html#tojsvalue",
+      "filepath": "js/src/wasm/WasmValue.h",
+      "line_number": 395
     }
   ],
   "towebassemblyvalue": [
@@ -13,25 +13,18 @@
       "line_number": 382
     }
   ],
-  "conventions": [
-    {
-      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
-      "filepath": "js/public/ColumnNumber.h",
-      "line_number": 338
-    }
-  ],
-  "defaultvalue": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
-      "filepath": "js/src/wasm/WasmJS.cpp",
-      "line_number": 2632
-    }
-  ],
   "constant-expressions": [
     {
       "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
       "filepath": "js/src/wasm/WasmInitExpr.h",
       "line_number": 54
+    }
+  ],
+  "namespacedef-webassembly": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
+      "line_number": 5
     }
   ],
   "": [
@@ -48,18 +41,25 @@
       "line_number": 560
     }
   ],
-  "namespacedef-webassembly": [
+  "floating-point": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
-      "line_number": 5
+      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
+      "filepath": "js/src/builtin/TestingFunctions.cpp",
+      "line_number": 1431
     }
   ],
-  "tojsvalue": [
+  "defaultvalue": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/index.html#tojsvalue",
-      "filepath": "js/src/wasm/WasmValue.h",
-      "line_number": 395
+      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
+      "filepath": "js/src/wasm/WasmJS.cpp",
+      "line_number": 2632
+    }
+  ],
+  "conventions": [
+    {
+      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
+      "filepath": "js/public/ColumnNumber.h",
+      "line_number": 338
     }
   ]
 }

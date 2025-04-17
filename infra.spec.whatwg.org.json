@@ -1,72 +1,4 @@
 {
-  "ascii-code-point": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ascii-code-point",
-      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
-      "line_number": 4
-    }
-  ],
-  "byte-value": [
-    {
-      "url": "https://infra.spec.whatwg.org/#byte-value",
-      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
-      "line_number": 6
-    }
-  ],
-  "c0-control-or-space": [
-    {
-      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1176
-    }
-  ],
-  "collect-a-sequence-of-code-points": [
-    {
-      "url": "https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points",
-      "filepath": "dom/base/WindowFeatures.cpp",
-      "line_number": 36
-    },
-    {
-      "url": "https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points",
-      "filepath": "dom/base/WindowFeatures.cpp",
-      "line_number": 52
-    }
-  ],
-  "ordered-set": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ordered-set",
-      "filepath": "dom/html/HTMLSlotElement.cpp",
-      "line_number": 253
-    }
-  ],
-  "set-append": [
-    {
-      "url": "https://infra.spec.whatwg.org/#set-append",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 352
-    }
-  ],
-  "ascii-tab-or-newline": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ascii-tab-or-newline",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1173
-    }
-  ],
-  "isomorphic-encode": [
-    {
-      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
-      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
-      "line_number": 14
-    }
-  ],
-  "strip-and-collapse-ascii-whitespace": [
-    {
-      "url": "https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/ember/quickstart/dist/assets/vendor.js",
-      "line_number": 8124
-    }
-  ],
   "ordered-map": [
     {
       "url": "https://infra.spec.whatwg.org/#ordered-map",
@@ -114,6 +46,74 @@
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
       "filepath": "toolkit/content/widgets/vendor/lit.all.mjs",
       "line_number": 1099
+    }
+  ],
+  "strip-and-collapse-ascii-whitespace": [
+    {
+      "url": "https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/ember/quickstart/dist/assets/vendor.js",
+      "line_number": 8124
+    }
+  ],
+  "isomorphic-encode": [
+    {
+      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
+      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
+      "line_number": 14
+    }
+  ],
+  "ascii-tab-or-newline": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ascii-tab-or-newline",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1173
+    }
+  ],
+  "byte-value": [
+    {
+      "url": "https://infra.spec.whatwg.org/#byte-value",
+      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
+      "line_number": 6
+    }
+  ],
+  "set-append": [
+    {
+      "url": "https://infra.spec.whatwg.org/#set-append",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 352
+    }
+  ],
+  "ordered-set": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ordered-set",
+      "filepath": "dom/html/HTMLSlotElement.cpp",
+      "line_number": 253
+    }
+  ],
+  "c0-control-or-space": [
+    {
+      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1176
+    }
+  ],
+  "collect-a-sequence-of-code-points": [
+    {
+      "url": "https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points",
+      "filepath": "dom/base/WindowFeatures.cpp",
+      "line_number": 36
+    },
+    {
+      "url": "https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points",
+      "filepath": "dom/base/WindowFeatures.cpp",
+      "line_number": 52
+    }
+  ],
+  "ascii-code-point": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ascii-code-point",
+      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
+      "line_number": 4
     }
   ]
 }

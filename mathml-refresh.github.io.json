@@ -1,9 +1,16 @@
 {
-  "global-attributes": [
+  "dfn-displaystyle": [
     {
-      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
+      "url": "https://mathml-refresh.github.io/mathml-core/#dfn-displaystyle",
       "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 113
+      "line_number": 607
+    }
+  ],
+  "new-text-transform-values": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#new-text-transform-values",
+      "filepath": "testing/web-platform/tests/css/css-text/text-transform/math/text-transform-math-auto-002.html",
+      "line_number": 7
     }
   ],
   "the-math-script-level-property": [
@@ -83,18 +90,11 @@
       "line_number": 7
     }
   ],
-  "dfn-displaystyle": [
+  "global-attributes": [
     {
-      "url": "https://mathml-refresh.github.io/mathml-core/#dfn-displaystyle",
+      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
       "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 607
-    }
-  ],
-  "new-text-transform-values": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#new-text-transform-values",
-      "filepath": "testing/web-platform/tests/css/css-text/text-transform/math/text-transform-math-auto-002.html",
-      "line_number": 7
+      "line_number": 113
     }
   ],
   "the-math-style-property": [

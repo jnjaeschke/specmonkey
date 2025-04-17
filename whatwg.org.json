@@ -21,18 +21,6 @@
       "line_number": 126
     }
   ],
-  "otherwise-steps-for-iframe-or-frame-elements": [
-    {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 54
-    },
-    {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 142
-    }
-  ],
   "process-the-iframe-attributes": [
     {
       "url": "https://whatwg.org/c/iframe-embed-object.html#process-the-iframe-attributes",
@@ -70,16 +58,16 @@
       "line_number": 155
     }
   ],
-  "ping": [
+  "otherwise-steps-for-iframe-or-frame-elements": [
     {
-      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
-      "filepath": "docshell/base/nsPingListener.cpp",
-      "line_number": 287
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 54
     },
     {
-      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
-      "filepath": "modules/libpref/init/all.js",
-      "line_number": 164
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 142
     }
   ],
   "": [
@@ -92,6 +80,18 @@
       "url": "https://whatwg.org/",
       "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
       "line_number": 163
+    }
+  ],
+  "ping": [
+    {
+      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
+      "filepath": "docshell/base/nsPingListener.cpp",
+      "line_number": 287
+    },
+    {
+      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
+      "filepath": "modules/libpref/init/all.js",
+      "line_number": 164
     }
   ],
   "initialise-the-document-object": [

@@ -1,11 +1,4 @@
 {
-  "x15.2.3.4": [
-    {
-      "url": "http://es5.github.io/#x15.2.3.4",
-      "filepath": "testing/web-platform/tests/js/builtins/Object.prototype.getOwnPropertyNames.html",
-      "line_number": 3
-    }
-  ],
   "x15.1.2.2": [
     {
       "url": "https://es5.github.io/#x15.1.2.2",
@@ -26,6 +19,13 @@
       "url": "https://es5.github.io/#x15.1.2.2",
       "filepath": "testing/modules/sinon-7.2.7.js",
       "line_number": 25085
+    }
+  ],
+  "x15.2.3.4": [
+    {
+      "url": "http://es5.github.io/#x15.2.3.4",
+      "filepath": "testing/web-platform/tests/js/builtins/Object.prototype.getOwnPropertyNames.html",
+      "line_number": 3
     }
   ],
   "x13.2.2": [

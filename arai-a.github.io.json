@@ -93,12 +93,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 10860
+      "line_number": 10953
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-initializeinstanceelements",
       "filepath": "js/src/frontend/BytecodeEmitter.cpp",
-      "line_number": 11039
+      "line_number": 11132
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",
@@ -153,12 +153,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 2552
+      "line_number": 2565
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 3330
+      "line_number": 3343
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposableresource-records",
@@ -178,17 +178,17 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-getdisposemethod",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1629
+      "line_number": 1630
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1672
+      "line_number": 1673
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1722
+      "line_number": 1723
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-suppressederror",

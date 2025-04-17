@@ -1,4 +1,44 @@
 {
+  "signature-for-mp4": [
+    {
+      "url": "http://mimesniff.spec.whatwg.org/#signature-for-mp4",
+      "filepath": "toolkit/components/mediasniffer/nsMediaSniffer.cpp",
+      "line_number": 134
+    }
+  ],
+  "json-mime-type": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 34
+    },
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 45
+    }
+  ],
+  "html-mime-type": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#html-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 44
+    }
+  ],
+  "reading-the-resource-header": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#reading-the-resource-header",
+      "filepath": "netwerk/protocol/http/HttpTransactionChild.cpp",
+      "line_number": 351
+    }
+  ],
+  "mime-type-representation": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#mime-type-representation",
+      "filepath": "testing/web-platform/tests/html/semantics/links/linktypes/link-type-stylesheet/process-stylesheet-linked-resource-ascii-case-insensitive.html",
+      "line_number": 5
+    }
+  ],
   "example-valid-mime-type-string": [
     {
       "url": "https://mimesniff.spec.whatwg.org/#example-valid-mime-type-string",
@@ -16,51 +56,16 @@
       "line_number": 235
     }
   ],
-  "html-mime-type": [
+  "xml-mime-type": [
     {
-      "url": "https://mimesniff.spec.whatwg.org/#html-mime-type",
+      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
       "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 44
-    }
-  ],
-  "signature-for-mp4": [
-    {
-      "url": "http://mimesniff.spec.whatwg.org/#signature-for-mp4",
-      "filepath": "toolkit/components/mediasniffer/nsMediaSniffer.cpp",
-      "line_number": 134
-    }
-  ],
-  "mime-type-representation": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#mime-type-representation",
-      "filepath": "testing/web-platform/tests/html/semantics/links/linktypes/link-type-stylesheet/process-stylesheet-linked-resource-ascii-case-insensitive.html",
-      "line_number": 5
-    }
-  ],
-  "json-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 34
+      "line_number": 35
     },
     {
-      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
+      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
       "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 45
-    }
-  ],
-  "reading-the-resource-header": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#reading-the-resource-header",
-      "filepath": "netwerk/protocol/http/HttpTransactionChild.cpp",
-      "line_number": 351
-    }
-  ],
-  "parsing-a-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#parsing-a-mime-type",
-      "filepath": "dom/base/MimeType.cpp",
-      "line_number": 14
+      "line_number": 46
     }
   ],
   "javascript-mime-type": [
@@ -75,16 +80,11 @@
       "line_number": 62
     }
   ],
-  "xml-mime-type": [
+  "parsing-a-mime-type": [
     {
-      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 35
-    },
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 46
+      "url": "https://mimesniff.spec.whatwg.org/#parsing-a-mime-type",
+      "filepath": "dom/base/MimeType.cpp",
+      "line_number": 14
     }
   ]
 }
