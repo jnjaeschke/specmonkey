@@ -1,21 +1,4 @@
 {
-  "console-namespace": [
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/resources/idlharness.js",
-      "line_number": 3422
-    },
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
-      "line_number": 5
-    },
-    {
-      "url": "https://console.spec.whatwg.org/#console-namespace",
-      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
-      "line_number": 4
-    }
-  ],
   "timing": [
     {
       "url": "https://console.spec.whatwg.org/#timing",
@@ -45,6 +28,30 @@
       "line_number": 3
     }
   ],
+  "console-namespace": [
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/resources/idlharness.js",
+      "line_number": 3422
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/console/console-namespace-object-class-string.any.js",
+      "line_number": 5
+    },
+    {
+      "url": "https://console.spec.whatwg.org/#console-namespace",
+      "filepath": "testing/web-platform/tests/console/console-is-a-namespace.any.js",
+      "line_number": 4
+    }
+  ],
+  "countreset": [
+    {
+      "url": "https://console.spec.whatwg.org/#countreset",
+      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
+      "line_number": 7
+    }
+  ],
   "formatter": [
     {
       "url": "https://console.spec.whatwg.org/#formatter",
@@ -54,13 +61,6 @@
     {
       "url": "https://console.spec.whatwg.org/#formatter",
       "filepath": "testing/web-platform/tests/console/console-number-format-specifiers-symbol-manual.html",
-      "line_number": 7
-    }
-  ],
-  "countreset": [
-    {
-      "url": "https://console.spec.whatwg.org/#countreset",
-      "filepath": "testing/web-platform/tests/console/console-countReset-logging-manual.html",
       "line_number": 7
     }
   ],

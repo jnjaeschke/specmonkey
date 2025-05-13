@@ -1,4 +1,46 @@
 {
+  "dfn-perform-steps-once-promise-is-settled": [
+    {
+      "url": "https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled",
+      "filepath": "js/src/builtin/Promise.h",
+      "line_number": 143
+    }
+  ],
+  "es-interface-call": [
+    {
+      "url": "https://heycam.github.io/webidl/#es-interface-call",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 744
+    }
+  ],
+  "interface-object": [
+    {
+      "url": "https://heycam.github.io/webidl/#interface-object",
+      "filepath": "dom/imptests/idlharness.js",
+      "line_number": 772
+    }
+  ],
+  "idl-constructors": [
+    {
+      "url": "https://heycam.github.io/webidl/#idl-constructors",
+      "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
+      "line_number": 2698
+    }
+  ],
+  "constrainterror": [
+    {
+      "url": "https://heycam.github.io/webidl/#constrainterror",
+      "filepath": "dom/webauthn/AndroidWebAuthnService.h",
+      "line_number": 41
+    }
+  ],
+  "internally-create-a-new-object-implementing-the-interface": [
+    {
+      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
+      "filepath": "dom/bindings/BindingUtils.cpp",
+      "line_number": 3631
+    }
+  ],
   "dfn-obtain-unicode": [
     {
       "url": "http://heycam.github.io/webidl/#dfn-obtain-unicode",
@@ -35,53 +77,11 @@
       "line_number": 3491
     }
   ],
-  "internally-create-a-new-object-implementing-the-interface": [
-    {
-      "url": "https://heycam.github.io/webidl/#internally-create-a-new-object-implementing-the-interface",
-      "filepath": "dom/bindings/BindingUtils.cpp",
-      "line_number": 3631
-    }
-  ],
-  "interface-object": [
-    {
-      "url": "https://heycam.github.io/webidl/#interface-object",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 772
-    }
-  ],
-  "idl-constructors": [
-    {
-      "url": "https://heycam.github.io/webidl/#idl-constructors",
-      "filepath": "testing/web-platform/tests/resources/webidl2/lib/webidl2.js",
-      "line_number": 2698
-    }
-  ],
-  "es-interface-call": [
-    {
-      "url": "https://heycam.github.io/webidl/#es-interface-call",
-      "filepath": "dom/imptests/idlharness.js",
-      "line_number": 744
-    }
-  ],
   "Unforgeable": [
     {
       "url": "https://heycam.github.io/webidl/#Unforgeable",
       "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
       "line_number": 2679
-    }
-  ],
-  "dfn-perform-steps-once-promise-is-settled": [
-    {
-      "url": "https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled",
-      "filepath": "js/src/builtin/Promise.h",
-      "line_number": 143
-    }
-  ],
-  "constrainterror": [
-    {
-      "url": "https://heycam.github.io/webidl/#constrainterror",
-      "filepath": "dom/webauthn/AndroidWebAuthnService.h",
-      "line_number": 41
     }
   ]
 }

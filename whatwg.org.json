@@ -1,26 +1,4 @@
 {
-  "navigate": [
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 61
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 84
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 103
-    },
-    {
-      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 126
-    }
-  ],
   "process-the-iframe-attributes": [
     {
       "url": "https://whatwg.org/c/iframe-embed-object.html#process-the-iframe-attributes",
@@ -58,16 +36,16 @@
       "line_number": 155
     }
   ],
-  "otherwise-steps-for-iframe-or-frame-elements": [
+  "ping": [
     {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 54
+      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
+      "filepath": "docshell/base/nsPingListener.cpp",
+      "line_number": 287
     },
     {
-      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
-      "line_number": 142
+      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
+      "filepath": "modules/libpref/init/all.js",
+      "line_number": 164
     }
   ],
   "": [
@@ -82,16 +60,26 @@
       "line_number": 163
     }
   ],
-  "ping": [
+  "navigate": [
     {
-      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
-      "filepath": "docshell/base/nsPingListener.cpp",
-      "line_number": 287
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 61
     },
     {
-      "url": "http://whatwg.org/specs/web-apps/current-work/#ping",
-      "filepath": "modules/libpref/init/all.js",
-      "line_number": 164
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 84
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 103
+    },
+    {
+      "url": "https://whatwg.org/c/browsing-the-web.html#navigate",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 126
     }
   ],
   "initialise-the-document-object": [
@@ -104,6 +92,18 @@
       "url": "https://whatwg.org/c/browsing-the-web.html#initialise-the-document-object",
       "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
       "line_number": 137
+    }
+  ],
+  "otherwise-steps-for-iframe-or-frame-elements": [
+    {
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 54
+    },
+    {
+      "url": "https://whatwg.org/c/iframe-embed-object.html#otherwise-steps-for-iframe-or-frame-elements",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-reuse-in-nested-browsing-contexts.tentative.html",
+      "line_number": 142
     }
   ]
 }

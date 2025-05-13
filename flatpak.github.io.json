@@ -13,18 +13,18 @@
       "line_number": 240
     }
   ],
-  "gdbus-signal-org-freedesktop-portal-Request.Response": [
-    {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
-      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
-      "line_number": 612
-    }
-  ],
   "gdbus-org.freedesktop.portal.Session": [
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-org.freedesktop.portal.Session",
       "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
       "line_number": 242
+    }
+  ],
+  "gdbus-signal-org-freedesktop-portal-Request.Response": [
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
+      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
+      "line_number": 612
     }
   ]
 }
