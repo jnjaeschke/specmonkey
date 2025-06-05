@@ -1,0 +1,38 @@
+{
+  "table-types": [
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/types.html#table-types",
+      "filepath": "js/src/wasm/WasmValidate.cpp",
+      "line_number": 2881
+    },
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/types.html#table-types",
+      "filepath": "js/src/jit-test/lib/wasm-binary.js",
+      "line_number": 688
+    }
+  ],
+  "table-section": [
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/modules.html#table-section",
+      "filepath": "js/src/wasm/WasmValidate.cpp",
+      "line_number": 2882
+    },
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/modules.html#table-section",
+      "filepath": "js/src/jit-test/tests/wasm/function-references/binary.js",
+      "line_number": 60
+    },
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/modules.html#table-section",
+      "filepath": "js/src/jit-test/lib/wasm-binary.js",
+      "line_number": 620
+    }
+  ],
+  "binary-limits": [
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/types.html#binary-limits",
+      "filepath": "js/src/jit-test/lib/wasm-binary.js",
+      "line_number": 671
+    }
+  ]
+}

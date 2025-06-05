@@ -1,9 +1,16 @@
 {
-  "floating-point": [
+  "constant-expressions": [
     {
-      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
-      "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1448
+      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
+      "filepath": "js/src/wasm/WasmInitExpr.h",
+      "line_number": 54
+    }
+  ],
+  "conventions": [
+    {
+      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
+      "filepath": "js/public/ColumnNumber.h",
+      "line_number": 338
     }
   ],
   "defaultvalue": [
@@ -13,11 +20,11 @@
       "line_number": 2753
     }
   ],
-  "conventions": [
+  "namespacedef-webassembly": [
     {
-      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
-      "filepath": "js/public/ColumnNumber.h",
-      "line_number": 338
+      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
+      "line_number": 5
     }
   ],
   "": [
@@ -34,11 +41,11 @@
       "line_number": 382
     }
   ],
-  "constant-expressions": [
+  "floating-point": [
     {
-      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
-      "filepath": "js/src/wasm/WasmInitExpr.h",
-      "line_number": 54
+      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
+      "filepath": "js/src/builtin/TestingFunctions.cpp",
+      "line_number": 1447
     }
   ],
   "tojsvalue": [
@@ -53,13 +60,6 @@
       "url": "https://webassembly.github.io/spec/core/exec/numerics.html#aux-nans",
       "filepath": "js/src/jit/riscv64/MacroAssembler-riscv64.cpp",
       "line_number": 560
-    }
-  ],
-  "namespacedef-webassembly": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/constructor/toStringTag.any.js",
-      "line_number": 5
     }
   ]
 }

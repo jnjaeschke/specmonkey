@@ -5,12 +5,5 @@
       "filepath": "toolkit/components/kvstore/src/skv/abort.rs",
       "line_number": 176
     }
-  ],
-  "float_cmp": [
-    {
-      "url": "https://rust-lang.github.io/rust-clippy/master/index.html#float_cmp",
-      "filepath": "toolkit/components/uniffi-bindgen-gecko-js/fixtures/geometry/src/lib.rs",
-      "line_number": 5
-    }
   ]
 }

@@ -1,234 +1,4 @@
 {
-  "the-overridemimetype()-method": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-overridemimetype()-method",
-      "filepath": "testing/web-platform/tests/xhr/overridemimetype-done-state.any.js",
-      "line_number": 4
-    }
-  ],
-  "the-send()-method": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
-      "line_number": 4
-    }
-  ],
-  "": [
-    {
-      "url": "https://xhr.spec.whatwg.org/",
-      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
-      "line_number": 2144
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
-      "line_number": 37
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
-      "line_number": 37
-    }
-  ],
-  "handler-xhr-ontimeout": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overrides.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overrides.html",
-      "line_number": 7
-    }
-  ],
-  "dom-xmlhttprequest-responsexml": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-responsexml",
-      "filepath": "testing/web-platform/mozilla/tests/xml/responsexml-content-type.html",
-      "line_number": 7
-    }
-  ],
-  "interface-formdata": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#interface-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata.html",
-      "line_number": 8
-    }
-  ],
-  "the-responsetype-attribute": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
-      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
-      "filepath": "testing/web-platform/tests/xhr/responsetype.any.js",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29480
-    }
-  ],
-  "security-considerations": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#security-considerations",
-      "filepath": "testing/web-platform/tests/xhr/security-consideration.sub.html",
-      "line_number": 7
-    }
-  ],
-  "the-timeout-attribute": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-synconmain.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overrides.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overrides.html",
-      "line_number": 6
-    }
-  ],
-  "dom-formdata": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "dom/base/FormData.cpp",
-      "line_number": 304
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "dom/html/HTMLFormElement.cpp",
-      "line_number": 1045
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/form-submission-0/constructing-form-data-set.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata.html",
-      "line_number": 9
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata/submitter-coordinate-value.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-submitter.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-submitter-coordinate.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
-      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-formelement.html",
-      "line_number": 4
-    }
-  ],
   "timeout-error": [
     {
       "url": "https://xhr.spec.whatwg.org/#timeout-error",
@@ -301,218 +71,6 @@
       "line_number": 8
     }
   ],
-  "event-xhr-timeout": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#event-xhr-timeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 11
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#event-xhr-timeout",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 11
-    }
-  ],
-  "feature-policy-integration": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#feature-policy-integration",
-      "filepath": "testing/web-platform/tests/xhr/sync-xhr-supported-by-feature-policy.html",
-      "line_number": 4
-    }
-  ],
-  "dfnReturnLink-2": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dfnReturnLink-2",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29887
-    }
-  ],
-  "document-response": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#document-response",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/xhr-response-url.https.html",
-      "line_number": 70
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#document-response",
-      "filepath": "testing/web-platform/tests/service-workers/service-worker/xhr-response-url.https.html",
-      "line_number": 90
-    }
-  ],
-  "dom-formdata-append": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-append",
-      "filepath": "testing/web-platform/tests/xhr/formdata.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-append",
-      "filepath": "testing/web-platform/tests/xhr/formdata/append-formelement.html",
-      "line_number": 5
-    }
-  ],
-  "dom-XMLHttpRequest-send-FormData": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-XMLHttpRequest-send-FormData",
-      "filepath": "testing/web-platform/tests/xhr/formdata.html",
-      "line_number": 11
-    }
-  ],
-  "abort-error": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#abort-error",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#abort-error",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#abort-error",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
-      "line_number": 7
-    }
-  ],
-  "the-abort()-method": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
-      "line_number": 6
-    }
-  ],
-  "dom-formdata-getall": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
-      "filepath": "testing/web-platform/tests/xhr/formdata/delete-formelement.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
-      "filepath": "testing/web-platform/tests/xhr/formdata/get-formelement.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
-      "filepath": "testing/web-platform/tests/xhr/formdata/has-formelement.html",
-      "line_number": 8
-    }
-  ],
-  "the-setrequestheader()-method": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-setrequestheader()-method",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29802
-    }
-  ],
-  "the-send%28%29-method": [
-    {
-      "url": "http://xhr.spec.whatwg.org/#the-send%28%29-method",
-      "filepath": "netwerk/protocol/http/nsHttpChannelAuthProvider.cpp",
-      "line_number": 1013
-    },
-    {
-      "url": "http://xhr.spec.whatwg.org/#the-send%28%29-method",
-      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
-      "line_number": 3886
-    }
-  ],
-  "infrastructure-for-the-send()-method": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
-      "line_number": 11
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 13
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
-      "line_number": 11
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 13
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
-      "line_number": 10
-    }
-  ],
-  "request-error-steps": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#request-error-steps",
-      "filepath": "dom/xhr/XMLHttpRequestWorker.cpp",
-      "line_number": 1537
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#request-error-steps",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 29636
-    }
-  ],
-  "the-response-attribute": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#the-response-attribute",
-      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
-      "line_number": 7
-    }
-  ],
-  "dom-formdata-set": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-formdata-set",
-      "filepath": "testing/web-platform/tests/xhr/formdata/set-formelement.html",
-      "line_number": 4
-    }
-  ],
-  "dom-xmlhttprequest-responsetype": [
-    {
-      "url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-responsetype",
-      "filepath": "testing/web-platform/tests/common/security-features/resources/common.sub.js",
-      "line_number": 136
-    }
-  ],
   "request-error": [
     {
       "url": "https://xhr.spec.whatwg.org/#request-error",
@@ -580,6 +138,32 @@
       "line_number": 9
     }
   ],
+  "interface-formdata": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#interface-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata.html",
+      "line_number": 8
+    }
+  ],
+  "the-response-attribute": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-response-attribute",
+      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
+      "line_number": 7
+    }
+  ],
+  "dom-formdata-append": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-append",
+      "filepath": "testing/web-platform/tests/xhr/formdata.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-append",
+      "filepath": "testing/web-platform/tests/xhr/formdata/append-formelement.html",
+      "line_number": 5
+    }
+  ],
   "the-status-attribute": [
     {
       "url": "https://xhr.spec.whatwg.org/#the-status-attribute",
@@ -587,28 +171,180 @@
       "line_number": 5
     }
   ],
-  "event-xhr-abort": [
+  "the-open()-method": [
     {
-      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
-      "line_number": 9
+      "url": "https://xhr.spec.whatwg.org/#the-open()-method",
+      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
+      "line_number": 22
     },
     {
-      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
-      "line_number": 9
-    },
-    {
-      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
-      "line_number": 8
+      "url": "https://xhr.spec.whatwg.org/#the-open()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-synconmain.html",
+      "line_number": 7
     }
   ],
-  "response-mime-type": [
+  "the-responsetype-attribute": [
     {
-      "url": "https://xhr.spec.whatwg.org/#response-mime-type",
-      "filepath": "dom/file/uri/BlobURLInputStream.cpp",
-      "line_number": 515
+      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
+      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
+      "filepath": "testing/web-platform/tests/xhr/responsetype.any.js",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29480
+    }
+  ],
+  "the-timeout-attribute": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-synconmain.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overrides.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overrides.html",
+      "line_number": 6
+    }
+  ],
+  "feature-policy-integration": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#feature-policy-integration",
+      "filepath": "testing/web-platform/tests/xhr/sync-xhr-supported-by-feature-policy.html",
+      "line_number": 4
+    }
+  ],
+  "dom-xmlhttprequest-responsetype": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-responsetype",
+      "filepath": "testing/web-platform/tests/common/security-features/resources/common.sub.js",
+      "line_number": 136
+    }
+  ],
+  "the-setrequestheader()-method": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-setrequestheader()-method",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29802
+    }
+  ],
+  "the-abort()-method": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-abort()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
+      "line_number": 6
+    }
+  ],
+  "dom-formdata": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "dom/base/FormData.cpp",
+      "line_number": 304
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "dom/html/HTMLFormElement.cpp",
+      "line_number": 1046
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/form-submission-0/constructing-form-data-set.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata.html",
+      "line_number": 9
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata/submitter-coordinate-value.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-submitter.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-submitter-coordinate.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata",
+      "filepath": "testing/web-platform/tests/xhr/formdata/constructor-formelement.html",
+      "line_number": 4
     }
   ],
   "interface-progressevent": [
@@ -616,6 +352,184 @@
       "url": "https://xhr.spec.whatwg.org/#interface-progressevent",
       "filepath": "testing/web-platform/tests/xhr/progressevent-constructor.html",
       "line_number": 3
+    }
+  ],
+  "the-responseurl-attribute": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-responseurl-attribute",
+      "filepath": "testing/web-platform/tests/xhr/responseurl.html",
+      "line_number": 7
+    }
+  ],
+  "handler-xhr-ontimeout": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overrides.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overrides.html",
+      "line_number": 7
+    }
+  ],
+  "the-send%28%29-method": [
+    {
+      "url": "http://xhr.spec.whatwg.org/#the-send%28%29-method",
+      "filepath": "netwerk/protocol/http/nsHttpChannelAuthProvider.cpp",
+      "line_number": 1013
+    },
+    {
+      "url": "http://xhr.spec.whatwg.org/#the-send%28%29-method",
+      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
+      "line_number": 3886
+    }
+  ],
+  "security-considerations": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#security-considerations",
+      "filepath": "testing/web-platform/tests/xhr/security-consideration.sub.html",
+      "line_number": 7
+    }
+  ],
+  "dom-XMLHttpRequest-send-FormData": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-XMLHttpRequest-send-FormData",
+      "filepath": "testing/web-platform/tests/xhr/formdata.html",
+      "line_number": 11
+    }
+  ],
+  "document-response": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#document-response",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/xhr-response-url.https.html",
+      "line_number": 70
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#document-response",
+      "filepath": "testing/web-platform/tests/service-workers/service-worker/xhr-response-url.https.html",
+      "line_number": 90
+    }
+  ],
+  "infrastructure-for-the-send()-method": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-twice.html",
+      "line_number": 11
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-overridesexpires.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 13
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-reused.html",
+      "line_number": 11
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-overridesexpires.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 13
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-simple.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-synconworker.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-twice.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#infrastructure-for-the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-simple.html",
+      "line_number": 10
+    }
+  ],
+  "event-xhr-timeout": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#event-xhr-timeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 11
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#event-xhr-timeout",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 11
+    }
+  ],
+  "": [
+    {
+      "url": "https://xhr.spec.whatwg.org/",
+      "filepath": "dom/xhr/XMLHttpRequestMainThread.cpp",
+      "line_number": 2144
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
+      "line_number": 37
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
+      "line_number": 37
     }
   ],
   "dom-formdata-get": [
@@ -635,23 +549,109 @@
       "line_number": 7
     }
   ],
-  "the-responseurl-attribute": [
+  "response-mime-type": [
     {
-      "url": "https://xhr.spec.whatwg.org/#the-responseurl-attribute",
-      "filepath": "testing/web-platform/tests/xhr/responseurl.html",
+      "url": "https://xhr.spec.whatwg.org/#response-mime-type",
+      "filepath": "dom/file/uri/BlobURLInputStream.cpp",
+      "line_number": 515
+    }
+  ],
+  "dom-formdata-getall": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
+      "filepath": "testing/web-platform/tests/xhr/formdata/delete-formelement.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
+      "filepath": "testing/web-platform/tests/xhr/formdata/get-formelement.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-getall",
+      "filepath": "testing/web-platform/tests/xhr/formdata/has-formelement.html",
+      "line_number": 8
+    }
+  ],
+  "dom-formdata-set": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-formdata-set",
+      "filepath": "testing/web-platform/tests/xhr/formdata/set-formelement.html",
+      "line_number": 4
+    }
+  ],
+  "request-error-steps": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#request-error-steps",
+      "filepath": "dom/xhr/XMLHttpRequestWorker.cpp",
+      "line_number": 1537
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#request-error-steps",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29636
+    }
+  ],
+  "dom-xmlhttprequest-responsexml": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-responsexml",
+      "filepath": "testing/web-platform/mozilla/tests/xml/responsexml-content-type.html",
       "line_number": 7
     }
   ],
-  "the-open()-method": [
+  "event-xhr-abort": [
     {
-      "url": "https://xhr.spec.whatwg.org/#the-open()-method",
-      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
-      "line_number": 22
+      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 9
     },
     {
-      "url": "https://xhr.spec.whatwg.org/#the-open()-method",
-      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-synconmain.html",
+      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 9
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#event-xhr-abort",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
+      "line_number": 8
+    }
+  ],
+  "dfnReturnLink-2": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#dfnReturnLink-2",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 29887
+    }
+  ],
+  "the-send()-method": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-send()-method",
+      "filepath": "testing/web-platform/tests/xhr/send-blob-with-no-mime-type.html",
+      "line_number": 4
+    }
+  ],
+  "abort-error": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#abort-error",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-aborted.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#abort-error",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-worker-aborted.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://xhr.spec.whatwg.org/#abort-error",
+      "filepath": "testing/web-platform/tests/xhr/xmlhttprequest-timeout-abortedonmain.html",
       "line_number": 7
+    }
+  ],
+  "the-overridemimetype()-method": [
+    {
+      "url": "https://xhr.spec.whatwg.org/#the-overridemimetype()-method",
+      "filepath": "testing/web-platform/tests/xhr/overridemimetype-done-state.any.js",
+      "line_number": 4
     }
   ]
 }

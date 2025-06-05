@@ -1,35 +1,59 @@
 {
-  "722-rid-restrictions-mapping-for-av1": [
+  "av1codecconfigurationbox-section": [
     {
-      "url": "https://aomediacodec.github.io/av1-rtp-spec/#722-rid-restrictions-mapping-for-av1",
-      "filepath": "dom/media/webrtc/jsep/JsepCodecDescription.h",
-      "line_number": 495
-    },
-    {
-      "url": "https://aomediacodec.github.io/av1-rtp-spec/#722-rid-restrictions-mapping-for-av1",
-      "filepath": "dom/media/webrtc/sdp/SdpAttribute.h",
-      "line_number": 1270
+      "url": "https://aomediacodec.github.io/av1-isobmff/#av1codecconfigurationbox-section",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 963
     }
   ],
   "721-mapping-of-media-subtype-parameters-to-sdp": [
     {
       "url": "https://aomediacodec.github.io/av1-rtp-spec/#721-mapping-of-media-subtype-parameters-to-sdp",
       "filepath": "dom/media/webrtc/tests/mochitests/stats.js",
-      "line_number": 1240
+      "line_number": 1251
     }
   ],
-  "page=123": [
+  "sequence-header-obu-syntax": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=123",
+      "url": "https://aomediacodec.github.io/av1-spec/#sequence-header-obu-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 504
+    }
+  ],
+  "general-sequence-header-obu-syntax": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#general-sequence-header-obu-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 514
+    },
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#general-sequence-header-obu-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 751
+    }
+  ],
+  "color-config-syntax": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#color-config-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 651
+    },
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#color-config-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 847
+    }
+  ],
+  "page=126": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=126",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 49
-    }
-  ],
-  "page=652": [
+      "line_number": 141
+    },
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=652",
-      "filepath": "dom/media/VideoUtils.cpp",
-      "line_number": 876
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=126",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
+      "line_number": 168
     }
   ],
   "723-usage-with-the-sdp-offeranswer-model": [
@@ -39,18 +63,35 @@
       "line_number": 43
     }
   ],
-  "page=42": [
+  "trailing-bits-syntax": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=42",
-      "filepath": "dom/media/VideoUtils.cpp",
-      "line_number": 874
+      "url": "https://aomediacodec.github.io/av1-spec/#trailing-bits-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 720
+    },
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#trailing-bits-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 947
     }
   ],
-  "page=129": [
+  "page=131": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=129",
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=131",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 174
+      "line_number": 124
+    }
+  ],
+  "722-rid-restrictions-mapping-for-av1": [
+    {
+      "url": "https://aomediacodec.github.io/av1-rtp-spec/#722-rid-restrictions-mapping-for-av1",
+      "filepath": "dom/media/webrtc/jsep/JsepCodecDescription.h",
+      "line_number": 517
+    },
+    {
+      "url": "https://aomediacodec.github.io/av1-rtp-spec/#722-rid-restrictions-mapping-for-av1",
+      "filepath": "dom/media/webrtc/sdp/SdpAttribute.h",
+      "line_number": 1270
     }
   ],
   "auxiliary-images": [
@@ -65,63 +106,51 @@
       "line_number": 812
     }
   ],
+  "page=129": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=129",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
+      "line_number": 174
+    }
+  ],
+  "page=652": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=652",
+      "filepath": "dom/media/VideoUtils.cpp",
+      "line_number": 877
+    }
+  ],
   "": [
     {
       "url": "https://aomediacodec.github.io/av1-spec/",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 372
+      "line_number": 373
     },
     {
       "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 373
-    }
-  ],
-  "general-sequence-header-obu-syntax": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#general-sequence-header-obu-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 513
-    },
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#general-sequence-header-obu-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 743
-    }
-  ],
-  "decoder-model-info-syntax": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#decoder-model-info-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 547
-    }
-  ],
-  "page=131": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=131",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 124
+      "line_number": 374
     }
   ],
   "sequence-header-obu-semantics": [
     {
       "url": "https://aomediacodec.github.io/av1-spec/#sequence-header-obu-semantics",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 507
+      "line_number": 508
     }
   ],
-  "obu-header-syntax": [
+  "leb128": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/#obu-header-syntax",
+      "url": "https://aomediacodec.github.io/av1-spec/#leb128",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 379
+      "line_number": 420
     }
   ],
-  "page=125": [
+  "timing-info-syntax": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=125",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 133
+      "url": "https://aomediacodec.github.io/av1-spec/#timing-info-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 537
     }
   ],
   "codecsparam": [
@@ -138,28 +167,14 @@
     {
       "url": "https://aomediacodec.github.io/av1-isobmff/#codecsparam",
       "filepath": "dom/media/VideoUtils.cpp",
-      "line_number": 711
+      "line_number": 712
     }
   ],
-  "sequence-header-obu-syntax": [
+  "decoder-model-info-syntax": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/#sequence-header-obu-syntax",
+      "url": "https://aomediacodec.github.io/av1-spec/#decoder-model-info-syntax",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 503
-    }
-  ],
-  "av1codecconfigurationbox-section": [
-    {
-      "url": "https://aomediacodec.github.io/av1-isobmff/#av1codecconfigurationbox-section",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 955
-    }
-  ],
-  "leb128": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#leb128",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 419
+      "line_number": 548
     }
   ],
   "page=650": [
@@ -174,54 +189,46 @@
       "line_number": 160
     }
   ],
+  "operating-parameters-info-syntax": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/#operating-parameters-info-syntax",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
+      "line_number": 570
+    }
+  ],
+  "page=42": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=42",
+      "filepath": "dom/media/VideoUtils.cpp",
+      "line_number": 875
+    }
+  ],
+  "page=123": [
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=123",
+      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
+      "line_number": 49
+    }
+  ],
   "general-obu-syntax": [
     {
       "url": "https://aomediacodec.github.io/av1-spec/#general-obu-syntax",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 376
+      "line_number": 377
     }
   ],
-  "page=126": [
+  "page=125": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=126",
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=125",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 141
-    },
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf#page=126",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.h",
-      "line_number": 168
+      "line_number": 133
     }
   ],
-  "color-config-syntax": [
+  "obu-header-syntax": [
     {
-      "url": "https://aomediacodec.github.io/av1-spec/#color-config-syntax",
+      "url": "https://aomediacodec.github.io/av1-spec/#obu-header-syntax",
       "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 643
-    },
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#color-config-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 839
-    }
-  ],
-  "trailing-bits-syntax": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#trailing-bits-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 712
-    },
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#trailing-bits-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 939
-    }
-  ],
-  "timing-info-syntax": [
-    {
-      "url": "https://aomediacodec.github.io/av1-spec/#timing-info-syntax",
-      "filepath": "dom/media/platforms/agnostic/AOMDecoder.cpp",
-      "line_number": 536
+      "line_number": 380
     }
   ]
 }

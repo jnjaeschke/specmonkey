@@ -1,25 +1,4 @@
 {
-  "set-storage-access-command": [
-    {
-      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 989
-    }
-  ],
-  "dom-document-requeststorageaccess": [
-    {
-      "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
-      "filepath": "dom/base/Document.cpp",
-      "line_number": 18650
-    }
-  ],
-  "run-bounce-tracking-mitigations-command": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1431
-    }
-  ],
   "": [
     {
       "url": "https://privacycg.github.io/storage-partitioning/",
@@ -96,7 +75,28 @@
     {
       "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1425
+      "line_number": 1431
+    }
+  ],
+  "run-bounce-tracking-mitigations-command": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1437
+    }
+  ],
+  "set-storage-access-command": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 995
+    }
+  ],
+  "dom-document-requeststorageaccess": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
+      "filepath": "dom/base/Document.cpp",
+      "line_number": 18710
     }
   ]
 }

@@ -6,50 +6,6 @@
       "line_number": 7
     }
   ],
-  "the-math-style-property": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "servo/components/style/properties/longhands/font.mako.rs",
-      "line_number": 321
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-004.tentative.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-style-001.tentative.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-003.tentative.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-001.tentative.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-005.tentative.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
-      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-002.tentative.html",
-      "line_number": 8
-    }
-  ],
-  "global-attributes": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
-      "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 116
-    }
-  ],
   "the-math-script-level-property": [
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-script-level-property",
@@ -127,11 +83,55 @@
       "line_number": 7
     }
   ],
+  "global-attributes": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
+      "filepath": "dom/mathml/MathMLElement.cpp",
+      "line_number": 116
+    }
+  ],
+  "the-math-style-property": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "servo/components/style/properties/longhands/font.mako.rs",
+      "line_number": 321
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-004.tentative.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-style-001.tentative.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-003.tentative.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-001.tentative.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-005.tentative.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
+      "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-002.tentative.html",
+      "line_number": 8
+    }
+  ],
   "dfn-displaystyle": [
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#dfn-displaystyle",
       "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 596
+      "line_number": 597
     }
   ]
 }
