@@ -1,67 +1,4 @@
 {
-  "is-special": [
-    {
-      "url": "https://url.spec.whatwg.org/#is-special",
-      "filepath": "js/loader/ImportMap.cpp",
-      "line_number": 571
-    }
-  ],
-  "concept-url-serializer": [
-    {
-      "url": "https://url.spec.whatwg.org/#concept-url-serializer",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
-      "line_number": 7
-    }
-  ],
-  "scheme-state": [
-    {
-      "url": "https://url.spec.whatwg.org/#scheme-state",
-      "filepath": "netwerk/base/nsNetUtil.h",
-      "line_number": 1104
-    }
-  ],
-  "ends-in-a-number-checker": [
-    {
-      "url": "https://url.spec.whatwg.org/#ends-in-a-number-checker",
-      "filepath": "netwerk/base/IPv4Parser.cpp",
-      "line_number": 13
-    }
-  ],
-  "origin": [
-    {
-      "url": "https://url.spec.whatwg.org/#origin",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 7391
-    }
-  ],
-  "dom-url": [
-    {
-      "url": "http://url.spec.whatwg.org/#dom-url",
-      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
-      "line_number": 29
-    }
-  ],
-  "dom-url-search": [
-    {
-      "url": "http://url.spec.whatwg.org/#dom-url-search",
-      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
-      "line_number": 20
-    }
-  ],
-  "url-parsing": [
-    {
-      "url": "https://url.spec.whatwg.org/#url-parsing",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1171
-    }
-  ],
-  "concept-url-fragment": [
-    {
-      "url": "https://url.spec.whatwg.org/#concept-url-fragment",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 246
-    }
-  ],
   "path-state": [
     {
       "url": "https://url.spec.whatwg.org/#path-state",
@@ -69,11 +6,18 @@
       "line_number": 767
     }
   ],
-  "userinfo-percent-encode-set": [
+  "concept-url-origin": [
     {
-      "url": "https://url.spec.whatwg.org/#userinfo-percent-encode-set",
-      "filepath": "xpcom/io/nsEscape.cpp",
-      "line_number": 274
+      "url": "https://url.spec.whatwg.org/#concept-url-origin",
+      "filepath": "devtools/client/shared/vendor/whatwg-url.js",
+      "line_number": 2387
+    }
+  ],
+  "scheme-state": [
+    {
+      "url": "https://url.spec.whatwg.org/#scheme-state",
+      "filepath": "netwerk/base/nsNetUtil.h",
+      "line_number": 1104
     }
   ],
   "default-port": [
@@ -88,6 +32,27 @@
       "line_number": 56
     }
   ],
+  "dom-url-search": [
+    {
+      "url": "http://url.spec.whatwg.org/#dom-url-search",
+      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
+      "line_number": 20
+    }
+  ],
+  "concept-url-serializer": [
+    {
+      "url": "https://url.spec.whatwg.org/#concept-url-serializer",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
+      "line_number": 7
+    }
+  ],
+  "concept-url-fragment": [
+    {
+      "url": "https://url.spec.whatwg.org/#concept-url-fragment",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 246
+    }
+  ],
   "concept-ipv4-parser": [
     {
       "url": "https://url.spec.whatwg.org/#concept-ipv4-parser",
@@ -100,6 +65,46 @@
       "url": "https://url.spec.whatwg.org/#windows-drive-letter",
       "filepath": "netwerk/base/nsStandardURL.cpp",
       "line_number": 768
+    }
+  ],
+  "special-scheme": [
+    {
+      "url": "https://url.spec.whatwg.org/#special-scheme",
+      "filepath": "netwerk/base/nsNetUtil.cpp",
+      "line_number": 3429
+    },
+    {
+      "url": "https://url.spec.whatwg.org/#special-scheme",
+      "filepath": "netwerk/base/nsNetUtil.cpp",
+      "line_number": 3437
+    }
+  ],
+  "ends-in-a-number-checker": [
+    {
+      "url": "https://url.spec.whatwg.org/#ends-in-a-number-checker",
+      "filepath": "netwerk/base/IPv4Parser.cpp",
+      "line_number": 13
+    }
+  ],
+  "dom-url": [
+    {
+      "url": "http://url.spec.whatwg.org/#dom-url",
+      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
+      "line_number": 29
+    }
+  ],
+  "userinfo-percent-encode-set": [
+    {
+      "url": "https://url.spec.whatwg.org/#userinfo-percent-encode-set",
+      "filepath": "xpcom/io/nsEscape.cpp",
+      "line_number": 274
+    }
+  ],
+  "is-special": [
+    {
+      "url": "https://url.spec.whatwg.org/#is-special",
+      "filepath": "js/loader/ImportMap.cpp",
+      "line_number": 571
     }
   ],
   "": [
@@ -119,23 +124,18 @@
       "line_number": 4
     }
   ],
-  "special-scheme": [
+  "origin": [
     {
-      "url": "https://url.spec.whatwg.org/#special-scheme",
-      "filepath": "netwerk/base/nsNetUtil.cpp",
-      "line_number": 3418
-    },
-    {
-      "url": "https://url.spec.whatwg.org/#special-scheme",
-      "filepath": "netwerk/base/nsNetUtil.cpp",
-      "line_number": 3426
+      "url": "https://url.spec.whatwg.org/#origin",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 7391
     }
   ],
-  "concept-url-origin": [
+  "url-parsing": [
     {
-      "url": "https://url.spec.whatwg.org/#concept-url-origin",
-      "filepath": "devtools/client/shared/vendor/whatwg-url.js",
-      "line_number": 2387
+      "url": "https://url.spec.whatwg.org/#url-parsing",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1171
     }
   ]
 }

@@ -6,20 +6,6 @@
       "line_number": 54
     }
   ],
-  "conventions": [
-    {
-      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
-      "filepath": "js/public/ColumnNumber.h",
-      "line_number": 338
-    }
-  ],
-  "defaultvalue": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
-      "filepath": "js/src/wasm/WasmJS.cpp",
-      "line_number": 2753
-    }
-  ],
   "namespacedef-webassembly": [
     {
       "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
@@ -27,25 +13,11 @@
       "line_number": 5
     }
   ],
-  "": [
+  "conventions": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
-      "line_number": 8
-    }
-  ],
-  "towebassemblyvalue": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
-      "filepath": "js/src/wasm/WasmValue.h",
-      "line_number": 382
-    }
-  ],
-  "floating-point": [
-    {
-      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
-      "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1447
+      "url": "https://webassembly.github.io/spec/web-api/index.html#conventions",
+      "filepath": "js/public/ColumnNumber.h",
+      "line_number": 338
     }
   ],
   "tojsvalue": [
@@ -55,11 +27,39 @@
       "line_number": 395
     }
   ],
+  "defaultvalue": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
+      "filepath": "js/src/wasm/WasmJS.cpp",
+      "line_number": 2752
+    }
+  ],
+  "towebassemblyvalue": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
+      "filepath": "js/src/wasm/WasmValue.h",
+      "line_number": 382
+    }
+  ],
+  "": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
+      "line_number": 8
+    }
+  ],
   "aux-nans": [
     {
       "url": "https://webassembly.github.io/spec/core/exec/numerics.html#aux-nans",
       "filepath": "js/src/jit/riscv64/MacroAssembler-riscv64.cpp",
       "line_number": 560
+    }
+  ],
+  "floating-point": [
+    {
+      "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
+      "filepath": "js/src/builtin/TestingFunctions.cpp",
+      "line_number": 1443
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "decompress-and-enqueue-a-chunk": [
-    {
-      "url": "https://compression.spec.whatwg.org/#decompress-and-enqueue-a-chunk",
-      "filepath": "dom/base/DecompressionStream.cpp",
-      "line_number": 49
-    }
-  ],
   "dom-decompressionstream-decompressionstream": [
     {
       "url": "https://compression.spec.whatwg.org/#dom-decompressionstream-decompressionstream",
       "filepath": "dom/base/DecompressionStream.cpp",
       "line_number": 70
+    }
+  ],
+  "decompress-and-enqueue-a-chunk": [
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-and-enqueue-a-chunk",
+      "filepath": "dom/base/DecompressionStream.cpp",
+      "line_number": 49
     }
   ]
 }

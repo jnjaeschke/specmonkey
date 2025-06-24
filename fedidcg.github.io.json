@@ -1,30 +1,30 @@
 {
-  "webdriver-canceldialog": [
+  "webdriver-accountlist": [
     {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-canceldialog",
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1100
-    }
-  ],
-  "webdriver-getdialogtype": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1192
-    }
-  ],
-  "webdriver-gettitle": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1174
+      "line_number": 1298
     }
   ],
   "webdriver-resetcooldown": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-resetcooldown",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1229
+      "line_number": 1371
+    }
+  ],
+  "webdriver-canceldialog": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-canceldialog",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1242
+    }
+  ],
+  "webdriver-getdialogtype": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1334
     }
   ],
   "": [
@@ -313,28 +313,28 @@
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1137
-    }
-  ],
-  "webdriver-accountlist": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1156
-    }
-  ],
-  "webdriver-clickdialogbutton": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1118
+      "line_number": 1279
     }
   ],
   "webdriver-setdelayenabled": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1210
+      "line_number": 1352
+    }
+  ],
+  "webdriver-clickdialogbutton": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1260
+    }
+  ],
+  "webdriver-gettitle": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1316
     }
   ]
 }

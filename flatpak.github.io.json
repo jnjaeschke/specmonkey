@@ -1,9 +1,9 @@
 {
-  "gdbus-org.freedesktop.portal.Inhibit": [
+  "": [
     {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/#gdbus-org.freedesktop.portal.Inhibit",
-      "filepath": "widget/gtk/WakeLockListener.cpp",
-      "line_number": 423
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Notification.html",
+      "filepath": "toolkit/system/gnome/nsSystemAlertsService.cpp",
+      "line_number": 81
     }
   ],
   "parent_window": [
@@ -18,6 +18,13 @@
       "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-org.freedesktop.portal.Session",
       "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
       "line_number": 242
+    }
+  ],
+  "gdbus-org.freedesktop.portal.Inhibit": [
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/#gdbus-org.freedesktop.portal.Inhibit",
+      "filepath": "widget/gtk/WakeLockListener.cpp",
+      "line_number": 423
     }
   ],
   "gdbus-signal-org-freedesktop-portal-Request.Response": [
