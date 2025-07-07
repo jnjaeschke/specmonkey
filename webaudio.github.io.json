@@ -1,28 +1,30 @@
 {
+  "pending-processor-construction-data-transferred-port": [
+    {
+      "url": "https://webaudio.github.io/web-audio-api/#pending-processor-construction-data-transferred-port",
+      "filepath": "dom/media/webaudio/AudioWorkletGlobalScope.h",
+      "line_number": 79
+    }
+  ],
+  "panning-algorithm": [
+    {
+      "url": "http://webaudio.github.io/web-audio-api/#panning-algorithm",
+      "filepath": "testing/web-platform/tests/webaudio/resources/stereopanner-testing.js",
+      "line_number": 20
+    }
+  ],
+  "dfn-computednumberofchannels": [
+    {
+      "url": "http://webaudio.github.io/web-audio-api/#dfn-computednumberofchannels",
+      "filepath": "testing/web-platform/tests/webaudio/resources/mixing-rules.js",
+      "line_number": 52
+    }
+  ],
   "Spatialzation-equal-power-panning": [
     {
       "url": "https://webaudio.github.io/web-audio-api/#Spatialzation-equal-power-panning",
       "filepath": "dom/media/webaudio/test/test_pannerNodeAtZeroDistance.html",
       "line_number": 62
-    }
-  ],
-  "AudioWorkletProcessor-instantiation": [
-    {
-      "url": "https://webaudio.github.io/web-audio-api/#AudioWorkletProcessor-instantiation",
-      "filepath": "dom/media/webaudio/AudioWorkletGlobalScope.cpp",
-      "line_number": 287
-    },
-    {
-      "url": "https://webaudio.github.io/web-audio-api/#AudioWorkletProcessor-instantiation",
-      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioworklet-interface/processor-construction-port.https.html",
-      "line_number": 6
-    }
-  ],
-  "dom-audiocontext-setsinkid-domstring-or-audiosinkoptions-sinkid": [
-    {
-      "url": "https://webaudio.github.io/web-audio-api/#dom-audiocontext-setsinkid-domstring-or-audiosinkoptions-sinkid",
-      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audiocontext-interface/audiocontext-sinkid-setsinkid.https.html",
-      "line_number": 27
     }
   ],
   "validating-sink-identifier": [
@@ -37,18 +39,11 @@
       "line_number": 95
     }
   ],
-  "panning-algorithm": [
+  "AudioContext-constructors": [
     {
-      "url": "http://webaudio.github.io/web-audio-api/#panning-algorithm",
-      "filepath": "testing/web-platform/tests/webaudio/resources/stereopanner-testing.js",
-      "line_number": 20
-    }
-  ],
-  "computation-of-value": [
-    {
-      "url": "https://webaudio.github.io/web-audio-api/#computation-of-value",
-      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioparam-interface/nan-param.html",
-      "line_number": 16
+      "url": "https://webaudio.github.io/web-audio-api/#AudioContext-constructors",
+      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audiocontext-interface/audiocontext-sinkid-constructor.https.html",
+      "line_number": 41
     }
   ],
   "MediaElementAudioSourceNode": [
@@ -70,11 +65,11 @@
       "line_number": 7
     }
   ],
-  "AudioContext-constructors": [
+  "channel-up-mixing-and-down-mixing": [
     {
-      "url": "https://webaudio.github.io/web-audio-api/#AudioContext-constructors",
-      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audiocontext-interface/audiocontext-sinkid-constructor.https.html",
-      "line_number": 41
+      "url": "http://webaudio.github.io/web-audio-api/#channel-up-mixing-and-down-mixing",
+      "filepath": "testing/web-platform/tests/webaudio/resources/mixing-rules.js",
+      "line_number": 2
     }
   ],
   "dom-audioworkletnode-onprocessorerror": [
@@ -84,18 +79,30 @@
       "line_number": 577
     }
   ],
-  "rendering-loop": [
+  "computation-of-value": [
     {
-      "url": "https://webaudio.github.io/web-audio-api/#rendering-loop",
-      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioworklet-interface/audioworkletprocessor-no-process-function.https.html",
-      "line_number": 12
+      "url": "https://webaudio.github.io/web-audio-api/#computation-of-value",
+      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioparam-interface/nan-param.html",
+      "line_number": 16
     }
   ],
-  "pending-processor-construction-data-transferred-port": [
+  "AudioWorkletProcessor-instantiation": [
     {
-      "url": "https://webaudio.github.io/web-audio-api/#pending-processor-construction-data-transferred-port",
-      "filepath": "dom/media/webaudio/AudioWorkletGlobalScope.h",
-      "line_number": 79
+      "url": "https://webaudio.github.io/web-audio-api/#AudioWorkletProcessor-instantiation",
+      "filepath": "dom/media/webaudio/AudioWorkletGlobalScope.cpp",
+      "line_number": 287
+    },
+    {
+      "url": "https://webaudio.github.io/web-audio-api/#AudioWorkletProcessor-instantiation",
+      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioworklet-interface/processor-construction-port.https.html",
+      "line_number": 6
+    }
+  ],
+  "dom-audiocontext-setsinkid-domstring-or-audiosinkoptions-sinkid": [
+    {
+      "url": "https://webaudio.github.io/web-audio-api/#dom-audiocontext-setsinkid-domstring-or-audiosinkoptions-sinkid",
+      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audiocontext-interface/audiocontext-sinkid-setsinkid.https.html",
+      "line_number": 27
     }
   ],
   "dom-audiocontext-audiocontext": [
@@ -105,11 +112,11 @@
       "line_number": 3
     }
   ],
-  "channel-up-mixing-and-down-mixing": [
+  "rendering-loop": [
     {
-      "url": "http://webaudio.github.io/web-audio-api/#channel-up-mixing-and-down-mixing",
-      "filepath": "testing/web-platform/tests/webaudio/resources/mixing-rules.js",
-      "line_number": 2
+      "url": "https://webaudio.github.io/web-audio-api/#rendering-loop",
+      "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-audioworklet-interface/audioworkletprocessor-no-process-function.https.html",
+      "line_number": 12
     }
   ],
   "dom-pannernode-setposition": [
@@ -117,13 +124,6 @@
       "url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-setposition",
       "filepath": "testing/web-platform/tests/webaudio/the-audio-api/the-pannernode-interface/pannernode-setposition-throws.html",
       "line_number": 7
-    }
-  ],
-  "dfn-computednumberofchannels": [
-    {
-      "url": "http://webaudio.github.io/web-audio-api/#dfn-computednumberofchannels",
-      "filepath": "testing/web-platform/tests/webaudio/resources/mixing-rules.js",
-      "line_number": 52
     }
   ]
 }

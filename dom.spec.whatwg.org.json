@@ -1,515 +1,14 @@
 {
-  "dom-document-createelement": [
+  "dom-element-hasattribute": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
-      "filepath": "testing/web-platform/tests/custom-elements/Document-createElement.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "url": "https://dom.spec.whatwg.org/#dom-element-hasattribute",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-hasAttribute.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
+      "url": "https://dom.spec.whatwg.org/#dom-element-hasattribute",
       "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 4
-    }
-  ],
-  "signaling-slot-change": [
-    {
-      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
-      "filepath": "testing/web-platform/tests/shadow-dom/imperative-slot-api-slotchange.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
-      "filepath": "testing/web-platform/tests/shadow-dom/slotchange-customelements.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
-      "filepath": "testing/web-platform/tests/shadow-dom/slotchange-event.html",
-      "line_number": 7
-    }
-  ],
-  "concept-node-insert": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-insert",
-      "filepath": "dom/base/Element.cpp",
-      "line_number": 2234
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-insert",
-      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
-      "line_number": 17
-    }
-  ],
-  "dom-document-getelementsbyclassname": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
-      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-32.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
-      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-empty-set.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
-      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-whitespace-class-names.html",
-      "line_number": 5
-    }
-  ],
-  "dom-text": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-text",
-      "filepath": "testing/web-platform/tests/dom/nodes/Text-constructor.html",
-      "line_number": 4
-    }
-  ],
-  "dom-nonelementparentnode-getelementbyid": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
-      "filepath": "testing/web-platform/tests/shadow-dom/getElementById-dynamic-001.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
-      "filepath": "testing/web-platform/tests/shadow-dom/getElementById-dynamic-002.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentFragment-getElementById.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementById.html",
-      "line_number": 79
-    }
-  ],
-  "in-a-document-tree": [
-    {
-      "url": "https://dom.spec.whatwg.org/#in-a-document-tree",
-      "filepath": "dom/base/BindContext.h",
-      "line_number": 35
-    }
-  ],
-  "dom-event-eventphase": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-eventphase",
-      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-event-target.window.js",
-      "line_number": 2
-    }
-  ],
-  "dom-document-importnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
-      "filepath": "testing/web-platform/tests/custom-elements/upgrading/Document-importNode-customized-builtins.html",
-      "line_number": 2
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
-      "filepath": "testing/web-platform/tests/custom-elements/upgrading/Document-importNode.html",
-      "line_number": 2
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
-      "filepath": "testing/web-platform/tests/shadow-dom/Document-prototype-importNode.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-importNode.html",
-      "line_number": 4
-    }
-  ],
-  "concept-shadow-including-inclusive-descendant": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-inclusive-descendant",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 478
-    }
-  ],
-  "dom-characterdata-substringdata": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-substringdata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-substringdata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-substringData.html",
-      "line_number": 4
-    }
-  ],
-  "constructing-events": [
-    {
-      "url": "http://dom.spec.whatwg.org/#constructing-events",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/w3c_event.js",
-      "line_number": 72
-    }
-  ],
-  "concept-shadow-including-inclusive-ancestor": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-inclusive-ancestor",
-      "filepath": "testing/web-platform/tests/shadow-dom/offsetParent-across-shadow-boundaries.html",
-      "line_number": 7
-    }
-  ],
-  "dom-node-isconnected": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-isconnected",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-isConnected.html",
-      "line_number": 5
-    }
-  ],
-  "dom-domimplementation-createdocumenttype": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocumenttype",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
-      "line_number": 4
-    }
-  ],
-  "dom-element-prefix": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-prefix",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
-      "line_number": 7
-    }
-  ],
-  "interface-eventtarget": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-eventtarget",
-      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/idl/javascript.spec.js",
-      "line_number": 720
-    }
-  ],
-  "dom-parentnode-queryselector": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
-      "filepath": "servo/components/style/dom_apis.rs",
-      "line_number": 740
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
-      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
-      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-querySelector-escapes.html",
-      "line_number": 4
-    }
-  ],
-  "shadowroot-declarative": [
-    {
-      "url": "https://dom.spec.whatwg.org/#shadowroot-declarative",
-      "filepath": "dom/base/ShadowRoot.h",
-      "line_number": 311
-    }
-  ],
-  "interface-domtokenlist": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-domtokenlist",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
-      "line_number": 2323
-    }
-  ],
-  "dom-node-isequalnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-isequalnode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-isEqualNode.html",
-      "line_number": 4
-    }
-  ],
-  "dom-comment": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-comment",
-      "filepath": "testing/web-platform/tests/dom/nodes/Comment-constructor.html",
-      "line_number": 4
-    }
-  ],
-  "dom-characterdata-length": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-length",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 9
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-length",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 9
-    }
-  ],
-  "abortsignal-abort-algorithms": [
-    {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-abort-algorithms",
-      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
-      "line_number": 705
-    }
-  ],
-  "dom-parentnode-children": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-children",
-      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-children.html",
-      "line_number": 4
-    }
-  ],
-  "dom-slotable-assignedslot": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-slotable-assignedslot",
-      "filepath": "dom/base/FragmentOrElement.cpp",
-      "line_number": 162
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-slotable-assignedslot",
-      "filepath": "dom/base/nsIContent.h",
-      "line_number": 338
-    }
-  ],
-  "dom-document-getelementsbytagname": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/html/syntax/parsing/Document.getElementsByTagName-foreign-02.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/html/syntax/parsing/Document.getElementsByTagName-foreign-01.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementsByTagName.html",
-      "line_number": 4
-    }
-  ],
-  "dom-event-type": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-type",
-      "filepath": "testing/web-platform/tests/dom/events/Event-type.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-type",
-      "filepath": "testing/web-platform/tests/dom/events/Event-type-empty.html",
-      "line_number": 4
-    }
-  ],
-  "dom-node-comparedocumentposition": [
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
-      "filepath": "node_modules/domutils/lib/helpers.js",
-      "line_number": 42
-    },
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
-      "filepath": "node_modules/domutils/lib/helpers.js",
-      "line_number": 75
-    },
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
-      "filepath": "node_modules/domutils/lib/esm/helpers.js",
-      "line_number": 38
-    },
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
-      "filepath": "node_modules/domutils/lib/esm/helpers.js",
-      "line_number": 71
-    }
-  ],
-  "callbackdef-eventlistener": [
-    {
-      "url": "https://dom.spec.whatwg.org/#callbackdef-eventlistener",
-      "filepath": "testing/web-platform/tests/css/cssom-view/MediaQueryList-addListener-handleEvent.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#callbackdef-eventlistener",
-      "filepath": "testing/web-platform/tests/dom/events/EventListener-handleEvent.html",
-      "line_number": 6
-    }
-  ],
-  "dom-domtokenlist-stringifier": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domtokenlist-stringifier",
-      "filepath": "testing/web-platform/tests/dom/lists/DOMTokenList-stringifier.html",
-      "line_number": 4
-    }
-  ],
-  "ref-for-get-the-parent%E2%91%A6": [
-    {
-      "url": "https://dom.spec.whatwg.org/#ref-for-get-the-parent%E2%91%A6",
-      "filepath": "dom/base/ShadowRoot.cpp",
-      "line_number": 594
-    }
-  ],
-  "concept-node-replace": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-replace",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2390
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-replace",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2626
-    }
-  ],
-  "dom-event-defaultprevented": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-defaultprevented",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
-      "line_number": 7
-    }
-  ],
-  "dom-node-clonenode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/shadow-dom/Node-prototype-cloneNode.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-010.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-XMLDocument.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-svg.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-document-with-doctype.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode.html",
-      "line_number": 4
-    }
-  ],
-  "ref-for-window-current-event%E2%91%A1": [
-    {
-      "url": "https://dom.spec.whatwg.org/#ref-for-window-current-event%E2%91%A1",
-      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-coercing-beforeunload-result.html",
-      "line_number": 4
-    }
-  ],
-  "dom-childnode-after": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-after",
-      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-after.html",
-      "line_number": 4
-    }
-  ],
-  "dom-node-nodevalue": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-nodeValue.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 7
-    }
-  ],
-  "set-the-canceled-flag": [
-    {
-      "url": "https://dom.spec.whatwg.org/#set-the-canceled-flag",
-      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2630
-    }
-  ],
-  "dom-element-setattribute": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
-      "filepath": "testing/web-platform/tests/trusted-types/trusted-types-event-handlers.html",
       "line_number": 10
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-setAttribute.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 8
-    }
-  ],
-  "interface-attr": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-attr",
-      "filepath": "servo/components/style/attr.rs",
-      "line_number": 7
-    }
-  ],
-  "dictdef-eventinit": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dictdef-eventinit",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 201
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dictdef-eventinit",
-      "filepath": "testing/web-platform/tests/dom/events/non-cancelable-when-passive/synthetic-events-cancelable.html",
-      "line_number": 3
-    }
-  ],
-  "default-passive-value": [
-    {
-      "url": "https://dom.spec.whatwg.org/#default-passive-value",
-      "filepath": "testing/web-platform/tests/dom/events/passive-by-default.html",
-      "line_number": 3
-    }
-  ],
-  "run-the-abort-steps": [
-    {
-      "url": "https://dom.spec.whatwg.org/#run-the-abort-steps",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 68
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#run-the-abort-steps",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 439
     }
   ],
   "concept-event-fire": [
@@ -524,106 +23,6 @@
       "line_number": 5
     }
   ],
-  "concept-node-remove-ext": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-remove-ext",
-      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
-      "line_number": 79
-    }
-  ],
-  "event": [
-    {
-      "url": "https://dom.spec.whatwg.org/#event",
-      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor-inherited.html",
-      "line_number": 4
-    }
-  ],
-  "interface-htmlcollection": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-htmlcollection",
-      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-iterator.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-htmlcollection",
-      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-supported-property-names.html",
-      "line_number": 3
-    }
-  ],
-  "ref-for-dom-event-timestamp%E2%91%A1": [
-    {
-      "url": "https://dom.spec.whatwg.org/#ref-for-dom-event-timestamp%E2%91%A1",
-      "filepath": "testing/web-platform/tests/dom/events/Event-timestamp-cross-realm-getter.html",
-      "line_number": 4
-    }
-  ],
-  "dom-domimplementation-createdocument": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument-with-null-browsing-context-crash.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
-      "line_number": 4
-    }
-  ],
-  "dom-node-appendchild": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 2340
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendChild.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-appendChild.html",
-      "line_number": 4
-    }
-  ],
-  "dom-domtokenlist-value": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domtokenlist-value",
-      "filepath": "testing/web-platform/tests/dom/lists/DOMTokenList-value.html",
-      "line_number": 4
-    }
-  ],
-  "dom-document-adoptnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-adoptnode",
-      "filepath": "testing/web-platform/tests/shadow-dom/Document-prototype-adoptNode.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-adoptnode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-adoptNode.html",
-      "line_number": 4
-    }
-  ],
-  "dom-eventtarget-removeeventlistener": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-removeeventlistener",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 28809
-    }
-  ],
-  "dom-parentnode-replacechildren": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2302
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren",
-      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-replaceChildren.html",
-      "line_number": 4
-    }
-  ],
   "mutation-algorithms": [
     {
       "url": "https://dom.spec.whatwg.org/#mutation-algorithms",
@@ -631,569 +30,10 @@
       "line_number": 5
     }
   ],
-  "concept-node-clone": [
+  "dom-text-splittextoffset": [
     {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-XMLDocument.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-svg.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-document-with-doctype.html",
-      "line_number": 5
-    }
-  ],
-  "converting-nodes-into-a-node": [
-    {
-      "url": "https://dom.spec.whatwg.org/#converting-nodes-into-a-node",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2053
-    }
-  ],
-  "concept-node-ensure-pre-insertion-validity": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2389
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2614
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
-      "filepath": "dom/base/nsINode.cpp",
-      "line_number": 2625
-    }
-  ],
-  "dom-element-namespaceuri": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-namespaceuri",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
-      "line_number": 8
-    }
-  ],
-  "dom-characterdata-appenddata": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-appenddata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendData.html",
-      "line_number": 4
-    }
-  ],
-  "dom-element-matches": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
-      "filepath": "servo/components/style/dom_apis.rs",
-      "line_number": 27
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
-      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/w3c_selectors.js",
-      "line_number": 54
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
-      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
-      "filepath": "testing/web-platform/tests/css/css-scoping/slotted-matches.html",
-      "line_number": 7
-    }
-  ],
-  "dom-node-ownerdocument": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 782
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
-      "line_number": 7
-    }
-  ],
-  "dom-event-initevent": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 265
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-true.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-false.html",
-      "line_number": 4
-    }
-  ],
-  "dom-documentfragment-documentfragment": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documentfragment-documentfragment",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentFragment-constructor.html",
-      "line_number": 4
-    }
-  ],
-  "dom-abortsignal-throwifaborted": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-throwifaborted",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 384
-    }
-  ],
-  "retarget": [
-    {
-      "url": "https://dom.spec.whatwg.org/#retarget",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 469
-    }
-  ],
-  "eventtarget-legacy-pre-activation-behavior": [
-    {
-      "url": "https://dom.spec.whatwg.org/#eventtarget-legacy-pre-activation-behavior",
-      "filepath": "dom/events/EventTarget.h",
-      "line_number": 272
-    }
-  ],
-  "attr": [
-    {
-      "url": "https://dom.spec.whatwg.org/#attr",
-      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
-      "line_number": 4
-    }
-  ],
-  "dom-element-tagname": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-tagname",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
-      "line_number": 6
-    }
-  ],
-  "dom-parentnode-append": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-append",
-      "filepath": "testing/web-platform/tests/dom/nodes/append-on-Document.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-append",
-      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-append.html",
-      "line_number": 4
-    }
-  ],
-  "dom-eventlisteneroptions-capture": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-eventlisteneroptions-capture",
-      "filepath": "testing/web-platform/tests/dom/events/EventListenerOptions-capture.html",
-      "line_number": 5
-    }
-  ],
-  "dom-event-composedpath": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-composedpath",
-      "filepath": "dom/events/EventDispatcher.cpp",
-      "line_number": 1617
-    }
-  ],
-  "shadowroot-clonable": [
-    {
-      "url": "https://dom.spec.whatwg.org/#shadowroot-clonable",
-      "filepath": "dom/base/ShadowRoot.h",
-      "line_number": 314
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#shadowroot-clonable",
-      "filepath": "testing/web-platform/tests/shadow-dom/shadow-root-clonable.html",
-      "line_number": 5
-    }
-  ],
-  "dom-document": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-constructor.html",
-      "line_number": 6
-    }
-  ],
-  "dom-node-firstchild": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-firstchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 13
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-firstchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 13
-    }
-  ],
-  "dom-characterdata-deletedata": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-deletedata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-deletedata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-deleteData.html",
-      "line_number": 4
-    }
-  ],
-  "dom-characterdata-replacedata": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
-      "filepath": "testing/web-platform/tests/css/cssom/stylesheet-replacedata-dynamic.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
-      "filepath": "testing/web-platform/tests/css/cssom/stylesheet-replacedata-dynamic-ref.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-replaceData.html",
-      "line_number": 4
-    }
-  ],
-  "interface-namednodemap": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-namednodemap",
-      "filepath": "testing/web-platform/tests/dom/nodes/attributes-namednodemap.html",
-      "line_number": 4
-    }
-  ],
-  "dom-document-createtextnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createtextnode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 4
-    }
-  ],
-  "shadow-trees": [
-    {
-      "url": "https://dom.spec.whatwg.org/#shadow-trees",
-      "filepath": "testing/web-platform/tests/css/selectors/focus-within-shadow-006.html",
-      "line_number": 7
-    }
-  ],
-  "concept-element-custom-element-state": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-element-custom-element-state",
-      "filepath": "dom/base/CustomElementRegistry.h",
-      "line_number": 79
-    }
-  ],
-  "dom-event-cancelbubble": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-cancelbubble",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 7
-    }
-  ],
-  "dom-parentnode-prepend": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-prepend",
-      "filepath": "testing/web-platform/tests/dom/nodes/prepend-on-Document.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-parentnode-prepend",
-      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-prepend.html",
-      "line_number": 4
-    }
-  ],
-  "signal-slot-list": [
-    {
-      "url": "https://dom.spec.whatwg.org/#signal-slot-list",
-      "filepath": "dom/html/HTMLSlotElement.h",
-      "line_number": 84
-    }
-  ],
-  "notify-mutation-observers": [
-    {
-      "url": "https://dom.spec.whatwg.org/#notify-mutation-observers",
-      "filepath": "testing/web-platform/tests/dom/nodes/MutationObserver-callback-arguments.html",
-      "line_number": 4
-    }
-  ],
-  "concept-event-constructor": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-constructor",
-      "filepath": "testing/web-platform/tests/xhr/progressevent-constructor.html",
-      "line_number": 4
-    }
-  ],
-  "find-flattened-slotables": [
-    {
-      "url": "https://dom.spec.whatwg.org/#find-flattened-slotables",
-      "filepath": "dom/html/HTMLSlotElement.cpp",
-      "line_number": 107
-    }
-  ],
-  "dom-element-attributes": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-attributes",
-      "filepath": "testing/web-platform/tests/dom/nodes/attributes-namednodemap.html",
-      "line_number": 5
-    }
-  ],
-  "dom-eventtarget-dispatchevent": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-dispatchevent",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent.html",
-      "line_number": 6
-    }
-  ],
-  "dom-text-wholetext": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-text-wholetext",
-      "filepath": "testing/web-platform/tests/dom/nodes/Text-wholeText.html",
-      "line_number": 4
-    }
-  ],
-  "concept-range-extract": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-range-extract",
-      "filepath": "testing/web-platform/tests/custom-elements/range-and-constructors.html",
-      "line_number": 8
-    }
-  ],
-  "interface-event": [
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-event",
-      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
-      "line_number": 191
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-event",
-      "filepath": "testing/web-platform/tests/xhr/progressevent-constructor.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#interface-event",
-      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
-      "line_number": 2657
-    }
-  ],
-  "concept-event-initialize": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-initialize",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 26
-    }
-  ],
-  "childnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#childnode",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/ChildNode.html",
-      "line_number": 7
-    }
-  ],
-  "dom-document-createcomment": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createcomment",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 4
-    }
-  ],
-  "dom-document-createevent": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createevent",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createEvent.https.html",
-      "line_number": 4
-    }
-  ],
-  "dom-element-localname": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-localname",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
-      "line_number": 5
-    }
-  ],
-  "concept-range-clone": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-range-clone",
-      "filepath": "testing/web-platform/tests/custom-elements/range-and-constructors.html",
-      "line_number": 9
-    }
-  ],
-  "dom-processinginstruction-target": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
-      "filepath": "testing/web-platform/tests/dom/nodes/ProcessingInstruction-escapes-1.xhtml",
-      "line_number": 8
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
-      "filepath": "testing/web-platform/tests/dom/nodes/ProcessingInstruction-literal-2.xhtml",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
-      "line_number": 5
-    }
-  ],
-  "dom-document-createcdatasection": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createcdatasection",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createCDATASection-xhtml.xhtml",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createcdatasection",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createCDATASection.html",
-      "line_number": 4
-    }
-  ],
-  "dom-element-hasattributens": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-hasattributens",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 11
-    }
-  ],
-  "dom-element-closest": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-closest",
-      "filepath": "servo/components/style/dom_apis.rs",
-      "line_number": 51
-    }
-  ],
-  "dom-element-removeattribute": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-removeattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-removeAttribute.html",
-      "line_number": 4
-    }
-  ],
-  "dom-childnode-before": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-before",
-      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-before.html",
-      "line_number": 4
-    }
-  ],
-  "dom-characterdata-insertdata": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-insertdata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-characterdata-insertdata",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-insertData.html",
-      "line_number": 4
-    }
-  ],
-  "slotable": [
-    {
-      "url": "https://dom.spec.whatwg.org/#slotable",
-      "filepath": "testing/web-platform/tests/shadow-dom/Slottable-mixin.html",
-      "line_number": 7
-    }
-  ],
-  "dom-node-nodetype": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 10
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 10
-    }
-  ],
-  "concept-event-listener-invoke": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-end-event.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-start-event.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/resources/prefixed-animation-event-tests.js",
-      "line_number": 70
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/resources/prefixed-animation-event-tests.js",
-      "line_number": 125
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-this-of-listener.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/webkit-transition-end-event.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-iteration-event.html",
+      "url": "https://dom.spec.whatwg.org/#dom-text-splittextoffset",
+      "filepath": "testing/web-platform/tests/dom/nodes/Text-splitText.html",
       "line_number": 4
     }
   ],
@@ -1204,10 +44,44 @@
       "line_number": 301
     }
   ],
-  "add-an-event-listener": [
+  "interface-domtokenlist": [
     {
-      "url": "https://dom.spec.whatwg.org/#add-an-event-listener",
-      "filepath": "testing/web-platform/tests/dom/events/handler-count.html",
+      "url": "https://dom.spec.whatwg.org/#interface-domtokenlist",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/html5.js",
+      "line_number": 2323
+    }
+  ],
+  "element": [
+    {
+      "url": "https://dom.spec.whatwg.org/#element",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/Element.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#element",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-string-attributes.tentative.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#element",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-element-attributes.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#element",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-string-attributes.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#element",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/Animation.html",
+      "line_number": 7
+    }
+  ],
+  "dom-node-getrootnode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-getrootnode",
+      "filepath": "testing/web-platform/tests/dom/nodes/rootNode.html",
       "line_number": 6
     }
   ],
@@ -1223,147 +97,54 @@
       "line_number": 11
     }
   ],
-  "dom-document-getelementbyid": [
+  "dom-parentnode-append": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementbyid",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementById.html",
-      "line_number": 5
-    }
-  ],
-  "concept-node-replace-all": [
-    {
-      "url": "https://dom.spec.whatwg.org/commit-snapshots/6b3f055f3891a63423bf235d46f38ffdb298c2e7/#concept-node-replace-all",
-      "filepath": "dom/base/test/test_bug1799354.html",
-      "line_number": 27
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-replace-all",
-      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
-      "line_number": 72
-    }
-  ],
-  "dom-abortsignal-timeout": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-timeout",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 203
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-timeout",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 270
-    }
-  ],
-  "staticrange-valid": [
-    {
-      "url": "https://dom.spec.whatwg.org/#staticrange-valid",
-      "filepath": "dom/base/StaticRange.h",
-      "line_number": 70
-    }
-  ],
-  "dom-childnode-remove": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-select-element/select-remove.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-remove.html",
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-append",
+      "filepath": "testing/web-platform/tests/dom/nodes/append-on-Document.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-remove.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-remove.html",
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-append",
+      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-append.html",
       "line_number": 4
     }
   ],
-  "dom-event-stopimmediatepropagation": [
+  "dom-parentnode-replacechildren": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-event-stopimmediatepropagation",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 57
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2317
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-event-stopimmediatepropagation",
-      "filepath": "testing/web-platform/tests/dom/events/Event-stopImmediatePropagation.html",
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren",
+      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-replaceChildren.html",
       "line_number": 4
     }
   ],
-  "dom-node-issamenode": [
+  "dom-document-createtextnode": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-node-issamenode",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-isSameNode.html",
+      "url": "https://dom.spec.whatwg.org/#dom-document-createtextnode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
       "line_number": 4
     }
   ],
-  "dom-document-createelementns": [
+  "dom-characterdata-length": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
-      "line_number": 5
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-length",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 9
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 5
-    },
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-length",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 9
+    }
+  ],
+  "dom-parentnode-children": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElementNS.html",
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-children",
+      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-children.html",
       "line_number": 4
-    }
-  ],
-  "dom-node-getrootnode": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-getrootnode",
-      "filepath": "testing/web-platform/tests/dom/nodes/rootNode.html",
-      "line_number": 6
-    }
-  ],
-  "dom-document-doctype": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-doctype",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-doctype.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-doctype",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
-      "line_number": 8
-    }
-  ],
-  "concept-shadow-including-ancestor": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-ancestor",
-      "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 505
-    }
-  ],
-  "abortsignal-follow": [
-    {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-follow",
-      "filepath": "dom/abort/AbortSignal.h",
-      "line_number": 20
-    }
-  ],
-  "event-path-item-in-shadow-tree": [
-    {
-      "url": "https://dom.spec.whatwg.org/#event-path-item-in-shadow-tree",
-      "filepath": "dom/events/EventDispatcher.h",
-      "line_number": 236
-    }
-  ],
-  "dom-event-preventdefault": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-preventdefault",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
-      "line_number": 5
     }
   ],
   "eventtarget-activation-behavior": [
@@ -1388,29 +169,485 @@
       "line_number": 4
     }
   ],
-  "abortsignal-add": [
+  "dom-characterdata-deletedata": [
     {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-add",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 464
-    }
-  ],
-  "internal-createelementns-steps": [
-    {
-      "url": "https://dom.spec.whatwg.org/#internal-createelementns-steps",
-      "filepath": "testing/web-platform/tests/custom-elements/Document-createElementNS-customized-builtins.html",
-      "line_number": 4
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-deletedata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
+      "line_number": 7
     },
     {
-      "url": "https://dom.spec.whatwg.org/#internal-createelementns-steps",
-      "filepath": "testing/web-platform/tests/custom-elements/Document-createElementNS.html",
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-deletedata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-deleteData.html",
       "line_number": 4
+    }
+  ],
+  "concept-range-extract": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-range-extract",
+      "filepath": "testing/web-platform/tests/custom-elements/range-and-constructors.html",
+      "line_number": 8
+    }
+  ],
+  "assign-a-slot": [
+    {
+      "url": "https://dom.spec.whatwg.org/#assign-a-slot",
+      "filepath": "dom/base/FragmentOrElement.cpp",
+      "line_number": 167
     }
   ],
   "dom-document-implementation": [
     {
       "url": "https://dom.spec.whatwg.org/#dom-document-implementation",
       "filepath": "testing/web-platform/tests/dom/nodes/Document-implementation.html",
+      "line_number": 4
+    }
+  ],
+  "dom-childnode-remove": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-select-element/select-remove.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-remove.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-remove.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-remove",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-remove.html",
+      "line_number": 4
+    }
+  ],
+  "dom-event-cancelbubble": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-cancelbubble",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 7
+    }
+  ],
+  "dom-eventtarget-addeventlistener": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-omitted-capture.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 28776
+    }
+  ],
+  "dom-event-type": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-type",
+      "filepath": "testing/web-platform/tests/dom/events/Event-type.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-type",
+      "filepath": "testing/web-platform/tests/dom/events/Event-type-empty.html",
+      "line_number": 4
+    }
+  ],
+  "concept-event-constructor": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-constructor",
+      "filepath": "testing/web-platform/tests/xhr/progressevent-constructor.html",
+      "line_number": 4
+    }
+  ],
+  "dom-document-doctype": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-doctype",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-doctype.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-doctype",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
+      "line_number": 8
+    }
+  ],
+  "abortsignal-follow": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-follow",
+      "filepath": "dom/abort/AbortSignal.h",
+      "line_number": 20
+    }
+  ],
+  "dom-domtokenlist-value": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domtokenlist-value",
+      "filepath": "testing/web-platform/tests/dom/lists/DOMTokenList-value.html",
+      "line_number": 4
+    }
+  ],
+  "ref-for-window-current-event%E2%91%A1": [
+    {
+      "url": "https://dom.spec.whatwg.org/#ref-for-window-current-event%E2%91%A1",
+      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-coercing-beforeunload-result.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-localname": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-localname",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "line_number": 5
+    }
+  ],
+  "concept-node-adopt": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-adopt",
+      "filepath": "testing/web-platform/tests/dom/nodes/remove-from-shadow-host-and-adopt-into-iframe.html",
+      "line_number": 5
+    }
+  ],
+  "shadow-trees": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadow-trees",
+      "filepath": "testing/web-platform/tests/css/selectors/focus-within-shadow-006.html",
+      "line_number": 7
+    }
+  ],
+  "dom-element-tagname": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-tagname",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "line_number": 6
+    }
+  ],
+  "dom-documenttype-publicid": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal-xhtml.xhtml",
+      "line_number": 6
+    }
+  ],
+  "dom-document-createcomment": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createcomment",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 4
+    }
+  ],
+  "dom-node-nodevalue": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-nodeValue.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodevalue",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 7
+    }
+  ],
+  "dom-text": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-text",
+      "filepath": "testing/web-platform/tests/dom/nodes/Text-constructor.html",
+      "line_number": 4
+    }
+  ],
+  "dom-document-getelementbyid": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementbyid",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementById.html",
+      "line_number": 5
+    }
+  ],
+  "dom-event-defaultprevented": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-defaultprevented",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
+      "line_number": 7
+    }
+  ],
+  "dom-document-createcdatasection": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createcdatasection",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createCDATASection-xhtml.xhtml",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createcdatasection",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createCDATASection.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-attachshadow": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-attachshadow",
+      "filepath": "dom/base/Element.cpp",
+      "line_number": 1304
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-attachshadow",
+      "filepath": "testing/web-platform/tests/shadow-dom/Element-interface-attachShadow-custom-element.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-getelementsbytagname": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/html/syntax/parsing/Element.getElementsByTagName-foreign-02.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/html/syntax/parsing/Element.getElementsByTagName-foreign-01.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-getElementsByTagName.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 12
+    }
+  ],
+  "dom-node-comparedocumentposition": [
+    {
+      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
+      "filepath": "node_modules/domutils/lib/helpers.js",
+      "line_number": 42
+    },
+    {
+      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
+      "filepath": "node_modules/domutils/lib/helpers.js",
+      "line_number": 75
+    },
+    {
+      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
+      "filepath": "node_modules/domutils/lib/esm/helpers.js",
+      "line_number": 38
+    },
+    {
+      "url": "http://dom.spec.whatwg.org/#dom-node-comparedocumentposition",
+      "filepath": "node_modules/domutils/lib/esm/helpers.js",
+      "line_number": 71
+    }
+  ],
+  "eventtarget-legacy-pre-activation-behavior": [
+    {
+      "url": "https://dom.spec.whatwg.org/#eventtarget-legacy-pre-activation-behavior",
+      "filepath": "dom/events/EventTarget.h",
+      "line_number": 272
+    }
+  ],
+  "dom-document-importnode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
+      "filepath": "testing/web-platform/tests/custom-elements/upgrading/Document-importNode-customized-builtins.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
+      "filepath": "testing/web-platform/tests/custom-elements/upgrading/Document-importNode.html",
+      "line_number": 2
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
+      "filepath": "testing/web-platform/tests/shadow-dom/Document-prototype-importNode.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-importnode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-importNode.html",
+      "line_number": 4
+    }
+  ],
+  "dom-domtokenlist-stringifier": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domtokenlist-stringifier",
+      "filepath": "testing/web-platform/tests/dom/lists/DOMTokenList-stringifier.html",
+      "line_number": 4
+    }
+  ],
+  "dispatching-events": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dispatching-events",
+      "filepath": "dom/events/EventDispatcher.cpp",
+      "line_number": 544
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dispatching-events",
+      "filepath": "dom/events/EventDispatcher.cpp",
+      "line_number": 627
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dispatching-events",
+      "filepath": "testing/web-platform/tests/dom/events/preventDefault-during-activation-behavior.html",
+      "line_number": 5
+    }
+  ],
+  "dom-document-getelementsbyclassname": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
+      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-32.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
+      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-empty-set.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname",
+      "filepath": "testing/web-platform/tests/dom/nodes/getElementsByClassName-whitespace-class-names.html",
+      "line_number": 5
+    }
+  ],
+  "dom-eventtarget-removeeventlistener": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-removeeventlistener",
+      "filepath": "testing/modules/sinon-7.2.7.js",
+      "line_number": 28809
+    }
+  ],
+  "dom-text-wholetext": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-text-wholetext",
+      "filepath": "testing/web-platform/tests/dom/nodes/Text-wholeText.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-removeattribute": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-removeattribute",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-removeAttribute.html",
+      "line_number": 4
+    }
+  ],
+  "dom-node-appendchild": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 2343
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendChild.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-appendchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-appendChild.html",
+      "line_number": 4
+    }
+  ],
+  "dom-event-preventdefault": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-preventdefault",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
+      "line_number": 5
+    }
+  ],
+  "attr": [
+    {
+      "url": "https://dom.spec.whatwg.org/#attr",
+      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
+      "line_number": 4
+    }
+  ],
+  "dom-event-stopimmediatepropagation": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-stopimmediatepropagation",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 57
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-stopimmediatepropagation",
+      "filepath": "testing/web-platform/tests/dom/events/Event-stopImmediatePropagation.html",
+      "line_number": 4
+    }
+  ],
+  "shadowroot-available-to-element-internals": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadowroot-available-to-element-internals",
+      "filepath": "dom/base/ShadowRoot.h",
+      "line_number": 312
+    }
+  ],
+  "dom-document-getelementsbytagnamens": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagnamens",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementsByTagNameNS.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagnamens",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 7
+    }
+  ],
+  "set-the-canceled-flag": [
+    {
+      "url": "https://dom.spec.whatwg.org/#set-the-canceled-flag",
+      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
+      "line_number": 2630
+    }
+  ],
+  "abortsignal-signal-abort:~:text=Fire%20an%20event%20named%20abort%20at%20signal": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort:~:text=Fire%20an%20event%20named%20abort%20at%20signal",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
+      "line_number": 707
+    }
+  ],
+  "shadowroot-serializable": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadowroot-serializable",
+      "filepath": "dom/base/ShadowRoot.h",
+      "line_number": 321
+    }
+  ],
+  "dom-event-returnvalue": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-returnvalue",
+      "filepath": "testing/web-platform/tests/dom/events/Event-returnValue.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-returnvalue",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
+      "line_number": 6
+    }
+  ],
+  "notify-mutation-observers": [
+    {
+      "url": "https://dom.spec.whatwg.org/#notify-mutation-observers",
+      "filepath": "testing/web-platform/tests/dom/nodes/MutationObserver-callback-arguments.html",
       "line_number": 4
     }
   ],
@@ -1436,66 +673,47 @@
       "line_number": 7
     }
   ],
-  "document": [
+  "signal-slot-list": [
     {
-      "url": "https://dom.spec.whatwg.org/#document",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/Document.html",
-      "line_number": 7
+      "url": "https://dom.spec.whatwg.org/#signal-slot-list",
+      "filepath": "dom/html/HTMLSlotElement.h",
+      "line_number": 84
     }
   ],
-  "dom-element-shadowroot": [
+  "ref-for-dom-event-timestamp%E2%91%A1": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-shadowroot",
-      "filepath": "dom/base/Element.cpp",
-      "line_number": 1224
+      "url": "https://dom.spec.whatwg.org/#ref-for-dom-event-timestamp%E2%91%A1",
+      "filepath": "testing/web-platform/tests/dom/events/Event-timestamp-cross-realm-getter.html",
+      "line_number": 4
     }
   ],
-  "abortsignal-signal-abort": [
+  "concept-event-listener-inner-invoke": [
     {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 45
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
+      "filepath": "testing/web-platform/tests/html/webappapis/scripting/processing-model-2/window-onerror-with-cross-frame-event-listeners-5.html",
+      "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 395
-    }
-  ],
-  "interface-document": [
-    {
-      "url": "http://dom.spec.whatwg.org/#interface-document",
-      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
-      "line_number": 30
-    }
-  ],
-  "": [
-    {
-      "url": "https://dom.spec.whatwg.org/",
-      "filepath": "dom/navigation/Navigation.cpp",
-      "line_number": 852
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/event-global-set-before-handleEvent-lookup.window.js",
+      "line_number": 1
     },
     {
-      "url": "https://dom.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/002.worker.js",
-      "line_number": 22
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
-      "line_number": 52
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/",
-      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
-      "line_number": 52
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-reporting-exception-onerror.html",
+      "line_number": 4
     }
   ],
-  "stop-propagation-flag": [
+  "dom-node-lastchild": [
     {
-      "url": "https://dom.spec.whatwg.org/#stop-propagation-flag",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 20
+      "url": "https://dom.spec.whatwg.org/#dom-node-lastchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 14
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-lastchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 14
     }
   ],
   "dom-node-textcontent": [
@@ -1510,16 +728,11 @@
       "line_number": 8
     }
   ],
-  "shadow-tree-slots": [
+  "dom-element-closest": [
     {
-      "url": "https://dom.spec.whatwg.org/#shadow-tree-slots",
-      "filepath": "testing/web-platform/tests/shadow-dom/layout-slot-no-longer-assigned.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#shadow-tree-slots",
-      "filepath": "testing/web-platform/tests/shadow-dom/layout-slot-no-longer-fallback.html",
-      "line_number": 4
+      "url": "https://dom.spec.whatwg.org/#dom-element-closest",
+      "filepath": "servo/components/style/dom_apis.rs",
+      "line_number": 51
     }
   ],
   "dom-htmlcollection-nameditem-key": [
@@ -1529,67 +742,61 @@
       "line_number": 567
     }
   ],
-  "concept-shadow-including-tree-order": [
+  "event-path-item-in-shadow-tree": [
     {
-      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 3365
+      "url": "https://dom.spec.whatwg.org/#event-path-item-in-shadow-tree",
+      "filepath": "dom/events/EventDispatcher.h",
+      "line_number": 236
+    }
+  ],
+  "add-an-event-listener": [
+    {
+      "url": "https://dom.spec.whatwg.org/#add-an-event-listener",
+      "filepath": "testing/web-platform/tests/dom/events/handler-count.html",
+      "line_number": 6
+    }
+  ],
+  "concept-node-clone-ext": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone-ext",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
+      "line_number": 6
     },
     {
-      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order",
-      "filepath": "dom/base/ShadowIncludingTreeIterator.h",
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone-ext",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
+      "line_number": 6
+    }
+  ],
+  "dom-node-nodetype": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-nodetype",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 10
+    }
+  ],
+  "concept-event-initialize": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-initialize",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 26
+    }
+  ],
+  "concept-range-clone": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-range-clone",
+      "filepath": "testing/web-platform/tests/custom-elements/range-and-constructors.html",
       "line_number": 9
-    }
-  ],
-  "dom-domimplementation-hasfeature": [
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_dom_15.4.1.js",
-      "line_number": 16087
-    },
-    {
-      "url": "http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
-      "line_number": 8596
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-hasFeature.html",
-      "line_number": 4
-    }
-  ],
-  "dom-documenttype-name": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal-xhtml.xhtml",
-      "line_number": 5
-    }
-  ],
-  "dom-eventtarget-addeventlistener": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-omitted-capture.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener",
-      "filepath": "testing/modules/sinon-7.2.7.js",
-      "line_number": 28776
     }
   ],
   "node": [
@@ -1674,96 +881,605 @@
       "line_number": 7
     }
   ],
-  "ref-for-abortsignal-abort-algorithms%E2%91%A2:~:text=For%20each%20algorithm%20of%20signal%E2%80%99s%20abort%20algorithms%3A%20run%20algorithm": [
+  "stop-propagation-flag": [
     {
-      "url": "https://dom.spec.whatwg.org/#ref-for-abortsignal-abort-algorithms%E2%91%A2:~:text=For%20each%20algorithm%20of%20signal%E2%80%99s%20abort%20algorithms%3A%20run%20algorithm",
-      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
-      "line_number": 706
+      "url": "https://dom.spec.whatwg.org/#stop-propagation-flag",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 20
     }
   ],
-  "concept-event-listener-inner-invoke": [
+  "dom-characterdata-insertdata": [
     {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
-      "filepath": "testing/web-platform/tests/html/webappapis/scripting/processing-model-2/window-onerror-with-cross-frame-event-listeners-5.html",
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-insertdata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-insertdata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-insertData.html",
+      "line_number": 4
+    }
+  ],
+  "dom-parentnode-queryselector": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
+      "filepath": "servo/components/style/dom_apis.rs",
+      "line_number": 740
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
+      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector",
+      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-querySelector-escapes.html",
+      "line_number": 4
+    }
+  ],
+  "concept-shadow-including-tree-order": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 3435
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order",
+      "filepath": "dom/base/ShadowIncludingTreeIterator.h",
+      "line_number": 9
+    }
+  ],
+  "dom-eventlisteneroptions-capture": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-eventlisteneroptions-capture",
+      "filepath": "testing/web-platform/tests/dom/events/EventListenerOptions-capture.html",
+      "line_number": 5
+    }
+  ],
+  "dom-domimplementation-createdocumenttype": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocumenttype",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-shadowroot": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-shadowroot",
+      "filepath": "dom/base/Element.cpp",
+      "line_number": 1224
+    }
+  ],
+  "dom-characterdata-replacedata": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
+      "filepath": "testing/web-platform/tests/css/cssom/stylesheet-replacedata-dynamic.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
+      "filepath": "testing/web-platform/tests/css/cssom/stylesheet-replacedata-dynamic-ref.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-replacedata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-replaceData.html",
+      "line_number": 4
+    }
+  ],
+  "in-a-document-tree": [
+    {
+      "url": "https://dom.spec.whatwg.org/#in-a-document-tree",
+      "filepath": "dom/base/BindContext.h",
+      "line_number": 35
+    }
+  ],
+  "dom-childnode-before": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-before",
+      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-before.html",
+      "line_number": 4
+    }
+  ],
+  "insert-adjacent": [
+    {
+      "url": "https://dom.spec.whatwg.org/#insert-adjacent",
+      "filepath": "dom/base/Element.h",
+      "line_number": 1414
+    }
+  ],
+  "concept-element-custom-element-state": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-element-custom-element-state",
+      "filepath": "dom/base/CustomElementRegistry.h",
+      "line_number": 79
+    }
+  ],
+  "staticrange-valid": [
+    {
+      "url": "https://dom.spec.whatwg.org/#staticrange-valid",
+      "filepath": "dom/base/StaticRange.h",
+      "line_number": 70
+    }
+  ],
+  "concept-shadow-including-inclusive-ancestor": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-inclusive-ancestor",
+      "filepath": "testing/web-platform/tests/shadow-dom/offsetParent-across-shadow-boundaries.html",
+      "line_number": 7
+    }
+  ],
+  "dom-characterdata-substringdata": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-substringdata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-surrogates.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/event-global-set-before-handleEvent-lookup.window.js",
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-substringdata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-substringData.html",
+      "line_number": 4
+    }
+  ],
+  "dom-node-isequalnode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-isequalnode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-isEqualNode.html",
+      "line_number": 4
+    }
+  ],
+  "concept-node-append": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-append",
+      "filepath": "testing/web-platform/tests/fenced-frame/create-in-sandbox-and-adopt-outside-sandbox.https.html",
+      "line_number": 23
+    }
+  ],
+  "dom-element-setattribute": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
+      "filepath": "testing/web-platform/tests/trusted-types/trusted-types-event-handlers.html",
+      "line_number": 10
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-setAttribute.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
+      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattribute",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 8
+    }
+  ],
+  "interface-htmlcollection": [
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-htmlcollection",
+      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-iterator.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-htmlcollection",
+      "filepath": "testing/web-platform/tests/dom/collections/HTMLCollection-supported-property-names.html",
+      "line_number": 3
+    }
+  ],
+  "dom-document-createevent": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createevent",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createEvent.https.html",
+      "line_number": 4
+    }
+  ],
+  "introduction-to-the-dom": [
+    {
+      "url": "https://dom.spec.whatwg.org/#introduction-to-the-dom",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendChild.html",
+      "line_number": 5
+    }
+  ],
+  "concept-node-clone": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-XMLDocument.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-svg.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-clone",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-document-with-doctype.html",
+      "line_number": 5
+    }
+  ],
+  "dom-event-composedpath": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-composedpath",
+      "filepath": "dom/events/EventDispatcher.cpp",
+      "line_number": 1617
+    }
+  ],
+  "dom-document-createelementns": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelementns",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElementNS.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-hasattributens": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-hasattributens",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 11
+    }
+  ],
+  "callbackdef-nodefilter": [
+    {
+      "url": "https://dom.spec.whatwg.org/#callbackdef-nodefilter",
+      "filepath": "testing/web-platform/tests/dom/traversal/TreeWalker-acceptNode-filter.html",
+      "line_number": 11
+    }
+  ],
+  "dom-element-getelementsbytagnamens": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
+      "filepath": "testing/web-platform/tests/dom/nodes/Element-getElementsByTagNameNS.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 13
+    }
+  ],
+  "eventtarget-legacy-canceled-activation-behavior": [
+    {
+      "url": "https://dom.spec.whatwg.org/#eventtarget-legacy-canceled-activation-behavior",
+      "filepath": "dom/events/EventTarget.h",
+      "line_number": 285
+    }
+  ],
+  "abortsignal-abort-algorithms": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-abort-algorithms",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
+      "line_number": 705
+    }
+  ],
+  "concept-event-listener-invoke": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-end-event.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-start-event.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/resources/prefixed-animation-event-tests.js",
+      "line_number": 70
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/resources/prefixed-animation-event-tests.js",
+      "line_number": 125
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-this-of-listener.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/webkit-transition-end-event.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-listener-invoke",
+      "filepath": "testing/web-platform/tests/dom/events/webkit-animation-iteration-event.html",
+      "line_number": 4
+    }
+  ],
+  "callbackdef-eventlistener": [
+    {
+      "url": "https://dom.spec.whatwg.org/#callbackdef-eventlistener",
+      "filepath": "testing/web-platform/tests/css/cssom-view/MediaQueryList-addListener-handleEvent.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#callbackdef-eventlistener",
+      "filepath": "testing/web-platform/tests/dom/events/EventListener-handleEvent.html",
+      "line_number": 6
+    }
+  ],
+  "dom-node-childnodes": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-childNodes.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-childNodes-cache-2.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 12
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 12
+    }
+  ],
+  "dom-document-documentelement": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-documentelement",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-documentelement",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
+      "line_number": 10
+    }
+  ],
+  "dom-domimplementation-createdocument": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument-with-null-browsing-context-crash.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-createdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
+      "line_number": 4
+    }
+  ],
+  "interface-namednodemap": [
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-namednodemap",
+      "filepath": "testing/web-platform/tests/dom/nodes/attributes-namednodemap.html",
+      "line_number": 4
+    }
+  ],
+  "dom-documentfragment-documentfragment": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documentfragment-documentfragment",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentFragment-constructor.html",
+      "line_number": 4
+    }
+  ],
+  "dom-characterdata-appenddata": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-characterdata-appenddata",
+      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendData.html",
+      "line_number": 4
+    }
+  ],
+  "dom-document-getelementsbytagname": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/html/syntax/parsing/Document.getElementsByTagName-foreign-02.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/html/syntax/parsing/Document.getElementsByTagName-foreign-01.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagname",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementsByTagName.html",
+      "line_number": 4
+    }
+  ],
+  "concept-node-document": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-document",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 778
+    }
+  ],
+  "dom-slotable-assignedslot": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-slotable-assignedslot",
+      "filepath": "dom/base/FragmentOrElement.cpp",
+      "line_number": 161
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-slotable-assignedslot",
+      "filepath": "dom/base/nsIContent.h",
+      "line_number": 338
+    }
+  ],
+  "converting-nodes-into-a-node": [
+    {
+      "url": "https://dom.spec.whatwg.org/#converting-nodes-into-a-node",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2068
+    }
+  ],
+  "dom-abortsignal-throwifaborted": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-throwifaborted",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 384
+    }
+  ],
+  "concept-event-dispatch": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "dom/base/FragmentOrElement.cpp",
+      "line_number": 894
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "dom/events/EventDispatcher.cpp",
+      "line_number": 1321
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "dom/events/EventDispatcher.h",
+      "line_number": 266
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-target-moved.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 90
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-omitted-capture.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/relatedTarget.window.js",
       "line_number": 1
     },
     {
-      "url": "https://dom.spec.whatwg.org/#concept-event-listener-inner-invoke",
-      "filepath": "testing/web-platform/tests/dom/events/event-global-is-still-set-when-reporting-exception-onerror.html",
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-handlers-changed.html",
       "line_number": 4
-    }
-  ],
-  "dom-element-setattributens": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
-      "filepath": "testing/web-platform/tests/trusted-types/trusted-types-event-handlers.html",
-      "line_number": 27
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
-      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-true.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-single-activation-behavior.html",
       "line_number": 6
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 9
-    }
-  ],
-  "eventtarget": [
-    {
-      "url": "https://dom.spec.whatwg.org/#eventtarget",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-prototype-chain.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#eventtarget",
-      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
-      "line_number": 9
-    }
-  ],
-  "element": [
-    {
-      "url": "https://dom.spec.whatwg.org/#element",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/Element.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#element",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-string-attributes.tentative.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#element",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-element-attributes.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#element",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/AriaMixin-string-attributes.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#element",
-      "filepath": "testing/web-platform/tests/custom-elements/reactions/Animation.html",
-      "line_number": 7
-    }
-  ],
-  "dom-element-attachshadow": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-attachshadow",
-      "filepath": "dom/base/Element.cpp",
-      "line_number": 1304
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-attachshadow",
-      "filepath": "testing/web-platform/tests/shadow-dom/Element-interface-attachShadow-custom-element.html",
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-target-removed.html",
       "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-false.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/tests/uievents/order-of-events/mouse-events/click-on-div.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
+      "filepath": "testing/web-platform/mozilla/tests/html/semantics/forms/the-input-element/input-activation-behavior.html",
+      "line_number": 5
+    }
+  ],
+  "shadowroot-declarative": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadowroot-declarative",
+      "filepath": "dom/base/ShadowRoot.h",
+      "line_number": 315
+    }
+  ],
+  "childnode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#childnode",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/ChildNode.html",
+      "line_number": 7
+    }
+  ],
+  "slotable": [
+    {
+      "url": "https://dom.spec.whatwg.org/#slotable",
+      "filepath": "testing/web-platform/tests/shadow-dom/Slottable-mixin.html",
+      "line_number": 7
+    }
+  ],
+  "": [
+    {
+      "url": "https://dom.spec.whatwg.org/",
+      "filepath": "dom/navigation/Navigation.cpp",
+      "line_number": 889
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/002.worker.js",
+      "line_number": 22
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/001.worker.js",
+      "line_number": 52
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/workers/semantics/interface-objects/003.any.js",
+      "line_number": 52
+    }
+  ],
+  "dom-node-firstchild": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-firstchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 13
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-firstchild",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 13
     }
   ],
   "dom-domimplementation-createhtmldocument": [
@@ -1793,18 +1509,407 @@
       "line_number": 3
     }
   ],
-  "eventtarget-legacy-canceled-activation-behavior": [
+  "dom-abortsignal-timeout": [
     {
-      "url": "https://dom.spec.whatwg.org/#eventtarget-legacy-canceled-activation-behavior",
-      "filepath": "dom/events/EventTarget.h",
-      "line_number": 285
+      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-timeout",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 203
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-abortsignal-timeout",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 270
     }
   ],
-  "assign-a-slot": [
+  "dom-domimplementation-hasfeature": [
     {
-      "url": "https://dom.spec.whatwg.org/#assign-a-slot",
-      "filepath": "dom/base/FragmentOrElement.cpp",
-      "line_number": 168
+      "url": "http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_dom_15.4.1.js",
+      "line_number": 16087
+    },
+    {
+      "url": "http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
+      "line_number": 8596
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-domimplementation-hasfeature",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-hasFeature.html",
+      "line_number": 4
+    }
+  ],
+  "event": [
+    {
+      "url": "https://dom.spec.whatwg.org/#event",
+      "filepath": "testing/web-platform/tests/captured-mouse-events/captured-mouse-event-constructor-inherited.html",
+      "line_number": 4
+    }
+  ],
+  "shadowroot-clonable": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadowroot-clonable",
+      "filepath": "dom/base/ShadowRoot.h",
+      "line_number": 318
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#shadowroot-clonable",
+      "filepath": "testing/web-platform/tests/shadow-dom/shadow-root-clonable.html",
+      "line_number": 5
+    }
+  ],
+  "dictdef-eventinit": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dictdef-eventinit",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 201
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dictdef-eventinit",
+      "filepath": "testing/web-platform/tests/dom/events/non-cancelable-when-passive/synthetic-events-cancelable.html",
+      "line_number": 3
+    }
+  ],
+  "dom-nonelementparentnode-getelementbyid": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
+      "filepath": "testing/web-platform/tests/shadow-dom/getElementById-dynamic-001.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
+      "filepath": "testing/web-platform/tests/shadow-dom/getElementById-dynamic-002.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentFragment-getElementById.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementById.html",
+      "line_number": 79
+    }
+  ],
+  "dom-document-adoptnode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-adoptnode",
+      "filepath": "testing/web-platform/tests/shadow-dom/Document-prototype-adoptNode.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-adoptnode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-adoptNode.html",
+      "line_number": 4
+    }
+  ],
+  "dom-document-createelement": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
+      "filepath": "testing/web-platform/tests/custom-elements/Document-createElement.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createelement",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-namespaceuri": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-namespaceuri",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "line_number": 8
+    }
+  ],
+  "ref-for-abortsignal-abort-algorithms%E2%91%A2:~:text=For%20each%20algorithm%20of%20signal%E2%80%99s%20abort%20algorithms%3A%20run%20algorithm": [
+    {
+      "url": "https://dom.spec.whatwg.org/#ref-for-abortsignal-abort-algorithms%E2%91%A2:~:text=For%20each%20algorithm%20of%20signal%E2%80%99s%20abort%20algorithms%3A%20run%20algorithm",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
+      "line_number": 706
+    }
+  ],
+  "dom-event-eventphase": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-eventphase",
+      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-event-target.window.js",
+      "line_number": 2
+    }
+  ],
+  "dom-element-attributes": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-attributes",
+      "filepath": "testing/web-platform/tests/dom/nodes/attributes-namednodemap.html",
+      "line_number": 5
+    }
+  ],
+  "dom-element-setattributens": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
+      "filepath": "testing/web-platform/tests/trusted-types/trusted-types-event-handlers.html",
+      "line_number": 27
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
+      "filepath": "testing/web-platform/tests/dom/nodes/attributes.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-setattributens",
+      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
+      "line_number": 9
+    }
+  ],
+  "abortsignal-add": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-add",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 464
+    }
+  ],
+  "find-flattened-slotables": [
+    {
+      "url": "https://dom.spec.whatwg.org/#find-flattened-slotables",
+      "filepath": "dom/html/HTMLSlotElement.cpp",
+      "line_number": 107
+    }
+  ],
+  "dom-childnode-replaceWith": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-replaceWith",
+      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-replaceWith.html",
+      "line_number": 4
+    }
+  ],
+  "dom-element-matches": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
+      "filepath": "servo/components/style/dom_apis.rs",
+      "line_number": 27
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/w3c_selectors.js",
+      "line_number": 54
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
+      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-matches",
+      "filepath": "testing/web-platform/tests/css/css-scoping/slotted-matches.html",
+      "line_number": 7
+    }
+  ],
+  "connected": [
+    {
+      "url": "https://dom.spec.whatwg.org/#connected",
+      "filepath": "dom/base/BindContext.h",
+      "line_number": 30
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#connected",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 1999
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#connected",
+      "filepath": "dom/media/MediaDecoder.h",
+      "line_number": 632
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#connected",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-isConnected-shadow-dom.html",
+      "line_number": 4
+    }
+  ],
+  "dom-node-issamenode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-issamenode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-isSameNode.html",
+      "line_number": 4
+    }
+  ],
+  "concept-node-replace": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-replace",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2405
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-replace",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2641
+    }
+  ],
+  "dom-document": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-constructor.html",
+      "line_number": 6
+    }
+  ],
+  "interface-document": [
+    {
+      "url": "http://dom.spec.whatwg.org/#interface-document",
+      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
+      "line_number": 30
+    }
+  ],
+  "signaling-slot-change": [
+    {
+      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
+      "filepath": "testing/web-platform/tests/shadow-dom/imperative-slot-api-slotchange.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
+      "filepath": "testing/web-platform/tests/shadow-dom/slotchange-customelements.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#signaling-slot-change",
+      "filepath": "testing/web-platform/tests/shadow-dom/slotchange-event.html",
+      "line_number": 7
+    }
+  ],
+  "dom-node-baseuri": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-baseuri",
+      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
+      "line_number": 13
+    }
+  ],
+  "concept-node-replace-all": [
+    {
+      "url": "https://dom.spec.whatwg.org/commit-snapshots/6b3f055f3891a63423bf235d46f38ffdb298c2e7/#concept-node-replace-all",
+      "filepath": "dom/base/test/test_bug1799354.html",
+      "line_number": 27
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-replace-all",
+      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
+      "line_number": 72
+    }
+  ],
+  "default-passive-value": [
+    {
+      "url": "https://dom.spec.whatwg.org/#default-passive-value",
+      "filepath": "testing/web-platform/tests/dom/events/passive-by-default.html",
+      "line_number": 3
+    }
+  ],
+  "dom-element-prefix": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-element-prefix",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createElement.html",
+      "line_number": 7
+    }
+  ],
+  "dom-node-isconnected": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-isconnected",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-isConnected.html",
+      "line_number": 5
+    }
+  ],
+  "abortsignal-remove": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-remove",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 75
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-remove",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 481
+    }
+  ],
+  "eventtarget": [
+    {
+      "url": "https://dom.spec.whatwg.org/#eventtarget",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-prototype-chain.html",
+      "line_number": 6
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#eventtarget",
+      "filepath": "testing/web-platform/tests/html/browsers/the-window-object/window-properties.https.html",
+      "line_number": 9
+    }
+  ],
+  "dom-node-ownerdocument": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 785
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
+      "line_number": 8
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-ownerdocument",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
+      "line_number": 7
+    }
+  ],
+  "dom-parentnode-prepend": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-prepend",
+      "filepath": "testing/web-platform/tests/dom/nodes/prepend-on-Document.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-parentnode-prepend",
+      "filepath": "testing/web-platform/tests/dom/nodes/ParentNode-prepend.html",
+      "line_number": 4
+    }
+  ],
+  "concept-node-ensure-pre-insertion-validity": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2404
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2629
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
+      "filepath": "dom/base/nsINode.cpp",
+      "line_number": 2640
+    }
+  ],
+  "retarget": [
+    {
+      "url": "https://dom.spec.whatwg.org/#retarget",
+      "filepath": "dom/base/nsContentUtils.h",
+      "line_number": 469
     }
   ],
   "concept-tree-inclusive-ancestor": [
@@ -1826,17 +1931,17 @@
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/AbstractRange.h",
-      "line_number": 84
+      "line_number": 85
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/AbstractRange.h",
-      "line_number": 222
+      "line_number": 223
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/AbstractRange.h",
-      "line_number": 226
+      "line_number": 227
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
@@ -1851,52 +1956,52 @@
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsContentUtils.h",
-      "line_number": 519
+      "line_number": 516
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsRange.h",
-      "line_number": 425
+      "line_number": 427
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 1490
+      "line_number": 1493
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 1686
+      "line_number": 1689
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2125
+      "line_number": 2128
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2131
+      "line_number": 2134
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2137
+      "line_number": 2140
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2143
+      "line_number": 2146
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2150
+      "line_number": 2153
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 2157
+      "line_number": 2160
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor",
@@ -1934,61 +2039,21 @@
       "line_number": 465
     }
   ],
-  "concept-node-clone-ext": [
+  "concept-tree-inclusive-descendant": [
     {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone-ext",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
-      "line_number": 6
+      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
+      "filepath": "dom/base/Selection.h",
+      "line_number": 934
     },
     {
-      "url": "https://dom.spec.whatwg.org/#concept-node-clone-ext",
-      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
-      "line_number": 6
-    }
-  ],
-  "callbackdef-nodefilter": [
-    {
-      "url": "https://dom.spec.whatwg.org/#callbackdef-nodefilter",
-      "filepath": "testing/web-platform/tests/dom/traversal/TreeWalker-acceptNode-filter.html",
-      "line_number": 11
-    }
-  ],
-  "concept-node-adopt": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-adopt",
-      "filepath": "testing/web-platform/tests/dom/nodes/remove-from-shadow-host-and-adopt-into-iframe.html",
-      "line_number": 5
-    }
-  ],
-  "dom-node-baseuri": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-baseuri",
-      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
-      "line_number": 13
-    }
-  ],
-  "dom-node-lastchild": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-lastchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 14
+      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 471
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-node-lastchild",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 14
-    }
-  ],
-  "dom-document-createprocessinginstruction": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createprocessinginstruction",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-createprocessinginstruction",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
-      "line_number": 4
+      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
+      "filepath": "dom/base/ContentIterator.h",
+      "line_number": 39
     }
   ],
   "parentnode": [
@@ -1998,78 +2063,60 @@
       "line_number": 7
     }
   ],
-  "dom-event-returnvalue": [
+  "dom-event-stoppropagation": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-event-returnvalue",
-      "filepath": "testing/web-platform/tests/dom/events/Event-returnValue.html",
+      "url": "https://dom.spec.whatwg.org/#dom-event-stoppropagation",
+      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
+      "line_number": 50
+    }
+  ],
+  "dom-childnode-after": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-childnode-after",
+      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-after.html",
+      "line_number": 4
+    }
+  ],
+  "dom-node-clonenode": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-input-element/cloning-steps.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/html/semantics/forms/the-textarea-element/cloning-steps.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/shadow-dom/Node-prototype-cloneNode.html",
       "line_number": 7
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-event-returnvalue",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/shadow-dom/untriaged/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-010.html",
       "line_number": 6
-    }
-  ],
-  "dom-element-hasattribute": [
+    },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-hasattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-hasAttribute.html",
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-XMLDocument.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-hasattribute",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 10
-    }
-  ],
-  "concept-node-document": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-node-document",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 775
-    }
-  ],
-  "dom-childnode-replaceWith": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-childnode-replaceWith",
-      "filepath": "testing/web-platform/tests/dom/nodes/ChildNode-replaceWith.html",
-      "line_number": 4
-    }
-  ],
-  "shadowroot-available-to-element-internals": [
-    {
-      "url": "https://dom.spec.whatwg.org/#shadowroot-available-to-element-internals",
-      "filepath": "dom/base/ShadowRoot.h",
-      "line_number": 308
-    }
-  ],
-  "dispatching-events": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dispatching-events",
-      "filepath": "dom/events/EventDispatcher.cpp",
-      "line_number": 544
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dispatching-events",
-      "filepath": "dom/events/EventDispatcher.cpp",
-      "line_number": 627
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dispatching-events",
-      "filepath": "testing/web-platform/tests/dom/events/preventDefault-during-activation-behavior.html",
-      "line_number": 5
-    }
-  ],
-  "dom-document-getelementsbytagnamens": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagnamens",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-getElementsByTagNameNS.html",
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-svg.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-document-getelementsbytagnamens",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 7
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode-document-with-doctype.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-node-clonenode",
+      "filepath": "testing/web-platform/tests/dom/nodes/Node-cloneNode.html",
+      "line_number": 4
     }
   ],
   "concept-create-element": [
@@ -2081,7 +2128,7 @@
     {
       "url": "https://dom.spec.whatwg.org/#concept-create-element",
       "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 10812
+      "line_number": 10884
     },
     {
       "url": "https://dom.spec.whatwg.org/#concept-create-element",
@@ -2169,40 +2216,224 @@
       "line_number": 4
     }
   ],
-  "abortsignal-signal-abort:~:text=Fire%20an%20event%20named%20abort%20at%20signal": [
+  "internal-createelementns-steps": [
     {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort:~:text=Fire%20an%20event%20named%20abort%20at%20signal",
-      "filepath": "testing/web-platform/tests/dom/observable/tentative/observable-constructor.any.js",
-      "line_number": 707
+      "url": "https://dom.spec.whatwg.org/#internal-createelementns-steps",
+      "filepath": "testing/web-platform/tests/custom-elements/Document-createElementNS-customized-builtins.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#internal-createelementns-steps",
+      "filepath": "testing/web-platform/tests/custom-elements/Document-createElementNS.html",
+      "line_number": 4
     }
   ],
-  "concept-node-append": [
+  "ref-for-get-the-parent%E2%91%A6": [
     {
-      "url": "https://dom.spec.whatwg.org/#concept-node-append",
-      "filepath": "testing/web-platform/tests/fenced-frame/create-in-sandbox-and-adopt-outside-sandbox.https.html",
-      "line_number": 23
+      "url": "https://dom.spec.whatwg.org/#ref-for-get-the-parent%E2%91%A6",
+      "filepath": "dom/base/ShadowRoot.cpp",
+      "line_number": 595
     }
   ],
-  "dom-element-getelementsbytagname": [
+  "interface-event": [
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/html/syntax/parsing/Element.getElementsByTagName-foreign-02.html",
+      "url": "https://dom.spec.whatwg.org/#interface-event",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 191
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-event",
+      "filepath": "testing/web-platform/tests/xhr/progressevent-constructor.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-event",
+      "filepath": "services/fxaccounts/FxAccountsPairingChannel.sys.mjs",
+      "line_number": 2657
+    }
+  ],
+  "document": [
+    {
+      "url": "https://dom.spec.whatwg.org/#document",
+      "filepath": "testing/web-platform/tests/custom-elements/reactions/Document.html",
+      "line_number": 7
+    }
+  ],
+  "shadow-tree-slots": [
+    {
+      "url": "https://dom.spec.whatwg.org/#shadow-tree-slots",
+      "filepath": "testing/web-platform/tests/shadow-dom/layout-slot-no-longer-assigned.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/html/syntax/parsing/Element.getElementsByTagName-foreign-01.html",
+      "url": "https://dom.spec.whatwg.org/#shadow-tree-slots",
+      "filepath": "testing/web-platform/tests/shadow-dom/layout-slot-no-longer-fallback.html",
+      "line_number": 4
+    }
+  ],
+  "concept-node-remove-ext": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-remove-ext",
+      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
+      "line_number": 79
+    }
+  ],
+  "dom-documenttype-name": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
+      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-documenttype-name",
+      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal-xhtml.xhtml",
+      "line_number": 5
+    }
+  ],
+  "dom-core-changes": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-core-changes",
+      "filepath": "testing/web-platform/tests/dom/attributes-are-nodes.html",
+      "line_number": 4
+    }
+  ],
+  "dom-comment": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-comment",
+      "filepath": "testing/web-platform/tests/dom/nodes/Comment-constructor.html",
+      "line_number": 4
+    }
+  ],
+  "interface-eventtarget": [
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-eventtarget",
+      "filepath": "testing/web-platform/mozilla/tests/webgpu/webgpu/idl/javascript.spec.js",
+      "line_number": 720
+    }
+  ],
+  "abortsignal-signal-abort": [
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 45
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 395
+    }
+  ],
+  "run-the-abort-steps": [
+    {
+      "url": "https://dom.spec.whatwg.org/#run-the-abort-steps",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 68
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#run-the-abort-steps",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 439
+    }
+  ],
+  "concept-node-insert": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-insert",
+      "filepath": "dom/base/Element.cpp",
+      "line_number": 2234
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-node-insert",
+      "filepath": "testing/web-platform/tests/dom/nodes/insertion-removing-steps/insertion-removing-steps-iframe.window.js",
+      "line_number": 17
+    }
+  ],
+  "dom-document-createprocessinginstruction": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-document-createprocessinginstruction",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-getElementsByTagName.html",
+      "url": "https://dom.spec.whatwg.org/#dom-document-createprocessinginstruction",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
+      "line_number": 4
+    }
+  ],
+  "concept-shadow-including-inclusive-descendant": [
+    {
+      "url": "https://dom.spec.whatwg.org/#concept-shadow-including-inclusive-descendant",
+      "filepath": "dom/base/nsINode.h",
+      "line_number": 478
+    }
+  ],
+  "dom-event-initevent": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
+      "filepath": "testing/web-platform/tests/conformance-checkers/html/elements/style/html-spec-comms-isvalid.html",
+      "line_number": 265
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-true.html",
       "line_number": 4
     },
     {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 12
+      "url": "https://dom.spec.whatwg.org/#dom-event-initevent",
+      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-false.html",
+      "line_number": 4
+    }
+  ],
+  "dom-eventtarget-dispatchevent": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-eventtarget-dispatchevent",
+      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent.html",
+      "line_number": 6
+    }
+  ],
+  "constructing-events": [
+    {
+      "url": "http://dom.spec.whatwg.org/#constructing-events",
+      "filepath": "dom/canvas/test/webgl-conf/checkout/deqp/temp_externs/w3c_event.js",
+      "line_number": 72
+    }
+  ],
+  "interface-attr": [
+    {
+      "url": "https://dom.spec.whatwg.org/#interface-attr",
+      "filepath": "servo/components/style/attr.rs",
+      "line_number": 7
+    }
+  ],
+  "dom-processinginstruction-target": [
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
+      "filepath": "testing/web-platform/tests/dom/nodes/ProcessingInstruction-escapes-1.xhtml",
+      "line_number": 8
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
+      "filepath": "testing/web-platform/tests/dom/nodes/ProcessingInstruction-literal-2.xhtml",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction-xhtml.xhtml",
+      "line_number": 5
+    },
+    {
+      "url": "https://dom.spec.whatwg.org/#dom-processinginstruction-target",
+      "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
+      "line_number": 5
     }
   ],
   "dom-characterdata-data": [
@@ -2270,244 +2501,6 @@
       "url": "https://dom.spec.whatwg.org/#dom-characterdata-data",
       "filepath": "testing/web-platform/tests/dom/nodes/Document-createProcessingInstruction.html",
       "line_number": 6
-    }
-  ],
-  "dom-element-getelementsbytagnamens": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
-      "filepath": "testing/web-platform/tests/dom/nodes/Element-getElementsByTagNameNS.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
-      "filepath": "testing/web-platform/tests/dom/nodes/case.html",
-      "line_number": 13
-    }
-  ],
-  "dom-document-documentelement": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-documentelement",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocument.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-document-documentelement",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
-      "line_number": 10
-    }
-  ],
-  "concept-event-dispatch": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "dom/base/FragmentOrElement.cpp",
-      "line_number": 895
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "dom/events/EventDispatcher.cpp",
-      "line_number": 1321
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "dom/events/EventDispatcher.h",
-      "line_number": 266
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-target-moved.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 90
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-omitted-capture.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/relatedTarget.window.js",
-      "line_number": 1
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-handlers-changed.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-true.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-single-activation-behavior.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-target-removed.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/EventTarget-dispatchEvent-returnvalue.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/dom/events/Event-dispatch-bubbles-false.html",
-      "line_number": 5
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/tests/uievents/order-of-events/mouse-events/click-on-div.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-event-dispatch",
-      "filepath": "testing/web-platform/mozilla/tests/html/semantics/forms/the-input-element/input-activation-behavior.html",
-      "line_number": 5
-    }
-  ],
-  "shadowroot-serializable": [
-    {
-      "url": "https://dom.spec.whatwg.org/#shadowroot-serializable",
-      "filepath": "dom/base/ShadowRoot.h",
-      "line_number": 317
-    }
-  ],
-  "dom-event-stoppropagation": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-event-stoppropagation",
-      "filepath": "testing/web-platform/tests/dom/events/Event-cancelBubble.html",
-      "line_number": 50
-    }
-  ],
-  "dom-node-childnodes": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-childNodes.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-childNodes-cache-2.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createTextNode.html",
-      "line_number": 12
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-node-childnodes",
-      "filepath": "testing/web-platform/tests/dom/nodes/Document-createComment.html",
-      "line_number": 12
-    }
-  ],
-  "introduction-to-the-dom": [
-    {
-      "url": "https://dom.spec.whatwg.org/#introduction-to-the-dom",
-      "filepath": "testing/web-platform/tests/dom/nodes/CharacterData-appendChild.html",
-      "line_number": 5
-    }
-  ],
-  "dom-documenttype-publicid": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createHTMLDocument.html",
-      "line_number": 8
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
-      "filepath": "testing/web-platform/tests/dom/nodes/DOMImplementation-createDocumentType.html",
-      "line_number": 6
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-documenttype-publicid",
-      "filepath": "testing/web-platform/tests/dom/nodes/DocumentType-literal-xhtml.xhtml",
-      "line_number": 6
-    }
-  ],
-  "dom-text-splittextoffset": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-text-splittextoffset",
-      "filepath": "testing/web-platform/tests/dom/nodes/Text-splitText.html",
-      "line_number": 4
-    }
-  ],
-  "concept-tree-inclusive-descendant": [
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
-      "filepath": "dom/base/Selection.h",
-      "line_number": 935
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 471
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant",
-      "filepath": "dom/base/ContentIterator.h",
-      "line_number": 39
-    }
-  ],
-  "abortsignal-remove": [
-    {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-remove",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 75
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#abortsignal-remove",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 481
-    }
-  ],
-  "connected": [
-    {
-      "url": "https://dom.spec.whatwg.org/#connected",
-      "filepath": "dom/base/BindContext.h",
-      "line_number": 30
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#connected",
-      "filepath": "dom/base/nsINode.h",
-      "line_number": 1996
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#connected",
-      "filepath": "dom/media/MediaDecoder.h",
-      "line_number": 632
-    },
-    {
-      "url": "https://dom.spec.whatwg.org/#connected",
-      "filepath": "testing/web-platform/tests/dom/nodes/Node-isConnected-shadow-dom.html",
-      "line_number": 4
-    }
-  ],
-  "insert-adjacent": [
-    {
-      "url": "https://dom.spec.whatwg.org/#insert-adjacent",
-      "filepath": "dom/base/Element.h",
-      "line_number": 1416
-    }
-  ],
-  "dom-core-changes": [
-    {
-      "url": "https://dom.spec.whatwg.org/#dom-core-changes",
-      "filepath": "testing/web-platform/tests/dom/attributes-are-nodes.html",
-      "line_number": 4
     }
   ]
 }

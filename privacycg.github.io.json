@@ -3,14 +3,7 @@
     {
       "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
       "filepath": "dom/base/Document.cpp",
-      "line_number": 18745
-    }
-  ],
-  "bounce-tracking-timer": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1573
+      "line_number": 18906
     }
   ],
   "": [
@@ -85,18 +78,25 @@
       "line_number": 26
     }
   ],
+  "bounce-tracking-timer": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1947
+    }
+  ],
   "run-bounce-tracking-mitigations-command": [
     {
       "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1579
+      "line_number": 1953
     }
   ],
   "set-storage-access-command": [
     {
       "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1137
+      "line_number": 1511
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "non-trivial": [
+  "": [
     {
-      "url": "https://itanium-cxx-abi.github.io/cxx-abi/abi.html#non-trivial",
-      "filepath": "mfbt/AlreadyAddRefed.h",
-      "line_number": 96
+      "url": "https://itanium-cxx-abi.github.io/cxx-abi/abi.html",
+      "filepath": "js/src/devtools/rootAnalysis/computeCallgraph.js",
+      "line_number": 336
     }
   ],
   "mangling-builtin": [
@@ -13,11 +13,11 @@
       "line_number": 999
     }
   ],
-  "": [
+  "non-trivial": [
     {
-      "url": "https://itanium-cxx-abi.github.io/cxx-abi/abi.html",
-      "filepath": "js/src/devtools/rootAnalysis/computeCallgraph.js",
-      "line_number": 336
+      "url": "https://itanium-cxx-abi.github.io/cxx-abi/abi.html#non-trivial",
+      "filepath": "mfbt/AlreadyAddRefed.h",
+      "line_number": 96
     }
   ]
 }

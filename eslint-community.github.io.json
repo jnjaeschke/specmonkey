@@ -1,8 +1,50 @@
 {
-  "getfunctionnamewithkind": [
+  "getfunctionheadlocation": [
     {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getfunctionnamewithkind",
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getfunctionheadlocation",
       "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 41
+    }
+  ],
+  "patternmatcher-class": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#patternmatcher-class",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/PatternMatcher.js",
+      "line_number": 42
+    }
+  ],
+  "hassideeffect": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#hassideeffect",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 103
+    }
+  ],
+  "getstaticvalue": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getstaticvalue",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 68
+    }
+  ],
+  "getstringifconstant": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getstringifconstant",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 78
+    }
+  ],
+  "getpropertyname": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getpropertyname",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 56
+    }
+  ],
+  "getinnermostscope": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/scope-utils.html#getinnermostscope",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/scopeAnalysis.js",
       "line_number": 48
     }
   ],
@@ -13,60 +55,18 @@
       "line_number": 41
     }
   ],
-  "getfunctionheadlocation": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getfunctionheadlocation",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
-      "line_number": 41
-    }
-  ],
-  "getstaticvalue": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getstaticvalue",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
-      "line_number": 68
-    }
-  ],
-  "hassideeffect": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#hassideeffect",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
-      "line_number": 103
-    }
-  ],
-  "getpropertyname": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getpropertyname",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
-      "line_number": 56
-    }
-  ],
-  "getstringifconstant": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getstringifconstant",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
-      "line_number": 78
-    }
-  ],
-  "patternmatcher-class": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#patternmatcher-class",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/PatternMatcher.js",
-      "line_number": 42
-    }
-  ],
-  "getinnermostscope": [
-    {
-      "url": "https://eslint-community.github.io/eslint-utils/api/scope-utils.html#getinnermostscope",
-      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/scopeAnalysis.js",
-      "line_number": 48
-    }
-  ],
   "referencetracker-class": [
     {
       "url": "https://eslint-community.github.io/eslint-utils/api/scope-utils.html#referencetracker-class",
       "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/ReferenceTracker.js",
       "line_number": 46
+    }
+  ],
+  "getfunctionnamewithkind": [
+    {
+      "url": "https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getfunctionnamewithkind",
+      "filepath": "node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.js",
+      "line_number": 48
     }
   ]
 }

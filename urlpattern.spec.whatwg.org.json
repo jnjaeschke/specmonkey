@@ -1,0 +1,9 @@
+{
+  "create-a-component-match-result": [
+    {
+      "url": "https://urlpattern.spec.whatwg.org/#create-a-component-match-result",
+      "filepath": "netwerk/base/urlpattern_glue/URLPatternGlue.cpp",
+      "line_number": 81
+    }
+  ]
+}

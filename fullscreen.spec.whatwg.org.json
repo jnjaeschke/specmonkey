@@ -1,16 +1,42 @@
 {
-  "dom-document-fullscreenelement": [
+  "exit-fullscreen": [
     {
-      "url": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenelement",
-      "filepath": "testing/web-platform/tests/fullscreen/api/shadowroot-fullscreen-element.html",
-      "line_number": 6
+      "url": "https://fullscreen.spec.whatwg.org/#exit-fullscreen",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 60
     }
   ],
-  ":fullscreen-pseudo-class": [
+  "run-the-fullscreen-steps": [
     {
-      "url": "https://fullscreen.spec.whatwg.org/#:fullscreen-pseudo-class",
-      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
-      "line_number": 3
+      "url": "https://fullscreen.spec.whatwg.org/#run-the-fullscreen-steps",
+      "filepath": "dom/base/Document.cpp",
+      "line_number": 16478
+    }
+  ],
+  "simple-fullscreen-document": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#simple-fullscreen-document",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 52
+    }
+  ],
+  "removing-steps": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#removing-steps",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/dialog-showModal-remove.html",
+      "line_number": 4
+    }
+  ],
+  "fullscreen-enabled-flag": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allowfullscreen.html",
+      "line_number": 7
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
+      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allow.html",
+      "line_number": 7
     }
   ],
   "top-layer": [
@@ -20,11 +46,37 @@
       "line_number": 33
     }
   ],
-  "run-the-fullscreen-steps": [
+  "collect-documents-to-unfullscreen": [
     {
-      "url": "https://fullscreen.spec.whatwg.org/#run-the-fullscreen-steps",
-      "filepath": "dom/base/Document.cpp",
-      "line_number": 16329
+      "url": "https://fullscreen.spec.whatwg.org/#collect-documents-to-unfullscreen",
+      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
+      "line_number": 50
+    }
+  ],
+  "user-agent-level-style-sheet-defaults": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop-opacity.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
+      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop.html",
+      "line_number": 3
+    }
+  ],
+  "%3Afullscreen-pseudo-class": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#%3Afullscreen-pseudo-class",
+      "filepath": "dom/base/rust/lib.rs",
+      "line_number": 42
+    }
+  ],
+  "list-of-pending-fullscreen-events": [
+    {
+      "url": "https://fullscreen.spec.whatwg.org/#list-of-pending-fullscreen-events",
+      "filepath": "dom/base/Document.h",
+      "line_number": 5591
     }
   ],
   "::backdrop-pseudo-element": [
@@ -39,11 +91,11 @@
       "line_number": 4
     }
   ],
-  "exit-fullscreen": [
+  ":fullscreen-pseudo-class": [
     {
-      "url": "https://fullscreen.spec.whatwg.org/#exit-fullscreen",
-      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
-      "line_number": 60
+      "url": "https://fullscreen.spec.whatwg.org/#:fullscreen-pseudo-class",
+      "filepath": "testing/web-platform/tests/fullscreen/rendering/fullscreen-pseudo-class-support.html",
+      "line_number": 3
     }
   ],
   "new-stacking-layer": [
@@ -233,63 +285,11 @@
       "line_number": 7
     }
   ],
-  "removing-steps": [
+  "dom-document-fullscreenelement": [
     {
-      "url": "https://fullscreen.spec.whatwg.org/#removing-steps",
-      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/dialog-showModal-remove.html",
-      "line_number": 4
-    }
-  ],
-  "list-of-pending-fullscreen-events": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#list-of-pending-fullscreen-events",
-      "filepath": "dom/base/Document.h",
-      "line_number": 5572
-    }
-  ],
-  "fullscreen-enabled-flag": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
-      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allowfullscreen.html",
-      "line_number": 7
-    },
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#fullscreen-enabled-flag",
-      "filepath": "testing/web-platform/tests/html/semantics/embedded-content/the-iframe-element/iframe-allow.html",
-      "line_number": 7
-    }
-  ],
-  "user-agent-level-style-sheet-defaults": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
-      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop-opacity.html",
-      "line_number": 4
-    },
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#user-agent-level-style-sheet-defaults",
-      "filepath": "testing/web-platform/tests/html/semantics/interactive-elements/the-dialog-element/modal-dialog-backdrop.html",
-      "line_number": 3
-    }
-  ],
-  "%3Afullscreen-pseudo-class": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#%3Afullscreen-pseudo-class",
-      "filepath": "dom/base/rust/lib.rs",
-      "line_number": 40
-    }
-  ],
-  "collect-documents-to-unfullscreen": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#collect-documents-to-unfullscreen",
-      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
-      "line_number": 50
-    }
-  ],
-  "simple-fullscreen-document": [
-    {
-      "url": "https://fullscreen.spec.whatwg.org/#simple-fullscreen-document",
-      "filepath": "testing/web-platform/tests/fullscreen/api/document-exit-fullscreen-nested-in-iframe.html",
-      "line_number": 52
+      "url": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenelement",
+      "filepath": "testing/web-platform/tests/fullscreen/api/shadowroot-fullscreen-element.html",
+      "line_number": 6
     }
   ]
 }

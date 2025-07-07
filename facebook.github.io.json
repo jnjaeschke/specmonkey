@@ -1,16 +1,23 @@
 {
-  "react.children.foreach": [
+  "react.children.only": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.foreach",
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.only",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 773
+      "line_number": 4552
     }
   ],
-  "react.createclass": [
+  "react.children.map": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createclass",
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.map",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 1526
+      "line_number": 850
+    }
+  ],
+  "react.children.count": [
+    {
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.count",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
+      "line_number": 877
     }
   ],
   "": [
@@ -105,11 +112,11 @@
       "line_number": 1
     }
   ],
-  "react.createfactory": [
+  "reactdom.render": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createfactory",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 2569
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#reactdom.render",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_dom_15.4.1.js",
+      "line_number": 10053
     }
   ],
   "react.isvalidelement": [
@@ -119,39 +126,18 @@
       "line_number": 2656
     }
   ],
-  "react.cloneelement": [
+  "high-level-api-reactcsstransitiongroup": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement",
+      "url": "https://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 2590
+      "line_number": 492
     }
   ],
-  "react.children.only": [
+  "react.createclass": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.only",
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createclass",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 4552
-    }
-  ],
-  "react.children.count": [
-    {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.count",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 877
-    }
-  ],
-  "react.createelement": [
-    {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createelement",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 2493
-    }
-  ],
-  "low-level-api-reacttransitiongroup": [
-    {
-      "url": "https://facebook.github.io/react/docs/animation.html#low-level-api-reacttransitiongroup",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 3977
+      "line_number": 1526
     }
   ],
   "reactdom.finddomnode": [
@@ -168,25 +154,18 @@
       "line_number": 10070
     }
   ],
-  "high-level-api-reactcsstransitiongroup": [
+  "low-level-api-reacttransitiongroup": [
     {
-      "url": "https://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup",
+      "url": "https://facebook.github.io/react/docs/animation.html#low-level-api-reacttransitiongroup",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 492
+      "line_number": 3977
     }
   ],
-  "react.children.map": [
+  "react.children.foreach": [
     {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.map",
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.foreach",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
-      "line_number": 850
-    }
-  ],
-  "reactdom.render": [
-    {
-      "url": "https://facebook.github.io/react/docs/top-level-api.html#reactdom.render",
-      "filepath": "devtools/client/inspector/markup/test/lib_react_dom_15.4.1.js",
-      "line_number": 10053
+      "line_number": 773
     }
   ],
   "react.children.toarray": [
@@ -194,6 +173,13 @@
       "url": "https://facebook.github.io/react/docs/top-level-api.html#react.children.toarray",
       "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
       "line_number": 890
+    }
+  ],
+  "react.createelement": [
+    {
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createelement",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
+      "line_number": 2493
     }
   ],
   "boolean-attributes": [
@@ -206,6 +192,20 @@
       "url": "https://facebook.github.io/react/docs/jsx-in-depth.html#boolean-attributes",
       "filepath": "node_modules/jsx-ast-utils/src/getPropValue.js",
       "line_number": 8
+    }
+  ],
+  "react.cloneelement": [
+    {
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
+      "line_number": 2590
+    }
+  ],
+  "react.createfactory": [
+    {
+      "url": "https://facebook.github.io/react/docs/top-level-api.html#react.createfactory",
+      "filepath": "devtools/client/inspector/markup/test/lib_react_with_addons_15.4.1.js",
+      "line_number": 2569
     }
   ]
 }

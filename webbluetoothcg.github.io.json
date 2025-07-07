@@ -1,134 +1,83 @@
 {
-  "bluetooth-simulategattconnectionresponse-command": [
+  "bluetooth-simulatecharacteristicresponse-command": [
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 209
+      "line_number": 352
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 221
+      "line_number": 368
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 225
+      "line_number": 372
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 376
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 381
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 385
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 389
     }
   ],
-  "bluetooth-gattConnectionAttempted-event": [
+  "bluetooth-simulatedescriptor-command": [
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 331
+      "line_number": 404
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 337
-    }
-  ],
-  "bluetooth-bidi-definitions": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-bidi-definitions",
-      "filepath": "testing/web-platform/tests/resources/web-bluetooth-bidi-test.js",
-      "line_number": 5
-    }
-  ],
-  "typedefdef-bluetoothdescriptoruuid": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
-      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
-      "line_number": 357
-    }
-  ],
-  "typedefdef-bluetoothserviceuuid": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
-      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
-      "line_number": 137
+      "line_number": 419
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
-      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
-      "line_number": 234
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 423
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
-      "filepath": "testing/web-platform/tests/resources/web-bluetooth-bidi-test.js",
-      "line_number": 54
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 427
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 431
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 435
     }
   ],
-  "bluetooth-requestdevicepromptupdated-event": [
+  "bluetooth-simulategattdisconnection-command": [
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-requestdevicepromptupdated-event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 264
+      "line_number": 240
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-requestdevicepromptupdated-event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 270
-    }
-  ],
-  "automated-testing": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
-      "filepath": "testing/web-platform/tests/bluetooth/resources/bluetooth-test.js",
-      "line_number": 99
-    }
-  ],
-  "dom-bluetoothremotegattserver-connect": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattserver-connect",
-      "filepath": "testing/web-platform/tests/bluetooth/legacy/server/connect/get-same-gatt-server.https.window.js",
-      "line_number": 14
-    }
-  ],
-  "bluetooth-simulateAdapter-command": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateAdapter-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 123
-    },
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateAdapter-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 134
-    }
-  ],
-  "bluetooth-handlerequestdeviceprompt-command": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 88
-    },
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 101
-    },
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 105
-    },
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 109
-    }
-  ],
-  "": [
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 82
-    },
-    {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/",
-      "filepath": "testing/web-platform/tests/bluetooth/legacy/idl/idlharness.tentative.https.window.js",
-      "line_number": 7
+      "line_number": 251
     }
   ],
   "bluetooth-simulateconnectedperipheral-command": [
@@ -158,6 +107,151 @@
       "line_number": 194
     }
   ],
+  "bluetooth-descriptoreventgenerated-event": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-descriptoreventgenerated-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 705
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-descriptoreventgenerated-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 711
+    }
+  ],
+  "automated-testing": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
+      "filepath": "testing/web-platform/tests/bluetooth/resources/bluetooth-test.js",
+      "line_number": 99
+    }
+  ],
+  "dom-bluetoothremotegattserver-connect": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattserver-connect",
+      "filepath": "testing/web-platform/tests/bluetooth/legacy/server/connect/get-same-gatt-server.https.window.js",
+      "line_number": 14
+    }
+  ],
+  "typedefdef-bluetoothserviceuuid": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
+      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
+      "line_number": 137
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
+      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
+      "line_number": 234
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothserviceuuid",
+      "filepath": "testing/web-platform/tests/resources/web-bluetooth-bidi-test.js",
+      "line_number": 54
+    }
+  ],
+  "bluetooth-bidi-definitions": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-bidi-definitions",
+      "filepath": "testing/web-platform/tests/resources/web-bluetooth-bidi-test.js",
+      "line_number": 5
+    }
+  ],
+  "": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 82
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+      "filepath": "testing/web-platform/tests/bluetooth/legacy/idl/idlharness.tentative.https.window.js",
+      "line_number": 7
+    }
+  ],
+  "bluetooth-simulateAdapter-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateAdapter-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 123
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateAdapter-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 134
+    }
+  ],
+  "typedefdef-bluetoothdescriptoruuid": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-bluetoothdescriptoruuid",
+      "filepath": "testing/web-platform/tests/resources/chromium/web-bluetooth-test.js",
+      "line_number": 357
+    }
+  ],
+  "bluetooth-simulateservice-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 266
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 279
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 283
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 287
+    }
+  ],
+  "bluetooth-simulatedescriptorresponse-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 450
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 467
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 471
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 475
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 479
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 483
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 487
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 491
+    }
+  ],
   "bluetooth-disableSimulation-command": [
     {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-disableSimulation-command",
@@ -165,16 +259,111 @@
       "line_number": 147
     }
   ],
-  "bluetooth-simulategattdisconnection-command": [
+  "bluetooth-requestdevicepromptupdated-event": [
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-requestdevicepromptupdated-event",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 240
+      "line_number": 504
     },
     {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-requestdevicepromptupdated-event",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 251
+      "line_number": 510
+    }
+  ],
+  "bluetooth-characteristiceventgenerated-event": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-characteristiceventgenerated-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 638
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-characteristiceventgenerated-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 644
+    }
+  ],
+  "bluetooth-handlerequestdeviceprompt-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 88
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 101
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 105
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-handlerequestdeviceprompt-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 109
+    }
+  ],
+  "bluetooth-simulategattconnectionresponse-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 209
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 221
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 225
+    }
+  ],
+  "bluetooth-simulatecharacteristic-command": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 302
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 321
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 325
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 329
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 333
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 337
+    }
+  ],
+  "bluetooth-gattConnectionAttempted-event": [
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 571
+    },
+    {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 577
     }
   ]
 }
