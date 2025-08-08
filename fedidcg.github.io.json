@@ -1,58 +1,58 @@
 {
-  "webdriver-gettitle": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1690
-    }
-  ],
   "webdriver-canceldialog": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-canceldialog",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1616
-    }
-  ],
-  "webdriver-setdelayenabled": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1726
+      "line_number": 1679
     }
   ],
   "webdriver-resetcooldown": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-resetcooldown",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1745
-    }
-  ],
-  "webdriver-accountlist": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1672
-    }
-  ],
-  "webdriver-clickdialogbutton": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1634
-    }
-  ],
-  "webdriver-selectaccount": [
-    {
-      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1653
+      "line_number": 1808
     }
   ],
   "webdriver-getdialogtype": [
     {
       "url": "https://fedidcg.github.io/FedCM/#webdriver-getdialogtype",
       "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1708
+      "line_number": 1771
+    }
+  ],
+  "webdriver-clickdialogbutton": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-clickdialogbutton",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1697
+    }
+  ],
+  "webdriver-selectaccount": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-selectaccount",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1716
+    }
+  ],
+  "webdriver-gettitle": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-gettitle",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1753
+    }
+  ],
+  "webdriver-setdelayenabled": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-setdelayenabled",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1789
+    }
+  ],
+  "webdriver-accountlist": [
+    {
+      "url": "https://fedidcg.github.io/FedCM/#webdriver-accountlist",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1735
     }
   ],
   "": [
@@ -64,6 +64,11 @@
     {
       "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-reject-invalid-responses.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-domainhint-matches-from-two-accounts.https.html",
       "line_number": 3
     },
     {
@@ -134,7 +139,7 @@
     {
       "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect.sub.https.html",
-      "line_number": 3
+      "line_number": 4
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
@@ -183,12 +188,12 @@
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
-      "filepath": "testing/web-platform/tests/fedcm/fedcm-domainhint.https.html",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-after-abort.https.html",
       "line_number": 3
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
-      "filepath": "testing/web-platform/tests/fedcm/fedcm-after-abort.https.html",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-accounts-endpoint-rejects-redirects.https.html",
       "line_number": 3
     },
     {
@@ -208,12 +213,27 @@
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
-      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-use-other-account.tentative.https.html",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-active-replaces-passive.tentative.https.html",
       "line_number": 3
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
-      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-button-mode-priority.tentative.https.html",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-active-cannot-replace-active.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-passive-after-active.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-passive-cannot-replace-active.tentative.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-button-and-other-account/fedcm-use-other-account.tentative.https.html",
       "line_number": 3
     },
     {
@@ -239,6 +259,11 @@
     {
       "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-no-login-url.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-domainhint-matches-account.https.html",
       "line_number": 3
     },
     {
@@ -298,6 +323,16 @@
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-no-domainhint-matches-account.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-token-endpoint-rejects-redirects.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-pending-userinfo.https.html",
       "line_number": 3
     },
@@ -323,17 +358,17 @@
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
-      "filepath": "testing/web-platform/tests/fedcm/fedcm-endpoint-redirects.https.html",
-      "line_number": 3
-    },
-    {
-      "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-storage-access-api-autogrant.tentative.https.sub.html",
       "line_number": 3
     },
     {
       "url": "https://fedidcg.github.io/FedCM",
       "filepath": "testing/web-platform/tests/fedcm/fedcm-disconnect-iframe.sub.https.html",
+      "line_number": 3
+    },
+    {
+      "url": "https://fedidcg.github.io/FedCM",
+      "filepath": "testing/web-platform/tests/fedcm/fedcm-domainhint-any.https.html",
       "line_number": 3
     }
   ]

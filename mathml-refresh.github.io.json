@@ -8,7 +8,7 @@
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-script-level-property",
       "filepath": "servo/components/style/values/specified/font.rs",
-      "line_number": 1799
+      "line_number": 1800
     },
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-script-level-property",
@@ -76,6 +76,27 @@
       "line_number": 7
     }
   ],
+  "dfn-displaystyle": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#dfn-displaystyle",
+      "filepath": "dom/mathml/MathMLElement.cpp",
+      "line_number": 596
+    }
+  ],
+  "global-attributes": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
+      "filepath": "dom/mathml/MathMLElement.cpp",
+      "line_number": 115
+    }
+  ],
+  "new-text-transform-values": [
+    {
+      "url": "https://mathml-refresh.github.io/mathml-core/#new-text-transform-values",
+      "filepath": "testing/web-platform/tests/css/css-text/text-transform/math/text-transform-math-auto-002.html",
+      "line_number": 7
+    }
+  ],
   "the-math-style-property": [
     {
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
@@ -111,27 +132,6 @@
       "url": "https://mathml-refresh.github.io/mathml-core/#the-math-style-property",
       "filepath": "testing/web-platform/tests/css/css-fonts/math-script-level-and-math-style/math-script-level-auto-and-math-style-002.tentative.html",
       "line_number": 8
-    }
-  ],
-  "global-attributes": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#global-attributes",
-      "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 116
-    }
-  ],
-  "new-text-transform-values": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#new-text-transform-values",
-      "filepath": "testing/web-platform/tests/css/css-text/text-transform/math/text-transform-math-auto-002.html",
-      "line_number": 7
-    }
-  ],
-  "dfn-displaystyle": [
-    {
-      "url": "https://mathml-refresh.github.io/mathml-core/#dfn-displaystyle",
-      "filepath": "dom/mathml/MathMLElement.cpp",
-      "line_number": 597
     }
   ]
 }

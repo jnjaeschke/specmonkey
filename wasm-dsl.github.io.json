@@ -11,13 +11,6 @@
       "line_number": 688
     }
   ],
-  "binary-limits": [
-    {
-      "url": "https://wasm-dsl.github.io/spectec/core/binary/types.html#binary-limits",
-      "filepath": "js/src/jit-test/lib/wasm-binary.js",
-      "line_number": 671
-    }
-  ],
   "table-section": [
     {
       "url": "https://wasm-dsl.github.io/spectec/core/binary/modules.html#table-section",
@@ -33,6 +26,13 @@
       "url": "https://wasm-dsl.github.io/spectec/core/binary/modules.html#table-section",
       "filepath": "js/src/jit-test/lib/wasm-binary.js",
       "line_number": 620
+    }
+  ],
+  "binary-limits": [
+    {
+      "url": "https://wasm-dsl.github.io/spectec/core/binary/types.html#binary-limits",
+      "filepath": "js/src/jit-test/lib/wasm-binary.js",
+      "line_number": 671
     }
   ]
 }

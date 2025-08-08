@@ -1,0 +1,61 @@
+{
+  "": [
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_get_set_across_frames.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/idlharness.https.any.js",
+      "line_number": 8
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_delete.sub.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/serviceworker_cookieStore_cross_origin.https.sub.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/serviceworker_cookieStore_subscriptions_reset.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_in_detached_frame.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_opaque_origin.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_get_set_across_origins.sub.https.html",
+      "line_number": 4
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_get_set_creation_url.sub.https.html",
+      "line_number": 4
+    }
+  ],
+  "cookie-maximum-attribute-value-size": [
+    {
+      "url": "https://cookiestore.spec.whatwg.org/#cookie-maximum-attribute-value-size",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_set_arguments.https.any.js",
+      "line_number": 340
+    },
+    {
+      "url": "https://cookiestore.spec.whatwg.org/#cookie-maximum-attribute-value-size",
+      "filepath": "testing/web-platform/tests/cookiestore/cookieStore_set_arguments.https.any.js",
+      "line_number": 352
+    }
+  ]
+}

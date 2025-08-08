@@ -1,4 +1,32 @@
 {
+  "set-append": [
+    {
+      "url": "https://infra.spec.whatwg.org/#set-append",
+      "filepath": "dom/abort/AbortSignal.cpp",
+      "line_number": 375
+    }
+  ],
+  "ascii-tab-or-newline": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ascii-tab-or-newline",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1173
+    }
+  ],
+  "byte-value": [
+    {
+      "url": "https://infra.spec.whatwg.org/#byte-value",
+      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
+      "line_number": 6
+    }
+  ],
+  "ordered-map": [
+    {
+      "url": "https://infra.spec.whatwg.org/#ordered-map",
+      "filepath": "js/loader/ImportMap.cpp",
+      "line_number": 213
+    }
+  ],
   "ascii-whitespace": [
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
@@ -7,13 +35,18 @@
     },
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
+      "filepath": "security/sandbox/chromium/base/strings/string_util.h",
+      "line_number": 223
+    },
+    {
+      "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
       "filepath": "dom/script/ScriptElement.cpp",
-      "line_number": 234
+      "line_number": 235
     },
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
       "filepath": "dom/base/nsINode.h",
-      "line_number": 72
+      "line_number": 74
     },
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
@@ -23,7 +56,7 @@
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
       "filepath": "parser/html/nsHtml5TreeBuilderCppSupplement.h",
-      "line_number": 126
+      "line_number": 130
     },
     {
       "url": "https://infra.spec.whatwg.org/#ascii-whitespace",
@@ -41,11 +74,25 @@
       "line_number": 1099
     }
   ],
-  "byte-value": [
+  "strip-and-collapse-ascii-whitespace": [
     {
-      "url": "https://infra.spec.whatwg.org/#byte-value",
-      "filepath": "testing/web-platform/tests/fetch/api/basic/request-headers-nonascii.any.js",
-      "line_number": 6
+      "url": "https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/ember/quickstart/dist/assets/vendor.js",
+      "line_number": 8124
+    }
+  ],
+  "isomorphic-encode": [
+    {
+      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
+      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
+      "line_number": 14
+    }
+  ],
+  "c0-control-or-space": [
+    {
+      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1176
     }
   ],
   "collect-a-sequence-of-code-points": [
@@ -67,53 +114,11 @@
       "line_number": 4
     }
   ],
-  "set-append": [
-    {
-      "url": "https://infra.spec.whatwg.org/#set-append",
-      "filepath": "dom/abort/AbortSignal.cpp",
-      "line_number": 375
-    }
-  ],
-  "ascii-tab-or-newline": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ascii-tab-or-newline",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1173
-    }
-  ],
-  "c0-control-or-space": [
-    {
-      "url": "https://infra.spec.whatwg.org/#c0-control-or-space",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1176
-    }
-  ],
   "ordered-set": [
     {
       "url": "https://infra.spec.whatwg.org/#ordered-set",
       "filepath": "dom/html/HTMLSlotElement.cpp",
-      "line_number": 253
-    }
-  ],
-  "ordered-map": [
-    {
-      "url": "https://infra.spec.whatwg.org/#ordered-map",
-      "filepath": "js/loader/ImportMap.cpp",
-      "line_number": 213
-    }
-  ],
-  "strip-and-collapse-ascii-whitespace": [
-    {
-      "url": "https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/ember/quickstart/dist/assets/vendor.js",
-      "line_number": 8124
-    }
-  ],
-  "isomorphic-encode": [
-    {
-      "url": "https://infra.spec.whatwg.org/#isomorphic-encode",
-      "filepath": "testing/web-platform/tests/fetch/api/redirect/redirect-location-escape.tentative.any.js",
-      "line_number": 14
+      "line_number": 254
     }
   ]
 }

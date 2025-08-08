@@ -1,23 +1,28 @@
 {
-  "gdbus-org.freedesktop.portal.Session": [
+  "gdbus-org.freedesktop.portal.Inhibit": [
     {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-org.freedesktop.portal.Session",
-      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
-      "line_number": 242
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/#gdbus-org.freedesktop.portal.Inhibit",
+      "filepath": "widget/gtk/WakeLockListener.cpp",
+      "line_number": 423
     }
   ],
-  "gdbus-signal-org-freedesktop-portal-Request.Response": [
+  "org-freedesktop-portal-request": [
     {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
-      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
-      "line_number": 612
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Request.html#org-freedesktop-portal-request",
+      "filepath": "widget/gtk/AsyncDBus.h",
+      "line_number": 36
+    },
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Request.html#org-freedesktop-portal-request",
+      "filepath": "widget/gtk/AsyncDBus.cpp",
+      "line_number": 113
     }
   ],
   "parent_window": [
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/#parent_window",
       "filepath": "dom/system/linux/PortalLocationProvider.cpp",
-      "line_number": 240
+      "line_number": 241
     }
   ],
   "": [
@@ -27,11 +32,11 @@
       "line_number": 81
     }
   ],
-  "gdbus-org.freedesktop.portal.Inhibit": [
+  "gdbus-signal-org-freedesktop-portal-Request.Response": [
     {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/docs/#gdbus-org.freedesktop.portal.Inhibit",
-      "filepath": "widget/gtk/WakeLockListener.cpp",
-      "line_number": 423
+      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
+      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
+      "line_number": 593
     }
   ]
 }

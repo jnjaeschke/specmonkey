@@ -1,16 +1,16 @@
 {
-  "concept-url-origin": [
+  "origin": [
     {
-      "url": "https://url.spec.whatwg.org/#concept-url-origin",
-      "filepath": "devtools/client/shared/vendor/whatwg-url.js",
-      "line_number": 2387
+      "url": "https://url.spec.whatwg.org/#origin",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 7507
     }
   ],
-  "ends-in-a-number-checker": [
+  "dom-url": [
     {
-      "url": "https://url.spec.whatwg.org/#ends-in-a-number-checker",
-      "filepath": "netwerk/base/IPv4Parser.cpp",
-      "line_number": 13
+      "url": "http://url.spec.whatwg.org/#dom-url",
+      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
+      "line_number": 29
     }
   ],
   "concept-url-fragment": [
@@ -20,32 +20,23 @@
       "line_number": 246
     }
   ],
-  "is-special": [
+  "default-port": [
     {
-      "url": "https://url.spec.whatwg.org/#is-special",
-      "filepath": "js/loader/ImportMap.cpp",
-      "line_number": 571
+      "url": "https://url.spec.whatwg.org/#default-port",
+      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
+      "line_number": 34582
+    },
+    {
+      "url": "https://url.spec.whatwg.org/#default-port",
+      "filepath": "netwerk/base/mozurl/MozURL.h",
+      "line_number": 56
     }
   ],
-  "windows-drive-letter": [
+  "path-state": [
     {
-      "url": "https://url.spec.whatwg.org/#windows-drive-letter",
+      "url": "https://url.spec.whatwg.org/#path-state",
       "filepath": "netwerk/base/nsStandardURL.cpp",
-      "line_number": 768
-    }
-  ],
-  "concept-url-serializer": [
-    {
-      "url": "https://url.spec.whatwg.org/#concept-url-serializer",
-      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
-      "line_number": 7
-    }
-  ],
-  "url-parsing": [
-    {
-      "url": "https://url.spec.whatwg.org/#url-parsing",
-      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
-      "line_number": 1171
+      "line_number": 767
     }
   ],
   "": [
@@ -65,6 +56,20 @@
       "line_number": 4
     }
   ],
+  "scheme-state": [
+    {
+      "url": "https://url.spec.whatwg.org/#scheme-state",
+      "filepath": "netwerk/base/nsNetUtil.h",
+      "line_number": 1104
+    }
+  ],
+  "concept-url-serializer": [
+    {
+      "url": "https://url.spec.whatwg.org/#concept-url-serializer",
+      "filepath": "testing/web-platform/tests/fetch/api/request/request-init-003.sub.html",
+      "line_number": 7
+    }
+  ],
   "special-scheme": [
     {
       "url": "https://url.spec.whatwg.org/#special-scheme",
@@ -77,11 +82,25 @@
       "line_number": 3438
     }
   ],
-  "scheme-state": [
+  "is-special": [
     {
-      "url": "https://url.spec.whatwg.org/#scheme-state",
-      "filepath": "netwerk/base/nsNetUtil.h",
-      "line_number": 1104
+      "url": "https://url.spec.whatwg.org/#is-special",
+      "filepath": "js/loader/ImportMap.cpp",
+      "line_number": 571
+    }
+  ],
+  "ends-in-a-number-checker": [
+    {
+      "url": "https://url.spec.whatwg.org/#ends-in-a-number-checker",
+      "filepath": "netwerk/base/IPv4Parser.cpp",
+      "line_number": 13
+    }
+  ],
+  "url-parsing": [
+    {
+      "url": "https://url.spec.whatwg.org/#url-parsing",
+      "filepath": "toolkit/content/vendor/react/react-dom-dev.js",
+      "line_number": 1171
     }
   ],
   "dom-url-search": [
@@ -98,44 +117,18 @@
       "line_number": 122
     }
   ],
+  "windows-drive-letter": [
+    {
+      "url": "https://url.spec.whatwg.org/#windows-drive-letter",
+      "filepath": "netwerk/base/nsStandardURL.cpp",
+      "line_number": 768
+    }
+  ],
   "userinfo-percent-encode-set": [
     {
       "url": "https://url.spec.whatwg.org/#userinfo-percent-encode-set",
       "filepath": "xpcom/io/nsEscape.cpp",
       "line_number": 274
-    }
-  ],
-  "default-port": [
-    {
-      "url": "https://url.spec.whatwg.org/#default-port",
-      "filepath": "devtools/client/debugger/test/mochitest/examples/big-sourcemap_files/bundle.js",
-      "line_number": 34582
-    },
-    {
-      "url": "https://url.spec.whatwg.org/#default-port",
-      "filepath": "netwerk/base/mozurl/MozURL.h",
-      "line_number": 56
-    }
-  ],
-  "origin": [
-    {
-      "url": "https://url.spec.whatwg.org/#origin",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 7463
-    }
-  ],
-  "dom-url": [
-    {
-      "url": "http://url.spec.whatwg.org/#dom-url",
-      "filepath": "testing/web-platform/tests/html/infrastructure/urls/resolving-urls/query-encoding/resources/resolve-url.js",
-      "line_number": 29
-    }
-  ],
-  "path-state": [
-    {
-      "url": "https://url.spec.whatwg.org/#path-state",
-      "filepath": "netwerk/base/nsStandardURL.cpp",
-      "line_number": 767
     }
   ]
 }

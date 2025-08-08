@@ -1,9 +1,30 @@
 {
+  "set-storage-access-command": [
+    {
+      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 1574
+    }
+  ],
+  "run-bounce-tracking-mitigations-command": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 2016
+    }
+  ],
   "dom-document-requeststorageaccess": [
     {
       "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
       "filepath": "dom/base/Document.cpp",
-      "line_number": 18906
+      "line_number": 18992
+    }
+  ],
+  "bounce-tracking-timer": [
+    {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
+      "filepath": "testing/web-platform/tests/resources/testdriver.js",
+      "line_number": 2010
     }
   ],
   "": [
@@ -55,7 +76,7 @@
     {
       "url": "https://privacycg.github.io/storage-partitioning/",
       "filepath": "testing/web-platform/tests/storage/resources/partitioned-estimate-usage-details-caches-helper-frame.html",
-      "line_number": 4
+      "line_number": 2
     },
     {
       "url": "https://privacycg.github.io/storage-partitioning/",
@@ -76,27 +97,6 @@
       "url": "https://privacycg.github.io/storage-partitioning/",
       "filepath": "toolkit/components/antitracking/StoragePrincipalHelper.h",
       "line_number": 26
-    }
-  ],
-  "bounce-tracking-timer": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1947
-    }
-  ],
-  "run-bounce-tracking-mitigations-command": [
-    {
-      "url": "https://privacycg.github.io/nav-tracking-mitigations/#run-bounce-tracking-mitigations-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1953
-    }
-  ],
-  "set-storage-access-command": [
-    {
-      "url": "https://privacycg.github.io/storage-access/#set-storage-access-command",
-      "filepath": "testing/web-platform/tests/resources/testdriver.js",
-      "line_number": 1511
     }
   ]
 }
