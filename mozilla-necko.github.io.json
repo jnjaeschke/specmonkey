@@ -1,0 +1,9 @@
+{
+  "": [
+    {
+      "url": "https://mozilla-necko.github.io/tests/dns/trr_multi_domain.html",
+      "filepath": "testing/raptor/browsertime/trr_multi_domain_performance.js",
+      "line_number": 21
+    }
+  ]
+}

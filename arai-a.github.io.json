@@ -103,72 +103,72 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-for-statement&secAll=true",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 6605
+      "line_number": 6501
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-for-in-and-for-of-statements&secAll=true",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 6611
+      "line_number": 6507
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-runtime-semantics-classfielddefinitionevaluation",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 7769
+      "line_number": 7650
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-static-semantics-classelementevaluation",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 7849
+      "line_number": 7730
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9125
+      "line_number": 8973
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9130
+      "line_number": 8978
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9152
+      "line_number": 9000
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9155
+      "line_number": 9003
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9170
+      "line_number": 9016
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9174
+      "line_number": 9020
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorgetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9254
+      "line_number": 9096
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2417&id=sec-makeautoaccessorsetter",
       "filepath": "js/src/frontend/Parser.cpp",
-      "line_number": 9263
+      "line_number": 9105
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 2562
+      "line_number": 2565
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Opcodes.h",
-      "line_number": 3340
+      "line_number": 3343
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposableresource-records",
@@ -178,7 +178,7 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/vm/AsyncIteration.cpp",
-      "line_number": 1273
+      "line_number": 1298
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposableresource-records",
@@ -188,17 +188,17 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-getdisposemethod",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1637
+      "line_number": 1622
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposeresources",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1680
+      "line_number": 1665
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-adddisposableresource",
       "filepath": "js/src/vm/Interpreter.cpp",
-      "line_number": 1730
+      "line_number": 1715
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-suppressederror",
@@ -218,7 +218,7 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=2418&id=sec-get-regexp.prototype.unicodesets",
       "filepath": "js/src/builtin/RegExp.cpp",
-      "line_number": 955
+      "line_number": 956
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-disposablestack.prototype.dispose",
@@ -273,12 +273,12 @@
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 2390
+      "line_number": 2613
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-%25asynciteratorprototype%25-%40%40asyncdispose",
       "filepath": "js/src/builtin/Promise.cpp",
-      "line_number": 5834
+      "line_number": 6134
     },
     {
       "url": "https://arai-a.github.io/ecma262-compare/?pr=3000&id=sec-asyncdisposablestack.prototype.disposeAsync",

@@ -1,4 +1,11 @@
 {
+  "enabling-debugging-features-through-environment-variables": [
+    {
+      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
+      "filepath": "toolkit/components/glean/src/init/mod.rs",
+      "line_number": 110
+    }
+  ],
   "definedriver": [
     {
       "url": "https://mozilla.github.io/localForage/#definedriver",
@@ -14,25 +21,6 @@
       "url": "https://mozilla.github.io/localForage/#definedriver",
       "filepath": "testing/talos/talos/tests/devtools/addon/content/pages/custom/debugger/app-build/static/js/big-bundle.js",
       "line_number": 1
-    }
-  ],
-  "enabling-debugging-features-through-environment-variables": [
-    {
-      "url": "https://mozilla.github.io/glean/book/user/debugging/index.html#enabling-debugging-features-through-environment-variables",
-      "filepath": "toolkit/components/glean/src/init/mod.rs",
-      "line_number": 110
-    }
-  ],
-  "content-server": [
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 588
-    },
-    {
-      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
-      "filepath": "browser/components/uitour/UITour-lib.js",
-      "line_number": 643
     }
   ],
   "": [
@@ -69,17 +57,17 @@
     {
       "url": "https://mozilla.github.io/glean/book/index.html",
       "filepath": "toolkit/content/aboutGlean.html",
-      "line_number": 67
+      "line_number": 70
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/pings/custom.html",
       "filepath": "toolkit/content/aboutGlean.html",
-      "line_number": 77
+      "line_number": 83
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/debugging/index.html",
       "filepath": "toolkit/mozapps/update/BackgroundTask_backgroundupdate.sys.mjs",
-      "line_number": 507
+      "line_number": 567
     },
     {
       "url": "https://mozilla.github.io/fathom/training.html",
@@ -99,37 +87,37 @@
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_booleans.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 65
+      "line_number": 71
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_strings.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 103
+      "line_number": 111
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_counters.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 134
+      "line_number": 144
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_custom_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 167
+      "line_number": 179
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_memory_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 200
+      "line_number": 214
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_timing_distributions.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 233
+      "line_number": 249
     },
     {
       "url": "https://mozilla.github.io/glean/book/user/metrics/labeled_quantities.html",
       "filepath": "toolkit/components/glean/api/src/private/labeled.rs",
-      "line_number": 282
+      "line_number": 300
     },
     {
       "url": "https://mozilla.github.io/",
@@ -146,7 +134,14 @@
     {
       "url": "https://mozilla.github.io/glean/book/user/pings/index.html#ping-sections",
       "filepath": "toolkit/components/glean/bindings/private/Ping.h",
-      "line_number": 47
+      "line_number": 46
+    }
+  ],
+  "structs-implementing-traits": [
+    {
+      "url": "https://mozilla.github.io/uniffi-rs/next/proc_macro/index.html#structs-implementing-traits",
+      "filepath": "toolkit/components/uniffi-bindgen-gecko-js/components/generated/RustLogins.sys.mjs",
+      "line_number": 177
     }
   ],
   "limits": [
@@ -171,6 +166,18 @@
       "url": "https://mozilla.github.io/glean/book/reference/metrics/timing_distribution.html#measure",
       "filepath": "browser/components/backup/MeasurementUtils.sys.mjs",
       "line_number": 38
+    }
+  ],
+  "content-server": [
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 588
+    },
+    {
+      "url": "https://mozilla.github.io/ecosystem-platform/docs/fxa-engineering/fxa-metrics#content-server",
+      "filepath": "browser/components/uitour/UITour-lib.js",
+      "line_number": 643
     }
   ],
   "submitting-an-add-on-abuse-report": [

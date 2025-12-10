@@ -1,16 +1,89 @@
 {
-  "decompress-and-enqueue-a-chunk": [
+  "compress-and-enqueue-a-chunk": [
     {
-      "url": "https://compression.spec.whatwg.org/#decompress-and-enqueue-a-chunk",
-      "filepath": "dom/base/DecompressionStream.cpp",
-      "line_number": 48
+      "url": "https://compression.spec.whatwg.org/#compress-and-enqueue-a-chunk",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 31
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#compress-and-enqueue-a-chunk",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 69
+    }
+  ],
+  "compress-flush-and-enqueue": [
+    {
+      "url": "https://compression.spec.whatwg.org/#compress-flush-and-enqueue",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 62
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#compress-flush-and-enqueue",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 70
     }
   ],
   "dom-decompressionstream-decompressionstream": [
     {
       "url": "https://compression.spec.whatwg.org/#dom-decompressionstream-decompressionstream",
-      "filepath": "dom/base/DecompressionStream.cpp",
-      "line_number": 69
+      "filepath": "dom/compression/BaseAlgorithms.h",
+      "line_number": 32
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#dom-decompressionstream-decompressionstream",
+      "filepath": "dom/compression/BaseAlgorithms.h",
+      "line_number": 65
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#dom-decompressionstream-decompressionstream",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 99
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#dom-decompressionstream-decompressionstream",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 134
+    }
+  ],
+  "dom-compressionstream-compressionstream": [
+    {
+      "url": "https://compression.spec.whatwg.org/#dom-compressionstream-compressionstream",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 17
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#dom-compressionstream-compressionstream",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 50
+    }
+  ],
+  "decompress-flush-and-enqueue": [
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-flush-and-enqueue",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 146
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-flush-and-enqueue",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 156
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-flush-and-enqueue",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 192
+    }
+  ],
+  "decompress-and-enqueue-a-chunk": [
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-and-enqueue-a-chunk",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 113
+    },
+    {
+      "url": "https://compression.spec.whatwg.org/#decompress-and-enqueue-a-chunk",
+      "filepath": "dom/compression/BaseAlgorithms.cpp",
+      "line_number": 155
     }
   ]
 }

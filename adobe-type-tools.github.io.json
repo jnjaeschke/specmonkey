@@ -1,0 +1,14 @@
+{
+  "": [
+    {
+      "url": "https://adobe-type-tools.github.io/font-tech-notes/pdfs/AcrobatDC_FontPolicies.pdf",
+      "filepath": "modules/freetype2/include/freetype/freetype.h",
+      "line_number": 4626
+    },
+    {
+      "url": "https://adobe-type-tools.github.io/font-tech-notes/pdfs/5015.Type1_Supp.pdf",
+      "filepath": "modules/freetype2/include/freetype/ftmm.h",
+      "line_number": 107
+    }
+  ]
+}

@@ -1,9 +1,23 @@
 {
+  "parent_window": [
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/#parent_window",
+      "filepath": "dom/system/linux/PortalLocationProvider.cpp",
+      "line_number": 242
+    }
+  ],
   "gdbus-org.freedesktop.portal.Inhibit": [
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/docs/#gdbus-org.freedesktop.portal.Inhibit",
       "filepath": "widget/gtk/WakeLockListener.cpp",
-      "line_number": 423
+      "line_number": 519
+    }
+  ],
+  "gdbus-signal-org-freedesktop-portal-Request.Response": [
+    {
+      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
+      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
+      "line_number": 606
     }
   ],
   "org-freedesktop-portal-request": [
@@ -15,28 +29,14 @@
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Request.html#org-freedesktop-portal-request",
       "filepath": "widget/gtk/AsyncDBus.cpp",
-      "line_number": 113
-    }
-  ],
-  "parent_window": [
-    {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#parent_window",
-      "filepath": "dom/system/linux/PortalLocationProvider.cpp",
-      "line_number": 241
+      "line_number": 119
     }
   ],
   "": [
     {
       "url": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Notification.html",
       "filepath": "toolkit/system/gnome/nsSystemAlertsService.cpp",
-      "line_number": 81
-    }
-  ],
-  "gdbus-signal-org-freedesktop-portal-Request.Response": [
-    {
-      "url": "https://flatpak.github.io/xdg-desktop-portal/#gdbus-signal-org-freedesktop-portal-Request.Response",
-      "filepath": "toolkit/components/extensions/NativeMessagingPortal.cpp",
-      "line_number": 593
+      "line_number": 61
     }
   ]
 }

@@ -1,4 +1,18 @@
 {
+  "parsing": [
+    {
+      "url": "https://mikewest.github.io/corpp/#parsing",
+      "filepath": "netwerk/base/nsNetUtil.h",
+      "line_number": 890
+    }
+  ],
+  "integration-html": [
+    {
+      "url": "https://mikewest.github.io/corpp/#integration-html",
+      "filepath": "dom/ipc/WindowGlobalActor.cpp",
+      "line_number": 29
+    }
+  ],
   "": [
     {
       "url": "https://mikewest.github.io/corpp/",
@@ -9,6 +23,13 @@
       "url": "https://mikewest.github.io/corpp/",
       "filepath": "testing/web-platform/tests/html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html",
       "line_number": 12
+    }
+  ],
+  "process-navigation-response": [
+    {
+      "url": "https://mikewest.github.io/corpp/#process-navigation-response",
+      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
+      "line_number": 2602
     }
   ],
   "initialize-embedder-policy-for-global": [
@@ -27,28 +48,7 @@
     {
       "url": "https://mikewest.github.io/corpp/#corp-check",
       "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 2545
-    }
-  ],
-  "integration-html": [
-    {
-      "url": "https://mikewest.github.io/corpp/#integration-html",
-      "filepath": "dom/ipc/WindowGlobalActor.cpp",
-      "line_number": 29
-    }
-  ],
-  "parsing": [
-    {
-      "url": "https://mikewest.github.io/corpp/#parsing",
-      "filepath": "netwerk/base/nsNetUtil.h",
-      "line_number": 894
-    }
-  ],
-  "process-navigation-response": [
-    {
-      "url": "https://mikewest.github.io/corpp/#process-navigation-response",
-      "filepath": "netwerk/protocol/http/HttpBaseChannel.cpp",
-      "line_number": 2505
+      "line_number": 2642
     }
   ]
 }

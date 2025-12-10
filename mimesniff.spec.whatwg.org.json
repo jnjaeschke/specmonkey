@@ -1,9 +1,33 @@
 {
-  "html-mime-type": [
+  "json-mime-type": [
     {
-      "url": "https://mimesniff.spec.whatwg.org/#html-mime-type",
+      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
+      "filepath": "dom/base/nsContentUtils.cpp",
+      "line_number": 8654
+    },
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
       "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 44
+      "line_number": 34
+    },
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 45
+    }
+  ],
+  "mime-type-representation": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#mime-type-representation",
+      "filepath": "testing/web-platform/tests/html/semantics/links/linktypes/link-type-stylesheet/process-stylesheet-linked-resource-ascii-case-insensitive.html",
+      "line_number": 5
+    }
+  ],
+  "signature-for-mp4": [
+    {
+      "url": "http://mimesniff.spec.whatwg.org/#signature-for-mp4",
+      "filepath": "toolkit/components/mediasniffer/nsMediaSniffer.cpp",
+      "line_number": 139
     }
   ],
   "http-token-code-point": [
@@ -13,18 +37,56 @@
       "line_number": 1088
     }
   ],
-  "signature-for-mp4": [
+  "parsing-a-mime-type": [
     {
-      "url": "http://mimesniff.spec.whatwg.org/#signature-for-mp4",
-      "filepath": "toolkit/components/mediasniffer/nsMediaSniffer.cpp",
-      "line_number": 134
+      "url": "https://mimesniff.spec.whatwg.org/#parsing-a-mime-type",
+      "filepath": "dom/base/MimeType.cpp",
+      "line_number": 15
     }
   ],
-  "mime-type-representation": [
+  "javascript-mime-type": [
     {
-      "url": "https://mimesniff.spec.whatwg.org/#mime-type-representation",
-      "filepath": "testing/web-platform/tests/html/semantics/links/linktypes/link-type-stylesheet/process-stylesheet-linked-resource-ascii-case-insensitive.html",
-      "line_number": 5
+      "url": "https://mimesniff.spec.whatwg.org/#javascript-mime-type",
+      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/resources/script-type-and-language-js.js",
+      "line_number": 53
+    },
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#javascript-mime-type",
+      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/resources/script-type-and-language-js.js",
+      "line_number": 62
+    }
+  ],
+  "xml-mime-type": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 35
+    },
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 46
+    }
+  ],
+  "reading-the-resource-header": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#reading-the-resource-header",
+      "filepath": "netwerk/protocol/http/HttpTransactionChild.cpp",
+      "line_number": 327
+    }
+  ],
+  "html-mime-type": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#html-mime-type",
+      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
+      "line_number": 44
+    }
+  ],
+  "identifying-a-resource-with-an-unknown-mime-type": [
+    {
+      "url": "https://mimesniff.spec.whatwg.org/#identifying-a-resource-with-an-unknown-mime-type",
+      "filepath": "netwerk/streamconv/converters/nsUnknownDecoder.cpp",
+      "line_number": 507
     }
   ],
   "example-valid-mime-type-string": [
@@ -42,61 +104,6 @@
       "url": "https://mimesniff.spec.whatwg.org/#example-valid-mime-type-string",
       "filepath": "testing/web-platform/tests/media-capabilities/decodingInfo.any.js",
       "line_number": 235
-    }
-  ],
-  "json-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
-      "filepath": "dom/base/nsContentUtils.cpp",
-      "line_number": 8750
-    },
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 34
-    },
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#json-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 45
-    }
-  ],
-  "reading-the-resource-header": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#reading-the-resource-header",
-      "filepath": "netwerk/protocol/http/HttpTransactionChild.cpp",
-      "line_number": 327
-    }
-  ],
-  "parsing-a-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#parsing-a-mime-type",
-      "filepath": "dom/base/MimeType.cpp",
-      "line_number": 15
-    }
-  ],
-  "xml-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 35
-    },
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#xml-mime-type",
-      "filepath": "testing/web-platform/tests/fetch/corb/img-mime-types-coverage.tentative.sub.html",
-      "line_number": 46
-    }
-  ],
-  "javascript-mime-type": [
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#javascript-mime-type",
-      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/resources/script-type-and-language-js.js",
-      "line_number": 53
-    },
-    {
-      "url": "https://mimesniff.spec.whatwg.org/#javascript-mime-type",
-      "filepath": "testing/web-platform/tests/html/semantics/scripting-1/the-script-element/resources/script-type-and-language-js.js",
-      "line_number": 62
     }
   ]
 }

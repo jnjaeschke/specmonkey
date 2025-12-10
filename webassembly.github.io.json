@@ -1,11 +1,4 @@
 {
-  "tojsvalue": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/index.html#tojsvalue",
-      "filepath": "js/src/wasm/WasmValue.h",
-      "line_number": 395
-    }
-  ],
   "namespacedef-webassembly": [
     {
       "url": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly",
@@ -13,32 +6,18 @@
       "line_number": 5
     }
   ],
+  "towebassemblyvalue": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
+      "filepath": "js/src/wasm/WasmValue.h",
+      "line_number": 382
+    }
+  ],
   "floating-point": [
     {
       "url": "https://webassembly.github.io/spec/core/syntax/values.html#floating-point",
       "filepath": "js/src/builtin/TestingFunctions.cpp",
-      "line_number": 1443
-    }
-  ],
-  "": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/",
-      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
-      "line_number": 8
-    }
-  ],
-  "constant-expressions": [
-    {
-      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
-      "filepath": "js/src/wasm/WasmInitExpr.h",
-      "line_number": 54
-    }
-  ],
-  "defaultvalue": [
-    {
-      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
-      "filepath": "js/src/wasm/WasmJS.cpp",
-      "line_number": 2752
+      "line_number": 1421
     }
   ],
   "conventions": [
@@ -52,14 +31,35 @@
     {
       "url": "https://webassembly.github.io/spec/core/exec/numerics.html#aux-nans",
       "filepath": "js/src/jit/riscv64/MacroAssembler-riscv64.cpp",
-      "line_number": 560
+      "line_number": 682
     }
   ],
-  "towebassemblyvalue": [
+  "tojsvalue": [
     {
-      "url": "https://webassembly.github.io/spec/js-api/index.html#towebassemblyvalue",
+      "url": "https://webassembly.github.io/spec/js-api/index.html#tojsvalue",
       "filepath": "js/src/wasm/WasmValue.h",
-      "line_number": 382
+      "line_number": 395
+    }
+  ],
+  "": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/",
+      "filepath": "testing/web-platform/tests/wasm/jsapi/idlharness.any.js",
+      "line_number": 8
+    }
+  ],
+  "defaultvalue": [
+    {
+      "url": "https://webassembly.github.io/spec/js-api/#defaultvalue",
+      "filepath": "js/src/wasm/WasmJS.cpp",
+      "line_number": 2783
+    }
+  ],
+  "constant-expressions": [
+    {
+      "url": "https://webassembly.github.io/spec/core/valid/instructions.html#constant-expressions",
+      "filepath": "js/src/wasm/WasmInitExpr.h",
+      "line_number": 54
     }
   ]
 }

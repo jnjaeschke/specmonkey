@@ -3,22 +3,17 @@
     {
       "url": "https://cplusplus.github.io/CWG/issues/2518.html",
       "filepath": "js/src/vm/TypedArrayObject-inl.h",
-      "line_number": 45
+      "line_number": 44
     },
     {
       "url": "https://cplusplus.github.io/CWG/issues/2518.html",
       "filepath": "js/src/jsapi-tests/testInt128.cpp",
-      "line_number": 24
-    },
-    {
-      "url": "https://cplusplus.github.io/CWG/issues/2126.html",
-      "filepath": "js/src/builtin/temporal/Calendar.cpp",
-      "line_number": 795
+      "line_number": 23
     },
     {
       "url": "https://cplusplus.github.io/LWG/issue3430",
       "filepath": "toolkit/crashreporter/nsExceptionHandler.cpp",
-      "line_number": 2756
+      "line_number": 2746
     }
   ]
 }

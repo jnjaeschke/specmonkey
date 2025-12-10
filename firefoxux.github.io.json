@@ -4,6 +4,11 @@
       "url": "https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.css",
       "filepath": "python/mozbuild/mozbuild/resources/html-build-viewer/build_resources.html",
       "line_number": 11
+    },
+    {
+      "url": "https://firefoxux.github.io/firefox-desktop-components/",
+      "filepath": "browser/components/storybook/component-status/build-components-status.mjs",
+      "line_number": 30
     }
   ]
 }
