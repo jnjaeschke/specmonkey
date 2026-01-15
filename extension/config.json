@@ -19,11 +19,7 @@
     "third_party"
   ],
   "source_repository": {
-    "url": "https://github.com/mozilla/gecko-dev",
+    "url": "https://github.com/mozilla-firefox/firefox",
     "branch": "master"
-  },
-  "index_repository": {
-    "url": "https://github.com/jnjaeschke/specmonkey",
-    "branch": "index"
   }
 }

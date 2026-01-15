@@ -46,19 +46,22 @@ async function initializeSpecMonkey() {
     const config = await loadConfig();
 
     // Step 2: Get the current page's domain
-    const currentDomain = window.location.hostname;
+    const uri = new URL(location.href);
 
     // Step 3: Check if the domain is in the config
-    const matchingDomain = getDomainMatch(currentDomain, config.domains);
+    const matchingDomain = getDomainMatch(uri.hostname, config.domains);
     if (matchingDomain) {
       console.log(
-        `SpecMonkey: Domain ${currentDomain} is in the config. Proceeding...`
+        `SpecMonkey: Domain ${uri.hostname} is in the config. Proceeding...`
       );
 
-      // Step 4: Fetch the corresponding JSON file from GitHub
-      const indexData = await fetchIndexData(currentDomain);
+      // Step 4: Fetch the corresponding JSON file from searchfox
+      const searchfoxData = await fetchSearchfoxData(uri.hostname, config.extensions);
 
-      // Step 5: Process the index data and display boxes
+      // Step 5: Convert the searchfox result to index format
+      const indexData = convertToIndex(uri, searchfoxData);
+
+      // Step 6: Process the index data and display boxes
       processIndexData(indexData);
     }
   } catch (error) {
@@ -85,16 +88,12 @@ async function loadConfig() {
   return config;
 }
 
-async function fetchIndexData(domain) {
-  // Construct the GitHub raw URL for the JSON file
-  // Example: https://raw.githubusercontent.com/username/repo/main/example.com.json
-  const githubUsername = "jnjaeschke";
-  const githubRepo = "specmonkey";
-  const githubBranch = "index";
+async function fetchSearchfoxData(domain, extensions) {
+  const regex = `pathre:^[^_].*.(${extensions.join('|')})$ re:${domain}/.*#`;
+  const jsonURL = `https://searchfox.org/firefox-main/search?q=${encodeURI(regex)}`;
+  console.log(`Query: ${jsonURL}`)
 
-  const jsonURL = `https://raw.githubusercontent.com/${githubUsername}/${githubRepo}/${githubBranch}/${domain}.json`;
-
-  const response = await fetch(jsonURL);
+  const response = await fetch(jsonURL, {headers: {"Accept": "application/json"}});
 
   if (!response.ok) {
     throw new Error(
@@ -113,13 +112,39 @@ async function fetchIndexData(domain) {
       `Invalid JSON format for domain ${domain}: Expected a key-value map.`
     );
   }
-  console.log(`Got ${Object.keys(jsonData).length} fragment entries.`);
 
-  return jsonData;
+  if (jsonData["*timedout*"]) {
+    console.log(`Query timed out`);
+  }
+  let entries = (jsonData.normal["Textual Occurrences"] ?? []).concat(jsonData.test["Textual Occurrences"] ?? []);
+
+  console.log(`Got ${entries.length} fragment entries.`);
+
+  return entries
+}
+
+function convertToIndex(uri, searchfoxData) {
+  const {protocol, hostname, pathname} = uri;
+  const domain = hostname;
+  const index = new Map();
+  const regex = new RegExp(`${domain}\/.*#([\\S]*)[\\s]?`);
+  for (const {lines, path: filepath} of searchfoxData) {
+    for (const {lno: line_number, line} of lines) {
+      const match = regex.exec(line);
+      if (!match || match.length < 2) {
+        continue;
+      }
+
+      const algorithm = match[1];
+      const url = `${protocol}//${hostname}/${pathname}#${algorithm}`;
+      index.getOrInsert(algorithm, []).push({url, filepath, line_number});
+    }
+  }
+  return index;
 }
 
 function processIndexData(indexData) {
-  for (const [fragment, elements] of Object.entries(indexData)) {
+  for (const [fragment, elements] of indexData.entries()) {
     if (Array.isArray(elements)) {
       try {
         const anchor =

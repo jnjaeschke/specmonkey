@@ -8,7 +8,7 @@
     },
     "permissions": [
       "activeTab",
-      "https://raw.githubusercontent.com/jnjaeschke/specmonkey/index/*.json"
+      "https://searchfox.org/*"
     ],
     "content_scripts": [
       {
