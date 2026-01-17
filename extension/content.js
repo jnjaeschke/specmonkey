@@ -58,8 +58,12 @@ async function initializeSpecMonkey() {
       // Step 4: Fetch the corresponding JSON file from searchfox
       const searchfoxData = await fetchSearchfoxData(uri.hostname, config.extensions);
 
+      console.log(`SpecMonkey: Got ${searchfoxData.length} fragment entries.`);
+
       // Step 5: Convert the searchfox result to index format
       const indexData = convertToIndex(uri, searchfoxData);
+
+      console.log(`SpecMonkey: Got ${indexData.size} fragments.`);
 
       // Step 6: Process the index data and display boxes
       processIndexData(indexData);
@@ -89,9 +93,9 @@ async function loadConfig() {
 }
 
 async function fetchSearchfoxData(domain, extensions) {
-  const regex = `pathre:^[^_].*.(${extensions.join('|')})$ re:${domain}/.*#`;
-  const jsonURL = `https://searchfox.org/firefox-main/search?q=${encodeURI(regex)}`;
-  console.log(`Query: ${jsonURL}`)
+  const regex = `pathre:^[^_].*.(${extensions.join('|')})$ re:${domain}/.*`;
+  const jsonURL = `https://searchfox.org/firefox-main/search?q=${encodeURI(regex)}%23.`;
+  console.log(`SpecMonkey: Query: ${jsonURL}`)
 
   const response = await fetch(jsonURL, {headers: {"Accept": "application/json"}});
 
@@ -116,30 +120,70 @@ async function fetchSearchfoxData(domain, extensions) {
   if (jsonData["*timedout*"]) {
     console.log(`Query timed out`);
   }
-  let entries = (jsonData.normal["Textual Occurrences"] ?? []).concat(jsonData.test["Textual Occurrences"] ?? []);
 
-  console.log(`Got ${entries.length} fragment entries.`);
-
-  return entries
+  return (jsonData.normal["Textual Occurrences"] ?? []).concat(jsonData.test["Textual Occurrences"] ?? []);
 }
+
+function areParenthesisBalanced(input) {
+  return Array.prototype.reduce.call(input, (balance, e) => {
+    switch(e) {
+      case '(': return balance + 1;
+      case ')': return balance - 1;
+      default: return balance;
+    }
+  }, 0) == 0;
+}
+
+// Fragment parsing. See https://datatracker.ietf.org/doc/html/rfc3986#appendix-A
+// pchar         = unreserved / pct-encoded / sub-delims / ":" / "@"
+// fragment      = *( pchar / "/" / "?" )
+// pct-encoded   = "%" HEXDIG HEXDIG
+// unreserved    = ALPHA / DIGIT / "-" / "." / "_" / "~"
+// sub-delims    = "!" / "$" / "&" / "'" / "(" / ")"
+//               / "*" / "+" / "," / ";" / "="
+const unreserved_re = String.raw`[\w\-.~]`; // \w is alpha, digit and `_`
+const pct_encoded_re = String.raw`(?:%[\da-fA-F]{2})`; // \d is any digit
+const sub_delims_re = String.raw`[!$&'()*+,;=]`;
+const pchar_re = String.raw`(?:${unreserved_re}|${pct_encoded_re}|${sub_delims_re}|[:@])`;
+const fragment_re = String.raw`(?:${pchar_re}|[/?])*`
+
+// Heuristics for removing trailing `.`, `!`, `'`, `,`, `;`, and `:`.
+const heuristic_re = /^(.*?)[.!',;:]*$/;
 
 function convertToIndex(uri, searchfoxData) {
   const {protocol, hostname, pathname} = uri;
   const domain = hostname;
   const index = new Map();
-  const regex = new RegExp(`${domain}\/.*#([\\S]*)[\\s]?`);
+  const regex = new RegExp(String.raw`${domain}[\S]*#(${fragment_re})`);
   for (const {lines, path: filepath} of searchfoxData) {
     for (const {lno: line_number, line} of lines) {
-      const match = regex.exec(line);
+      const match = regex.exec(`${line} `);
       if (!match || match.length < 2) {
+        console.log(`Spec line doesn't match: ${line}`);
         continue;
       }
 
-      const algorithm = match[1];
-      const url = `${protocol}//${hostname}/${pathname}#${algorithm}`;
+      // We deviate from fragment matching, and disallow matching anything that ends
+      // with something that could be punctuation in source documentation, in code,
+      // closing bracket in HTML or a whitespace character.
+      let algorithm = match[1].replace(heuristic_re, "$1");
+      while (algorithm.endsWith(')')) {
+        // Parenthesis are perfectly valid in fragments, but we apply
+        // the heuristic to only consider balanced opening/closing
+        // parenthesis inside a fragment to be allowed.
+        if (areParenthesisBalanced(algorithm)) {
+          break;
+        }
+
+        // Since we've removed an unbalanced parenthesis, we need to apply the
+        // heuristics again.
+        algorithm = algorithm.slice(0, -1).replace(heuristic_re, "$1");;
+      }
+      const url = `${protocol}//${hostname}${pathname}#${algorithm}`;
       index.getOrInsert(algorithm, []).push({url, filepath, line_number});
     }
   }
+
   return index;
 }
 
