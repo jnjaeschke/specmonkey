@@ -159,7 +159,7 @@ function convertToIndex(uri, searchfoxData) {
     for (const {lno: line_number, line} of lines) {
       const match = regex.exec(`${line} `);
       if (!match || match.length < 2) {
-        console.log(`Spec line doesn't mach: ${line}`);
+        console.log(`Spec line doesn't match: ${line}`);
         continue;
       }
 
