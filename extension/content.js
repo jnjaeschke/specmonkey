@@ -250,9 +250,11 @@ function displaySpecmonkeyButton(anchor, elements) {
 
   // Append the SVG icon to the specmonkey button
   specMonkeyButton.appendChild(specMonkeyIcon);
-  // Append the specmonkey button after the anchor
-  anchor.insertAdjacentElement(
-    anchor.nodeType == "a" ? "afterend" : "beforeend",
+  // Append the specmonkey button after the anchor (or its heading child for section containers)
+  const headingChild = anchor.querySelector(":scope > h1, :scope > h2, :scope > h3, :scope > h4, :scope > h5, :scope > h6");
+  const insertTarget = headingChild ?? anchor;
+  insertTarget.insertAdjacentElement(
+    insertTarget.tagName.toLowerCase() === "a" ? "afterend" : "beforeend",
     specMonkeyButton
   );
 
