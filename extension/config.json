@@ -13,7 +13,8 @@
     "whatwg.org",
     "w3c.org",
     "csswg.org",
-    "github.io"
+    "github.io",
+    "tc39.es"
   ],
   "excluded_dirs": [
     "third_party"
