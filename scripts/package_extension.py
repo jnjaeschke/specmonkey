@@ -63,7 +63,13 @@ def update_manifest(
                 "'content_scripts' not found or empty in manifest.in.json."
             )
 
-        content_scripts[0]["matches"] = [f"*://*.{domain}/*" for domain in domains]
+        # Include both root and subdomain patterns since specs can live at
+        # either: e.g. tc39.es/ecma262 (root) vs html.spec.whatwg.org (subdomain).
+        content_scripts[0]["matches"] = [
+            pattern
+            for domain in domains
+            for pattern in (f"*://{domain}/*", f"*://*.{domain}/*")
+        ]
 
         # Update version
         manifest["version"] = version
